@@ -19,7 +19,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
   gem 'guard-rspec'
-  gem 'haml-rails'
+  # gem 'haml-rails'
   gem 'foreman'
   gem 'haml2slim'
   gem 'html2haml'
@@ -39,7 +39,10 @@ group :test do
 end
 gem 'faraday'
 gem 'feedzirra'
-gem 'carrierwave'
-gem 'mini_magick'
 gem 'sidekiq'
 gem 'sidekiq-unique-jobs'
+gem 'rack-raw-upload'
+gem 'jquery.fileupload-rails'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'validate_url'

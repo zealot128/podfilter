@@ -3,6 +3,7 @@ class Source < ActiveRecord::Base
   has_many :episodes
   mount_uploader :image, ImageUploader
 
+  validates :url, presence: true, uniqueness: true, url: true
 
   def fetch_meta_information
     self.title ||= parsed_feed.title

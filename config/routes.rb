@@ -1,6 +1,9 @@
 Podfilter::Application.routes.draw do
-  resources :opml_files
+  get "impressum" => 'pages#impress'
+  post 'opml/create', to: 'opml_files#create'
+  # resources :opml_files
 
   resources :sources
+  root 'pages#index'
 
 end

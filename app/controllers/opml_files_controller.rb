@@ -1,18 +1,11 @@
 class OpmlFilesController < ApplicationController
   before_action :set_opml_file, only: [:show, :edit, :update, :destroy]
 
-  # GET /opml_files
   def index
     @opml_files = OpmlFile.all
   end
 
-  # GET /opml_files/1
   def show
-  end
-
-  # GET /opml_files/new
-  def new
-    @opml_file = OpmlFile.new
   end
 
   # GET /opml_files/1/edit
@@ -21,12 +14,16 @@ class OpmlFilesController < ApplicationController
 
   # POST /opml_files
   def create
-    @opml_file = OpmlFile.new(opml_file_params)
-
-    if @opml_file.save
-      redirect_to @opml_file, notice: 'Opml file was successfully created.'
-    else
-      render action: 'new'
+    file = params[:files].first
+    import = OpmlImport.new(file, current_user)
+    opml_file = import.run!
+    respond_to do |format|
+      format.json {
+        render json: {
+          url: opml_file_path(opml_file),
+          log: import.log
+        }
+      }
     end
   end
 
