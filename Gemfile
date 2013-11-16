@@ -39,4 +39,4 @@ end
 gem 'faraday'
 gem 'feedzirra'
 gem 'carrierwave'
-
+gem 'mini_magick'

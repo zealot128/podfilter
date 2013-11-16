@@ -1,5 +1,6 @@
 class Source < ActiveRecord::Base
   has_and_belongs_to_many :opml_files
+  mount_uploader :image, ImageUploader
 
 
   def fetch_meta_information
@@ -7,8 +8,8 @@ class Source < ActiveRecord::Base
     self.description ||= parsed_feed.itunes_summary.strip
     # self.language ||= feed.language
     #itunes_categories
-    binding.pry
-    # feed.itunes_image
+    self.remote_image_url = parsed_feed.itunes_image
+    # parsed
 
     self.save!
   end
