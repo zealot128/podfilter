@@ -1,5 +1,6 @@
 class Source < ActiveRecord::Base
   has_and_belongs_to_many :opml_files
+  has_many :episodes
   mount_uploader :image, ImageUploader
 
 
@@ -18,5 +19,16 @@ class Source < ActiveRecord::Base
     @parse_feed ||=  Feedzirra::Feed.fetch_and_parse(url)
   end
 
+  def update_entries
+    parsed_feed.entries.each do |entry|
+      episode = episodes.where(guid: entry.guid).first_or_initialize
+      episode.title = entry.title
+      episode.url   = entry.url
+      episode.description = entry.summary
+      episode.pubdate = entry.published
+      episode.save
+    end
+
+  end
 
 end

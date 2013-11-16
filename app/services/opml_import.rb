@@ -27,6 +27,7 @@ class OpmlImport
       if source.opml_files.where('opml_file_id = ?', opml_file.id).count == 0
         source.opml_files << opml_file
       end
+      SourceUpdateWorker.perform_async(source.id)
     end
   end
 

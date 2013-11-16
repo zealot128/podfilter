@@ -17,8 +17,12 @@ describe Source do
       source.update_entries
     end
 
-    source.episodes.count.should == 30
+    source.episodes.count.should == 63
 
+    VCR.use_cassette 'source/c3d2' do
+      source.update_entries
+    end
+    source.episodes.count.should == 63
   end
 
 
