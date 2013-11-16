@@ -14,3 +14,8 @@ RSpec.configure do |config|
   config.color_enabled = true
   config.tty = true
 end
+
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  c.hook_into :webmock # or :fakeweb
+end

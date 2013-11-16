@@ -33,4 +33,10 @@ end
 group :test do
   gem 'capybara'
   gem 'poltergeist'
+  gem 'vcr'
+  gem 'webmock'
 end
+gem 'faraday'
+gem 'feedzirra'
+gem 'carrierwave'
+

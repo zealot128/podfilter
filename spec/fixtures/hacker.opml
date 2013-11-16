@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ï»¿<?xml version="1.0" encoding="utf-8"?>
 <opml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <head>
         <title>podster.de - Podcasts mit Stichwort: hacker</title>
@@ -10,7 +10,7 @@
     <body>
     <outline type="link"  title="RaumZeitLabor Podcast" text="RaumZeitLabor Podcast" url="http://feeds.feedburner.com/RaumzeitlaborPodcast"/>
     <outline type="link"  title="C3D2 Podcast" text="C3D2 Podcast" url="http://www.c3d2.de/podcast.xml"/>
-    <outline type="link"  title="Newz of the World » MP3 Podcast Feed" text="Newz of the World » MP3 Podcast Feed" url="http://feeds.feedburner.com/newz-of-the-world-mp3"/>
+    <outline type="link"  title="Newz of the World Â» MP3 Podcast Feed" text="Newz of the World Â» MP3 Podcast Feed" url="http://feeds.feedburner.com/newz-of-the-world-mp3"/>
     <outline type="link"  title="TermiTinitus" text="TermiTinitus" url="http://termitinitus.virtualkitchen.org/?feed=podcast"/>
     <outline type="link"  title="Chaosradio Express" text="Chaosradio Express" url="http://chaosradio.ccc.de/chaosradio_express-latest.rss"/>
     <outline type="link"  title="CRE: Technik, Kultur, Gesellschaft" text="CRE: Technik, Kultur, Gesellschaft" url="http://feeds.feedburner.com/cre-podcast"/>
@@ -20,7 +20,7 @@
     <outline type="link"  title="H@XL" text="H@XL" url="http://www.haxl.ch/podcast.php"/>
     <outline type="link"  title="Phreaks und Geeks" text="Phreaks und Geeks" url="http://www.datenterrorist.de/phreaks_und_geeks.xml"/>
     <outline type="link"  title="Chaostal" text="Chaostal" url="http://www.chaostal.de/podcast/gespraechssituationen.rss"/>
-    <outline type="link"  title="C³ltax Media Podcaster" text="C³ltax Media Podcaster" url="http://ms-server.square7.ch/feed.xml"/>
+    <outline type="link"  title="CÂ³ltax Media Podcaster" text="CÂ³ltax Media Podcaster" url="http://ms-server.square7.ch/feed.xml"/>
     <outline type="link"  title="Der Haftbefehl" text="Der Haftbefehl" url="http://phonecaster.de/pods.rss?id=195823"/>
     </body>
 </opml>

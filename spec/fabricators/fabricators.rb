@@ -1,0 +1,2 @@
+Fabricator(:owner) do
+end
