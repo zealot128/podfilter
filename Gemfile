@@ -42,3 +42,35 @@ gem 'jbuilder', '~> 1.2'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'bootstrap-sass', '>= 3.0.0.0'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'simple_form'
+gem 'slim'
+gem 'pry-rails'
+
+group :development do
+  gem 'thin'
+  gem 'better_errors'
+  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
+  gem 'guard-rspec'
+  gem 'haml-rails'
+  gem 'haml2slim'
+  gem 'html2haml'
+  gem 'quiet_assets'
+  gem 'rails_layout'
+  gem 'rb-inotify', :require=>false
+end
+
+
+group :development, :test do
+  gem 'fabrication'
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'poltergeist'
+end
+
