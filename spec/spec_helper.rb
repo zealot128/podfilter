@@ -4,6 +4,7 @@ require File.expand_path("../../config/environment", __FILE__)
 
 require 'sidekiq/testing'
 Sidekiq::Testing.fake!
+Sidekiq::Logging.logger = nil
 
 require 'rspec/rails'
 require 'rspec/autorun'

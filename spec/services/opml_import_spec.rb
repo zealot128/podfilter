@@ -66,4 +66,6 @@ describe OpmlImport, sidekiq: :fake do
     end
   end
 
+  specify 'sendet bloedsinn, beispiel: Bild'
+
 end
