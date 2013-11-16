@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe OpmlFilesController, sidekiq: :fake do
   it 'uploads file' do
-    post :create, files: [File.open('spec/fixtures/my.opml') ], format: :json
+    post :create, file: File.open('spec/fixtures/my.opml') , format: :json
 
     data = JSON.load(response.body)
 
@@ -11,6 +11,5 @@ describe OpmlFilesController, sidekiq: :fake do
     OpmlFile.count.should == 1
     session[:owner_id].should be_present
     controller.send(:current_user).should == OpmlFile.first.owner
-
   end
 end

@@ -7,5 +7,13 @@ $(document).on 'page:load page:change ready', ->
       $('.js-upload-target').html('uploading...')
       data.submit()
     done: (e,data)->
-      console.log data
-      $('.js-upload-target').html('Finished!')
+      html = """
+      <pre>
+      Finished!<br/>
+      #{data.result.log.join('<br/>')}
+      <p><a href='#{data.result.url}' class='btn btn-primary'>Hier gehts weiter</a></p>
+      </pre>
+      """
+      $('.js-upload-target').html(html)
+  .prop('disabled', !$.support.fileInput)
+  .parent().addClass($.support.fileInput ? undefined : 'disabled');

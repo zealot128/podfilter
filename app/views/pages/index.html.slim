@@ -4,7 +4,9 @@ h1 Podfilter
   strong Podcasts mit ähnlichen Interessen finden!
   ol
     li
-      input.js-upload.btn.btn-primary.btn-large id="fileupload" type="file" name="files[]"  value="OPML hochladen" data-url=opml_create_path() multiple="multiple"
+      span.btn.btn-primary.fileinput-button
+        | OPML hochladen
+        input.js-upload.btn.btn-primary.btn-large(id="fileupload" type="file" name="file" data-url=opml_create_path)
       .js-upload-target
     li Ähnliche Podcasts finden
     li Es gibt keinen Schritt 3

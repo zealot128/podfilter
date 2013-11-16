@@ -1,0 +1,13 @@
+.source-list-item.row
+  .col-md-1.text-center
+    - if source.image.present?
+      = image_tag source.image.url(:thumb)
+  .col-md-6
+    p: strong
+      = link_to source.title, source
+    code
+      = link_to source.url do
+        = source.url
+    br
+    small.text-muted
+      #{source.opml_files.count} Abonnenten, #{source.episodes.count} Episoden

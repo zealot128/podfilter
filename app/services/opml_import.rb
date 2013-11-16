@@ -8,10 +8,11 @@ class OpmlImport
 
   def text
     @text ||= begin
-                text = case @file
-              when String then @file
-              when File then @file.read
-              end
+                text = if @file.respond_to? :read
+                         @file.read
+                       else
+                         @file
+                       end
                 if !text.valid_encoding?
                   @log << "File Encodings kaputt - Nehme LATIN1 an"
                   text = text.force_encoding(Encoding::ISO8859_1).encode(Encoding::UTF_8)

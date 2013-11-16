@@ -1,6 +1,6 @@
 class OpmlFilesController < ApplicationController
   def create
-    file = params[:files].first
+    file = params[:file]
     import = OpmlImport.new(file, current_user)
     opml_file = import.run!
     respond_to do |format|
