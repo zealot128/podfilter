@@ -18,7 +18,7 @@ group :development do
   gem 'thin'
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
-  gem 'guard-rspec'
+  # gem 'guard-rspec'
   # gem 'haml-rails'
   gem 'foreman'
   gem 'haml2slim'
@@ -29,7 +29,7 @@ group :development do
 end
 group :development, :test do
   gem 'fabrication'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.99.0.beta1'
 end
 group :test do
   gem 'capybara'
