@@ -32,7 +32,7 @@ group :development, :test do
   gem 'rspec-rails', '2.99.0.beta1'
 end
 group :test do
-  gem 'capybara'
+  gem 'capybara', '~>2.2.0.rc1'
   gem 'poltergeist'
   gem 'vcr'
   gem 'webmock'
