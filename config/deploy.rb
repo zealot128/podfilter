@@ -8,7 +8,7 @@ set :scm, :git
 
 set :format, :pretty
 set :pty, true
-# set :log_level, :debug
+set :log_level, :info
 
 set :linked_files, %w{config/database.yml .env}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/upload}
@@ -35,3 +35,14 @@ namespace :deploy do
 
   after :finishing, 'deploy:cleanup'
 end
+
+
+desc "Update crontab with whenever"
+task :update_crontab do
+  on roles(:all) do
+    within release_path do
+      execute :bundle, :exec, "whenever --update-crontab #{fetch(:application)}"
+    end
+  end
+end
+

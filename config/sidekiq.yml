@@ -1,0 +1,4 @@
+---
+:verbose: false
+:pidfile: ./tmp/pids/sidekiq.yml
+:concurrency: 25

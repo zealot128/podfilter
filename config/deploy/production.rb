@@ -3,7 +3,7 @@ set :stage, :production
 
 server 'podfilter.de',
   user: 'stefan',
-  roles: %w{web app db},
+  roles: %w{web app db sidekiq},
   ssh_options: {
     user: 'stefan', # overrides user setting above
     keys: %w(~/.ssh/id_rsa),
