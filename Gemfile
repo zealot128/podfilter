@@ -41,6 +41,7 @@ end
 gem 'faraday'
 gem 'feedzirra'
 gem 'sidekiq'
+gem 'sinatra', require: false
 gem 'sidekiq-unique-jobs'
 gem 'rack-raw-upload'
 gem 'jquery.fileupload-rails'

@@ -9,4 +9,8 @@ Podfilter::Application.routes.draw do
   get 'dashboard' => 'pages#dashboard', as: :dashboard
   root 'pages#index'
 
+  if Rails.env.development?
+    require 'sidekiq/web'
+    mount Sidekiq::Web, at: '/sidekiq'
+  end
 end
