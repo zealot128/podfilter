@@ -8,5 +8,8 @@ class PagesController < ApplicationController
 
   def dashboard
     @owner = current_user
+    @recommended_sources = @owner.recommended_sources.order('weight desc').
+      select('sources.*, weight')
+
   end
 end

@@ -1,13 +1,27 @@
 .source-list-item
   .pull-left.text-center
+    - if (source.weight rescue false)
+      - sim = [ 100, source.weight / 5.0 * 100].min.to_i
+      .progress.similarity(title="Empfehlung: #{sim}%")
+        .progress-bar.progress-bar-default(style="width: #{sim}%")
+        .sr-only #{sim}% Empfehlung
     - if source.image.present?
       = image_tag source.image.url(:thumb)
   div
-    p: strong
-      = link_to source.title, source
+    .source-title
+      strong
+        = link_to source.title, source
+
+        - if source.offline?
+          span.label.label-default
+            'offline
+        - if source.active === false
+          span.label.label-default
+            'inaktiv
     code
       = link_to source.url do
         = source.url
     br
     small.text-muted
       #{source.opml_files.count} Abonnenten, #{source.episodes.count} Episoden
+

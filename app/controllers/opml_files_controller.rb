@@ -4,6 +4,7 @@ class OpmlFilesController < ApplicationController
     file = params[:file]
     import = OpmlImport.new(file, current_user)
     import.run!
+    SimilarityCalculation.refresh_all
     respond_to do |format|
       format.json {
         render json: {

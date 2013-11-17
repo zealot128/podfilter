@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131117144255) do
+ActiveRecord::Schema.define(version: 20131117190435) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -57,6 +57,15 @@ ActiveRecord::Schema.define(version: 20131117144255) do
   end
 
   add_index "owners", ["token"], name: "index_owners_on_token", unique: true, using: :btree
+
+  create_table "recommendations", force: true do |t|
+    t.integer "owner_id"
+    t.integer "source_id"
+    t.integer "weight"
+  end
+
+  add_index "recommendations", ["owner_id", "source_id"], name: "recommendations_owner_source", unique: true, using: :btree
+  add_index "recommendations", ["weight"], name: "index_recommendations_on_weight", using: :btree
 
   create_table "sources", force: true do |t|
     t.string   "url"

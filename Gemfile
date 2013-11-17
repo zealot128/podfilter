@@ -19,7 +19,7 @@ group :development do
   gem 'thin'
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
-  # gem 'guard-rspec'
+  gem 'guard-rspec'
   # gem 'haml-rails'
   gem 'foreman'
   gem 'haml2slim'
