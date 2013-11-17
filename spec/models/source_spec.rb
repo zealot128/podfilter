@@ -25,6 +25,12 @@ describe Source do
     source.episodes.count.should == 63
   end
 
+  it 'marks feeds as offline', vcr: true do
+    source = Source.create(url: 'https://feeds.feedblitz.com/dasknistern/m4a')
+    source.full_refresh
+    source.should be_offline
+  end
+
   describe 'site specific bugs' do
     # Feedburner -> Itunes format nicht richtig erkannt
     it 'updates oreilly kolophon', vcr: true do
@@ -38,6 +44,11 @@ describe Source do
     # Bild ist im falschen Format
     it 'updates slangster', vcr: true do
       check_all url: 'http://slangster.podspot.de/rss', count: 4
+    end
+
+    # image error
+    it 'dropnik', vcr: true do
+      check_all url: 'http://oliver.drobnik.com/feed/podcast/', image: false
     end
 
   end

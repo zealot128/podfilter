@@ -1,0 +1,14 @@
+h1 Dashboard
+
+
+- if current_user.opml_files.count > 0
+
+  h2 Bereits hochgeladene OPMLs
+  = render current_user.opml_files
+
+.jumbotron#main-attention-drawer
+  strong
+    ' Neue OPML hochladen:
+  = render 'upload_button'
+
+

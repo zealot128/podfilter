@@ -1,7 +1,8 @@
 class OpmlFile < ActiveRecord::Base
   has_and_belongs_to_many :sources
   belongs_to :owner
-  validates :md5, uniqueness: true
+
+  validates :md5, uniqueness: { scope: :owner_id }
   validates :source, presence: true
 
   before_create :randomize_id

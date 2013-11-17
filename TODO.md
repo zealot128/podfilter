@@ -1,2 +1,8 @@
-* md5 fuer OpmFile.source -> DUpletten
+* Cronjobs
+* RSPEC upgrade v. 3
+* capistrano
+* minimal search
+* Kategorien
+* recommendations
+* Twitter/oauth login
 

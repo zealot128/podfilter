@@ -11,5 +11,6 @@ describe OpmlFilesController, sidekiq: :fake do
     OpmlFile.count.should == 1
     session[:owner_id].should be_present
     controller.send(:current_user).should == OpmlFile.first.owner
+    Source.count.should > 0
   end
 end

@@ -1,6 +1,5 @@
 
 $(document).on 'page:load page:change ready', ->
-  console.log 'triggerd'
   $('.js-upload').fileupload
     dataType: 'json'
     fail: (e,data)->
@@ -20,4 +19,4 @@ $(document).on 'page:load page:change ready', ->
       """
       $('.js-upload-target').html(html)
   .prop('disabled', !$.support.fileInput)
-  .parent().addClass($.support.fileInput ? undefined : 'disabled');
+  .parent().addClass($.support.fileInput ? undefined : 'disabled')

@@ -6,9 +6,6 @@ class SourceUpdateWorker
 
   def perform(source_id)
     source=  Source.find(source_id)
-    if source.description.blank?
-      source.fetch_meta_information
-    end
-    source.update_entries
+    source.full_refresh
   end
 end

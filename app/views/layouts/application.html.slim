@@ -7,9 +7,9 @@ html
     = csrf_meta_tags
     meta name="viewport" content="width=device-width, initial-scale=1.0"
   body
-    header
-      .container
-        nav class="navbar navbar-default" role="navigation"
+    header class="navbar navbar-default" role="navigation"
+      nav.container
+        #navbar-main
           a class="navbar-brand" href="/" Podfilter
           ul class="nav navbar-nav"
             li
@@ -17,18 +17,29 @@ html
             - if user_signed_in?
               li.dropdown
                 a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  | Du bist angemeldet
+                  ' Du bist angemeldet
+                  span.caret
 
                 ul class="dropdown-menu"
+                  li
+                    = link_to 'Dashboard', dashboard_path
                   - current_user.opml_files.each do |file|
                     li
                       = link_to 'OPML-File', opml_file_path(file)
     section.container
+      - if flash[:notice]
+        .alert.alert-success
+          = flash[:notice]
+      - if flash[:alert]
+        .alert.alert-error
+          = flash[:alert]
       = yield
     footer
       .container
-        h3
-          | Podfilter.de
-          = ' '
-          small #{Source.count} Podcasts indiziert. Davon #{Source.active.count} aktive, #{Source.inactive.count} inaktive, #{Source.error.count} mit Fehlern/bzw. neu hinzugefügt
+        .row
+          .col-lg-12
+            h3
+              | Podfilter.de
+              = ' '
+              small #{Source.count} Podcasts indiziert. Davon #{Source.active.count} aktive, #{Source.inactive.count} inaktive, #{Source.error.count} mit Fehlern/bzw. neu hinzugefügt und #{Source.offline.count} sind offline.
 
