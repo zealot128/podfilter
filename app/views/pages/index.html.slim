@@ -16,13 +16,14 @@
         li
           - episode = Episode.find(source.episode_id)
           h3
+            - if source.image.present?
+              .pull-left
+                = image_tag source.image.url(:thumb)
+                = ' '
             = episode.title
             | &nbsp;
             small = l episode.pubdate.to_date
           = link_to source do
-            - if source.image.present?
-              = image_tag source.image.url(:thumb)
-              = ' '
             = source.title
 
   .col-md-6

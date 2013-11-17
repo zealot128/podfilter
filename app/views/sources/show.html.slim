@@ -1,12 +1,33 @@
 h1
   - if @source.image.present?
     .pull-right(style='margin-left: 10px')
+      - if @source.active?
+        span.label.label-success aktiv
+      - if @source.active == false
+        span.label.label-default inaktiv
+      - if @source.offline?
+        span.label.label-default offline
+      = ' '
       = image_tag @source.image.url(:thumb)
   = @source.title
+
+
 .jumbotron
-  = @source.description
+  p
+    = strip_tags @source.description
   pre
     = link_to @source.url, @source.url
-  = render @source.opml_files
+  p
+    strong
+      'In diesen OPML-Files enthalten:
+    = render @source.opml_files
+  - if @source.offline?
+    .alert.alert-warning
+      ' Der Podcast konnte nicht abgerufen werden und ist als
+      span.label.label-default offline
+      ' markiert.
 
+- if @source.episodes.count == 0
+  .alert.alert-warning
+    | Keine Episoden gefunden
 = render @source.episodes.order('pubdate desc')

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131117134227) do
+ActiveRecord::Schema.define(version: 20131117144255) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -66,8 +66,10 @@ ActiveRecord::Schema.define(version: 20131117134227) do
     t.datetime "updated_at"
     t.string   "image"
     t.boolean  "offline"
+    t.boolean  "active"
   end
 
+  add_index "sources", ["active"], name: "index_sources_on_active", using: :btree
   add_index "sources", ["url"], name: "index_sources_on_url", unique: true, using: :btree
 
 end

@@ -1,8 +1,8 @@
-.source-list-item.row
-  .col-md-1.text-center
+.source-list-item
+  .pull-left.text-center
     - if source.image.present?
       = image_tag source.image.url(:thumb)
-  .col-md-5
+  div
     p: strong
       = link_to source.title, source
     code

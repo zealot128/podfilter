@@ -51,6 +51,22 @@ describe Source do
       check_all url: 'http://oliver.drobnik.com/feed/podcast/', image: false
     end
 
+    it 'makinet', vcr: true do
+      check_all url: 'http://maikinet-tumblr.podspot.de/rss', image: false, count: 8
+    end
+
+    it 'schlaflosinmuenchen', vcr: true do
+      source = Source.create(url: 'http://feeds.schlaflosinmuenchen.com/weeklysimAAC.xml')
+      source.fetch_meta_information
+      source.description.should include 'Dieser Feed wird nicht mehr aktualisiert'
+    end
+
+    it 'invalid file', vcr: true do
+      source = Source.create(url: 'http://masskompod.rupkalwis.com/podcast.php')
+      source.full_refresh
+      source.should be_offline
+    end
+
   end
 
   def check_all(url: nil, count: nil, image: true)

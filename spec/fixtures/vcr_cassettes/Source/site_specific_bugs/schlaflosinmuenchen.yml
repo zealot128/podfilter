@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.podsitter.com/Bilder/SIMicon144.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Sun, 17 Nov 2013 14:18:43 GMT
+      Server:
+      - Apache
+      Location:
+      - http://www.podsitter.com/cgi-sys/suspendedpage.cgi
+      Content-Length:
+      - '234'
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+        <html><head>
+        <title>302 Found</title>
+        </head><body>
+        <h1>Found</h1>
+        <p>The document has moved <a href="http://www.podsitter.com/cgi-sys/suspendedpage.cgi">here</a>.</p>
+        </body></html>
+    http_version: 
+  recorded_at: Sun, 17 Nov 2013 14:18:44 GMT
+- request:
+    method: get
+    uri: http://www.podsitter.com/cgi-sys/suspendedpage.cgi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 17 Nov 2013 14:18:43 GMT
+      Server:
+      - Apache
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html
+    body:
+      encoding: UTF-8
+      string: "<HTML>\r\n<head>\r\n<style>\r\na { font-family: arial, verdana; font-size:
+        14px; color: #000000; text-decoration: none; }\r\na:hover { text-decoration:
+        underline; }\r\n\r\n\r\nbody { background-color: #FFF; font-family: arial,
+        verdana, sans-serif; font-size: 14px;}\r\n.cellheader { border-top: 1px #374646
+        solid; border-left: 1px #374646 solid; border-right: 1px #374646 solid; border-bottom:
+        1px #374646 solid; font-family: verdana, arial; font-size: 20pt; font-weight:
+        normal; color: #F1F1F1; }\r\n</style>\r\n</head>\r\n<body>\r\n<table align=\"center\"
+        bgcolor=\"#ffffff\" border=\"0\" width=\"100%\">\r\n<tbody>\r\n<tr class=\"cellheader\">\r\n<td
+        bgcolor=\"#788298\">\r\n<center>\r\n<b>\r\nwebsite is migrated to new server,
+        your site is loading this page because your DNS is not updated, \r\n</b>\r\n</center>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<center>\r\nPlease
+        contact support department as soon as possible if you did't receive new server
+        DNS\r\n\r\n<b><a href=\"https://cheaphostingbd.com\">CheapHostingbd.com</a></b>\r\n\r\n</center>\r\n</body>\r\n</html>\n"
+    http_version: 
+  recorded_at: Sun, 17 Nov 2013 14:18:45 GMT
+recorded_with: VCR 2.4.0

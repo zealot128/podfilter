@@ -1,4 +1,11 @@
 de:
+  activerecord:
+    errors:
+      models:
+        source:
+          attributes:
+            image:
+              wrong_content_type: Kein Bild gefunden
   errors:
     messages:
       extension_white_list_error: "Die Dateiendung %{extension} ist nicht erlaubt, erlaubt sind nur: %{allowed_types}"

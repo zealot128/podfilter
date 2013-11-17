@@ -1,10 +1,34 @@
 h1 Dashboard
 
+- if current_user.token.present?
+  .alert.alert-success
+    Du bist zur Zeit per Cookie angemeldet. Um später hierher zurückzukommen, bookmarke diese Seite:
+    pre
+      = link_to dashboard_url(token: current_user.token) do
+        = dashboard_url(token: current_user.token)
 
 - if current_user.opml_files.count > 0
 
   h2 Bereits hochgeladene OPMLs
-  = render current_user.opml_files
+  - current_user.opml_files.each do |file|
+    .row.opml-file
+      .col-lg-6
+        strong
+          = link_to file do
+            = file.md5
+        br
+        ' #{file.sources.count} Podcasts enthalten
+      .col-lg-2
+        - if file.owner == @owner
+          = link_to 'Löschen', opml_file_path(file), class: 'btn btn-default', data: { method: :delete }
+
+br
+br
+br
+br
+br
+br
+br
 
 .jumbotron#main-attention-drawer
   strong

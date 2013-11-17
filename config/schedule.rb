@@ -11,4 +11,7 @@ end
 every 4.hours do
   runner 'Source.active.enqueue'
 end
+every 6.hours do
+  runner 'Source.update_active_status'
+end
 

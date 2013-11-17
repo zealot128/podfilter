@@ -18,7 +18,7 @@ class Source < ActiveRecord::Base
   validates :image,
     :file_mime_type => {
     :content_type => /image/
-  }, if: ->(r) {p r.image.present?; r.image.present? }
+  }, if: ->(r) { r.image.present? and r.image_changed? }
 
   scope :recent, -> {
     joins(:episodes).
@@ -28,11 +28,19 @@ class Source < ActiveRecord::Base
   }
   scope :error, -> { where('description is null and (offline is null or offline != ?)', true) }
   scope :offline,-> { where(offline: true) }
-  scope :inactive, -> { where(id: Episode.select('source_id').having('max(pubdate) <= ?', 1.year.ago).group(:source_id)) }
-  scope :active,   -> { where(id: Episode.select('distinct source_id').where('pubdate > ?', 1.year.ago)) }
+  scope :active, -> { where(active: true) }
+  scope :inactive, -> { where(active: false) }
+
+  scope :inactive_live, -> { where(id: Episode.select('source_id').having('max(pubdate) <= ?', 1.year.ago).group(:source_id)) }
+  scope :active_live,   -> { where(id: Episode.select('distinct source_id').where('pubdate > ?', 1.year.ago)) }
+
+  def self.update_active_status
+    active_live.update_all active: true
+    inactive_live.update_all active: false
+  end
 
   def full_refresh
-    if parsed_feed.is_a? Fixnum
+    if parsed_feed.is_a?(Fixnum) or (parsed_feed.title.blank? and parsed_feed.entries.count == 0)
       self.update_attribute :offline, true
     else
       fetch_meta_information
@@ -47,8 +55,8 @@ class Source < ActiveRecord::Base
   end
 
   def fetch_meta_information
-    self.title = parsed_feed.title
-    self.description = take_first(parsed_feed, [:itunes_summary, :description]).strip
+    self.title = parsed_feed.title if parsed_feed.title
+    self.description = take_first(parsed_feed, [:itunes_summary, :description, :title]).strip rescue nil
     # self.language ||= feed.language
     #itunes_categories
     image = take_first(parsed_feed, [:itunes_image, :image])
@@ -58,6 +66,7 @@ class Source < ActiveRecord::Base
     if !self.save
       self.image = nil
       self.remote_image_url = nil
+      self.image.remove!
       self.save!
     end
   end

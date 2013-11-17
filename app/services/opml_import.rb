@@ -22,6 +22,10 @@ class OpmlImport
   end
 
   def run!
+    if opml.new_record?
+      @log << 'Du hast die Datei bereits hochgeladen'
+      return opml
+    end
     update_sources(opml)
     opml
   end
@@ -43,6 +47,7 @@ class OpmlImport
       was_new_record = source.new_record?
       if source.save
         if source.opml_files.where('opml_file_id = ?', opml_file.id).count == 0
+          @log << "#{url} bereits in Datenbank vorhanden."
           source.opml_files << opml_file
         end
         if was_new_record
