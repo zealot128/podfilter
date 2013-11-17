@@ -1,0 +1,13 @@
+.episode
+  h3
+    = episode.title
+  .subtitle: small
+    = l episode.pubdate.to_date
+    = ' '
+    = link_to episode.url do
+      = episode.url
+
+  .episode-body
+    =sanitize episode.description
+
+

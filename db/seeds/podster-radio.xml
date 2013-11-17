@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <head>
+        <title>podster.de - Podcasts mit Stichwort: radio</title>
+         <dateCreated>Sun, 17 Nov 2013 12:00:41 +0100</dateCreated>
+         <dateModified>Sun, 17 Nov 2013 12:00:41 +0100</dateModified>
+         <ownerName>podster.de</ownerName>
+         <ownerEmail>webmaster@podster.de</ownerEmail>
+    </head>
+    <body>
+    <outline type="link"  title="SWR1 Leute" text="SWR1 Leute" url="http://www1.swr.de/podcast/xml/swr1/bw/leute.xml"/>
+    <outline type="link"  title="dradio.de - Computer und Kommunikation" text="dradio.de - Computer und Kommunikation" url="http://www.dradio.de/rss/podcast/sendungen/computer/"/>
+    <outline type="link"  title="dradio.de - Campus und Karriere" text="dradio.de - Campus und Karriere" url="http://www.dradio.de/rss/podcast/sendungen/campus/"/>
+    <outline type="link"  title="B5 aktuell - Das Fitnessmagazin" text="B5 aktuell - Das Fitnessmagazin" url="http://www.br-online.de/podcast/fitnessmagazin/cast.xml"/>
+    <outline type="link"  title="Bayern 4 Klassik - Klassik aktuell" text="Bayern 4 Klassik - Klassik aktuell" url="http://www.br-online.de/podcast/klassik-aktuell/cast.xml"/>
+    <outline type="link"  title="SWR2 Impuls" text="SWR2 Impuls" url="http://www1.swr.de/podcast/xml/swr2/impuls.xml"/>
+    <outline type="link"  title="Kölncampus Monster - Podcast" text="Kölncampus Monster - Podcast" url="http://feeds.feedburner.com/KoelncampusMonster"/>
+    <outline type="link"  title="dradio-Markt und Medien" text="dradio-Markt und Medien" url="http://www.dradio.de/rss/podcast/sendungen/marktundmedien/"/>
+    <outline type="link"  title="Promigeflüster, der Promi-Podcast" text="Promigeflüster, der Promi-Podcast" url="http://promigefluester.podspot.de/rss"/>
+    <outline type="link"  title="Wissenschaft DRS 2" text="Wissenschaft DRS 2" url="http://pod.drs.ch/wissenschaft_drs_2_mpx.xml"/>
+    <outline type="link"  title="B5 aktuell - Das Computermagazin" text="B5 aktuell - Das Computermagazin" url="http://www.br-online.de/podcast/computermagazin/cast.xml"/>
+    <outline type="link"  title="@last- Der DG-Podcast" text="@last- Der DG-Podcast" url="http://dgpodcast.podspot.de/rss"/>
+    <outline type="link"  title="Talker-Lounge" text="Talker-Lounge" url="http://talker-lounge.de/feed/podcast/"/>
+    <outline type="link"  title="SUBjektiv" text="SUBjektiv" url="http://subjektiv.podspot.de/rss"/>
+    <outline type="link"  title="Radiofüchse-das interkulturelle Hamburger Kinderradio" text="Radiofüchse-das interkulturelle Hamburger Kinderradio" url="http://radiofuechse.podspot.de/rss"/>
+    <outline type="link"  title="SWR2 Musikstück der Woche" text="SWR2 Musikstück der Woche" url="http://www1.swr.de/podcast/xml/swr2/musikstueck-der-woche.xml"/>
+    <outline type="link"  title="radioeins - Hörbar Rust" text="radioeins - Hörbar Rust" url="http://www.radioeins.de/rss.xml?beitrag_110178"/>
+    <outline type="link"  title="radioeins Medienmagazin" text="radioeins Medienmagazin" url="http://www.radioeins.de/rss.xml?beitrag_106107"/>
+    <outline type="link"  title="WDR: Quarks &amp; Co" text="WDR: Quarks &amp; Co" url="http://podcast.wdr.de/quarks.xml"/>
+    <outline type="link"  title="Bayern 4 Klassik - PausenZeichen" text="Bayern 4 Klassik - PausenZeichen" url="http://www.br-online.de/podcast/pausenzeichen/cast.xml"/>
+    <outline type="link"  title="SWR2 Aula" text="SWR2 Aula" url="http://www1.swr.de/podcast/xml/swr2/aula.xml"/>
+    <outline type="link"  title="buergerfunk-duisburg" text="buergerfunk-duisburg" url="http://buergerfunk-duisburg.podspot.de/rss"/>
+    <outline type="link"  title="Takarina's Welt" text="Takarina's Welt" url="http://takarina.podspot.de/rss"/>
+    <outline type="link"  title="Radio Rosinenbomber! Für Berlin und Brandenburg." text="Radio Rosinenbomber! Für Berlin und Brandenburg." url="http://radio-rosinenbomber.podspot.de/rss"/>
+    <outline type="link"  title="Ohrcast - Der Hörspielpodcast" text="Ohrcast - Der Hörspielpodcast" url="http://www.hoerspieltipps.net/ohrcast/ohrcast.xml"/>
+    <outline type="link"  title="Markos Medien-Podcast" text="Markos Medien-Podcast" url="http://markos-medienpodcast.podspot.de/rss"/>
+    <outline type="link"  title="Heinrich Schulte-Brömmelkamp, der Bauer aus Kattenvenne!" text="Heinrich Schulte-Brömmelkamp, der Bauer aus Kattenvenne!" url="http://kattenvenne.podspot.de/rss"/>
+    <outline type="link"  title="dradio.de Wissenschaft" text="dradio.de Wissenschaft" url="http://www.dradio.de/rss/podcast/sendungen/forschak/"/>
+    <outline type="link"  title="Bayern 3 - Stars &amp; Hits" text="Bayern 3 - Stars &amp; Hits" url="http://www.br-online.de/podcast/stars-und-hits/cast.xml"/>
+    <outline type="link"  title="dradio.de - Mahlzeit" text="dradio.de - Mahlzeit" url="http://www.dradio.de/rss/podcast/sendungen/mahlzeit/"/>
+    <outline type="link"  title="SWR2 Wissen" text="SWR2 Wissen" url="http://www1.swr.de/podcast/xml/swr2/wissen.xml"/>
+    <outline type="link"  title="Leonardo im WDR 5-Radio zum Mitnehmen" text="Leonardo im WDR 5-Radio zum Mitnehmen" url="http://podcast.wdr.de/radio/leonardo.xml"/>
+    <outline type="link"  title="B5 aktuell - Verbrauchermagazin" text="B5 aktuell - Verbrauchermagazin" url="http://www.br-online.de/podcast/verbrauchermagazin/cast.xml"/>
+    <outline type="link"  title="dradio.de - Wissenschaft im Brennpunkt" text="dradio.de - Wissenschaft im Brennpunkt" url="http://www.dradio.de/rss/podcast/sendungen/wib/"/>
+    <outline type="link"  title="Hitmist Germany" text="Hitmist Germany" url="http://hitmist.podspot.de/rss"/>
+    <outline type="link"  title="InfothekBerlin" text="InfothekBerlin" url="http://infothekberlin.podspot.de/rss"/>
+    <outline type="link"  title="CHECK IN - das Reisemagazin" text="CHECK IN - das Reisemagazin" url="http://radioreise.podspot.de/rss"/>
+    <outline type="link"  title="Dreamteampod" text="Dreamteampod" url="http://dreamteampod.podspot.de/rss"/>
+    <outline type="link"  title="Widmar Puhl" text="Widmar Puhl" url="http://widmar-puhl.podspot.de/rss"/>
+    <outline type="link"  title="SWR2 Literatur" text="SWR2 Literatur" url="http://www1.swr.de/podcast/xml/swr2/literatur.xml"/>
+    <outline type="link"  title="B5 aktuell - MedienMagazin" text="B5 aktuell - MedienMagazin" url="http://www.br-online.de/podcast/medienmagazin/cast.xml"/>
+    <outline type="link"  title="Musik der Welt" text="Musik der Welt" url="http://pod.drs.ch/musik_der_welt_mpx.xml"/>
+    <outline type="link"  title="Perspektiven" text="Perspektiven" url="http://pod.drs.ch/perspektiven_mpx.xml"/>
+    <outline type="link"  title="dradio.de Wurfsendung" text="dradio.de Wurfsendung" url="http://www.dradio.de/rss/podcast/wurfsendung/"/>
+    <outline type="link"  title="Hitparade" text="Hitparade" url="http://pod.drs.ch/hitparade_mpx.xml"/>
+    <outline type="link"  title="RadioGwunderPodcast" text="RadioGwunderPodcast" url="http://feeds2.feedburner.com/StadtfilterRadioGwunder"/>
+    <outline type="link"  title="dradio-Kommentar" text="dradio-Kommentar" url="http://www.dradio.de/rss/podcast/sendungen/kommentar/"/>
+    <outline type="link"  title="dradio.de - Essay und Diskurs" text="dradio.de - Essay und Diskurs" url="http://www.dradio.de/rss/podcast/sendungen/essayunddiskurs/"/>
+    <outline type="link"  title="NDR Info - Echo der Welt" text="NDR Info - Echo der Welt" url="http://www.ndr.de/podcastlink/echo_der_welt.xml"/>
+    <outline type="link"  title="fm4.ORF.at/Soundpark" text="fm4.ORF.at/Soundpark" url="http://static.orf.at/fm4/podcast/soundpark.xml"/>
+    <outline type="link"  title="dradio.de Nachrichten" text="dradio.de Nachrichten" url="http://www.dradio.de/rss/podcast/nachrichten/"/>
+    <outline type="link"  title="freie-radios.net" text="freie-radios.net" url="http://www.freie-radios.net/portal/podcast.php?rss"/>
+    <outline type="link"  title="Ö3: Nachrichten" text="Ö3: Nachrichten" url="http://static.orf.at/oe3/podcast/oe3_nachrichten.xml"/>
+    <outline type="link"  title="B5 aktuell - Aus Landwirtschaft und Umwelt" text="B5 aktuell - Aus Landwirtschaft und Umwelt" url="http://www.br-online.de/podcast/landwirtschaft-und-umwelt/cast.xml"/>
+    <outline type="link"  title="WDR 2 Stichtag im WDR 2 - Radio zum Mitnehmen" text="WDR 2 Stichtag im WDR 2 - Radio zum Mitnehmen" url="http://www.wdr.de/radio/wdr2/podcast/wdr_2_stichtag_im_wdr_2_-_radio_zum_mitnehmen_xml.phtml"/>
+    <outline type="link"  title="Bayern2Radio - Katholische Welt" text="Bayern2Radio - Katholische Welt" url="http://www.br-online.de/podcast/katholische-welt/cast.xml"/>
+    <outline type="link"  title="Der NDR 2 Kurier um 12" text="Der NDR 2 Kurier um 12" url="http://www.ndr.de/podcastlink/kurier12.xml"/>
+    <outline type="link"  title="NDR 2 - Tietjen talkt" text="NDR 2 - Tietjen talkt" url="http://www.ndr.de/podcastlink/ndr2_tietjentalkt.xml"/>
+    <outline type="link"  title="Die fünfte Schweiz" text="Die fünfte Schweiz" url="http://pod.drs.ch/die_fuenfte_schweiz_mpx.xml"/>
+    <outline type="link"  title="NDR Info - Der Talk" text="NDR Info - Der Talk" url="http://www.ndr.de/podcastlink/ndrinfo_dertalk.xml"/>
+    <outline type="link"  title="Menschen und Horizonte" text="Menschen und Horizonte" url="http://pod.drs.ch/menschen_horizonte_mpx.xml"/>
+    <outline type="link"  title="Radio Vatikan" text="Radio Vatikan" url="http://www.radiovaticana.org/rss/tedesco.xml"/>
+    <outline type="link"  title="Persönlich" text="Persönlich" url="http://pod.drs.ch/personlich_mpx.xml"/>
+    <outline type="link"  title="Glückskette aktuell" text="Glückskette aktuell" url="http://pod.drs.ch/glueckskette_aktuell_mpx.xml"/>
+    <outline type="link"  title="dradio.de Kritik" text="dradio.de Kritik" url="http://www.dradio.de/rss/podcast/sendungen/kritik/"/>
+    <outline type="link"  title="dradio-Informationen am Abend" text="dradio-Informationen am Abend" url="http://www.dradio.de/rss/podcast/sendungen/informationenamabend/"/>
+    <outline type="link"  title="dradio.de - Kultur Heute" text="dradio.de - Kultur Heute" url="http://www.dradio.de/rss/podcast/sendungen/kulturheute/"/>
+    <outline type="link"  title="1000MIKES Archive" text="1000MIKES Archive" url="http://www.1000mikes.com/rss/recentBroadcasts/rss.xml?recommended=true"/>
+    <outline type="link"  title="dradio.de - Kulturfragen" text="dradio.de - Kulturfragen" url="http://www.dradio.de/rss/podcast/sendungen/kulturfragen/"/>
+    <outline type="link"  title="Kalenderblatt | Deutsche Welle" text="Kalenderblatt | Deutsche Welle" url="http://rss.dw-world.de/xml/podcast_kalenderblatt"/>
+    <outline type="link"  title="dradio.de Interviews" text="dradio.de Interviews" url="http://www.dradio.de/rss/podcast/interviews/"/>
+    <outline type="link"  title="Radio Bremen: As Time Goes By - die Chronik" text="Radio Bremen: As Time Goes By - die Chronik" url="http://www.radiobremen.de/podcast/chronik/"/>
+    <outline type="link"  title="dradio-Informationen am Mittag" text="dradio-Informationen am Mittag" url="http://www.dradio.de/rss/podcast/sendungen/informationenammittag/"/>
+    <outline type="link"  title="Bayern2Radio - Evangelische Perspektiven" text="Bayern2Radio - Evangelische Perspektiven" url="http://www.br-online.de/podcast/evangelische-perspektiven/cast.xml"/>
+    <outline type="link"  title="dradio-Information und Musik" text="dradio-Information und Musik" url="http://www.dradio.de/rss/podcast/sendungen/informationundmusik/"/>
+    <outline type="link"  title="SWR2 Kontext" text="SWR2 Kontext" url="http://www1.swr.de/podcast/xml/swr2/kontext.xml"/>
+    <outline type="link"  title="SBS German program" text="SBS German program" url="http://feeds.feedburner.com/german"/>
+    <outline type="link"  title="dradio-Interview der Woche" text="dradio-Interview der Woche" url="http://www.dradio.de/rss/podcast/sendungen/interviewderwoche/?mode=text"/>
+    <outline type="link"  title="SWR1 Brief der Woche" text="SWR1 Brief der Woche" url="http://www1.swr.de/podcast/xml/swr1/arbeitsplatz-brief.xml"/>
+    <outline type="link"  title="SWR Aktuell" text="SWR Aktuell" url="http://www1.swr.de/podcast/xml/swr-aktuell.xml"/>
+    <outline type="link"  title="dradio.de - Hintergrund Politik" text="dradio.de - Hintergrund Politik" url="http://www.dradio.de/rss/podcast/sendungen/hintergrundpolitik/"/>
+    <outline type="link"  title="Gottesdienst" text="Gottesdienst" url="http://www.erf.ch/html/pod/gottesdienst.xml"/>
+    <outline type="link"  title="Bayern 1 - Betthupferl" text="Bayern 1 - Betthupferl" url="http://www.br-online.de/podcast/betthupferl/cast.xml"/>
+    <outline type="link"  title="Hit-Welle" text="Hit-Welle" url="http://pod.drs.ch/hit-welle_mpx.xml"/>
+    <outline type="link"  title="dradio.de - Thema" text="dradio.de - Thema" url="http://www.dradio.de/rss/podcast/sendungen/thema/"/>
+    <outline type="link"  title="dradio - Kulturpresseschau" text="dradio - Kulturpresseschau" url="http://www.dradio.de/rss/podcast/sendungen/kulturpresseschau/"/>
+    <outline type="link"  title="B5 aktuell - Der Funkstreifzug" text="B5 aktuell - Der Funkstreifzug" url="http://www.br-online.de/podcast/funkstreifzug/cast.xml"/>
+    <outline type="link"  title="NDR 90,3 - Norichten op Platt" text="NDR 90,3 - Norichten op Platt" url="http://www.ndr.de/podcastlink/ndr903_norichtenopplatt.xml"/>
+    <outline type="link"  title="SWR2 Interviews" text="SWR2 Interviews" url="http://www1.swr.de/podcast/xml/swr2/interviews.xml"/>
+    <outline type="link"  title="1000MIKES Archiv" text="1000MIKES Archiv" url="http://www.1000mikes.com/rss/recentBroadcasts/rss.xml"/>
+    <outline type="link"  title="dradio - Bücher für junge Leser" text="dradio - Bücher für junge Leser" url="http://www.dradio.de/rss/podcast/sendungen/buecherfuerjungeleser/"/>
+    <outline type="link"  title="dradio.de - Corso" text="dradio.de - Corso" url="http://www.dradio.de/rss/podcast/sendungen/corso/"/>
+    <outline type="link"  title="Trackback" text="Trackback" url="http://trackback.fritz.de/?feed=podcast"/>
+    <outline type="link"  title="EKD.DE: evangelische Podcast-Angebote" text="EKD.DE: evangelische Podcast-Angebote" url="http://www.ekd.de/podcast/evangelisch.xml"/>
+    <outline type="link"  title="dradio.de Fazit" text="dradio.de Fazit" url="http://www.dradio.de/rss/podcast/sendungen/fazit/"/>
+    <outline type="link"  title="Bayern 1 - Heute im Stadion" text="Bayern 1 - Heute im Stadion" url="http://www.br-online.de/podcast/heute-im-stadion/cast.xml"/>
+    <outline type="link"  title="Bayern 1 - Bayernkommentar" text="Bayern 1 - Bayernkommentar" url="http://www.br-online.de/podcast/bayernkommentar/cast.xml"/>
+    <outline type="link"  title="Treffpunkt" text="Treffpunkt" url="http://pod.drs.ch/treffpunkt_mpx.xml"/>
+    <outline type="link"  title="NDR - Hör mal ’n beten to" text="NDR - Hör mal ’n beten to" url="http://www.ndr.de/podcastlink/ndr_hoermalnbetento.xml"/>
+    <outline type="link"  title="Radio Corax" text="Radio Corax" url="http://www.freie-radios.net/portal/podcast.php?radio=38&amp;rss"/>
+    <outline type="link"  title="Anstöße" text="Anstöße" url="http://www1.swr.de/podcast/xml/swr1/rp/anstoesse.xml"/>
+    <outline type="link"  title="SWR4 Rheinland-Pfalz Morgengruß" text="SWR4 Rheinland-Pfalz Morgengruß" url="http://www1.swr.de/podcast/xml/swr4/rp/morgengruss.xml"/>
+    <outline type="link"  title="DRS 4 Talk" text="DRS 4 Talk" url="http://pod.drs.ch/drs4_talk_mpx.xml"/>
+    <outline type="link"  title="Samstagsrundschau" text="Samstagsrundschau" url="http://pod.drs.ch/samstagsrundschau_mpx.xml"/>
+    <outline type="link"  title="SWR2 Geld, Markt, Meinung" text="SWR2 Geld, Markt, Meinung" url="http://www1.swr.de/podcast/xml/swr2/geld-markt-meinung.xml"/>
+    <outline type="link"  title="International" text="International" url="http://pod.drs.ch/international_mpx.xml"/>
+    <outline type="link"  title="DRS: HeuteMorgen" text="DRS: HeuteMorgen" url="http://pod.drs.ch/heutemorgen_mpx.xml"/>
+    <outline type="link"  title="Gans und gar im WDR 5-Radio zum Mitnehmen" text="Gans und gar im WDR 5-Radio zum Mitnehmen" url="http://podcast.wdr.de/radio/gansundgar.xml"/>
+    <outline type="link"  title="B5 aktuell - Gesundheitsmagazin" text="B5 aktuell - Gesundheitsmagazin" url="http://www.br-online.de/podcast/gesundheitsmagazin/cast.xml"/>
+    <outline type="link"  title="dradio.de - Themen der Woche" text="dradio.de - Themen der Woche" url="http://www.dradio.de/rss/podcast/sendungen/themenderwoche/"/>
+    <outline type="link"  title="Bayern 1 - Zwölfuhrläuten" text="Bayern 1 - Zwölfuhrläuten" url="http://www.br-online.de/podcast/zwoelfuhrlaeuten/cast.xml"/>
+    <outline type="link"  title="SWR1 Weitwinkel" text="SWR1 Weitwinkel" url="http://www1.swr.de/podcast/xml/swr1/weitwinkel.xml"/>
+    <outline type="link"  title="Swissmade" text="Swissmade" url="http://pod.drs.ch/swissmade_mpx.xml"/>
+    <outline type="link"  title="radioeins - Die Profis - Marias Haushaltstipps" text="radioeins - Die Profis - Marias Haushaltstipps" url="http://www.radioeins.de/rss.xml?beitrag_118784"/>
+    <outline type="link"  title="SWR International" text="SWR International" url="http://www1.swr.de/podcast/xml/swr-international.xml"/>
+    <outline type="link"  title="dradio.de - Eine Welt" text="dradio.de - Eine Welt" url="http://www.dradio.de/rss/podcast/sendungen/einewelt/"/>
+    <outline type="link"  title="Radio Bremen: Kurz und gut" text="Radio Bremen: Kurz und gut" url="http://www.radiobremen.de/podcast/kurzundgut/"/>
+    <outline type="link"  title="Sounds!" text="Sounds!" url="http://pod.drs.ch/sounds_mpx.xml"/>
+    <outline type="link"  title="dradio.de - Kulturtipp" text="dradio.de - Kulturtipp" url="http://www.dradio.de/rss/podcast/sendungen/kulturtipp/"/>
+    <outline type="link"  title="dradio-Informationen am Morgen" text="dradio-Informationen am Morgen" url="http://www.dradio.de/rss/podcast/sendungen/informationenammorgen/"/>
+    <outline type="link"  title="dradio.de - Tacheles" text="dradio.de - Tacheles" url="http://www.dradio.de/rss/podcast/sendungen/tacheles/"/>
+    <outline type="link"  title="SWR Wirtschaft Aktuell" text="SWR Wirtschaft Aktuell" url="http://www1.swr.de/podcast/xml/wirtschaft-aktuell.xml"/>
+    <outline type="link"  title="SWR1 Aktuell um 5 - Info Kompakt" text="SWR1 Aktuell um 5 - Info Kompakt" url="http://www1.swr.de/podcast/xml/swr1/bw/aktuell-um-5.xml"/>
+    <outline type="link"  title="SWR1 Der Abend" text="SWR1 Der Abend" url="http://www1.swr.de/podcast/xml/swr1/abend.xml"/>
+    <outline type="link"  title="Der NDR 2 Kurier um 5" text="Der NDR 2 Kurier um 5" url="http://www.ndr.de/podcastlink/kurier5.xml"/>
+    <outline type="link"  title="SWR2 Zeitwort" text="SWR2 Zeitwort" url="http://www1.swr.de/podcast/xml/swr2/zeitwort.xml"/>
+    <outline type="link"  title="radioeins - Die Profis - Der Benecke" text="radioeins - Die Profis - Der Benecke" url="http://www.radioeins.de/rss.xml?beitrag_114955"/>
+    <outline type="link"  title="Radio Bielefeld  Arminia - Podcast" text="Radio Bielefeld  Arminia - Podcast" url="http://www.radiobielefeld.de/fileadmin/podcastsystem/rss/bi_Arminia%20RaBi.xml"/>
+    <outline type="link"  title="Radio Bremen: Plattdüütsch Nahrichten" text="Radio Bremen: Plattdüütsch Nahrichten" url="http://www.radiobremen.de/podcast/platt/"/>
+    <outline type="link"  title="Schnack mit Lack [Hessischer Rundfunk]" text="Schnack mit Lack [Hessischer Rundfunk]" url="http://www.hr-online.de/website/static/podcasting/hr3_schnack/podcast.xml"/>
+    <outline type="link"  title="Parlando" text="Parlando" url="http://pod.drs.ch/parlando_mpx.xml"/>
+    <outline type="link"  title="hr2 Der Tag" text="hr2 Der Tag" url="http://podcast.hr2.de/derTag/podcast.xml"/>
+    <outline type="link"  title="Trend" text="Trend" url="http://pod.drs.ch/trend_mpx.xml"/>
+    <outline type="link"  title="dradio - Reportage" text="dradio - Reportage" url="http://www.dradio.de/rss/podcast/sendungen/reportage/"/>
+    <outline type="link"  title="Bayern 1 - Gschmarri zum Wochenende" text="Bayern 1 - Gschmarri zum Wochenende" url="http://www.br-online.de/podcast/gschmarri/cast.xml"/>
+    <outline type="link"  title="dradio.de - Laenderreport" text="dradio.de - Laenderreport" url="http://www.dradio.de/rss/podcast/sendungen/laenderreport/"/>
+    <outline type="link"  title="dradio.de - Umwelt und Verbraucher" text="dradio.de - Umwelt und Verbraucher" url="http://www.dradio.de/rss/podcast/sendungen/umweltundverbraucher/"/>
+    <outline type="link"  title="100 Sekunden Wissen" text="100 Sekunden Wissen" url="http://pod.drs.ch/100_sekunden_wissen_mpx.xml"/>
+    <outline type="link"  title="Radio Bremen: Der Dicke und der Dünne" text="Radio Bremen: Der Dicke und der Dünne" url="http://www.radiobremen.de/podcast/dickduenn/"/>
+    <outline type="link"  title="RaBe-Info" text="RaBe-Info" url="http://www.rabe.ch/pod/podcast.php"/>
+    <outline type="link"  title="Motor FM Podcast" text="Motor FM Podcast" url="http://feeds.feedburner.com/motorfmpodcast"/>
+    <outline type="link"  title="N-JOY - Inside Multimedia" text="N-JOY - Inside Multimedia" url="http://www.ndr.de/podcastlink/insidemultimedia.xml"/>
+    <outline type="link"  title="SWR1 Tagesthema" text="SWR1 Tagesthema" url="http://www1.swr.de/podcast/xml/swr1/rp/tagesthema.xml"/>
+    <outline type="link"  title="SWR4 Rheinland-Pfalz - Gerda und Walter" text="SWR4 Rheinland-Pfalz - Gerda und Walter" url="http://www1.swr.de/podcast/xml/swr4/rp/gerda-und-walter.xml"/>
+    <outline type="link"  title="dradio.de - Verbrauchertipp" text="dradio.de - Verbrauchertipp" url="http://www.dradio.de/rss/podcast/sendungen/verbrauchertipp/"/>
+    <outline type="link"  title="SWR1 Namenforscher" text="SWR1 Namenforscher" url="http://www1.swr.de/podcast/xml/swr1/rp/namenforscher.xml"/>
+    <outline type="link"  title="Kabarett im WDR 2-Radio zum Mitnehmen" text="Kabarett im WDR 2-Radio zum Mitnehmen" url="http://podcast.wdr.de/radio/wdr2kabarett.xml"/>
+    <outline type="link"  title="dradio-Deutschland heute" text="dradio-Deutschland heute" url="http://www.dradio.de/rss/podcast/sendungen/deutschlandheute/"/>
+    <outline type="link"  title="RadioIndustrie - Alle Sendungen" text="RadioIndustrie - Alle Sendungen" url="http://www.radioindustrie.ch/?feed=podcast"/>
+    <outline type="link"  title="Bayern2Radio - Das Kalenderblatt" text="Bayern2Radio - Das Kalenderblatt" url="http://www.br-online.de/podcast/kalenderblatt/cast.xml"/>
+    <outline type="link"  title="Tagesgespräch" text="Tagesgespräch" url="http://pod.drs.ch/tagesgesprach_mpx.xml"/>
+    <outline type="link"  title="Rendez-vous" text="Rendez-vous" url="http://pod.drs.ch/rendez-vous_mpx.xml"/>
+    <outline type="link"  title="B5 aktuell - B5 für Bergsteiger" text="B5 aktuell - B5 für Bergsteiger" url="http://www.br-online.de/podcast/b5-fuer-bergsteiger/cast.xml"/>
+    <outline type="link"  title="Reflexe" text="Reflexe" url="http://pod.drs.ch/reflexe_mpx.xml"/>
+    <outline type="link"  title="Seeschule" text="Seeschule" url="http://Seeschule.podspot.de/rss"/>
+    <outline type="link"  title="Radio Bremen: Morgenshow-Nachlese" text="Radio Bremen: Morgenshow-Nachlese" url="http://www.radiobremen.de/podcast/morgenshow/"/>
+    <outline type="link"  title="radio SAW - Was heisst das auf deutsch?" text="radio SAW - Was heisst das auf deutsch?" url="http://washeisstdas.podspot.de/rss"/>
+    <outline type="link"  title="dradio.de - Profil" text="dradio.de - Profil" url="http://www.dradio.de/rss/podcast/sendungen/profil/"/>
+    <outline type="link"  title="dradio.de - Kolumne" text="dradio.de - Kolumne" url="http://www.dradio.de/rss/podcast/sendungen/kolumne/"/>
+    <outline type="link"  title="NDR 1 Radio MV - Vorsicht Leif" text="NDR 1 Radio MV - Vorsicht Leif" url="http://www.ndr.de/podcastlink/ndr1radiomv_vorsichtleif.xml"/>
+    <outline type="link"  title="dradio-Tag fuer Tag" text="dradio-Tag fuer Tag" url="http://www.dradio.de/rss/podcast/sendungen/tagfuertag/"/>
+    <outline type="link"  title="RadioIndustrie » Abendshow mit Marc Gabriel" text="RadioIndustrie » Abendshow mit Marc Gabriel" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=55"/>
+    <outline type="link"  title="dradio.de - Europa Heute" text="dradio.de - Europa Heute" url="http://www.dradio.de/rss/podcast/sendungen/europaheute/"/>
+    <outline type="link"  title="Comedy: Das Fußball ABC" text="Comedy: Das Fußball ABC" url="http://www.antenne.de/podcasts/comedy/index.xml.php"/>
+    <outline type="link"  title="Fritz - Fritz Info Musik" text="Fritz - Fritz Info Musik" url="http://www.fritz.de/podcast.xml?60_85329"/>
+    <outline type="link"  title="Fritz - High Noon" text="Fritz - High Noon" url="http://www.fritz.de/podcast.xml?60_110794"/>
+    <outline type="link"  title="Merkels Mailbox im Funkhaus Europa-Radio zum Mitnehmen" text="Merkels Mailbox im Funkhaus Europa-Radio zum Mitnehmen" url="http://podcast.wdr.de/radio/merkels_mailbox.xml"/>
+    <outline type="link"  title="Energy Zürich Podcast" text="Energy Zürich Podcast" url="http://www.energyzueri.com/podcast/feed/"/>
+    <outline type="link"  title="Digital Plus" text="Digital Plus" url="http://pod.drs.ch/digital_plus_mpx.xml"/>
+    <outline type="link"  title="Ö3: Best of Comedy" text="Ö3: Best of Comedy" url="http://static.orf.at/oe3/podcast/oe3_comedy_cast.xml"/>
+    <outline type="link"  title="World Music Special" text="World Music Special" url="http://pod.drs.ch/world_music_special_mpx.xml"/>
+    <outline type="link"  title="Kontext" text="Kontext" url="http://pod.drs.ch/kontext_mpx.xml"/>
+    <outline type="link"  title="Der schöne Morgen auf radioeins" text="Der schöne Morgen auf radioeins" url="http://www.radioeins.de/rss.xml?beitrag_109930"/>
+    <outline type="link"  title="Kabarett im WDR 2-Radio zum Mitnehmen" text="Kabarett im WDR 2-Radio zum Mitnehmen" url="http://podcast.wdr.de/wdr2kabarett.xml"/>
+    <outline type="link"  title="SWR1 Thema heute" text="SWR1 Thema heute" url="http://www1.swr.de/podcast/xml/swr1/rp/thema-heute.xml"/>
+    <outline type="link"  title="Radio Bremen: Nuntii Latini" text="Radio Bremen: Nuntii Latini" url="http://www.radiobremen.de/podcast/latein/"/>
+    <outline type="link"  title="SWR4 Baden-Württemberg Baden Radio Podcast" text="SWR4 Baden-Württemberg Baden Radio Podcast" url="http://www1.swr.de/podcast/xml/swr4/bw/badenradio.xml"/>
+    <outline type="link"  title="B5 aktuell - Magazin für Wirtschaft und Soziales" text="B5 aktuell - Magazin für Wirtschaft und Soziales" url="http://www.br-online.de/podcast/magazin-fuer-wirtschaft-und-soziales/cast.xml"/>
+    <outline type="link"  title="Ratgeber" text="Ratgeber" url="http://pod.drs.ch/ratgeber_mpx.xml"/>
+    <outline type="link"  title="dradio.de Politisches Feuilleton" text="dradio.de Politisches Feuilleton" url="http://www.dradio.de/rss/podcast/sendungen/politischesfeuilleton/"/>
+    <outline type="link"  title="SWR1 Arbeitsplatz" text="SWR1 Arbeitsplatz" url="http://www1.swr.de/podcast/xml/swr1/arbeitsplatz.xml"/>
+    <outline type="link"  title="radio SAW" text="radio SAW" url="http://www.radiosaw.de/interaktiv/radiosawpod1.php"/>
+    <outline type="link"  title="NDR 1 Niedersachsen - Unser Thema" text="NDR 1 Niedersachsen - Unser Thema" url="http://www.ndr.de/podcastlink/ndr1niedersachsen_unserthema.xml"/>
+    <outline type="link"  title="Espresso" text="Espresso" url="http://pod.drs.ch/espresso_mpx.xml"/>
+    <outline type="link"  title="Energy Zürich - Bärchen &amp; Hasi" text="Energy Zürich - Bärchen &amp; Hasi" url="http://media.energyzueri.com/podcast/xml/baerchenundhasi.xml"/>
+    <outline type="link"  title="SWR2 Forum" text="SWR2 Forum" url="http://www1.swr.de/podcast/xml/swr2/forum.xml"/>
+    <outline type="link"  title="Bayern2Radio - Tagesgespräch" text="Bayern2Radio - Tagesgespräch" url="http://www.br-online.de/podcast/tagesgespraech/cast.xml"/>
+    <outline type="link"  title="Bayern 3 - Kino Kompakt" text="Bayern 3 - Kino Kompakt" url="http://www.br-online.de/podcast/kino-kompakt/cast.xml"/>
+    <outline type="link"  title="Moment mal [Hessischer Rundfunk]" text="Moment mal [Hessischer Rundfunk]" url="http://podcast.hr3.de/momentmal/podcast.xml"/>
+    <outline type="link"  title="Bayern2Radio - ZÜNDFUNK-Interview" text="Bayern2Radio - ZÜNDFUNK-Interview" url="http://www.br-online.de/podcast/zuendfunk-interview/cast.xml"/>
+    <outline type="link"  title="dradio-Studiozeit (Aus Kultur- und Sozialwissenschaften)" text="dradio-Studiozeit (Aus Kultur- und Sozialwissenschaften)" url="http://www.dradio.de/rss/podcast/sendungen/studiozeit/"/>
+    <outline type="link"  title="Radio Bremen: Friedrich Nowottny" text="Radio Bremen: Friedrich Nowottny" url="http://www.radiobremen.de/podcast/nowottny/"/>
+    <outline type="link"  title="Radio Bremen: Sommer- und Wintergäste" text="Radio Bremen: Sommer- und Wintergäste" url="http://www.radiobremen.de/podcast/gaeste/"/>
+    <outline type="link"  title="Kino-News [Hessischer Rundfunk]" text="Kino-News [Hessischer Rundfunk]" url="http://podcast.hr3.de/kinonews/podcast.xml"/>
+    <outline type="link"  title="40K Radio" text="40K Radio" url="http://www.40kradio.com/?feed=podcast"/>
+    <outline type="link"  title="BR - Ende der Welt. Die Glosse aus der radioWelt" text="BR - Ende der Welt. Die Glosse aus der radioWelt" url="http://www.br-online.de/podcast/ende-der-welt/cast.xml"/>
+    <outline type="link"  title="Bayern2Radio - Am Telefon der radioWelt" text="Bayern2Radio - Am Telefon der radioWelt" url="http://www.br-online.de/podcast/am-telefon-der-radiowelt/cast.xml"/>
+    <outline type="link"  title="NDR 1 Radio MV - Kaum zu glauben" text="NDR 1 Radio MV - Kaum zu glauben" url="http://www.ndr.de/podcastlink/ndr1radiomv_kaumzuglauben.xml"/>
+    <outline type="link"  title="Bayern2Radio - Schalom" text="Bayern2Radio - Schalom" url="http://www.br-online.de/podcast/schalom/cast.xml"/>
+    <outline type="link"  title="eldoradio* Podcast" text="eldoradio* Podcast" url="http://www.eldoradio.de/podcast/rss.php/all/"/>
+    <outline type="link"  title="Mailbox" text="Mailbox" url="http://pod.drs.ch/mailbox_mpx.xml"/>
+    <outline type="link"  title="Fritz - Fritz Info Film" text="Fritz - Fritz Info Film" url="http://www.fritz.de/podcast.xml?60_85328"/>
+    <outline type="link"  title="MDR SPUTNIK Mailbox" text="MDR SPUTNIK Mailbox" url="http://www.sputnik.de/podcast/serve.php?typ=rss&amp;podcastid=7"/>
+    <outline type="link"  title="Punkrock!" text="Punkrock!" url="http://www.pogoradio.com/?feed=podcast"/>
+    <outline type="link"  title="NDR 1 Niedersachsen - Gesundheit heute" text="NDR 1 Niedersachsen - Gesundheit heute" url="http://www.ndr.de/podcastlink/ndr1niedersachsen_gesundheitheute.xml"/>
+    <outline type="link"  title="dradio - Wirtschaftspresseschau" text="dradio - Wirtschaftspresseschau" url="http://www.dradio.de/rss/podcast/sendungen/wirtschaftspresseschau/"/>
+    <outline type="link"  title="Angela - Schicksalsjahre einer Kanzlerin" text="Angela - Schicksalsjahre einer Kanzlerin" url="http://www.ndr.de/podcastlink/angela.xml"/>
+    <outline type="link"  title="radioeins - Die besten Interviews, www.radioeins.de" text="radioeins - Die besten Interviews, www.radioeins.de" url="http://www.radioeins.de/rss.xml?beitrag_143640"/>
+    <outline type="link"  title="Plan B Talk im 1LIVE - Radio zum Mitnehmen" text="Plan B Talk im 1LIVE - Radio zum Mitnehmen" url="http://podcast.wdr.de/radio/planbtalk.xml"/>
+    <outline type="link"  title="Bayern 1 - Die Nastvogels" text="Bayern 1 - Die Nastvogels" url="http://www.br-online.de/podcast/die-nastvogels/cast.xml"/>
+    <outline type="link"  title="Radio Bremen: Alltag im Osmanischen Reich" text="Radio Bremen: Alltag im Osmanischen Reich" url="http://www.radiobremen.de/podcast/osman/"/>
+    <outline type="link"  title="Bayern 1 - Toni Lauerer" text="Bayern 1 - Toni Lauerer" url="http://www.br-online.de/podcast/toni-lauerer/cast.xml"/>
+    <outline type="link"  title="Digital" text="Digital" url="http://feeds2.feedburner.com/StadtfilterDigital"/>
+    <outline type="link"  title="Fritz - Fritz Info Bücher" text="Fritz - Fritz Info Bücher" url="http://www.fritz.de/podcast.xml?60_85327"/>
+    <outline type="link"  title="SWR2 DOKUBLOG" text="SWR2 DOKUBLOG" url="http://www.swr.de/blog/swr2_dokublog/data/rss/SWR2_DOKUBLOG.xml"/>
+    <outline type="link"  title="BürgelPodcast: Gerhard und Hilde im Zweikampf" text="BürgelPodcast: Gerhard und Hilde im Zweikampf" url="http://feeds.feedburner.com/buergel"/>
+    <outline type="link"  title="Radio Netwatcher" text="Radio Netwatcher" url="http://cba.fro.at/rss/entriesfrombroadcast.rss.php?sendungen_id=301"/>
+    <outline type="link"  title="Doppelpunkt" text="Doppelpunkt" url="http://pod.drs.ch/doppelpunkt_mpx.xml"/>
+    <outline type="link"  title="NDR 1 Niedersachsen - Bücherwelt" text="NDR 1 Niedersachsen - Bücherwelt" url="http://www.ndr.de/podcastlink/ndr1niedersachsen_buecherwelt.xml"/>
+    <outline type="link"  title="NDR 1 Niedersachsen - Kulturspiegel" text="NDR 1 Niedersachsen - Kulturspiegel" url="http://www.ndr.de/podcastlink/ndr1niedersachsen_kulturspiegel.xml"/>
+    <outline type="link"  title="dradio.de - Sprechstunde" text="dradio.de - Sprechstunde" url="http://www.dradio.de/rss/podcast/sendungen/sprechstunde/"/>
+    <outline type="link"  title="NDR Kultur - Neue Hörbücher" text="NDR Kultur - Neue Hörbücher" url="http://www.ndr.de/podcastlink/ndrkultur_neuehoerbuecher.xml"/>
+    <outline type="link"  title="RADIO4SEO" text="RADIO4SEO" url="http://www.radio4seo.de/feed"/>
+    <outline type="link"  title="Fritz - Fritz Info Multimedia" text="Fritz - Fritz Info Multimedia" url="http://www.fritz.de/podcast.xml?60_85317"/>
+    <outline type="link"  title="Diskothek im Zwei" text="Diskothek im Zwei" url="http://pod.drs.ch/diskothek_im_zwei_mpx.xml"/>
+    <outline type="link"  title="Focus - Die Talkshow" text="Focus - Die Talkshow" url="http://pod.drs.ch/focus_-_die_talkshow_mpx.xml"/>
+    <outline type="link"  title="WDR 2 - Radio zum Mitnehmen: MonTalk" text="WDR 2 - Radio zum Mitnehmen: MonTalk" url="http://www.wdr.de/radio/wdr2/podcast/wdr_2_-_radio_zum_mitnehmen_montalk_xml.phtml"/>
+    <outline type="link"  title="On the Road Again" text="On the Road Again" url="http://pod.drs.ch/on_the_road_again_mpx.xml"/>
+    <outline type="link"  title="Hit-Radio Antenne - Werder-Podcast" text="Hit-Radio Antenne - Werder-Podcast" url="http://www.antenne.com/podcast/werderinside.xml"/>
+    <outline type="link"  title="Radio Bremen: Werder-Update" text="Radio Bremen: Werder-Update" url="http://www.radiobremen.de/podcast/werder/"/>
+    <outline type="link"  title="FSK - Sunday Service" text="FSK - Sunday Service" url="http://www.sundayservice.de/podcast/feedmewithyourrss.xml"/>
+    <outline type="link"  title="B5 aktuell - Ausstellungstipps" text="B5 aktuell - Ausstellungstipps" url="http://www.br-online.de/podcast/ausstellungstipps/cast.xml"/>
+    <outline type="link"  title="Fritz - Fritz Info Mode" text="Fritz - Fritz Info Mode" url="http://www.fritz.de/podcast.xml?60_85308"/>
+    <outline type="link"  title="SWR1 Radioreport" text="SWR1 Radioreport" url="http://www1.swr.de/podcast/xml/swr1/radioreport.xml"/>
+    <outline type="link"  title="Radio Flensburg" text="Radio Flensburg" url="http://www.radio-flensburg.de/radioseiten/feed/"/>
+    <outline type="link"  title="Tunefisch" text="Tunefisch" url="http://g3de.net/podcast/feed/"/>
+    <outline type="link"  title="dradio - Kontrovers" text="dradio - Kontrovers" url="http://www.dradio.de/rss/podcast/sendungen/kontrovers/"/>
+    <outline type="link"  title="Radiowerkstatt Bonn" text="Radiowerkstatt Bonn" url="http://www.radiowerkstattbonn.de/abgehoert/podcast.php"/>
+    <outline type="link"  title="Satire Peter Schneider" text="Satire Peter Schneider" url="http://pod.drs.ch/satire_peter_schneider_mpx.xml"/>
+    <outline type="link"  title="dradio.de - Sportgespräch" text="dradio.de - Sportgespräch" url="http://www.dradio.de/rss/podcast/sendungen/sportgespraech/"/>
+    <outline type="link"  title="SWR1 Sonntagmorgen" text="SWR1 Sonntagmorgen" url="http://www1.swr.de/podcast/xml/swr1/sonntagmorgen.xml"/>
+    <outline type="link"  title="WDR 3 Lebenszeichen im Radio zum Mitnehmen" text="WDR 3 Lebenszeichen im Radio zum Mitnehmen" url="http://www.wdr.de/radio/wdr3/podcast/wdr_3_lebenszeichen_im_radio_zum_mitnehmen_xml.phtml"/>
+    <outline type="link"  title="FFH Kreuz und Quer: Best Of" text="FFH Kreuz und Quer: Best Of" url="http://ffh-best-of-kreuz-und-quer.feedplace.de/rss"/>
+    <outline type="link"  title="Input" text="Input" url="http://pod.drs.ch/input_mpx.xml"/>
+    <outline type="link"  title="Penn's Sunday School" text="Penn's Sunday School" url="http://feeds.feedburner.com/PennSundaySchool"/>
+    <outline type="link"  title="about:radio" text="about:radio" url="http://aboutradio.org/feed/"/>
+    <outline type="link"  title="Life Channel - Gottesdienst" text="Life Channel - Gottesdienst" url="http://www.erf-medien.ch/html/pod/gottesdienst.xml"/>
+    <outline type="link"  title="/dev/radio" text="/dev/radio" url="http://ulm.ccc.de/dev/radio/podcast.xml"/>
+    <outline type="link"  title="SWR1 Leute Rheinland-Pfalz" text="SWR1 Leute Rheinland-Pfalz" url="http://www1.swr.de/podcast/xml/swr1/rp/leute.xml"/>
+    <outline type="link"  title="Fenster zum Sonntag - Talk" text="Fenster zum Sonntag - Talk" url="http://www.erf.ch/html/pod/fenster_zum_sonntag.xml"/>
+    <outline type="link"  title="Lattenknaller - Der SC Freiburg Podcast" text="Lattenknaller - Der SC Freiburg Podcast" url="http://static.regenbogen.de/podcast/sport/scf/sc-freiburg.xml"/>
+    <outline type="link"  title="SWR2 Meinung" text="SWR2 Meinung" url="http://www1.swr.de/podcast/xml/swr2/meinung.xml"/>
+    <outline type="link"  title="Zum Glück ist Freitag" text="Zum Glück ist Freitag" url="http://pod.drs.ch/zum-glueck-ist-freitag_mpx.xml"/>
+    <outline type="link"  title="SWR2 Tandem" text="SWR2 Tandem" url="http://www1.swr.de/podcast/xml/swr2/tandem.xml"/>
+    <outline type="link"  title="Neues vom Känguru" text="Neues vom Känguru" url="http://www.fritz.de/media/podcasts/serien/neues_vom_kaenguru_podcast.feed.podcast.xml"/>
+    <outline type="link"  title="High Noon" text="High Noon" url="http://www.fritz.de/media/podcasts/sendungen/high_noon.feed.podcast.xml"/>
+    <outline type="link"  title="Radio Argovia Beiträge Podcast" text="Radio Argovia Beiträge Podcast" url="http://www.argovia.ch/podcast/Feed2.xml"/>
+    <outline type="link"  title="Morgomatthias und seine Verschwörungstheorie der Woche" text="Morgomatthias und seine Verschwörungstheorie der Woche" url="http://feeds.feedburner.com/verschwthdw"/>
+    <outline type="link"  title="Ö3: Movie-Minute" text="Ö3: Movie-Minute" url="http://static.orf.at/oe3/podcast/oe3_movieminute.xml"/>
+    <outline type="link"  title="Radio Argovia Regierigsrot / Kolumne" text="Radio Argovia Regierigsrot / Kolumne" url="http://www.argovia.ch/podcast/Feed21.xml"/>
+    <outline type="link"  title="Freakonomics Radio" text="Freakonomics Radio" url="http://feeds.feedburner.com/freakonomicsradio"/>
+    <outline type="link"  title="Pogoradio" text="Pogoradio" url="http://www.pogoradio.de/feed/"/>
+    <outline type="link"  title="Lödie" text="Lödie" url="http://feeds.feedburner.com/Loedie"/>
+    <outline type="link"  title="LateLine" text="LateLine" url="http://podcast.hr-online.de/lateline/podcast.xml"/>
+    <outline type="link"  title="KOSCHWITZ ZUM WOCHENENDE" text="KOSCHWITZ ZUM WOCHENENDE" url="http://www.thomas-koschwitz.de/pod/feed.xml"/>
+    <outline type="link"  title="Release Yourself" text="Release Yourself" url="http://rystealth.libsyn.com/rss"/>
+    <outline type="link"  title="RadioIndustrie » Indiependance" text="RadioIndustrie » Indiependance" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=22"/>
+    <outline type="link"  title="UPTOWNS FINEST Podcast" text="UPTOWNS FINEST Podcast" url="http://feeds.feedburner.com/uptownsfinestradio"/>
+    <outline type="link"  title="ARD Radio Tatort" text="ARD Radio Tatort" url="http://web.ard.de/radiotatort/rss/podcast.xml"/>
+    <outline type="link"  title="Radio Bremen: Zudeicks Woche" text="Radio Bremen: Zudeicks Woche" url="http://www.radiobremen.de/podcast/zudeick/"/>
+    <outline type="link"  title="Alle C3D2-Podcasts" text="Alle C3D2-Podcasts" url="http://c3d2.de/podcast.xml"/>
+    <outline type="link"  title="SWR2 Feature" text="SWR2 Feature" url="http://www1.swr.de/podcast/xml/swr2/feature.xml"/>
+    <outline type="link"  title="FM4 Comedy Podcast" text="FM4 Comedy Podcast" url="http://static.orf.at/fm4/podcast/fm4_comedy.xml"/>
+    <outline type="link"  title="Zwei auf EINS" text="Zwei auf EINS" url="http://www.radioeins.de/archiv/podcast/zwei_auf_eins.feed.podcast.xml"/>
+    <outline type="link"  title="Medienmagazin der ADDX e.V." text="Medienmagazin der ADDX e.V." url="http://www.addx.de/hwl/podcast.xml"/>
+    <outline type="link"  title="NDR Info - Der satirische Wochenrückblick" text="NDR Info - Der satirische Wochenrückblick" url="http://www.ndr.de/podcastlink/satirischer_wochenrueckblick.xml"/>
+    <outline type="link"  title="radio SAW - Was heisst das auf deutsch?" text="radio SAW - Was heisst das auf deutsch?" url="http://www.radiosaw.de/interaktiv/washeisstdaspod1.xml"/>
+    <outline type="link"  title="3min radio - 3 minuten radio" text="3min radio - 3 minuten radio" url="http://feeds.feedburner.com/dreiminuten"/>
+    <outline type="link"  title="Trick 17" text="Trick 17" url="http://trick17-podcast.de/feed/mp3/"/>
+    <outline type="link"  title="Trick 17" text="Trick 17" url="http://trick17-podcast.de/feed/m4a/"/>
+    <outline type="link"  title="Trick 17" text="Trick 17" url="http://trick17-podcast.de/feed/opus/"/>
+    <outline type="link"  title="Lokalmagazin (lokalmagazin)" text="Lokalmagazin (lokalmagazin)" url="http://lokalmagazin.wueste-welle.de/?feed=podcast&amp;format=lokalmagazin"/>
+    <outline type="link"  title="Azimut" text="Azimut" url="http://feeds.feedburner.com/azimut/"/>
+    <outline type="link"  title="C-RaDaR" text="C-RaDaR" url="http://c-radar.de/feed.xml"/>
+    <outline type="link"  title="RadioIndustrie » Dope on Plastic" text="RadioIndustrie » Dope on Plastic" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=46"/>
+    <outline type="link"  title="Radio Argovia gseit isch gseit" text="Radio Argovia gseit isch gseit" url="http://www.argovia.ch/podcast/Feed20.xml"/>
+    <outline type="link"  title="Hackerfunk: OGG" text="Hackerfunk: OGG" url="http://www.hackerfunk.ch/podcast.php?cat=OGG"/>
+    <outline type="link"  title="PodJournalen" text="PodJournalen" url="http://www.provector.dk/PodJournalen/"/>
+    <outline type="link"  title="Antenne Witten" text="Antenne Witten" url="http://podcast.antennewitten.de/"/>
+    <outline type="link"  title="FranksHandicapTalk - DER Podcast für Menschen mit Behinderung" text="FranksHandicapTalk - DER Podcast für Menschen mit Behinderung" url="http://handicap.podomatic.com/rss2.xml"/>
+    <outline type="link"  title="SWR1 Mittwochsthema Ratgeber" text="SWR1 Mittwochsthema Ratgeber" url="http://www1.swr.de/podcast/xml/swr1/rp/mittwochsthema.xml"/>
+    <outline type="link"  title="Florian Priemel Podcast" text="Florian Priemel Podcast" url="http://florianpriemel.de/feed/mp3/"/>
+    <outline type="link"  title="A Palaver" text="A Palaver" url="http://sendungsarchiv.o94.at/podcast_palaver_all.php?series=094se21"/>
+    <outline type="link"  title="radio ffn: crazyphone" text="radio ffn: crazyphone" url="http://www.ffn.de/podcast/crazyphone.xml"/>
+    <outline type="link"  title="Michaelas Welt, der Podcast zum Blog (www.michaela-bodensee.de)" text="Michaelas Welt, der Podcast zum Blog (www.michaela-bodensee.de)" url="http://audioboo.fm/users/39903/boos.rss"/>
+    <outline type="link"  title="Kite FM - Only For Surfers" text="Kite FM - Only For Surfers" url="http://starzone.podspot.de/rss"/>
+    <outline type="link"  title="FreeQuency" text="FreeQuency" url="http://feeds.feedburner.com/freequency-podcast"/>
+    <outline type="link"  title="zip-fm: Das Nachrichtenmagazin" text="zip-fm: Das Nachrichtenmagazin" url="http://www.freie-radios.net/portal/podcast.php?serie=53&amp;rss"/>
+    <outline type="link"  title="Radio Bremen: Best of Bremen Vier" text="Radio Bremen: Best of Bremen Vier" url="http://www.radiobremen.de/podcast/bestof/"/>
+    <outline type="link"  title="Ö3: Der Frühstück-bei-mir-Podcast" text="Ö3: Der Frühstück-bei-mir-Podcast" url="http://static.orf.at/oe3/podcast/oe3_fruehstueck.xml"/>
+    <outline type="link"  title="Radio Argovia Person der Woche" text="Radio Argovia Person der Woche" url="http://www.argovia.ch/podcast/Feed18.xml"/>
+    <outline type="link"  title="B5 aktuell - Samstagsforum" text="B5 aktuell - Samstagsforum" url="http://www.br-online.de/podcast/samstagsforum/cast.xml"/>
+    <outline type="link"  title="Bayern2Radio - KLARO - Nachrichten für Kinder" text="Bayern2Radio - KLARO - Nachrichten für Kinder" url="http://www.br-online.de/podcast/klaro/cast.xml"/>
+    <outline type="link"  title="freie-radios.net (Radio Wüste Welle, Tübingen)" text="freie-radios.net (Radio Wüste Welle, Tübingen)" url="http://www.freie-radios.net/portal/podcast.php?radio=67&amp;rss"/>
+    <outline type="link"  title="Antenne Hessen" text="Antenne Hessen" url="http://www.radiohessen.com/feed"/>
+    <outline type="link"  title="Fréquence Banane | Podcasting 2" text="Fréquence Banane | Podcasting 2" url="http://podcast.frequencebanane.ch/index.xml"/>
+    <outline type="link"  title="Kiezradio" text="Kiezradio" url="http://kiezradio.org/?feed=rss"/>
+    <outline type="link"  title="onda - Agéncia radiofónica Latinoamérica-Europa (Alle Beiträge)" text="onda - Agéncia radiofónica Latinoamérica-Europa (Alle Beiträge)" url="http://www.npla.de/onda/feed/?"/>
+    <outline type="link"  title="Couch-tv" text="Couch-tv" url="http://couch-tv.podspot.de/rss"/>
+    <outline type="link"  title="Radio Argovia Relax" text="Radio Argovia Relax" url="http://www.argovia.ch/podcast/Feed15.xml"/>
+    <outline type="link"  title="Knallbunt - Das Hoerspielmagazin" text="Knallbunt - Das Hoerspielmagazin" url="http://www.hoerspieltipps.net/media/knallbunt.xml"/>
+    <outline type="link"  title="Campuswelle" text="Campuswelle" url="http://feeds.feedburner.com/campuswelle"/>
+    <outline type="link"  title="Kinderradio im WDR 5-Radio zum Mitnehmen" text="Kinderradio im WDR 5-Radio zum Mitnehmen" url="http://podcast.wdr.de/radio/lilipuz.xml"/>
+    <outline type="link"  title="Studio B" text="Studio B" url="http://feeds.falschgold.net/studio-b"/>
+    <outline type="link"  title="Hart aber fair" text="Hart aber fair" url="http://podcast.wdr.de/hartaberfair.xml"/>
+    <outline type="link"  title="Das Grundrauschen" text="Das Grundrauschen" url="http://feeds.feedburner.com/dasgrundrauschen"/>
+    <outline type="link"  title="radio SAW Airplay - Das Interview der Woche" text="radio SAW Airplay - Das Interview der Woche" url="http://airplay.podspot.de/rss"/>
+    <outline type="link"  title="Forum WDR 3 im WDR 3 Radio zum Mitnehmen" text="Forum WDR 3 im WDR 3 Radio zum Mitnehmen" url="http://www.wdr.de/radio/wdr3/podcast/forum_wdr_3_im_wdr_3_radio_zum_mitnehmen_xml.phtml"/>
+    <outline type="link"  title="SeitenwindPodcast" text="SeitenwindPodcast" url="http://feeds2.feedburner.com/StadtfilterSeitenwind"/>
+    <outline type="link"  title="Radio Bremen: Check Up" text="Radio Bremen: Check Up" url="http://www.radiobremen.de/podcast/checkup/"/>
+    <outline type="link"  title="Radio.Fettgusche.Net - direkt aus Gera" text="Radio.Fettgusche.Net - direkt aus Gera" url="http://fettgusche.podspot.de/rss"/>
+    <outline type="link"  title="nachtlager.de | DOMIAN-Audio-Podcast (LQ)" text="nachtlager.de | DOMIAN-Audio-Podcast (LQ)" url="http://nachtlager.de/go/de/feed/podcast-lq"/>
+    <outline type="link"  title="Energy Zürich Podcast : Zu Besuch bei Jontsch » Zu Besuch bei Jontsch" text="Energy Zürich Podcast : Zu Besuch bei Jontsch » Zu Besuch bei Jontsch" url="http://www.energyzueri.com/podcast/category/zu-besuch-bei-jontsch/?feed=podcast"/>
+    <outline type="link"  title="bvnradio" text="bvnradio" url="http://www.o-ton-team.de/podcast/bvnradio/bvnradio.xml"/>
+    <outline type="link"  title="RadioIndustrie » Distortion" text="RadioIndustrie » Distortion" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=30"/>
+    <outline type="link"  title="Radio Wien Menschen im Gespräch" text="Radio Wien Menschen im Gespräch" url="http://static.orf.at/podcast/wienmagazin/rw_menschen.xml"/>
+    <outline type="link"  title="The Glitterboys Radioshow" text="The Glitterboys Radioshow" url="http://podcast.glitterboys.de/feed.xml"/>
+    <outline type="link"  title="Energy Zürich - Kino-Tipp" text="Energy Zürich - Kino-Tipp" url="http://media.energyzueri.com/podcast/xml/energymovietipp.xml"/>
+    <outline type="link"  title="KingRadio" text="KingRadio" url="http://kingradio.podspot.de/rss"/>
+    <outline type="link"  title="Open Science Radio" text="Open Science Radio" url="http://bitlove.org/mfromm/openscienceradio-opus/feed"/>
+    <outline type="link"  title="Open Science Radio" text="Open Science Radio" url="http://bitlove.org/mfromm/openscienceradio-mp4/feed"/>
+    <outline type="link"  title="Open Science Radio" text="Open Science Radio" url="http://bitlove.org/mfromm/openscienceradio-mp3/feed"/>
+    <outline type="link"  title="Open Science Radio" text="Open Science Radio" url="http://www.openscienceradio.de/feed/opus/"/>
+    <outline type="link"  title="Open Science Radio" text="Open Science Radio" url="http://www.openscienceradio.de/feed/mp4/"/>
+    <outline type="link"  title="Open Science Radio" text="Open Science Radio" url="http://www.openscienceradio.de/feed/mp3/"/>
+    <outline type="link"  title="Mespotine-Sessions" text="Mespotine-Sessions" url="http://feeds.feedburner.com/Mespotine-sessions"/>
+    <outline type="link"  title="Oestrosteron" text="Oestrosteron" url="http://feeds2.feedburner.com/StadtfilterOestrosteron"/>
+    <outline type="link"  title="Die Sondersendung" text="Die Sondersendung" url="http://die-sondersendung.de/feed/mp3/"/>
+    <outline type="link"  title="Die Sondersendung" text="Die Sondersendung" url="http://die-sondersendung.de/feed/oga/"/>
+    <outline type="link"  title="Die Sondersendung" text="Die Sondersendung" url="http://die-sondersendung.de/feed/m4a/"/>
+    <outline type="link"  title="Die Sondersendung" text="Die Sondersendung" url="http://die-sondersendung.de/feed/opus/"/>
+    <outline type="link"  title="Die Carolumne" text="Die Carolumne" url="http://www.fritz.de/spass/comedy/carolumne/vodcast/carolumne_vodcast.feed.podcast.xml"/>
+    <outline type="link"  title="AudioMax" text="AudioMax" url="http://audiomax.podspot.de/rss"/>
+    <outline type="link"  title="Fnordfunk" text="Fnordfunk" url="http://fnordfunk.cccmz.de/?feed=rss2"/>
+    <outline type="link"  title="http://rundfunk8.podspot.de" text="http://rundfunk8.podspot.de" url="http://rundfunk8.podspot.de/rss"/>
+    <outline type="link"  title="dradio - Schlaglicht" text="dradio - Schlaglicht" url="http://www.dradio.de/rss/podcast/sendungen/schlaglicht/"/>
+    <outline type="link"  title="PRIDE1 Podcast" text="PRIDE1 Podcast" url="http://www.pride1radio.com/index.php?option=com_podcast&amp;view=feed&amp;format=raw"/>
+    <outline type="link"  title="PRIDE1 Podcast" text="PRIDE1 Podcast" url="http://podcast.pride1radio.com/"/>
+    <outline type="link"  title="Radio OS" text="Radio OS" url="http://franzrock.podspot.de/rss"/>
+    <outline type="link"  title="Der Pod" text="Der Pod" url="http://podcast.radiobuchholz.de/rss.php"/>
+    <outline type="link"  title="Energy Zürich - Energy Startalk" text="Energy Zürich - Energy Startalk" url="http://media.energyzueri.com/podcast/xml/startalk.xml"/>
+    <outline type="link"  title="Volksmusik-Brunch" text="Volksmusik-Brunch" url="http://pod.drs.ch/volksmusik-brunch_mpx.xml"/>
+    <outline type="link"  title="Ufsteller - die beliebteste Morgenshow von Zürich" text="Ufsteller - die beliebteste Morgenshow von Zürich" url="http://podcast.radio24.ch/ufsteller/"/>
+    <outline type="link"  title="Bayern 1 - Heizi und Kurti" text="Bayern 1 - Heizi und Kurti" url="http://www.br-online.de/podcast/heinzi-und-kurti/cast.xml"/>
+    <outline type="link"  title="Hoersturz" text="Hoersturz" url="http://www.hoersturz-podcast.de/Hoersturz/Podcast/rss.xml"/>
+    <outline type="link"  title="netz10.de Podcast" text="netz10.de Podcast" url="http://netz10.de/category/podcast-2/feed/"/>
+    <outline type="link"  title="Sebastien-B : House From Ibiza" text="Sebastien-B : House From Ibiza" url="http://feeds.feedburner.com/Sebastien-bHouseFromIbiza"/>
+    <outline type="link"  title="Radio Freies Vienenburg" text="Radio Freies Vienenburg" url="http://stravnoiisolator.bplaced.net/Radio_Freies_Vienenburg"/>
+    <outline type="link"  title="dradio.de Kulturinterview" text="dradio.de Kulturinterview" url="http://www.dradio.de/rss/podcast/sendungen/kulturinterview/"/>
+    <outline type="link"  title="dradio.de - Signale" text="dradio.de - Signale" url="http://www.dradio.de/rss/podcast/sendungen/signale/"/>
+    <outline type="link"  title="Der ScreenMediaCast Radio Podcast" text="Der ScreenMediaCast Radio Podcast" url="http://www.smcpodcast.tk/feed/podcast/"/>
+    <outline type="link"  title="IRIB - Radio Islam" text="IRIB - Radio Islam" url="http://german.irib.ir/radioislam/archiv?format=podcast&amp;type=rss"/>
+    <outline type="link"  title="T-Radio" text="T-Radio" url="http://t-radio.podspot.de/rss"/>
+    <outline type="link"  title="mephisto 97.6" text="mephisto 97.6" url="http://mephisto976.uni-leipzig.de/podcast.xml"/>
+    <outline type="link"  title="Radio Argovia Beiträge Moderation" text="Radio Argovia Beiträge Moderation" url="http://www.argovia.ch/podcast/Feed7.xml"/>
+    <outline type="link"  title="SWR1 Thema heute" text="SWR1 Thema heute" url="http://www1.swr.de/podcast/xml/swr1/bw/thema-heute.xml"/>
+    <outline type="link"  title="Comedy Radio Show - Radiopodcast" text="Comedy Radio Show - Radiopodcast" url="http://www.comedyradioshow.de/news.xml"/>
+    <outline type="link"  title="RadioIndustrie » ??? Neues ???" text="RadioIndustrie » ??? Neues ???" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=26"/>
+    <outline type="link"  title="RadioIndustrie » Plattenkiste" text="RadioIndustrie » Plattenkiste" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=28"/>
+    <outline type="link"  title="CrossChannel.de CrossUp" text="CrossChannel.de CrossUp" url="http://www.crosschannel.de/webradio/rss/crossup.rss"/>
+    <outline type="link"  title="DRS2aktuell" text="DRS2aktuell" url="http://pod.drs.ch/drs2aktuell_mpx.xml"/>
+    <outline type="link"  title="Bayerisches Fernsehen - Münchner Runde" text="Bayerisches Fernsehen - Münchner Runde" url="http://www.br-online.de/podcast/muenchner-runde/cast.xml"/>
+    <outline type="link"  title="Atlas" text="Atlas" url="http://pod.drs.ch/atlas_mpx.xml"/>
+    <outline type="link"  title="RUMsenden.de» Sendung mit dem Pinguin" text="RUMsenden.de» Sendung mit dem Pinguin" url="http://podcast.radio-gfm.net/rum-tux.php"/>
+    <outline type="link"  title="domradio - Predigt (Video-Mitschnitt aus den Heiligen Messen im Kölner" text="domradio - Predigt (Video-Mitschnitt aus den Heiligen Messen im Kölner" url="http://217.115.153.122/audio/podcast/video/video.xml"/>
+    <outline type="link"  title="domradio - Taize (Audio-Mitschnitt der Lichterfeier aus Taize)" text="domradio - Taize (Audio-Mitschnitt der Lichterfeier aus Taize)" url="http://217.115.153.122/audio/podcast/taize/taize.xml"/>
+    <outline type="link"  title="«Best of» - Die Ausland-Woche" text="«Best of» - Die Ausland-Woche" url="http://pod.drs.ch/drs4_bestof_ausland_mpx.xml"/>
+    <outline type="link"  title="DRS 4 Newspod" text="DRS 4 Newspod" url="http://pod.drs.ch/drs4_newspod_mpx.xml"/>
+    <outline type="link"  title="http://planet-heaven.podspot.de/rss" text="http://planet-heaven.podspot.de/rss" url="http://planet-heaven.podspot.de/rss"/>
+    <outline type="link"  title="Daily Hubert" text="Daily Hubert" url="http://daily-hubert.podspot.de/rss"/>
+    <outline type="link"  title="dradio-Dokumente und Debatten" text="dradio-Dokumente und Debatten" url="http://www.dradio.de/rss/podcast/sendungen/debatten/"/>
+    <outline type="link"  title="dradio.de - Korrespondentengespräch" text="dradio.de - Korrespondentengespräch" url="http://www.dradio.de/rss/podcast/sendungen/korrespondentengespraech/"/>
+    <outline type="link"  title="95.5 Charivari TV - Der Video-Podcast" text="95.5 Charivari TV - Der Video-Podcast" url="http://charivari-video.feedplace.de/rss"/>
+    <outline type="link"  title="Netzgespräch" text="Netzgespräch" url="http://pod.drs.ch/netzgespraech_mpx.xml"/>
+    <outline type="link"  title="http://radioaktiv1065.podspot.de" text="http://radioaktiv1065.podspot.de" url="http://radioaktiv1065.podspot.de/rss"/>
+    <outline type="link"  title="Bayern 3 - Volles Rohr - Susanne Rohrers Autotest" text="Bayern 3 - Volles Rohr - Susanne Rohrers Autotest" url="http://www.br-online.de/podcast/volles-rohr-autotest/cast.xml"/>
+    <outline type="link"  title="Energy Zürich Podcast : Sommer sucht Sprosse » Sommer sucht Sprosse" text="Energy Zürich Podcast : Sommer sucht Sprosse » Sommer sucht Sprosse" url="http://www.energyzueri.com/podcast/category/sommer-sucht-sprosse/?feed=podcast"/>
+    <outline type="link"  title="Radio Welle West Wetterau" text="Radio Welle West Wetterau" url="http://feeds.feedburner.com/Radio-WelleWestWetterau-Podcast"/>
+    <outline type="link"  title="RadioIndustrie » Freakadelika" text="RadioIndustrie » Freakadelika" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=56"/>
+    <outline type="link"  title="urban68" text="urban68" url="http://urban68.podspot.de/rss"/>
+    <outline type="link"  title="Radioanstalt" text="Radioanstalt" url="http://www.radioanstalt.de/?feed=rss2"/>
+    <outline type="link"  title="Top-Thema mit Vokabeln | Deutsch Lernen | Deutsche Welle" text="Top-Thema mit Vokabeln | Deutsch Lernen | Deutsche Welle" url="http://rss.dw-world.de/xml/podcast_top-thema_mit_vokabeln"/>
+    <outline type="link"  title="cs_mag" text="cs_mag" url="http://www.csmag.de/feed/cs-mag-reverse.xml"/>
+    <outline type="link"  title="cs_mag-podcast" text="cs_mag-podcast" url="http://www.csmag.de/feed/cs-mag-reverse-copy.xml"/>
+    <outline type="link"  title="Signal podcast (Ogg)" text="Signal podcast (Ogg)" url="http://signal.hackerspaces.org/archive/signal-ogg.xml"/>
+    <outline type="link"  title="Podcast von Radio Gartenzwerg" text="Podcast von Radio Gartenzwerg" url="http://radio-gartenzwerg.de/index.php?option=com_podcast&amp;view=feed&amp;format=raw"/>
+    <outline type="link"  title="CS-Mag - Computerspiele-Magazin" text="CS-Mag - Computerspiele-Magazin" url="http://www.csmag.de/feed/cs-mag-podcast.xml"/>
+    <outline type="link"  title="RadioIndustrie » Industrie Urban" text="RadioIndustrie » Industrie Urban" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=50"/>
+    <outline type="link"  title="YOU FM Aktuell" text="YOU FM Aktuell" url="http://podcast.you-fm.de/aktuell/podcast.xml"/>
+    <outline type="link"  title="FFH: Das Beste aus Guten Morgen, Hessen!" text="FFH: Das Beste aus Guten Morgen, Hessen!" url="http://ffh-das-beste-aus-guten-morgen-hessen.feedplace.de/rss"/>
+    <outline type="link"  title="Wissen Und Vermuten" text="Wissen Und Vermuten" url="http://feeds2.feedburner.com/StadtfilterWissenUndVermuten"/>
+    <outline type="link"  title="freie-radios.net (ABSINTH)" text="freie-radios.net (ABSINTH)" url="http://www.freie-radios.net/portal/podcast.php?serie=269&amp;rss"/>
+    <outline type="link"  title="Radio 1 - Roger gegen Roger" text="Radio 1 - Roger gegen Roger" url="http://www.radio1.ch/library/podcasts/roger_roger/feed.xml"/>
+    <outline type="link"  title="Radio 1 - Morgenkolumnen" text="Radio 1 - Morgenkolumnen" url="http://www.radio1.ch/library/podcasts/morgenkolumnen/feed.xml"/>
+    <outline type="link"  title="Kino-Podcast.de" text="Kino-Podcast.de" url="http://rss.kino-podcast.de/kino-podcast.de.xml"/>
+    <outline type="link"  title="Radio 1 - Doppelpunkt" text="Radio 1 - Doppelpunkt" url="http://www.radio1.ch/library/podcasts/doppelpunkt/feed.xml"/>
+    <outline type="link"  title="Bayern 1 - Katholische Morgenfeier" text="Bayern 1 - Katholische Morgenfeier" url="http://www.br-online.de/podcast/morgenfeier-kath/cast.xml"/>
+    <outline type="link"  title="Bayern 1 - Evangelische Morgenfeier" text="Bayern 1 - Evangelische Morgenfeier" url="http://www.br-online.de/podcast/morgenfeier-evang/cast.xml"/>
+    <outline type="link"  title="B5 aktuell - Die Kirchen" text="B5 aktuell - Die Kirchen" url="http://www.br-online.de/podcast/die-kirchen/cast.xml"/>
+    <outline type="link"  title="Radio 1 - Fashion" text="Radio 1 - Fashion" url="http://www.radio1.ch/library/podcasts/fashion/feed.xml"/>
+    <outline type="link"  title="Bayern2Radio - Der Bürgermeister von Sindlasreuth aus der Bayernchroni" text="Bayern2Radio - Der Bürgermeister von Sindlasreuth aus der Bayernchroni" url="http://www.br-online.de/podcast/bayernchronik-buergermeister/cast.xml"/>
+    <outline type="link"  title="Bayern2Radio - Süß-Stoff der Woche" text="Bayern2Radio - Süß-Stoff der Woche" url="http://www.br-online.de/podcast/suess-stoff-der-woche/cast.xml"/>
+    <outline type="link"  title="RadioIndustrie » Mumu's Jukebox" text="RadioIndustrie » Mumu's Jukebox" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=34"/>
+    <outline type="link"  title="Bayern2Radio - Nahaufnahme der Woche" text="Bayern2Radio - Nahaufnahme der Woche" url="http://www.br-online.de/podcast/nahaufnahme-der-woche/cast.xml"/>
+    <outline type="link"  title="Bayern 3 - Bruno Jonas ist Claus E. Rosstäuscher" text="Bayern 3 - Bruno Jonas ist Claus E. Rosstäuscher" url="http://www.br-online.de/podcast/bruno-jonas-rosstaeuscher/cast.xml"/>
+    <outline type="link"  title="Bayern 3 - Alfons Schuhbeck - Gerichte mit Geschichte" text="Bayern 3 - Alfons Schuhbeck - Gerichte mit Geschichte" url="http://www.br-online.de/podcast/alfons-schuhbeck-gerichte-mit-geschichte/cast.xml"/>
+    <outline type="link"  title="Antenne Hessen Podcast" text="Antenne Hessen Podcast" url="http://www.antenne-hessen.com/rss.xml"/>
+    <outline type="link"  title="RadioR2D2" text="RadioR2D2" url="http://radior2d2.buzzsprout.com/5776.rss"/>
+    <outline type="link"  title="hsfpodcast" text="hsfpodcast" url="http://www.hsf.tu-ilmenau.de/blog/?feed=podcast"/>
+    <outline type="link"  title="FFH Hitverhörer" text="FFH Hitverhörer" url="http://ffh-hitverhoerer.feedplace.de/rss"/>
+    <outline type="link"  title="Radio 1 - Kochmagazin" text="Radio 1 - Kochmagazin" url="http://www.radio1.ch/library/podcasts/kochmagazin/feed.xml"/>
+    <outline type="link"  title="SWR2 Short Teenage Stories" text="SWR2 Short Teenage Stories" url="http://www1.swr.de/podcast/xml/swr2/short-teenage-stories.xml"/>
+    <outline type="link"  title="So oder so ähnlich - das Kinderbibelquiz" text="So oder so ähnlich - das Kinderbibelquiz" url="http://www.ekn.de/podcast/ffn-kibi.xml"/>
+    <outline type="link"  title="Intertape - ein unabhaengiger aktiver Audiokreis" text="Intertape - ein unabhaengiger aktiver Audiokreis" url="http://www.intertape.de/rss.xml"/>
+    <outline type="link"  title="RadioIndustrie » Slang Headz" text="RadioIndustrie » Slang Headz" url="http://www.radioindustrie.ch/?feed=podcast&amp;cat=49"/>
+    <outline type="link"  title="Radio 1 - Alleswisser" text="Radio 1 - Alleswisser" url="http://www.radio1.ch/library/podcasts/alleswisser/feed.xml"/>
+    <outline type="link"  title="Radio Bremen: Karlsens Fälle" text="Radio Bremen: Karlsens Fälle" url="http://www.radiobremen.de/podcast/karlsen/"/>
+    <outline type="link"  title="Podcast: Radio Bremen - Karlsens Fälle" text="Podcast: Radio Bremen - Karlsens Fälle" url="http://www.podcast.de/rss/episoden/podcast/1748"/>
+    <outline type="link"  title="CS-Mag-Podcast" text="CS-Mag-Podcast" url="http://pipes.yahoo.com/pipes/pipe.run?_id=8765bbf51d27d8deefd030bb7062a51b&amp;_render=rss"/>
+    <outline type="link"  title="Filmszenen" text="Filmszenen" url="http://filmszenen.podspot.de/rss"/>
+    <outline type="link"  title="Radio 24 Podcasts » CH-Szene" text="Radio 24 Podcasts » CH-Szene" url="http://podcast.radio24.ch/wordpress/?feed=rss2&amp;category_name=ch-szene"/>
+    <outline type="link"  title="radioeins Escape - Der Experte" text="radioeins Escape - Der Experte" url="http://www.radioeins.de/rss.xml?beitrag_112658"/>
+    <outline type="link"  title="SWR2 Dschungel" text="SWR2 Dschungel" url="http://www1.swr.de/podcast/xml/swr2/dschungel.xml"/>
+    <outline type="link"  title="Medienwerkstatt Minden-Lübbecke Podcast" text="Medienwerkstatt Minden-Lübbecke Podcast" url="http://medienwerkstatt.podspot.de/rss"/>
+    <outline type="link"  title="Poetry Club Interactive" text="Poetry Club Interactive" url="http://www.brainspit.net/podcasts/pci/rss.xml"/>
+    <outline type="link"  title="SWR4 Blickpunkt" text="SWR4 Blickpunkt" url="http://www1.swr.de/podcast/xml/swr4/rp/blickpunkt.xml"/>
+    <outline type="link"  title="SWR cont.ra - Aus Religion, Kirche und Gesellschaft" text="SWR cont.ra - Aus Religion, Kirche und Gesellschaft" url="http://www1.swr.de/podcast/xml/contra/rkg.xml"/>
+    <outline type="link"  title="Wochenhoroskop [Hessischer Rundfunk]" text="Wochenhoroskop [Hessischer Rundfunk]" url="http://www.hr-online.de/website/static/podcasting/hr3_wochenhoroskop/podcast.xml"/>
+    <outline type="link"  title="http://rose-wood.podspot.de" text="http://rose-wood.podspot.de" url="http://rose-wood.podspot.de/rss"/>
+    <outline type="link"  title="NDR 1 Radio MV - Walbergs Bestseller" text="NDR 1 Radio MV - Walbergs Bestseller" url="http://www.ndr.de/podcastlink/ndr1radiomv_walberg.xml"/>
+    <outline type="link"  title="Soundfacts: Forschung/Wissenschaft/Technik" text="Soundfacts: Forschung/Wissenschaft/Technik" url="http://www.soundfacts.de/podcast/forschung.xml"/>
+    <outline type="link"  title="Bayern 3 - Chris Boettchers Fußball Task Force" text="Bayern 3 - Chris Boettchers Fußball Task Force" url="http://www.br-online.de/podcast/chris-boettchers-fussball-task-force/cast.xml"/>
+    <outline type="link"  title="NDR 2 - Bahn-Reisen" text="NDR 2 - Bahn-Reisen" url="http://www.ndr.de/podcastlink/ndr2_bahnreisen.xml"/>
+    <outline type="link"  title="Menschen am Sonntag [Antenne Bayern]" text="Menschen am Sonntag [Antenne Bayern]" url="http://www.antenne.de/podcasts/menschen_sonntag/index.xml.php"/>
+    <outline type="link"  title="Pressestimmen" text="Pressestimmen" url="http://www1.swr.de/podcast/xml/pressestimmen.xml"/>
+    <outline type="link"  title="Internationale Pressestimmen" text="Internationale Pressestimmen" url="http://www1.swr.de/podcast/xml/internationale-pressestimmen.xml"/>
+    <outline type="link"  title="Soundfacts: Unterhaltung" text="Soundfacts: Unterhaltung" url="http://www.soundfacts.de/podcast/unterhaltung.xml"/>
+    <outline type="link"  title="Soundfacts: Computer&amp;Technik" text="Soundfacts: Computer&amp;Technik" url="http://www.soundfacts.de/podcast/computer.xml"/>
+    <outline type="link"  title="Soundfacts Podcast Radio, Winterolympiade 2006 Turin" text="Soundfacts Podcast Radio, Winterolympiade 2006 Turin" url="http://www.soundfacts.de/podcast/olympia.xml"/>
+    <outline type="link"  title="Soundfacts: Aktuelles&amp;Nachrichten" text="Soundfacts: Aktuelles&amp;Nachrichten" url="http://www.soundfacts.de/podcast/aktuelles.xml"/>
+    <outline type="link"  title="Soundfacts: Sport" text="Soundfacts: Sport" url="http://www.soundfacts.de/podcast/sport.xml"/>
+    <outline type="link"  title="SWR4 Thema des Tages" text="SWR4 Thema des Tages" url="http://www1.swr.de/podcast/xml/swr4/bw/thema-des-tages.xml"/>
+    <outline type="link"  title="SWR4 Der Tag in Rheinland-Pfalz" text="SWR4 Der Tag in Rheinland-Pfalz" url="http://www1.swr.de/podcast/xml/swr4/rp/der-tag-in-rheinland-pfalz.xml"/>
+    <outline type="link"  title="Radio 1 - Tageskommentar" text="Radio 1 - Tageskommentar" url="http://www.radio1.ch/library/podcasts/tageskommentar/feed.xml"/>
+    <outline type="link"  title="Soundfacts: Medizin&amp;Gesundheit" text="Soundfacts: Medizin&amp;Gesundheit" url="http://www.soundfacts.de/podcast/medizin.xml"/>
+    <outline type="link"  title="RadioTux" text="RadioTux" url="http://www.linuxpodcast.de/audio/rss.xml"/>
+    <outline type="link"  title="radioeins Escape - Der Spieler" text="radioeins Escape - Der Spieler" url="http://www.radioeins.de/rss.xml?beitrag_112657"/>
+    <outline type="link"  title="radioeins - Eins Stunde Zeit, www.radioeins.de" text="radioeins - Eins Stunde Zeit, www.radioeins.de" url="http://www.radioeins.de/rss.xml?beitrag_217553"/>
+    <outline type="link"  title="Soundfacts: Politik&amp;Gesellschaft" text="Soundfacts: Politik&amp;Gesellschaft" url="http://www.soundfacts.de/podcast/politik.xml"/>
+    <outline type="link"  title="Soundfacts: Finanzen&amp;Wirtschaft" text="Soundfacts: Finanzen&amp;Wirtschaft" url="http://www.soundfacts.de/podcast/wirtschaft.xml"/>
+    <outline type="link"  title="Recherche - Das Medienmagazin" text="Recherche - Das Medienmagazin" url="http://medienmagazin.podspot.de/rss"/>
+    <outline type="link"  title="Die Tom Kolbe Show | KingFM Fr 20 Uhr &amp; Sa 16 Uhr | Coole Beats zwisch" text="Die Tom Kolbe Show | KingFM Fr 20 Uhr &amp; Sa 16 Uhr | Coole Beats zwisch" url="http://www.tomkolbe.de/feed/"/>
+    <outline type="link"  title="Die Dingolstadt Comedyshow" text="Die Dingolstadt Comedyshow" url="http://www.radio-dingolstadt.de/podcast-comedyshows.xml"/>
+    <outline type="link"  title="Undercover-FM" text="Undercover-FM" url="http://undercover-fm.podspot.de/rss"/>
+    <outline type="link"  title="Gruppe 12 beta 47" text="Gruppe 12 beta 47" url="http://gruppebeta.podspot.de/rss"/>
+    <outline type="link"  title="Radio Argovia Sirio trifft..." text="Radio Argovia Sirio trifft..." url="http://www.argovia.ch/podcast/Feed3.xml"/>
+    <outline type="link"  title="Meister SLX - Die Show" text="Meister SLX - Die Show" url="http://slx.podspot.de/rss"/>
+    <outline type="link"  title="dubcast" text="dubcast" url="http://feeds.feedburner.com/DubcommanderPodcast"/>
+    <outline type="link"  title="Radio 1 - Thema 1" text="Radio 1 - Thema 1" url="http://www.radio1.ch/library/podcasts/thema1/feed.xml"/>
+    <outline type="link"  title="Kurzschluss - das Jugendmagazin - Stereopodcast" text="Kurzschluss - das Jugendmagazin - Stereopodcast" url="http://www.radiokurzschluss.de/podcast/jrkstereopod.rss"/>
+    <outline type="link"  title="Podcast Medienrecht" text="Podcast Medienrecht" url="http://podcast-medienrecht.podspot.de/rss"/>
+    <outline type="link"  title="90elf - der neue Bolzplatz-Podcast." text="90elf - der neue Bolzplatz-Podcast." url="http://blog.90elf.de/index.php/feed/"/>
+    <outline type="link"  title="Schieb der Woche auf wdr.de" text="Schieb der Woche auf wdr.de" url="http://www.wdr.de/themen/computer/schiebwoche/rss_sdw.php"/>
+    <outline type="link"  title="Fünf-Sterne-Fleischer Fleischhauer" text="Fünf-Sterne-Fleischer Fleischhauer" url="http://fleischhauer.podspot.de/rss"/>
+    <outline type="link"  title="Demacianisches Radio" text="Demacianisches Radio" url="http://demacia.podspot.de/rss"/>
+    <outline type="link"  title="Eins Live - Radio zum Mitnehmen: Die Comedys" text="Eins Live - Radio zum Mitnehmen: Die Comedys" url="http://www.einslive.de/podcast/eins_live_-_radio_zum_mitnehmen_die_comedys_xml.phtml"/>
+    <outline type="link"  title="Energy Zürich - Energy Euro Hot 30" text="Energy Zürich - Energy Euro Hot 30" url="http://media.energyzueri.com/podcast/xml/eurohot30.xml"/>
+    <outline type="link"  title="Eins Live - Radio zum Mitnehmen: Der Lauschangriff - Talk" text="Eins Live - Radio zum Mitnehmen: Der Lauschangriff - Talk" url="http://www.einslive.de/podcast/eins_live_-_radio_zum_mitnehmen_der_lauschangriff_-_talk_xml.phtml"/>
+    <outline type="link"  title="Eins Live - Radio zum Mitnehmen - Lauschangriff - Reportage" text="Eins Live - Radio zum Mitnehmen - Lauschangriff - Reportage" url="http://www.einslive.de/podcast/eins_live_-_radio_zum_mitnehmen_-_lauschangriff_-_reportage_xml.phtml"/>
+    <outline type="link"  title="Pop, Perlen und Polo" text="Pop, Perlen und Polo" url="http://pod.drs.ch/pop_perlen_und_polo_mpx.xml"/>
+    <outline type="link"  title="Frozen Radio - Der Podcast" text="Frozen Radio - Der Podcast" url="http://frozenradio.de/podcast1"/>
+    <outline type="link"  title="Inselradio Podcast" text="Inselradio Podcast" url="http://pod.inselradio.com/inselradio.xml"/>
+    <outline type="link"  title="94,3 rs2 - Schlag den Chef" text="94,3 rs2 - Schlag den Chef" url="http://www.rs2.de/player/podcast/key/schlag-den-chef"/>
+    <outline type="link"  title="Eins Live - Radio zum Mitnehmen: Die Gäste" text="Eins Live - Radio zum Mitnehmen: Die Gäste" url="http://www.einslive.de/podcast/eins_live_-_radio_zum_mitnehmen_die_gaeste_xml.phtml"/>
+    <outline type="link"  title="SRI Tyska" text="SRI Tyska" url="http://www.sr.se/Podradio/xml/sri_tyska.xml"/>
+    <outline type="link"  title="Avanti Papi" text="Avanti Papi" url="http://feeds2.feedburner.com/StadtfilterAvantiPapi"/>
+    <outline type="link"  title="Dark Frequenzy Podcast" text="Dark Frequenzy Podcast" url="http://www.darkfrequenzy.com/podcast/dircaster.php"/>
+    <outline type="link"  title="Bhakti-Radio" text="Bhakti-Radio" url="http://bhakti-radio.podspot.de/rss"/>
+    <outline type="link"  title="NDR 1 Radio MV - Sprichwort des Tages" text="NDR 1 Radio MV - Sprichwort des Tages" url="http://www.ndr.de/podcastlink/ndr1radiomv_sprichwortdestages.xml"/>
+    <outline type="link"  title="Radio WAF - FC Schalke 04" text="Radio WAF - FC Schalke 04" url="http://www.radiowaf.de/fileadmin/podcastsystem/rss/waf_FC%20Schalke%2004.xml"/>
+    <outline type="link"  title="Scardanelli Audio Projekt - Lyrik" text="Scardanelli Audio Projekt - Lyrik" url="http://www.mypoems.de/_playlists/scardanelli_spliff.php?type=rss"/>
+    <outline type="link"  title="domradio - Tagesevangelium mit Auslegung (Lesung und Interpretation)" text="domradio - Tagesevangelium mit Auslegung (Lesung und Interpretation)" url="http://213.168.99.188/audio/podcast/tagesevangelium/auslegung/auslegung.xml"/>
+    <outline type="link"  title="domradio - Tagesevangelium (Lesung aus dem Hl. Evangelium)" text="domradio - Tagesevangelium (Lesung aus dem Hl. Evangelium)" url="http://213.168.99.188/audio/podcast/tagesevangelium/tageslesung.xml"/>
+    <outline type="link"  title="Energy Zürich Podcast : Best of Energy Mein Morgen » Best of Energy Me" text="Energy Zürich Podcast : Best of Energy Mein Morgen » Best of Energy Me" url="http://www.energyzueri.com/podcast/category/mein_morgen/?feed=podcast"/>
+    <outline type="link"  title="Energy Zürich - Best of Energy Mein Morgen" text="Energy Zürich - Best of Energy Mein Morgen" url="http://media.energyzueri.com/podcast/xml/bestofemm.xml"/>
+    <outline type="link"  title="Die Schnelldenkercomedy" text="Die Schnelldenkercomedy" url="http://atarijunkie.podspot.de/rss"/>
+    <outline type="link"  title="domradio - Beratung (Antworten auf Lebensfragen)" text="domradio - Beratung (Antworten auf Lebensfragen)" url="http://213.168.99.188/audio/podcast/beratung/beratung.xml"/>
+    <outline type="link"  title="domradio - Sternzeit (Jugendmagazin)" text="domradio - Sternzeit (Jugendmagazin)" url="http://213.168.99.188/audio/sternzeit/domradio-sternzeit.xml"/>
+    <outline type="link"  title="domradio - Menschen Podcast" text="domradio - Menschen Podcast" url="http://213.168.99.188/audio/podcast/menschen/menschen.xml"/>
+    <outline type="link"  title="domradio - Predigt (Mitschnitt aus dem Kölner Dom)" text="domradio - Predigt (Mitschnitt aus dem Kölner Dom)" url="http://213.168.99.188/audio/podcast/predigten/predigt.xml"/>
+    </body>
+</opml>

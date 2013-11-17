@@ -1,0 +1,4 @@
+- if opml_file.owner.present?
+  span.opml-file
+    = link_to opml_file do
+      = image_tag opml_file.owner.image.url(:thumb)

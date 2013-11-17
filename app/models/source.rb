@@ -1,9 +1,16 @@
 class Source < ActiveRecord::Base
   has_and_belongs_to_many :opml_files
+  has_many :owners, through: :opml_files
   has_many :episodes
   mount_uploader :image, ImageUploader
 
   validates :url, presence: true, uniqueness: true, url: true
+  scope :recent, -> {
+    joins(:episodes).
+    where('episodes.id = (select episodes.id from episodes where episodes.source_id = sources.id and pubdate is not null order by pubdate desc limit 1)').
+    select('sources.*, episodes.id as episode_id, episodes.pubdate as pubdate').
+    order('episodes.pubdate desc')
+  }
 
   def fetch_meta_information
     self.title = parsed_feed.title

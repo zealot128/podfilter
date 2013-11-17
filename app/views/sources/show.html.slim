@@ -1,0 +1,12 @@
+h1
+  - if @source.image.present?
+    .pull-right(style='margin-left: 10px')
+      = image_tag @source.image.url(:thumb)
+  = @source.title
+.jumbotron
+  = @source.description
+  pre
+    = link_to @source.url, @source.url
+  = render @source.opml_files
+
+= render @source.episodes.order('pubdate desc')

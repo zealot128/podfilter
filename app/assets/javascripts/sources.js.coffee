@@ -3,6 +3,10 @@ $(document).on 'page:load page:change ready', ->
   console.log 'triggerd'
   $('.js-upload').fileupload
     dataType: 'json'
+    fail: (e,data)->
+      $('.js-upload-target').html """
+      <div class='alert alert-error'>Leider ist beim Upload ein Fehler aufgetraten. Bitte prüfe, dass es sich bei der Datei um eine OPML Datei handelt. Im Zweifelsfall schick mir die Datei an info@stefanwienert.de</div>
+      """
     add:  (e,data)->
       $('.js-upload-target').html('uploading...')
       data.submit()

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <head>
+        <title>podster.de - Podcasts mit Stichwort: unterhaltung</title>
+         <dateCreated>Sun, 17 Nov 2013 12:01:00 +0100</dateCreated>
+         <dateModified>Sun, 17 Nov 2013 12:01:00 +0100</dateModified>
+         <ownerName>podster.de</ownerName>
+         <ownerEmail>webmaster@podster.de</ownerEmail>
+    </head>
+    <body>
+    <outline type="link"  title="Verbalnotizen" text="Verbalnotizen" url="http://verbalnotizen.podspot.de/rss"/>
+    <outline type="link"  title="Quotenmeter.de TV-Podcast" text="Quotenmeter.de TV-Podcast" url="http://qmtvpodcast.podspot.de/rss"/>
+    <outline type="link"  title="Takarina's Welt" text="Takarina's Welt" url="http://takarina.podspot.de/rss"/>
+    <outline type="link"  title="Skynobi Adventures" text="Skynobi Adventures" url="http://skynobi.podspot.de/rss"/>
+    <outline type="link"  title="ESTONjournal" text="ESTONjournal" url="http://www.eston-studio.de/rssfeed/estonjournal.xml"/>
+    <outline type="link"  title="NormCast" text="NormCast" url="http://normcast.podspot.de/rss"/>
+    <outline type="link"  title="Die Esel und Teddy Show" text="Die Esel und Teddy Show" url="http://esel-und-teddy.podspot.de/rss"/>
+    <outline type="link"  title="Hitmist Germany" text="Hitmist Germany" url="http://hitmist.podspot.de/rss"/>
+    <outline type="link"  title="Stiffbone909" text="Stiffbone909" url="http://stiffbone909.podspot.de/rss"/>
+    <outline type="link"  title="•sni sna und snö - Geschichten•" text="•sni sna und snö - Geschichten•" url="http://nyuszika.podspot.de/rss"/>
+    <outline type="link"  title="piratte looking at things. » Podcast" text="piratte looking at things. » Podcast" url="http://www.piratte.net/category/podcast/feed/"/>
+    <outline type="link"  title="Kastenfisch" text="Kastenfisch" url="http://kastenfisch.podspot.de/rss"/>
+    <outline type="link"  title="Lichtspielhaus - Der wirklich wahre Kino Podcast" text="Lichtspielhaus - Der wirklich wahre Kino Podcast" url="http://lichtspielhaus.podspot.de/rss"/>
+    <outline type="link"  title="Ohrenblicke" text="Ohrenblicke" url="http://ohrenblicke.de/podcast/podcast.php"/>
+    <outline type="link"  title="Mit Stimme" text="Mit Stimme" url="http://www.mit-stimme.de/podcast.php"/>
+    <outline type="link"  title="YABIP" text="YABIP" url="http://yabip.de/yabip.rss"/>
+    <outline type="link"  title="•nyus- Photogedichte -zika•" text="•nyus- Photogedichte -zika•" url="http://nyusphotogedichtezika.podspot.de/rss"/>
+    <outline type="link"  title="VermischtesFM" text="VermischtesFM" url="http://vermischtesfm.de/feed/AAC/ "/>
+    <outline type="link"  title="Hauhechel" text="Hauhechel" url="http://hauhechel.podspot.de/rss"/>
+    <outline type="link"  title="degatrons Radio" text="degatrons Radio" url="http://degatron.podspot.de/rss"/>
+    <outline type="link"  title="Andrea W. wills wissen..." text="Andrea W. wills wissen..." url="http://andrea.podspot.de/rss"/>
+    <outline type="link"  title="dradio.de Wurfsendung" text="dradio.de Wurfsendung" url="http://www.dradio.de/rss/podcast/wurfsendung/"/>
+    <outline type="link"  title="Ö3: Best of Comedy" text="Ö3: Best of Comedy" url="http://static.orf.at/oe3/podcast/oe3_comedy_cast.xml"/>
+    <outline type="link"  title="Krimikiste" text="Krimikiste" url="http://www.krimikiste.com/?feed=podcast"/>
+    <outline type="link"  title="Kino-News [Hessischer Rundfunk]" text="Kino-News [Hessischer Rundfunk]" url="http://podcast.hr3.de/kinonews/podcast.xml"/>
+    <outline type="link"  title="BR - Ende der Welt. Die Glosse aus der radioWelt" text="BR - Ende der Welt. Die Glosse aus der radioWelt" url="http://www.br-online.de/podcast/ende-der-welt/cast.xml"/>
+    <outline type="link"  title="frauTV" text="frauTV" url="http://podcast.wdr.de/frautv.xml"/>
+    <outline type="link"  title="Methodisch inkorrekt!" text="Methodisch inkorrekt!" url="http://methodischinkorrekt.wordpress.com/category/podcast/feed"/>
+    <outline type="link"  title="BürgelPodcast: Gerhard und Hilde im Zweikampf" text="BürgelPodcast: Gerhard und Hilde im Zweikampf" url="http://feeds.feedburner.com/buergel"/>
+    <outline type="link"  title="Hit-Radio Antenne - Wer hat an der Uhr gedreht" text="Hit-Radio Antenne - Wer hat an der Uhr gedreht" url="http://www.antenne.com/podcast/werhatanderuhrgedreht.xml"/>
+    <outline type="link"  title="Der Kinocast - live aus dem Kino" text="Der Kinocast - live aus dem Kino" url="http://kino-cast.podspot.de/rss"/>
+    <outline type="link"  title="Meiky's Podcast Show" text="Meiky's Podcast Show" url="http://meiky.podspot.de/rss"/>
+    <outline type="link"  title="Der Blickpunkt Sport-Podcast" text="Der Blickpunkt Sport-Podcast" url="http://www.br-online.de/podcast/blickpunkt-sport/cast.xml"/>
+    <outline type="link"  title="JonathansTV » abgehört! - Der Podcast" text="JonathansTV » abgehört! - Der Podcast" url="http://jonathanstv.de/feed/"/>
+    <outline type="link"  title="Satire Peter Schneider" text="Satire Peter Schneider" url="http://pod.drs.ch/satire_peter_schneider_mpx.xml"/>
+    <outline type="link"  title="chaosamigo.podspot.de" text="chaosamigo.podspot.de" url="http://chaosamigo.podspot.de/rss"/>
+    <outline type="link"  title="Vorlese-Podcast" text="Vorlese-Podcast" url="http://www.vorlese-podcast.de/?feed=podcast"/>
+    <outline type="link"  title="Blick über den Tellerrand" text="Blick über den Tellerrand" url="http://feeds.feedburner.com/tellerrand"/>
+    <outline type="link"  title="Lödie" text="Lödie" url="http://feeds.feedburner.com/Loedie"/>
+    <outline type="link"  title="ZDF Toll! - Video Podcast" text="ZDF Toll! - Video Podcast" url="http://content.zdf.de/podcast/zdf_f21/f21toll_v.xml"/>
+    <outline type="link"  title="Kuechenradio.org" text="Kuechenradio.org" url="http://feeds.feedburner.com/Kuechenradioorg"/>
+    <outline type="link"  title="Sieh dir das an" text="Sieh dir das an" url="http://feeds.feedburner.com/SiehDirDasAnPodcast"/>
+    <outline type="link"  title="Sport mit Bauch" text="Sport mit Bauch" url="http://sportmitbauch.de/?feed=rss"/>
+    <outline type="link"  title="Donnschtig-Jass" text="Donnschtig-Jass" url="http://feeds.sf.tv/podcast/donnschtigjass"/>
+    <outline type="link"  title="Brüllaffencouch" text="Brüllaffencouch" url="http://www.bruellaffencouch.de/feed/podcast/"/>
+    <outline type="link"  title="Methodisch inkorrekt! » Podcast" text="Methodisch inkorrekt! » Podcast" url="http://feeds.feedburner.com/Methodischinkorrekt"/>
+    <outline type="link"  title="Icke, dette, kieke mal" text="Icke, dette, kieke mal" url="http://clabie.podspot.de/rss"/>
+    <outline type="link"  title="Rote Fahne" text="Rote Fahne" url="http://rfleser.podspot.de/rss"/>
+    <outline type="link"  title="Couch-tv" text="Couch-tv" url="http://couch-tv.podspot.de/rss"/>
+    <outline type="link"  title="VT.live" text="VT.live" url="http://vtlive.podspot.de/rss"/>
+    <outline type="link"  title="Die Eckkinder" text="Die Eckkinder" url="http://eckkinder.podspot.de/rss"/>
+    <outline type="link"  title="Das Grundrauschen" text="Das Grundrauschen" url="http://feeds.feedburner.com/dasgrundrauschen"/>
+    <outline type="link"  title="KrimiKiosk - mehrteilige Krimi-Hörbücher und Krimi-Reportagen" text="KrimiKiosk - mehrteilige Krimi-Hörbücher und Krimi-Reportagen" url="http://www.krimikiosk.de/podcast/krimi.php"/>
+    <outline type="link"  title="Radio Löwenherz" text="Radio Löwenherz" url="http://radioloewenherz.podspot.de/rss"/>
+    <outline type="link"  title="Radio.Fettgusche.Net - direkt aus Gera" text="Radio.Fettgusche.Net - direkt aus Gera" url="http://fettgusche.podspot.de/rss"/>
+    <outline type="link"  title="ExilKieler : Podcast » Podcast" text="ExilKieler : Podcast » Podcast" url="http://feeds.feedburner.com/Exilkieler_Podcast"/>
+    <outline type="link"  title="TV Watchdog" text="TV Watchdog" url="http://tvwatchdog.podspot.de/rss"/>
+    <outline type="link"  title="drylightning.de" text="drylightning.de" url="http://www.drylightning.de/feed/dryfeed.xml"/>
+    <outline type="link"  title="KabelPod" text="KabelPod" url="http://kabelsalat-gaming.de/?feed=rss2"/>
+    <outline type="link"  title="couchpotatoes" text="couchpotatoes" url="http://feeds.feedburner.com/couchpotatoes"/>
+    <outline type="link"  title="KingRadio" text="KingRadio" url="http://kingradio.podspot.de/rss"/>
+    <outline type="link"  title="funkUP - Campusradio Potsdam" text="funkUP - Campusradio Potsdam" url="http://www.funkup.me/feed/ "/>
+    <outline type="link"  title="Erste-Hilfe Tipps" text="Erste-Hilfe Tipps" url="http://feeds.feedburner.com/ErsteHilfeTipps"/>
+    <outline type="link"  title="Andrea Volk: Satire, Soul und Supergirls" text="Andrea Volk: Satire, Soul und Supergirls" url="http://andreavolk.podspot.de/rss"/>
+    <outline type="link"  title="funkUP - Campusradio Potsdam » The Matik" text="funkUP - Campusradio Potsdam » The Matik" url="http://www.funkup.me/category/alle-artikel/ausstrahlung/the-matik/feed/"/>
+    <outline type="link"  title="themepark-radio.de" text="themepark-radio.de" url="http://www.themepark-radio.de/rss/rssfeed.xml"/>
+    <outline type="link"  title="http://rundfunk8.podspot.de" text="http://rundfunk8.podspot.de" url="http://rundfunk8.podspot.de/rss"/>
+    <outline type="link"  title="Kabbalah" text="Kabbalah" url="http://kabbalah.podspot.de/rss"/>
+    <outline type="link"  title="Radio Lomoco" text="Radio Lomoco" url="http://feeds.feedburner.com/RadioLomoco"/>
+    <outline type="link"  title="Eternity Metal Podcast" text="Eternity Metal Podcast" url="http://www.eternitymagazin.de/podcast/Web-Site/Eternity_Metal_Podcast/rss.xml"/>
+    <outline type="link"  title="Hoersturz" text="Hoersturz" url="http://www.hoersturz-podcast.de/Hoersturz/Podcast/rss.xml"/>
+    <outline type="link"  title="netz10.de Podcast" text="netz10.de Podcast" url="http://netz10.de/category/podcast-2/feed/"/>
+    <outline type="link"  title="Die Haut - Podcast Thriller" text="Die Haut - Podcast Thriller" url="http://feeds.feedburner.com/DieHaut"/>
+    <outline type="link"  title="Das Herz - Podcast Thriller" text="Das Herz - Podcast Thriller" url="http://dasherz.podspot.de/rss"/>
+    <outline type="link"  title="Schmittcast" text="Schmittcast" url="http://frauschmitt.podspot.de/rss"/>
+    <outline type="link"  title="--== Gassipods ==--" text="--== Gassipods ==--" url="http://gassipods.de/feed/podcast"/>
+    <outline type="link"  title="Der ZweiCast" text="Der ZweiCast" url="http://diezwei.podspot.de/rss"/>
+    <outline type="link"  title="Glückaufs Welt" text="Glückaufs Welt" url="http://glueckauf.podspot.de/rss"/>
+    <outline type="link"  title="Seelenwellness" text="Seelenwellness" url="http://seelenwellness.podspot.de/rss"/>
+    <outline type="link"  title="Küchenradio" text="Küchenradio" url="http://www.kuechenradio.org/wp/wp-rss2.php"/>
+    <outline type="link"  title="Space Monkey Podcast" text="Space Monkey Podcast" url="http://spacemonkey.podspot.de/rss"/>
+    <outline type="link"  title="wellenformen" text="wellenformen" url="http://wellenformen.podspot.de/rss"/>
+    <outline type="link"  title="Funkturm" text="Funkturm" url="http://funkturm.podspot.de/rss"/>
+    <outline type="link"  title="BONNTICKET TV" text="BONNTICKET TV" url="http://feeds.feedburner.com/bonntickettv"/>
+    <outline type="link"  title="kleingedruckt*" text="kleingedruckt*" url="http://feeds.feedburner.com/podspot/kleingedruckt"/>
+    <outline type="link"  title="Berliner Warteschleife" text="Berliner Warteschleife" url="http://berliner-warteschleife.podspot.de/rss"/>
+    <outline type="link"  title="Landfunker" text="Landfunker" url="http://landfunker.buzzsprout.com/6136.rss"/>
+    <outline type="link"  title="Saphias Tagebuch" text="Saphias Tagebuch" url="http://saphiasanchez.podspot.de/rss"/>
+    <outline type="link"  title="Schwulst Podcast" text="Schwulst Podcast" url="http://feeds.feedburner.com/SchwulstPodcast"/>
+    <outline type="link"  title="Im Netz des Chamäleons" text="Im Netz des Chamäleons" url="http://chamaeleon.savecast.de/podcast/"/>
+    <outline type="link"  title="Podschnack" text="Podschnack" url="http://zwei-schnacker.podspot.de/rss"/>
+    <outline type="link"  title="Die HORNBACH Radioshow" text="Die HORNBACH Radioshow" url="http://www.radioserve.com/hornbachradioshow/index.php"/>
+    <outline type="link"  title="Nachttaxi - Aus dem Leben der Großstadt" text="Nachttaxi - Aus dem Leben der Großstadt" url="http://nachttaxi.kwikk.info/?feed=podcast"/>
+    <outline type="link"  title="Markus Vogelbacher Podcast - Von nix kommt nix ..." text="Markus Vogelbacher Podcast - Von nix kommt nix ..." url="http://www.markus-vogelbacher.de/podcast.php"/>
+    <outline type="link"  title="Loudblog des Netradio Kulmbach" text="Loudblog des Netradio Kulmbach" url="http://www.netradio-kulmbach.de/loud/loudblog/podcast.php"/>
+    <outline type="link"  title="HörBlog-Tag!" text="HörBlog-Tag!" url="http://dirk-v-dwl.podspot.de/rss"/>
+    <outline type="link"  title="maikinet" text="maikinet" url="http://audioboo.fm/users/334965/boos.rss"/>
+    <outline type="link"  title="RADIO BRENNT" text="RADIO BRENNT" url="http://schmollywood.podspot.de/rss"/>
+    <outline type="link"  title="Wuppercast" text="Wuppercast" url="http://wuppercast.podspot.de/rss"/>
+    <outline type="link"  title="Karls Zimmer" text="Karls Zimmer" url="http://flommersfeld.podspot.de/rss"/>
+    <outline type="link"  title="Aniswaffeln" text="Aniswaffeln" url="http://aniswaffeln.bplaced.net/wordpress/?feed=podcast"/>
+    <outline type="link"  title="Talk Down" text="Talk Down" url="http://talkdown.podspot.de/rss"/>
+    <outline type="link"  title="Bücherwelt - Goethes Erben |  Deutsche Welle" text="Bücherwelt - Goethes Erben |  Deutsche Welle" url="http://rss.dw-world.de/xml/podcast_goethes_erben"/>
+    <outline type="link"  title="Sprechbude" text="Sprechbude" url="http://feeds.feedburner.com/sprechbude"/>
+    <outline type="link"  title="StoryTime" text="StoryTime" url="http://feeds.soundcloud.com/users/4165784-storytime-1/tracks"/>
+    <outline type="link"  title="Intertape - ein unabhaengiger aktiver Audiokreis" text="Intertape - ein unabhaengiger aktiver Audiokreis" url="http://www.intertape.de/rss.xml"/>
+    <outline type="link"  title="Poetry Club Interactive" text="Poetry Club Interactive" url="http://www.brainspit.net/podcasts/pci/rss.xml"/>
+    <outline type="link"  title="Zuger Weltspiegel" text="Zuger Weltspiegel" url="http://www.radioindustrie.ch/?feed=rss2&amp;cat=148"/>
+    <outline type="link"  title="Soundfacts: Unterhaltung" text="Soundfacts: Unterhaltung" url="http://www.soundfacts.de/podcast/unterhaltung.xml"/>
+    <outline type="link"  title="Soundfacts: Aktuelles&amp;Nachrichten" text="Soundfacts: Aktuelles&amp;Nachrichten" url="http://www.soundfacts.de/podcast/aktuelles.xml"/>
+    <outline type="link"  title="Helmholtz.Schongewusst Podcast" text="Helmholtz.Schongewusst Podcast" url="http://www.helmholtz.de/audio/schongewusst.xml"/>
+    <outline type="link"  title="ZDF Wetten, dass...? - Stars exklusiv (Video)" text="ZDF Wetten, dass...? - Stars exklusiv (Video)" url="http://content.zdf.de/podcast/zdf_wd/wd_v.xml"/>
+    <outline type="link"  title="MCS PhantasticFiction" text="MCS PhantasticFiction" url="http://www.mindcrushers.de/nbo_podcast/mcs-phantasticfiction.xml"/>
+    <outline type="link"  title="5x2= Podcast" text="5x2= Podcast" url="http://www.astronautenbar.de/?feed=podcast"/>
+    <outline type="link"  title="Zeitmanagement Podcast" text="Zeitmanagement Podcast" url="http://zeitmanagement.podspot.de/rss"/>
+    <outline type="link"  title="Die Dingolstadt Comedyshow" text="Die Dingolstadt Comedyshow" url="http://www.radio-dingolstadt.de/podcast-comedyshows.xml"/>
+    <outline type="link"  title="Gruppe 12 beta 47" text="Gruppe 12 beta 47" url="http://gruppebeta.podspot.de/rss"/>
+    <outline type="link"  title="Der Kinder Kurier-Podcast" text="Der Kinder Kurier-Podcast" url="http://derkinderkurierpodcast.podspot.de/rss"/>
+    <outline type="link"  title=":Future News" text=":Future News" url="http://www.zukunftsinstitut.de/downloads/zi_podcast.xml"/>
+    <outline type="link"  title="T.cane" text="T.cane" url="http://linzer-schnitte.podspot.de/rss"/>
+    <outline type="link"  title="DAS FOTOGRAFISCHE DUETT" text="DAS FOTOGRAFISCHE DUETT" url="http://www.fotomov.de/fotomov/Podcast/rss.xml"/>
+    <outline type="link"  title="Die Gefühlskonserve" text="Die Gefühlskonserve" url="http://deef.podspot.de/rss"/>
+    <outline type="link"  title="Autorenlesung auf diweli.de" text="Autorenlesung auf diweli.de" url="http://diweli.podspot.de/rss"/>
+    <outline type="link"  title="Berlin von unten" text="Berlin von unten" url="http://www.bestattungen-marschner.de/page2/files/page2.xml"/>
+    <outline type="link"  title="Echtzeitraum" text="Echtzeitraum" url="http://echtzeitraum.de/feed/podcast/"/>
+    <outline type="link"  title="ComedyContainer bringt Radio Comedy für Radio Stars" text="ComedyContainer bringt Radio Comedy für Radio Stars" url="http://comedycontainer.podspot.de/rss"/>
+    <outline type="link"  title="Spezial [SF-Radio]" text="Spezial [SF-Radio]" url="http://www.sf-radio.net/syndication/feeds/sendungen/spezial.xml"/>
+    <outline type="link"  title="Harry-Potter-Podcast" text="Harry-Potter-Podcast" url="http://maennerseiten.de/harry-potter/podcast/wp-rss2.php?cat=2"/>
+    <outline type="link"  title="Morgycast (swiss edition)" text="Morgycast (swiss edition)" url="http://morgycast.podspot.de/rss"/>
+    <outline type="link"  title="http://estebu.podspot.de" text="http://estebu.podspot.de" url="http://estebu.podspot.de/rss"/>
+    <outline type="link"  title="Tomlwirbel" text="Tomlwirbel" url="http://tomlwirbel.mycyberhome.net/podcast/feed/rss2"/>
+    <outline type="link"  title="Herzblut" text="Herzblut" url="http://www.herzblut.fm/podcast.php"/>
+    <outline type="link"  title="Schmunzelcast" text="Schmunzelcast" url="http://schmunzelcast.hig-podcast.de/?feed=rss2"/>
+    <outline type="link"  title="Voices en Español" text="Voices en Español" url="http://feeds.feedburner.com/vocespodcast"/>
+    <outline type="link"  title="nSonic - Fotografie, Mac, Nachdenkliches und mehr" text="nSonic - Fotografie, Mac, Nachdenkliches und mehr" url="http://www.nsonic.de/podcast/feed"/>
+    <outline type="link"  title="Starfrosch FakeGeist" text="Starfrosch FakeGeist" url="http://www.starfrosch.ch/pod/fakegeist.xml"/>
+    <outline type="link"  title="Es liest: Der Ohrenschützer" text="Es liest: Der Ohrenschützer" url="http://ohrenschuetzer.podspot.de/rss"/>
+    <outline type="link"  title="Das Filmzeugnis - Der Podcast" text="Das Filmzeugnis - Der Podcast" url="http://filmzeugnis.podspot.de/rss"/>
+    <outline type="link"  title="Der Märchenpodcast" text="Der Märchenpodcast" url="http://www.maerchenpodcast.de/audio/rss.xml"/>
+    <outline type="link"  title="Bayern 3 - Horoskop" text="Bayern 3 - Horoskop" url="http://www.br-online.de/podcast/horoskop/cast.xml"/>
+    <outline type="link"  title="In China da essen sie Hunde" text="In China da essen sie Hunde" url="http://www.malk.de/china/china.xml"/>
+    <outline type="link"  title="Kanal K Podcast" text="Kanal K Podcast" url="http://www.kanalk.ch/DesktopModules/Podcaster/podcast.aspx?moduleid=641"/>
+    <outline type="link"  title="Silbersurfer's Podcast - Der alte RSS Feed !!!!" text="Silbersurfer's Podcast - Der alte RSS Feed !!!!" url="http://www.silbersurfer.de/files/blog.xml"/>
+    <outline type="link"  title="Podcaffè" text="Podcaffè" url="http://www.kiza.de/Web-Site/Podcast/rss.xml"/>
+    <outline type="link"  title="&quot;Lindenstrasse&quot;-Podcast" text="&quot;Lindenstrasse&quot;-Podcast" url="http://www.lindenstrasse.de/podcast/podcast.xml"/>
+    <outline type="link"  title="Top100FANstation Podcast" text="Top100FANstation Podcast" url="http://top100fanstation.de/rss/index.rss"/>
+    <outline type="link"  title="BeFM Kinomad" text="BeFM Kinomad" url="http://befm.podspot.de/rss"/>
+    <outline type="link"  title="Der ganze Rest" text="Der ganze Rest" url="http://derganzerest.podspot.de/rss "/>
+    <outline type="link"  title="Podcast Sonderzug" text="Podcast Sonderzug" url="http://hinne-media.de/podcast/rss.xml"/>
+    <outline type="link"  title="Wangenroth - Bestatter und Schöngeist" text="Wangenroth - Bestatter und Schöngeist" url="http://feeds.feedburner.com/HubertWangenroth"/>
+    <outline type="link"  title="Augenblicke-Hörbar" text="Augenblicke-Hörbar" url="http://augenblick.podspot.de/rss"/>
+    <outline type="link"  title="Blindzeln Magazin" text="Blindzeln Magazin" url="http://radio.podcast.blindzeln.de"/>
+    <outline type="link"  title="Fucked up Teen life" text="Fucked up Teen life" url="http://benzpyren.podspot.de/rss"/>
+    <outline type="link"  title="KenFM - Fritz-Radioshow mit Ken Jebsen" text="KenFM - Fritz-Radioshow mit Ken Jebsen" url="http://www.kenfm.de/podcasting.xml"/>
+    <outline type="link"  title="Gartengeflüster" text="Gartengeflüster" url="http://gartengefluester.podspot.de/rss"/>
+    <outline type="link"  title="http://treptower-felsquell.podspot.de" text="http://treptower-felsquell.podspot.de" url="http://treptower-felsquell.podspot.de/rss"/>
+    <outline type="link"  title="Films2c - Dein Film-Podcast" text="Films2c - Dein Film-Podcast" url="http://films2c.podspot.de/rss"/>
+    <outline type="link"  title="" text="" url="http://thomas.kerntke.at/?feed=podcast"/>
+    <outline type="link"  title="ClickPod - der Podcast, bei dem ihr noch was lernt" text="ClickPod - der Podcast, bei dem ihr noch was lernt" url="http://myclickpod.podspot.de/rss"/>
+    <outline type="link"  title="Echtkopf-Stereophonie" text="Echtkopf-Stereophonie" url="http://echtkopf.podspot.de/rss"/>
+    <outline type="link"  title="Eure Tagesordnung" text="Eure Tagesordnung" url="http://feeds.feedburner.com/eta"/>
+    <outline type="link"  title="Merlix - Herzdamengeschichten und anderes" text="Merlix - Herzdamengeschichten und anderes" url="http://www.herzdamengeschichten.de/feed/"/>
+    <outline type="link"  title="Martin Auers Geschichtenmaschine" text="Martin Auers Geschichtenmaschine" url="http://www.geschichtenmaschine.net/rss/geschichtenmaschine.rss"/>
+    <outline type="link"  title="Klassik-Podcast" text="Klassik-Podcast" url="http://www.emi-podcast.de/jpc/emi_classics_podcast_jpc.xml"/>
+    <outline type="link"  title="Rieke" text="Rieke" url="http://rieke.podspot.de/rss"/>
+    <outline type="link"  title="BASF Podcast - Der Chemie Reporter" text="BASF Podcast - Der Chemie Reporter" url="http://corporate.basf.com/de/podcast/reporter_01.xml"/>
+    <outline type="link"  title="Juba Podcast" text="Juba Podcast" url="http://juba.podspot.de/rss"/>
+    <outline type="link"  title="Die Dreisten Drei" text="Die Dreisten Drei" url="http://www.sat1.de/podcast/diedreistendrei/rss/"/>
+    <outline type="link"  title="Die Dreisten Drei" text="Die Dreisten Drei" url="http://sat1-die-dreisten-drei.feedplace.de/rss all"/>
+    <outline type="link"  title="Radio4" text="Radio4" url="http://radio4.podspot.de/rss"/>
+    <outline type="link"  title="Noisy Lobster" text="Noisy Lobster" url="http://www.textentertainment.de/Noisy-Lobster/Podcast.xml"/>
+    <outline type="link"  title="ZDF Wetten, dass...? - Stars exklusiv (Audio)" text="ZDF Wetten, dass...? - Stars exklusiv (Audio)" url="http://content.zdf.de/podcast/zdf_wd/wd_a.xml"/>
+    <outline type="link"  title="Scholzpod.de Podcast" text="Scholzpod.de Podcast" url="http://pod.scholzpod.de/scholzpod_all.rss"/>
+    <outline type="link"  title="MST Reading Project" text="MST Reading Project" url="http://msting.de/audio/rss.xml"/>
+    <outline type="link"  title="Höradvent" text="Höradvent" url="http://hoeradvent.podspot.de/rss"/>
+    <outline type="link"  title="Advent deluxe" text="Advent deluxe" url="http://www.kmgd.de/adventdeluxe/podcast/podcast.php"/>
+    <outline type="link"  title="Buchkolumne" text="Buchkolumne" url="http://buchkolumne.podspot.de/rss"/>
+    <outline type="link"  title="Ju's Podshow" text="Ju's Podshow" url="http://dieju.podspot.de/rss"/>
+    <outline type="link"  title="Dr. Ferkuppyst" text="Dr. Ferkuppyst" url="http://www.familien-welt.de/staticfiles/ferkuppyst/ferkuppyst.xml"/>
+    <outline type="link"  title="Radio-G" text="Radio-G" url="http://radio-g.podspot.de/rss"/>
+    <outline type="link"  title="PropagandaCast" text="PropagandaCast" url="http://feeds.feedburner.com/propagandacast"/>
+    <outline type="link"  title="musicampus" text="musicampus" url="http://musicampus.podspot.de/rss"/>
+    <outline type="link"  title="Michael Nowak - Radio zum Mitnehmen | Die offiziellen Podcasts" text="Michael Nowak - Radio zum Mitnehmen | Die offiziellen Podcasts" url="http://michael-nowak.com/podcast.xml"/>
+    <outline type="link"  title="Gschmarri » Podcast" text="Gschmarri » Podcast" url="http://www.gschmarri.org/category/podcast/feed/rss2"/>
+    <outline type="link"  title="Gschmarri" text="Gschmarri" url="http://gschmarri.podspot.de/rss"/>
+    <outline type="link"  title="Elektrodrei Podcast" text="Elektrodrei Podcast" url="http://elektrodrei.podspot.de/rss"/>
+    <outline type="link"  title="NeuSchnee" text="NeuSchnee" url="http://schneemannsammlung.podspot.de/rss"/>
+    <outline type="link"  title="Katzenplatz (und andere Kurzgeschichten)" text="Katzenplatz (und andere Kurzgeschichten)" url="http://www.silkegersdorf.de/podcast.xml"/>
+    <outline type="link"  title="Tobbis-Podcast" text="Tobbis-Podcast" url="http://tobbis-podcast.podspot.de/rss"/>
+    <outline type="link"  title="Ferdi´s Podcast -  FTV" text="Ferdi´s Podcast -  FTV" url="http://Radio-ftv.podspot.de/rss"/>
+    <outline type="link"  title="Palms Podcast" text="Palms Podcast" url="http://www.palms-podcast.de/feed"/>
+    <outline type="link"  title="Wahnzeit" text="Wahnzeit" url="http://wahnzeit.libsyn.com/podcasts/wahnzeit/itunes/rss"/>
+    <outline type="link"  title="TdZ - Audiomagazin" text="TdZ - Audiomagazin" url="http://www.hoerzeit-verlag.de/TdZ-Podcast/TdZ-Audiomagazin.xml"/>
+    <outline type="link"  title="Rauchpause" text="Rauchpause" url="http://rauchpause.podspot.de/rss"/>
+    <outline type="link"  title="Sat.1 Frühstücksfernsehen" text="Sat.1 Frühstücksfernsehen" url="http://sat1-best-of-fruehstuecksfernsehen.feedplace.de/rss+all"/>
+    <outline type="link"  title="Sat.1 Frühstücksfernsehen" text="Sat.1 Frühstücksfernsehen" url="http://sat1-best-of-fruehstuecksfernsehen.feedplace.de/rss"/>
+    <outline type="link"  title="BulewarPodcast" text="BulewarPodcast" url="http://bulewar.podspot.de/rss"/>
+    <outline type="link"  title="Friedrichs Zauberpozzz" text="Friedrichs Zauberpozzz" url="http://friedrichs-zauberpozzz.podspot.de/rss"/>
+    <outline type="link"  title="JETIX Stars Podcast" text="JETIX Stars Podcast" url="http://www.jetixtv.de/localise/podcast/jetix.rss"/>
+    <outline type="link"  title="JETIX Highlights" text="JETIX Highlights" url="http://www.jetixtv.de/localise/podcast/highlight.rss"/>
+    <outline type="link"  title="NEUE HELDEN Radio" text="NEUE HELDEN Radio" url="http://podcast.radio.neuehelden.tv/nh_radio.xml"/>
+    <outline type="link"  title="redeKubus - kursÆnderung" text="redeKubus - kursÆnderung" url="http://redekubus.die-kassetten.de/?feed=podcast"/>
+    <outline type="link"  title="Traumwohnung" text="Traumwohnung" url="http://acidlevel.podspot.de/rss"/>
+    <outline type="link"  title="CRASSCAST" text="CRASSCAST" url="http://Schubert.podspot.de/rss"/>
+    <outline type="link"  title="Lasse-Butz" text="Lasse-Butz" url="http://lasse-butz.podspot.de/rss "/>
+    <outline type="link"  title="John Ment Show Highlights" text="John Ment Show Highlights" url="http://www.radiohamburg.de/podcast/jms"/>
+    <outline type="link"  title="Konsolenpodcasts - Gaming zum Hören" text="Konsolenpodcasts - Gaming zum Hören" url="http://www.konsolenpodcasts.de/feed/global/all"/>
+    <outline type="link"  title="astounded.de" text="astounded.de" url="http://astounded.de/feed/podcast"/>
+    <outline type="link"  title="McCast - Geschmack für die Ohren" text="McCast - Geschmack für die Ohren" url="http://www.mc-cast.de/?feed=podcast"/>
+    <outline type="link"  title="Halbwahrheiten" text="Halbwahrheiten" url="http://halbwahrheiten.podspot.de/rss"/>
+    <outline type="link"  title="Supersenf" text="Supersenf" url="http://www.rocketrocker.de/feed/"/>
+    <outline type="link"  title="Mitmachcast - discontinued" text="Mitmachcast - discontinued" url="http://mitmachcast.podspot.de/rss"/>
+    <outline type="link"  title="http://expmarrunning.podspot.de" text="http://expmarrunning.podspot.de" url="http://expmarrunning.podspot.de/rss"/>
+    <outline type="link"  title="Die Stimme der freien Welt" text="Die Stimme der freien Welt" url="http://www.die-stimme-der-freien-welt.de/podcast"/>
+    <outline type="link"  title="SOUL-STUDIO PODCUTS" text="SOUL-STUDIO PODCUTS" url="http://feeds.feedburner.com/Podcuts"/>
+    <outline type="link"  title="Nintendocast - Gaming zum Hören" text="Nintendocast - Gaming zum Hören" url="http://www.nintendocast.de/wp-rss2.php?cat=4"/>
+    <outline type="link"  title="filmnetz.net Podcast" text="filmnetz.net Podcast" url="http://filmnetz.podspot.de/rss"/>
+    <outline type="link"  title="Buschka entdeckt Deutschland - Die StandUp-Reportage als Vlog" text="Buschka entdeckt Deutschland - Die StandUp-Reportage als Vlog" url="http://www.buschka-entdeckt.de/?feed=rss2"/>
+    <outline type="link"  title="PlugIn" text="PlugIn" url="http://plugin.podspot.de/rss"/>
+    <outline type="link"  title="http://domianzerzog.podspot.de" text="http://domianzerzog.podspot.de" url="http://domianzerzog.podspot.de/rss"/>
+    <outline type="link"  title="Hotel Freund - Die satirische Radiorevue" text="Hotel Freund - Die satirische Radiorevue" url="http://daxanda.podspot.de/rss"/>
+    <outline type="link"  title="Sunshine PodCast" text="Sunshine PodCast" url="http://www.sunshine.it/index2.php?option=com_podcast&amp;feed=RSS2.0&amp;no_html=1&amp;catID=102"/>
+    <outline type="link"  title="Pimp My Brain" text="Pimp My Brain" url="http://pimpmybrain.podspot.de/rss"/>
+    <outline type="link"  title="Wissenspodcast mit AHA-Effekt - Der Infotainment Podcast!" text="Wissenspodcast mit AHA-Effekt - Der Infotainment Podcast!" url="http://www.infotainment-podcast.de/erfindungen/?feed=rss2"/>
+    <outline type="link"  title="OHRENSESSEL - Bernd Begemanns gemütliche Filmlounge" text="OHRENSESSEL - Bernd Begemanns gemütliche Filmlounge" url="http://www.ohrensessel-filme.de/rss.php"/>
+    <outline type="link"  title="Motörblog" text="Motörblog" url="http://motorcash.podspot.de/rss"/>
+    <outline type="link"  title="dreitausend.de - Talk aus Berlin" text="dreitausend.de - Talk aus Berlin" url="http://www.dreitausend.de/feed/feed.xml"/>
+    <outline type="link"  title="TomP!" text="TomP!" url="http://tomp.podspot.de/rss"/>
+    <outline type="link"  title="NoTalkRadio" text="NoTalkRadio" url="http://notalkradio.podspot.de/rss"/>
+    <outline type="link"  title="Ein Kontrabass spielt (selten) allein" text="Ein Kontrabass spielt (selten) allein" url="http://www.friedrich-witt.de/podcast"/>
+    <outline type="link"  title="Neue Helden" text="Neue Helden" url="http://podcast.neuehelden.tv/nh_podcast.xml"/>
+    <outline type="link"  title="Der Wildkräutergang." text="Der Wildkräutergang." url="http://www.radioserve.com/kosmos/index.php?feed=podcast"/>
+    <outline type="link"  title="Hellwach in Dresden" text="Hellwach in Dresden" url="http://aaron73.podspot.de/rss"/>
+    <outline type="link"  title="Lyrikslam" text="Lyrikslam" url="http://feeds.feedburner.com/Lyrikslam"/>
+    <outline type="link"  title="WortArt Podcast" text="WortArt Podcast" url="http://wortart.podspot.de/rss"/>
+    <outline type="link"  title="podestrian - GO! LISTEN! TELL!" text="podestrian - GO! LISTEN! TELL!" url="http://podestrian.podspot.de/rss"/>
+    <outline type="link"  title="Saschas Pod-pourri - Und täglich grüßt das Murmeltier!" text="Saschas Pod-pourri - Und täglich grüßt das Murmeltier!" url="http://ruehlowtier.podspot.de/rss"/>
+    <outline type="link"  title="Fido's Podcast" text="Fido's Podcast" url="http://fidospodcast.kilu.de/?feed=podcast"/>
+    <outline type="link"  title="Comedy Podcast - Deutschland trauert!" text="Comedy Podcast - Deutschland trauert!" url="http://www.comedynetwork.de/index2.php?option=com_podcast&amp;feed=RSS2.0&amp;no_html=1&amp;catID=75"/>
+    <outline type="link"  title="horschema" text="horschema" url="http://horschema.podspot.de/rss"/>
+    <outline type="link"  title="Christians Podcast" text="Christians Podcast" url="http://c-seyffarth.podspot.de/rss"/>
+    <outline type="link"  title="Poptickerpod" text="Poptickerpod" url="http://www.poptickerpod.de/podcast.php"/>
+    <outline type="link"  title="abweger" text="abweger" url="http://abweger.podspot.de/rss"/>
+    <outline type="link"  title="Christina Hilton - Telefonate mit einer Schönheit aus der Provinz" text="Christina Hilton - Telefonate mit einer Schönheit aus der Provinz" url="http://christina-hilton.podspot.de/rss"/>
+    <outline type="link"  title="" text="" url="http://truckercast.podspot.de/rss"/>
+    <outline type="link"  title="Antenne Bayern - Drahtlos in Bayern" text="Antenne Bayern - Drahtlos in Bayern" url="http://www.antenne.de/podcasts/drahtlos/index.xml.php"/>
+    <outline type="link"  title="Hoffmann und Campe" text="Hoffmann und Campe" url="http://www.presseportal.de/rss/podcast_61036.rss2"/>
+    <outline type="link"  title="SoulMamaPodcast" text="SoulMamaPodcast" url="http://soulmamapodcast.podspot.de/rss"/>
+    <outline type="link"  title="Happ-i-Day" text="Happ-i-Day" url="http://happ-i-day.podspot.de/rss"/>
+    <outline type="link"  title="Riprap in Wien" text="Riprap in Wien" url="http://riprap.podspot.de/rss"/>
+    <outline type="link"  title="Neurotainment Podcast" text="Neurotainment Podcast" url="http://feeds.feedburner.com/neurotainment"/>
+    <outline type="link"  title="Big C´s Podosphere" text="Big C´s Podosphere" url="http://podosphere.podspot.de/rss"/>
+    <outline type="link"  title="Unterhaltung | blog.tele2.at" text="Unterhaltung | blog.tele2.at" url="http://blog.tele2.at/rss/podcast/unterhaltung"/>
+    <outline type="link"  title="AUDIO_FLOW" text="AUDIO_FLOW" url="http://owo.podspot.de/rss"/>
+    <outline type="link"  title="Rauchen mit Kalle" text="Rauchen mit Kalle" url="http://rauchen.podspot.de/rss"/>
+    <outline type="link"  title="http://active.podspot.de" text="http://active.podspot.de" url="http://active.podspot.de/rss"/>
+    <outline type="link"  title="Imaginary Animals" text="Imaginary Animals" url="http://feeds.feedburner.com/imaginary-animals"/>
+    <outline type="link"  title="Thesaurus Librorum" text="Thesaurus Librorum" url="http://thesaurus-librorum.podspot.de/rss"/>
+    <outline type="link"  title="NEON.de Podcast - Dein Promi-Interview" text="NEON.de Podcast - Dein Promi-Interview" url="http://www.neon.de/podcast/index.xml"/>
+    <outline type="link"  title="Das kulinarische Duett" text="Das kulinarische Duett" url="http://www.kulinarisches-duett.de/rss.xml"/>
+    <outline type="link"  title="steilpass.tv" text="steilpass.tv" url="http://www.steilpass.tv/rss/"/>
+    <outline type="link"  title="The Special Guests" text="The Special Guests" url="http://www.thespecialguests.de/rss.php"/>
+    <outline type="link"  title="Die Geschichte von Allesman" text="Die Geschichte von Allesman" url="http://odeo.com/channel/112937/rss"/>
+    <outline type="link"  title="Bremer Cafe Pod" text="Bremer Cafe Pod" url="http://www.bremercafepod.de/Bremer_Cafe_Pod/Podcast/rss.xml"/>
+    <outline type="link"  title="R³ | ROOSTER's REDAKTION REVUE" text="R³ | ROOSTER's REDAKTION REVUE" url="http://rooster24com.podspot.de/rss"/>
+    <outline type="link"  title="..." text="..." url="http://www.sunundkobra.de/?feed=podcast"/>
+    <outline type="link"  title="Ohrzucker" text="Ohrzucker" url="http://ohrzucker.podspot.de/rss"/>
+    <outline type="link"  title="T * T * * T - Ein Podcastkrimi" text="T * T * * T - Ein Podcastkrimi" url="http://www.podcastkrimi.de/?feed=podcast"/>
+    <outline type="link"  title="BBall7 - Die Basketball AG" text="BBall7 - Die Basketball AG" url="http://bball7.podspot.de/rss"/>
+    <outline type="link"  title="RPF8 - Der Musical &amp; Comedy Sender - Das Tagebuch" text="RPF8 - Der Musical &amp; Comedy Sender - Das Tagebuch" url="http://www.rpf8.de/assets/podcasts/podcast.xml"/>
+    <outline type="link"  title="Der Lipgloss Podcast" text="Der Lipgloss Podcast" url="http://cartoonmotion.podspot.de/rss"/>
+    <outline type="link"  title="Die Vergessenen" text="Die Vergessenen" url="http://kerstin.podspot.de/rss"/>
+    <outline type="link"  title="Podsafemusicpod" text="Podsafemusicpod" url="http://podsafemusicpod.podspot.de/rss"/>
+    <outline type="link"  title="trnd tv" text="trnd tv" url="http://blog.trnd.com/trndtv.xml"/>
+    <outline type="link"  title="toptrnd show iPod-Version" text="toptrnd show iPod-Version" url="http://blog.trnd.com/toptrndshowipod.xml"/>
+    <outline type="link"  title="Kinderradio" text="Kinderradio" url="http://pod.drs.ch/kinderradio_mpx.xml"/>
+    <outline type="link"  title="weibergeschwaetz" text="weibergeschwaetz" url="http://weibergeschwaetz.podspot.de/rss"/>
+    <outline type="link"  title="Liveshopping im Internet" text="Liveshopping im Internet" url="http://www.podcast.showping.de/assets/podcasts/liveshopping.xml"/>
+    <outline type="link"  title="EA Radio Show Podcast" text="EA Radio Show Podcast" url="http://www.electronic-arts.de/podcast/?id=1"/>
+    <outline type="link"  title="Lilith - Kartenlegen und Esoterik" text="Lilith - Kartenlegen und Esoterik" url="http://lilith.podspot.de/rss"/>
+    <outline type="link"  title="Der AlienPod" text="Der AlienPod" url="http://www.port-x.de/feed/podcast.xml"/>
+    <outline type="link"  title="Er redet Sachen" text="Er redet Sachen" url="http://www.wnj0xxd6.homepage.t-online.de/Podcast/podcast.xml"/>
+    <outline type="link"  title="Blumentopf" text="Blumentopf" url="http://blumentopf.podspot.de/rss"/>
+    <outline type="link"  title="B-Seite" text="B-Seite" url="http://b-seite.podspot.de/rss"/>
+    <outline type="link"  title="Die Welt des Herrn K." text="Die Welt des Herrn K." url="http://web.mac.com/michaelkenda/Michael_Kenda/Podcast/rss.xml"/>
+    <outline type="link"  title="Der aktuelle Aufreger" text="Der aktuelle Aufreger" url="http://web.mac.com/krachten/Krachten/Der_aktuelle_Aufreger/rss.xml"/>
+    <outline type="link"  title="FM sellberg" text="FM sellberg" url="http://sellberg.podspot.de/rss"/>
+    <outline type="link"  title="Eine halbe Million Gründe - Das große Abenteuer des Michael Pratzke" text="Eine halbe Million Gründe - Das große Abenteuer des Michael Pratzke" url="http://www.pratzke.de/rss.xml"/>
+    <outline type="link"  title="Sommer Pod" text="Sommer Pod" url="http://sommer-pod.savecast.de/rss/"/>
+    <outline type="link"  title="FM sellberg - Advent" text="FM sellberg - Advent" url="http://sellbergadvent.podspot.de/rss"/>
+    <outline type="link"  title="http://pods-dings.podspot.de" text="http://pods-dings.podspot.de" url="http://pods-dings.podspot.de/rss"/>
+    <outline type="link"  title="Pods-Dings" text="Pods-Dings" url="http://www.soundnezz.de/nbo_podcast/Pods-Dings.xml"/>
+    <outline type="link"  title="Impuls für X" text="Impuls für X" url="http://stefanpeter.podspot.de/rss"/>
+    <outline type="link"  title="Hansens Taxi" text="Hansens Taxi" url="http://rss.mac.com/cbrix/iWeb/www.HansensTaxi.de/Filme/rss.xml"/>
+    <outline type="link"  title="total cooking auf trnd.tv" text="total cooking auf trnd.tv" url="http://blog.trnd.com/totalcooking.xml"/>
+    <outline type="link"  title="kinder-welle" text="kinder-welle" url="http://kinderwelle.podspot.de/rss"/>
+    <outline type="link"  title="podcast.muenzenweb.de" text="podcast.muenzenweb.de" url="http://muenzenweb.de/podcast/audio/rss.xml"/>
+    <outline type="link"  title="Harry Potter und der geheime P**** Keller (Original von Coldmirror)" text="Harry Potter und der geheime P**** Keller (Original von Coldmirror)" url="http://saadi.kilu.de/rss/hp2.xml"/>
+    <outline type="link"  title="http://bigdenn.podspot.de" text="http://bigdenn.podspot.de" url="http://bigdenn.podspot.de/rss"/>
+    <outline type="link"  title="Himmel über Moskau" text="Himmel über Moskau" url="http://fulix.podspot.de/rss"/>
+    <outline type="link"  title="UNGEHEUERlich" text="UNGEHEUERlich" url="http://franziska.podspot.de/rss"/>
+    <outline type="link"  title="Fußballmanager Podcast" text="Fußballmanager Podcast" url="http://www.electronic-arts.de/podcast/?id=2"/>
+    <outline type="link"  title="Leave Me Alone" text="Leave Me Alone" url="http://tjmk.podspot.de/rss"/>
+    <outline type="link"  title="Warum Fliegen auf Kühe fliegen" text="Warum Fliegen auf Kühe fliegen" url="http://warumfliegenaufkuehefliegen.podspot.de/rss "/>
+    <outline type="link"  title="Daily Me - the Podcast Edition" text="Daily Me - the Podcast Edition" url="http://dailypia.podspot.de/rss"/>
+    <outline type="link"  title="TREKminds [SF-Radio]" text="TREKminds [SF-Radio]" url="http://www.sf-radio.net/syndication/feeds/sendungen/trekminds.xml"/>
+    <outline type="link"  title="Der Pannen-Podcast auf www.meinhajo.de" text="Der Pannen-Podcast auf www.meinhajo.de" url="http://www.meinhajo.de/pannen/pannen.xml"/>
+    <outline type="link"  title="Sneak-Kino.de-Podcast" text="Sneak-Kino.de-Podcast" url="http://sneak-kino.podspot.de/rss"/>
+    <outline type="link"  title="Entirely Entertaining - Das Archiv (Über 2 Jahre Filmpodcasting)" text="Entirely Entertaining - Das Archiv (Über 2 Jahre Filmpodcasting)" url="http://feeds.feedburner.com/EntirelyEntertaining"/>
+    <outline type="link"  title="10 Sekunden" text="10 Sekunden" url="http://zehn.podspot.de/rss"/>
+    <outline type="link"  title="Clubcast" text="Clubcast" url="http://clubcast.podspot.de/rss"/>
+    <outline type="link"  title="" text="" url="http://markmann.podspot.de/rss"/>
+    <outline type="link"  title="Blizzard Podcast" text="Blizzard Podcast" url="http://blizzard.podspot.de/rss"/>
+    <outline type="link"  title="HP praesentiert: Gscheitmaier - eine Podcast-Büro-Soap in 8 Teilen" text="HP praesentiert: Gscheitmaier - eine Podcast-Büro-Soap in 8 Teilen" url="http://h40054.www4.hp.com/gscheitmaier/rss/HP_Gscheitmaier_S01.rss"/>
+    <outline type="link"  title="Filme und so" text="Filme und so" url="http://www.filmeundso.de/feed/"/>
+    <outline type="link"  title="Klub Ma:d" text="Klub Ma:d" url="http://www.klubmad.de/podcast.php"/>
+    <outline type="link"  title="Couchcoders" text="Couchcoders" url="http://couchcoders.de/rss"/>
+    <outline type="link"  title="Der gamezoom.net Gamesbeat" text="Der gamezoom.net Gamesbeat" url="http://blademan.podspot.de/rss"/>
+    <outline type="link"  title="Ö3: Wecker-Konzentrat" text="Ö3: Wecker-Konzentrat" url="http://static.orf.at/oe3/podcast/oe3_wecker_podcast.xml"/>
+    <outline type="link"  title="Tottocast" text="Tottocast" url="http://totto.podspot.de/rss"/>
+    <outline type="link"  title="affected.ch" text="affected.ch" url="http://www.affected.ch/podcast.php"/>
+    <outline type="link"  title="Die Mediencouch" text="Die Mediencouch" url="http://www.medien-mittweida.de/nbo_podcast/mediencouch.xml"/>
+    <outline type="link"  title="MoPs!" text="MoPs!" url="http://rss.mac.com/emmell70/iWeb/MoPs/Sendungen/rss.xml"/>
+    <outline type="link"  title="Frühpost.de - Der Frühstückspodcast" text="Frühpost.de - Der Frühstückspodcast" url="http://www.fruehpost.de/podcast.php"/>
+    <outline type="link"  title="Nach(t)gedacht" text="Nach(t)gedacht" url="http://nachtgedacht.podspot.de/rss"/>
+    <outline type="link"  title="Ein Wochenende in Waiblingen" text="Ein Wochenende in Waiblingen" url="http://izabel-templinova.podspot.de/rss"/>
+    <outline type="link"  title="Podcast von Johannes" text="Podcast von Johannes" url="http://johanneskroening.podspot.de/rss"/>
+    <outline type="link"  title="Buch.TV: WebTV-Radio - Newscasts zu Büchern, elektronischen Medien und" text="Buch.TV: WebTV-Radio - Newscasts zu Büchern, elektronischen Medien und" url="http://www.dreamflasher.de/BuchTV"/>
+    <outline type="link"  title="neolisten" text="neolisten" url="http://www.neolisten.de/rss/neolisten.xml"/>
+    <outline type="link"  title="http://wortsalat.podspot.de" text="http://wortsalat.podspot.de" url="http://wortsalat.podspot.de/rss"/>
+    <outline type="link"  title="RuPod" text="RuPod" url="http://rupod.podspot.de/rss"/>
+    <outline type="link"  title="pudelwohl - Deutschlands erster Wohlfühlpodcast" text="pudelwohl - Deutschlands erster Wohlfühlpodcast" url="http://pudelwohl.podspot.de/rss"/>
+    <outline type="link"  title="rs2 - Liebe im ersten Semester" text="rs2 - Liebe im ersten Semester" url="http://www.rs2.de/cgi-bin/WebObjects/rs2.woa/wa/CMSFeed/podcast2108852"/>
+    <outline type="link"  title="Radio Lyrikmaschine" text="Radio Lyrikmaschine" url="http://feeds.feedburner.com/RadioLyrikmaschine/"/>
+    <outline type="link"  title="Wir sind Deutschland Radio" text="Wir sind Deutschland Radio" url="http://deutschland-radio.podspot.de/rss"/>
+    <outline type="link"  title="PLAY.FM Latest Interviews" text="PLAY.FM Latest Interviews" url="http://feeds.feedburner.com/PlayfmLatestInterviews"/>
+    <outline type="link"  title="Trivial Delight" text="Trivial Delight" url="http://jaffolk.podspot.de/rss"/>
+    <outline type="link"  title="Leonie Videocast" text="Leonie Videocast" url="http://www.poppworld.com/poppCast_Videopodcast_poppWorld.php"/>
+    <outline type="link"  title="setzcastenromantik" text="setzcastenromantik" url="http://koenigdamebube.podspot.de/rss"/>
+    <outline type="link"  title="Die Entertainment.AG und Radio.UG" text="Die Entertainment.AG und Radio.UG" url="http://rpf.podspot.de/rss"/>
+    <outline type="link"  title="mittendrin - Ninas Welt" text="mittendrin - Ninas Welt" url="http://www.mittendrin.tv/podcast/podcast.php"/>
+    <outline type="link"  title="u-kult.de: Teichblick" text="u-kult.de: Teichblick" url="http://www.sf-radio.net/syndication/feeds/sendungen/teichblick.xml"/>
+    <outline type="link"  title="Combox - Die neue Radioshow" text="Combox - Die neue Radioshow" url="http://feeds.feedburner.com/combox"/>
+    <outline type="link"  title="Radio Schmitzke" text="Radio Schmitzke" url="http://www.alexander-naumann.de/mediapool/21/213850/data/Radio_Schmitzke.xml"/>
+    <outline type="link"  title="Die Weltscheibe" text="Die Weltscheibe" url="http://feeds.feedburner.com/DieWeltscheibe"/>
+    <outline type="link"  title="Podcast zur Lage der Nation" text="Podcast zur Lage der Nation" url="http://surabaiajohnny.libsyn.com/rss"/>
+    <outline type="link"  title="Die wundersame Welt der Schweizer" text="Die wundersame Welt der Schweizer" url="http://jelisa.podspot.de/rss"/>
+    <outline type="link"  title="talkFREI- Die Podcast- Latenight- Show" text="talkFREI- Die Podcast- Latenight- Show" url="http://talkfrei.podspot.de/rss"/>
+    <outline type="link"  title="Das Satirische Quartett" text="Das Satirische Quartett" url="http://podcast-wahnsinn.podspot.de/rss"/>
+    <outline type="link"  title="Euphorika.podcast" text="Euphorika.podcast" url="http://www.euphorika.de/podcast/rss.php"/>
+    <outline type="link"  title="Schattensprung" text="Schattensprung" url="http://schattensprung.podspot.de/rss"/>
+    <outline type="link"  title="Podcast der wirren Gedanken" text="Podcast der wirren Gedanken" url="http://ahandler.safen.at/pod/rss/rss.xml"/>
+    <outline type="link"  title="Cast und Pod mit Turandot" text="Cast und Pod mit Turandot" url="http://turandot.podspot.de/rss"/>
+    <outline type="link"  title="Open Mic - Mike mischt mit" text="Open Mic - Mike mischt mit" url="http://openmic.podspot.de/rss "/>
+    <outline type="link"  title="ein(e)blick" text="ein(e)blick" url="http://li-media.podspot.de/rss"/>
+    <outline type="link"  title="Dr. Rock - die Podcast-Show" text="Dr. Rock - die Podcast-Show" url="http://www.public-radio.de/drrock/drrock.xml"/>
+    <outline type="link"  title="Müde in Lübeck" text="Müde in Lübeck" url="http://mil.podspot.de/rss"/>
+    <outline type="link"  title="HEADS &amp; FACES" text="HEADS &amp; FACES" url="http://interviews.podspot.de/rss"/>
+    <outline type="link"  title="SPACCOLATORs HÖRBAR" text="SPACCOLATORs HÖRBAR" url="http://www.mittelrhein-service.de/audioblogger/?feed=rss2"/>
+    <outline type="link"  title="podkascht.de" text="podkascht.de" url="http://podkascht.de/feed/"/>
+    <outline type="link"  title="WOLKENFAHRER" text="WOLKENFAHRER" url="http://andreas-kurz.podspot.de/rss"/>
+    <outline type="link"  title="Tag und Nacht in Wunstorf" text="Tag und Nacht in Wunstorf" url="http://tagundnachtinwunstorf.podspot.de/rss"/>
+    <outline type="link"  title="DogPodcast" text="DogPodcast" url="http://dogpodcast.podspot.de/rss "/>
+    <outline type="link"  title="Podcastra" text="Podcastra" url="http://podcastra.de/?feed=rss2&amp;category_name=podcasts"/>
+    <outline type="link"  title="TroyFanfare seine und die allgemeineWelt" text="TroyFanfare seine und die allgemeineWelt" url="http://troyfanfare.podspot.de/rss"/>
+    <outline type="link"  title="silbercast" text="silbercast" url="http://silbercast.podspot.de/rss"/>
+    <outline type="link"  title="Podmuckl - Podcast aus München" text="Podmuckl - Podcast aus München" url="http://www.podmuckl.de/feed/"/>
+    <outline type="link"  title="Ciddytalk - die Stereochaoten" text="Ciddytalk - die Stereochaoten" url="http://ciddytalk.podspot.de/rss"/>
+    <outline type="link"  title="Raude Wuuscht" text="Raude Wuuscht" url="http://nudelholz.podspot.de/rss"/>
+    <outline type="link"  title="Radio.UG - Das Unterhaltungsradio und die Entertainment.AG" text="Radio.UG - Das Unterhaltungsradio und die Entertainment.AG" url="http://radio.ug/podcast/meldungen.xml"/>
+    <outline type="link"  title="Kult ist, was man entdeckt." text="Kult ist, was man entdeckt." url="http://roman.podspot.de/rss"/>
+    <outline type="link"  title="Podtainment - Die Zukunft der Unterhaltung" text="Podtainment - Die Zukunft der Unterhaltung" url="http://podtainment.podspot.de/rss"/>
+    <outline type="link"  title="Gedichte Gedichte Gedichte" text="Gedichte Gedichte Gedichte" url="http://gedichte.podspot.de/rss"/>
+    <outline type="link"  title="die aktuelle - Highlights der Woche" text="die aktuelle - Highlights der Woche" url="http://dieaktuelle.podcast4all.de/podcast/aktuelle.xml.php"/>
+    <outline type="link"  title="Podian's Kuschelpod" text="Podian's Kuschelpod" url="http://podian.podspot.de/rss"/>
+    <outline type="link"  title="businessportal24.com podcast" text="businessportal24.com podcast" url="http://podcast.businessportal24.com/de/podcast_rss.xml"/>
+    <outline type="link"  title="talkandjazz.de - Prime Edition am 6.1.2007" text="talkandjazz.de - Prime Edition am 6.1.2007" url="http://www.talkandjazz.de/talkandjazz_20070106.rss"/>
+    <outline type="link"  title="Uschi Absturz" text="Uschi Absturz" url="http://michiundnino.podspot.de/rss"/>
+    <outline type="link"  title="Der Glotzcast" text="Der Glotzcast" url="http://glotzcast.podspot.de/rss"/>
+    <outline type="link"  title="Gameshow" text="Gameshow" url="http://gameshow.podspot.de/rss"/>
+    <outline type="link"  title="dasMonster (in Australien)" text="dasMonster (in Australien)" url="http://dasMonster.podspot.de/rss"/>
+    <outline type="link"  title="Tom &amp; Lisa" text="Tom &amp; Lisa" url="http://tom-und-lisa.podspot.de/rss"/>
+    <outline type="link"  title="Die Kassetten - Der Podcast [geschlossen]" text="Die Kassetten - Der Podcast [geschlossen]" url="http://podcast.die-kassetten.de/podcast.php"/>
+    <outline type="link"  title="DPS Early Night" text="DPS Early Night" url="http://feeds.feedburner.com/DpsEarlyNight"/>
+    <outline type="link"  title="Gebloggtes Podcast" text="Gebloggtes Podcast" url="http://odeo.com/channel/124284/rss"/>
+    <outline type="link"  title="der sternentaucher podcast" text="der sternentaucher podcast" url="http://sternentaucher.podspot.de/rss"/>
+    <outline type="link"  title="Schnulliversum TV" text="Schnulliversum TV" url="http://schnulliversum.podspot.de/rss"/>
+    <outline type="link"  title="Ö3: Tom &amp; Gerda" text="Ö3: Tom &amp; Gerda" url="http://static.orf.at/oe3/podcast/oe3_sternstunden_privat.xml"/>
+    <outline type="link"  title="Radio-KidZ" text="Radio-KidZ" url="http://ifak.podspot.de/rss"/>
+    <outline type="link"  title="HIER REIN DA RAUS" text="HIER REIN DA RAUS" url="http://feeds.feedburner.com/hierreindaraus"/>
+    <outline type="link"  title="Maurenbrechers Betrachtungen" text="Maurenbrechers Betrachtungen" url="http://herkules.podspot.de/rss"/>
+    <outline type="link"  title="Yet Another Blog" text="Yet Another Blog" url="http://www.yetanotherblog.de/xml-rss2.php"/>
+    <outline type="link"  title="Bigtoms Late Night Podcast" text="Bigtoms Late Night Podcast" url="http://www.bigtom24.de/assets/podcasts/latenight.xml"/>
+    <outline type="link"  title="Mac-Weblog.info Podcast" text="Mac-Weblog.info Podcast" url="http://www.mac-weblog.info/podcast/rss.php"/>
+    <outline type="link"  title="Rock auf dem Vulkan" text="Rock auf dem Vulkan" url="http://www.rockaufdemvulkan.com/podcast/rockshow.xml"/>
+    <outline type="link"  title="Freeze FM" text="Freeze FM" url="http://freezefm.podspot.de/rss"/>
+    <outline type="link"  title="Die Schweizer, der Fussball und andere Abenteuer" text="Die Schweizer, der Fussball und andere Abenteuer" url="http://massilia.podspot.de/rss"/>
+    <outline type="link"  title="NightZeit-Podcast" text="NightZeit-Podcast" url="http://podcast.nighttiger.net/podcast.php"/>
+    <outline type="link"  title="harrass-raschelt" text="harrass-raschelt" url="http://harrass-raschelt.podspot.de/rss"/>
+    <outline type="link"  title="Stadtpalais" text="Stadtpalais" url="http://stadtpalais.podspot.de/rss"/>
+    <outline type="link"  title="Unterhaltungs Radio (Radio.UG) - Die Entertainment.AG" text="Unterhaltungs Radio (Radio.UG) - Die Entertainment.AG" url="http://podcast.radio.ug/entertainment.rss"/>
+    <outline type="link"  title="Regensburg Day&amp;Night" text="Regensburg Day&amp;Night" url="http://www.regensburg-day.de/podcast.php"/>
+    <outline type="link"  title="jo!huber" text="jo!huber" url="http://feeds.feedburner.com/johuber"/>
+    <outline type="link"  title="zwiebelfunk" text="zwiebelfunk" url="http://www.zwiebelfunk.de/podcast.php"/>
+    <outline type="link"  title="Gfläsht" text="Gfläsht" url="http://kravutzi.podspot.de/rss"/>
+    <outline type="link"  title="BodPod" text="BodPod" url="http://bodpod.podspot.de/rss"/>
+    <outline type="link"  title="frenum temporis -Die Zeitbremse-" text="frenum temporis -Die Zeitbremse-" url="http://frenum-temporis.podspot.de/rss"/>
+    <outline type="link"  title="pecwaldi.podspot.de" text="pecwaldi.podspot.de" url="http://pecwaldi.podspot.de/rss"/>
+    <outline type="link"  title="strange-links Podcast" text="strange-links Podcast" url="http://www.strange-links.de/podcast/strange-pod.xml"/>
+    <outline type="link"  title="KIFF.FM" text="KIFF.FM" url="http://www.kiffen-fm.de/podcast.php"/>
+    <outline type="link"  title="Faraway Letters: (Cyber)Punk des Südens" text="Faraway Letters: (Cyber)Punk des Südens" url="http://www.wedgefaraway.net/category/cpr/feed/"/>
+    <outline type="link"  title="Der Goofel" text="Der Goofel" url="http://goofel.podspot.de/rss"/>
+    <outline type="link"  title="Ownage" text="Ownage" url="http://ownage.podspot.de/rss"/>
+    <outline type="link"  title="Pick sieht fern" text="Pick sieht fern" url="http://garagenpodcast.podspot.de/rss"/>
+    <outline type="link"  title="Holzapfels Wahrheit" text="Holzapfels Wahrheit" url="http://holzapfel.podspot.de/rss"/>
+    <outline type="link"  title="Wortspende" text="Wortspende" url="http://www.carjell.net/wortspende/wortspende.xml"/>
+    <outline type="link"  title="leipS" text="leipS" url="http://leips.sw-sys.de/podcast.php"/>
+    <outline type="link"  title="Amidasu" text="Amidasu" url="http://blog.amidasu.net/archive/category/podcast/feed/"/>
+    <outline type="link"  title="Des Papstes Wort zum Sonntag" text="Des Papstes Wort zum Sonntag" url="http://gruni.podspot.de/rss"/>
+    <outline type="link"  title="Die Stimmen aus Antares" text="Die Stimmen aus Antares" url="http://podcast.sw-sys.de/pods/rss.php"/>
+    <outline type="link"  title="" text="" url="http://www.podcast.highopie.de/audio/rss.xml"/>
+    <outline type="link"  title="OssiPortal" text="OssiPortal" url="http://ossiportal.podspot.de/rss"/>
+    <outline type="link"  title="roba.in" text="roba.in" url="http://inseck.podspot.de/rss"/>
+    <outline type="link"  title="Papalapap" text="Papalapap" url="http://www.kidspods.de/papalapap.xml"/>
+    <outline type="link"  title="Sebbecast" text="Sebbecast" url="http://sebbe.podspot.de/rss"/>
+    <outline type="link"  title="SaturdayNightNonSense" text="SaturdayNightNonSense" url="http://saturdaynightnonsense.podspot.de/rss"/>
+    <outline type="link"  title="WortLast Podcast" text="WortLast Podcast" url="http://wortlast.podspot.de/rss"/>
+    <outline type="link"  title="Gayheim - Das unbekannte Schwulenamt" text="Gayheim - Das unbekannte Schwulenamt" url="http://gaywebradio.de/gayheim/podcast.php"/>
+    <outline type="link"  title="AudioKULTUR" text="AudioKULTUR" url="http://audiokultur.podspot.de/rss"/>
+    <outline type="link"  title="München Brummt!" text="München Brummt!" url="http://muenchen-brummt.podspot.de/rss"/>
+    <outline type="link"  title="Radio.UG - Das Unterhaltungsradio im Internet" text="Radio.UG - Das Unterhaltungsradio im Internet" url="http://podcast.cx/radio_ug.rss"/>
+    <outline type="link"  title="RadioSpeakerscorner" text="RadioSpeakerscorner" url="http://hemer.podspot.de/rss"/>
+    <outline type="link"  title="BIGTOM24 - 100% Berlin" text="BIGTOM24 - 100% Berlin" url="http://www.bigtom24.de/assets/podcasts/bigtom24.xml"/>
+    <outline type="link"  title="Keru Project" text="Keru Project" url="http://keru-project.podspot.de/rss"/>
+    <outline type="link"  title="Podcasting @ Tanja + Florian" text="Podcasting @ Tanja + Florian" url="http://rss.mac.com/prosupplex/iWeb/prosupplex/Podcast/rss.xml"/>
+    <outline type="link"  title="Lectern" text="Lectern" url="http://lectern.podspot.de/rss"/>
+    <outline type="link"  title="Der Macho Talk" text="Der Macho Talk" url="http://www.die-anonymen-frauenversteher.de/Die%20anonymen%20Frauenversteher/Podcast/rss.xml"/>
+    <outline type="link"  title="Der Coke light Podcast" text="Der Coke light Podcast" url="http://www.coke-light.de/podcast/feed.xml"/>
+    <outline type="link"  title="spreer.net - podcast: Das Reich Gottes" text="spreer.net - podcast: Das Reich Gottes" url="http://podcast.spreer.net/podcast.php?cat=DasReichGottes"/>
+    <outline type="link"  title="SVB to go" text="SVB to go" url="http://www.gaywebradio.de/svbtogo/podcast.php"/>
+    <outline type="link"  title="Busse Willkommen - Die M94.5 Nachtgestalten" text="Busse Willkommen - Die M94.5 Nachtgestalten" url="http://feeds.feedburner.com/m945nachtgestalten"/>
+    <outline type="link"  title="Die kleine Welt am Wochenende" text="Die kleine Welt am Wochenende" url="http://multimaniac.podspot.de/rss"/>
+    <outline type="link"  title="Umkippeln" text="Umkippeln" url="http://umkippeln.podspot.de/rss"/>
+    <outline type="link"  title="Leben, Krebs und Outdoor" text="Leben, Krebs und Outdoor" url="http://leko.podspot.de/rss"/>
+    <outline type="link"  title="Podkick" text="Podkick" url="http://www.pixelidea.de/podkick/podcast.php"/>
+    <outline type="link"  title="meinweltbild.com" text="meinweltbild.com" url="http://meinweltbild.podspot.de/rss"/>
+    <outline type="link"  title="YOU FM Kino" text="YOU FM Kino" url="http://podcast.you-fm.de/kino/podcast.xml"/>
+    <outline type="link"  title="CaroPod" text="CaroPod" url="http://caropod.podspot.de/rss"/>
+    <outline type="link"  title="Tanken" text="Tanken" url="http://tankenpodcast.podspot.de/rss"/>
+    <outline type="link"  title="glücklich verzweifeln" text="glücklich verzweifeln" url="http://ki.podspot.de/rss"/>
+    <outline type="link"  title="swiss-pod.ch" text="swiss-pod.ch" url="http://www.swiss-pod.ch/podcast.php"/>
+    <outline type="link"  title="Big-City-Life" text="Big-City-Life" url="http://www.pixelidea.de/bclife/?feed=rss2"/>
+    <outline type="link"  title="AvaTalk" text="AvaTalk" url="http://avaborg.podspot.de/rss"/>
+    <outline type="link"  title="Auf der Suche" text="Auf der Suche" url="http://aufdersuche.onsic.de/?feed=rss2"/>
+    <outline type="link"  title="Fünf Minuten über..." text="Fünf Minuten über..." url="http://them.podspot.de/rss"/>
+    <outline type="link"  title="Podstulle" text="Podstulle" url="http://podstulle.podspot.de/rss"/>
+    <outline type="link"  title="kevin dax' blog" text="kevin dax' blog" url="http://www.kevindax.de/wp/?feed=rss2"/>
+    <outline type="link"  title="andris-sterndeuterei" text="andris-sterndeuterei" url="http://andris-sterndeuterei.podspot.de/rss"/>
+    <outline type="link"  title="German Poems" text="German Poems" url="http://german-poems.podspot.de/rss"/>
+    <outline type="link"  title="Schafkopfstammtisch" text="Schafkopfstammtisch" url="http://osserwiese.podspot.de/rss"/>
+    <outline type="link"  title="Lukas' Podcast" text="Lukas' Podcast" url="http://ipod-freak.podspot.de/rss "/>
+    <outline type="link"  title="Gedankenrausch" text="Gedankenrausch" url="http://gedankenrausch.podspot.de/rss"/>
+    <outline type="link"  title="frau.e|YES" text="frau.e|YES" url="http://eyes.podspot.de/rss"/>
+    <outline type="link"  title="Gute Freunde – der WM 2006-Fußball-Krimi" text="Gute Freunde – der WM 2006-Fußball-Krimi" url="http://www.paul-apfel.de/rss/gutefreunde.xml"/>
+    <outline type="link"  title="Gib Dein Bestes - Der Song zum Fussball Ereignis" text="Gib Dein Bestes - Der Song zum Fussball Ereignis" url="http://mactina.podspot.de/rss"/>
+    <outline type="link"  title="tabu-vlog" text="tabu-vlog" url="http://feeds.feedburner.com/tabu-dvd/BlhE"/>
+    <outline type="link"  title="mustbefree goes online" text="mustbefree goes online" url="http://mustbefree.podspot.de/rss"/>
+    <outline type="link"  title="Gott und die Welt.....in Babenhausen" text="Gott und die Welt.....in Babenhausen" url="http://b26.podspot.de/rss "/>
+    <outline type="link"  title="Sonim's Chaos Podcast" text="Sonim's Chaos Podcast" url="http://sonim.podspot.de/rss"/>
+    <outline type="link"  title="SaarländerPodcast!" text="SaarländerPodcast!" url="http://saarlaender.podspot.de/rss"/>
+    <outline type="link"  title="patpod" text="patpod" url="http://patpod.podspot.de/rss"/>
+    <outline type="link"  title="friedemann" text="friedemann" url="http://friedemann.podspot.de/rss"/>
+    <outline type="link"  title="miamigo: Nachtschwaermer" text="miamigo: Nachtschwaermer" url="http://www.mi-amigo.de/podblogger/rss.php?pcast=itunes"/>
+    <outline type="link"  title="" text="" url="http://web-done.de/podcast/audio/rss.xml"/>
+    <outline type="link"  title="Was mit Medien. Medienmagazin." text="Was mit Medien. Medienmagazin." url="http://radioq.uni-muenster.de/podcast/podcast.php?cat=WasmitMedien"/>
+    <outline type="link"  title="Randnotizen" text="Randnotizen" url="http://randnotizen.podspot.de/rss"/>
+    <outline type="link"  title="Wer A sagt..." text="Wer A sagt..." url="http://www.werasagt.de/?feed=rss2"/>
+    <outline type="link"  title="CROPfm Big Brother News" text="CROPfm Big Brother News" url="http://bigbrothernews.podspot.de/rss"/>
+    <outline type="link"  title="DERDERDER Podcast" text="DERDERDER Podcast" url="http://derderder.podspot.de/rss"/>
+    <outline type="link"  title="margenfeld.podspot.de" text="margenfeld.podspot.de" url="http://margenfeld.podspot.de/rss"/>
+    <outline type="link"  title="FTSPS - Der podestrian podfinder" text="FTSPS - Der podestrian podfinder" url="http://ftsps.podspot.de/rss"/>
+    <outline type="link"  title="Durch und durch" text="Durch und durch" url="http://durchunddurch.podspot.de/rss"/>
+    <outline type="link"  title="Sunday weekend - Das Wochenendmagazin" text="Sunday weekend - Das Wochenendmagazin" url="http://sunday-team.podspot.de/rss"/>
+    <outline type="link"  title="Düsentrieb" text="Düsentrieb" url="http://familierichartz.podspot.de/rss"/>
+    <outline type="link"  title="Schall und Bauch" text="Schall und Bauch" url="http://schall-und-bauch.podspot.de/rss"/>
+    <outline type="link"  title="Weitwinkel" text="Weitwinkel" url="http://weitwinkel.podspot.de/rss"/>
+    <outline type="link"  title="Hannover Life" text="Hannover Life" url="http://spunkie.podspot.de/rss"/>
+    <outline type="link"  title="Ohrfutter" text="Ohrfutter" url="http://ohrfutter.podspot.de/rss"/>
+    <outline type="link"  title="StarWars - Die Cantina  [SF-Radio]" text="StarWars - Die Cantina  [SF-Radio]" url="http://www.sf-radio.net/syndication/feeds/sendungen/cantina.xml"/>
+    <outline type="link"  title="GuG-Gedanken und Geschichten aus Luxemburg" text="GuG-Gedanken und Geschichten aus Luxemburg" url="http://gug.podspot.de/rss"/>
+    <outline type="link"  title="Silentcast" text="Silentcast" url="http://silentcast.podspot.de/rss"/>
+    <outline type="link"  title="Sektion Pop" text="Sektion Pop" url="http://sektionpop.podspot.de/rss"/>
+    <outline type="link"  title="Lupus de kleine Musikfreak" text="Lupus de kleine Musikfreak" url="http://lupus.podspot.de/rss"/>
+    <outline type="link"  title="Auf die Ohren!" text="Auf die Ohren!" url="http://thinktank.podspot.de/rss"/>
+    <outline type="link"  title="Toby’s Podcast" text="Toby’s Podcast" url="http://blog.tobiasmann.de/wp-rss2.php?category_name=Podcast"/>
+    <outline type="link"  title="TheSunToucher's Podcast" text="TheSunToucher's Podcast" url="http://www.thesuntoucher.de/podcast/podcast.php"/>
+    <outline type="link"  title="fisherman" text="fisherman" url="http://fisherman.podspot.de/rss"/>
+    <outline type="link"  title="Vuign - Verdammt, unser Internet geht nicht!" text="Vuign - Verdammt, unser Internet geht nicht!" url="http://vuign.podspot.de/rss"/>
+    <outline type="link"  title="Post für mich" text="Post für mich" url="http://marcusklare.podspot.de/rss"/>
+    <outline type="link"  title="NACHTFUNK - Auf der Welle der Nacht" text="NACHTFUNK - Auf der Welle der Nacht" url="http://georgschneider.podspot.de/rss"/>
+    </body>
+</opml>

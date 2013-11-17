@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131116160616) do
+ActiveRecord::Schema.define(version: 20131116220105) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,8 +36,10 @@ ActiveRecord::Schema.define(version: 20131116160616) do
     t.integer  "owner_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "md5"
   end
 
+  add_index "opml_files", ["md5"], name: "index_opml_files_on_md5", unique: true, using: :btree
   add_index "opml_files", ["owner_id"], name: "index_opml_files_on_owner_id", using: :btree
 
   create_table "opml_files_sources", id: false, force: true do |t|
@@ -51,6 +53,7 @@ ActiveRecord::Schema.define(version: 20131116160616) do
     t.string   "token"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "image"
   end
 
   add_index "owners", ["token"], name: "index_owners_on_token", unique: true, using: :btree

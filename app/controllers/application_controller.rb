@@ -5,8 +5,8 @@ class ApplicationController < ActionController::Base
 
   protected
   def current_user
-    owner = if params[:owner_token]
-      Owner.where(token: params[:owner_token]).first!
+    owner = if params[:token]
+      Owner.where(token: params[:token]).first!
     elsif session[:owner_id]
       Owner.find(session[:owner_id])
     else
@@ -14,6 +14,9 @@ class ApplicationController < ActionController::Base
     end
     session[:owner_id] = owner.id
     owner
+  rescue Exception
+    session[:owner_id] = nil
+    Owner.create
   end
 
   def user_signed_in?

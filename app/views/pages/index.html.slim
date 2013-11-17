@@ -2,6 +2,7 @@ h1 Podfilter
 
 .jumbotron#main-attention-drawer
   strong Podcasts mit ähnlichen Interessen finden!
+  p Bisher #{Source.count} Podcasts mit #{Episode.count} Episoden indiziert!
   ol
     li
       span.btn.btn-primary.fileinput-button
@@ -10,3 +11,29 @@ h1 Podfilter
       .js-upload-target
     li Ähnliche Podcasts finden
     li Es gibt keinen Schritt 3
+
+.row
+  .col-md-6
+    h2 Neuste Episodes
+
+    ul.list-unstyled
+      - Source.recent.limit(5).each do |source|
+        li
+          - episode = Episode.find(source.episode_id)
+          h3
+            = episode.title
+            | &nbsp;
+            small = l episode.pubdate.to_date
+          = link_to source do
+            - if source.image.present?
+              = image_tag source.image.url(:thumb)
+              = ' '
+            = source.title
+
+  .col-md-6
+    h2 Neuste Podcasts
+    ul.list-unstyled
+      - Source.order('created_at desc').limit(5).each do |source|
+        li
+          = render source
+
