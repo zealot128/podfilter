@@ -11,7 +11,7 @@ set :pty, true
 set :log_level, :info
 
 set :linked_files, %w{config/database.yml .env config/email.yml}
-set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/upload}
+set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/uploads}
 
 set :sidekiq_default_hooks, true
 
