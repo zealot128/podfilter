@@ -13,6 +13,7 @@ gem 'simple_form'
 gem 'slim-rails'
 gem 'pry-rails'
 gem 'pg'
+gem 'dotenv-rails'
 group :development do
   gem 'habtm_generator'
   gem 'thin'
@@ -49,4 +50,12 @@ gem 'validate_url'
 gem 'stringex'
 gem 'quilt'
 gem 'rmagick'
-gem 'whenever'
+
+
+group :unrequired do
+  gem 'capistrano', '~> 3.0.1'
+  gem 'capistrano-rvm', '~> 0.0.3'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails', '~> 1.1.0'
+  gem 'whenever'
+end

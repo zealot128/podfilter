@@ -29,4 +29,7 @@ foreman start
 * recommendations
 * Twitter/ more oauth login
 * Stylings
+* OPML Export
+* Take part without providing a OPML, e.g. by manually liking episodes
+* more community/comment/like aspects
 
