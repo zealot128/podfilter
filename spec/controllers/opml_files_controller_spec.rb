@@ -6,11 +6,11 @@ describe OpmlFilesController, sidekiq: :fake do
 
     data = JSON.load(response.body)
 
-    data['url'].should be_present
-    data['log'].should be_present
-    OpmlFile.count.should == 1
-    session[:owner_id].should be_present
-    controller.send(:current_user).should == OpmlFile.first.owner
-    Source.count.should > 0
+    expect(data['url']).to be_present
+    expect(data['log']).to be_present
+    expect(OpmlFile.count).to eq(1)
+    expect(session[:owner_id]).to be_present
+    expect(controller.send(:current_user)).to eq(OpmlFile.first.owner)
+    expect(Source.count).to be > 0
   end
 end

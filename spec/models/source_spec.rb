@@ -5,9 +5,9 @@ describe Source do
       source = Source.create(url: 'http://www.c3d2.de/podcast.xml')
       source.fetch_meta_information
 
-      source.description.should == 'Pentaradio, Pentacast & Pentamusic vom Chaos Computer Club Dresden.'
-      source.title.should == 'C3D2 Podcast'
-      source.image.should be_present
+      expect(source.description).to eq('Pentaradio, Pentacast & Pentamusic vom Chaos Computer Club Dresden.')
+      expect(source.title).to eq('C3D2 Podcast')
+      expect(source.image).to be_present
     end
   end
 
@@ -17,18 +17,18 @@ describe Source do
       source.update_entries
     end
 
-    source.episodes.count.should == 63
+    expect(source.episodes.count).to eq(63)
 
     VCR.use_cassette 'source/c3d2' do
       source.update_entries
     end
-    source.episodes.count.should == 63
+    expect(source.episodes.count).to eq(63)
   end
 
   it 'marks feeds as offline', vcr: true do
     source = Source.create(url: 'https://feeds.feedblitz.com/dasknistern/m4a')
     source.full_refresh
-    source.should be_offline
+    expect(source).to be_offline
   end
 
   describe 'site specific bugs' do
@@ -58,13 +58,13 @@ describe Source do
     it 'schlaflosinmuenchen', vcr: true do
       source = Source.create(url: 'http://feeds.schlaflosinmuenchen.com/weeklysimAAC.xml')
       source.fetch_meta_information
-      source.description.should include 'Dieser Feed wird nicht mehr aktualisiert'
+      expect(source.description).to include 'Dieser Feed wird nicht mehr aktualisiert'
     end
 
     it 'invalid file', vcr: true do
       source = Source.create(url: 'http://masskompod.rupkalwis.com/podcast.php')
       source.full_refresh
-      source.should be_offline
+      expect(source).to be_offline
     end
 
   end
@@ -72,9 +72,9 @@ describe Source do
   def check_all(url: nil, count: nil, image: true)
     source = Source.create(url: url)
     source.full_refresh
-    source.image.should be_present if image
-    source.description.should be_present
-    source.title.should be_present
-    source.episodes.count.should == count if count
+    expect(source.image).to be_present if image
+    expect(source.description).to be_present
+    expect(source.title).to be_present
+    expect(source.episodes.count).to eq(count) if count
   end
 end

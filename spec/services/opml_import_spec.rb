@@ -6,26 +6,26 @@ describe OpmlImport, sidekiq: :fake do
   context 'import' do
     let(:opml)  { File.open('spec/fixtures/hacker.opml') }
     it 'initializes' do
-      service.owner.should == owner
-      service.text.should include '<?xml'
+      expect(service.owner).to eq(owner)
+      expect(service.text).to include '<?xml'
     end
 
     it 'creates opml_file object' do
       service.run!
-      OpmlFile.count.should == 1
+      expect(OpmlFile.count).to eq(1)
       OpmlFile.first.tap do |file|
-        file.owner.should == owner
-        file.source.should include '<?xml'
+        expect(file.owner).to eq(owner)
+        expect(file.source).to include '<?xml'
       end
     end
 
     specify 'parses the file and creates the sources' do
       service.run!
-      Source.count.should == 14
+      expect(Source.count).to eq(14)
       Source.first.tap do |source|
-        source.title.should == 'RaumZeitLabor Podcast'
-        source.url.should   == 'http://feeds.feedburner.com/RaumzeitlaborPodcast'
-        source.opml_files.should == [OpmlFile.first]
+        expect(source.title).to eq('RaumZeitLabor Podcast')
+        expect(source.url).to   eq('http://feeds.feedburner.com/RaumzeitlaborPodcast')
+        expect(source.opml_files).to eq([OpmlFile.first])
       end
 
 
@@ -33,10 +33,10 @@ describe OpmlImport, sidekiq: :fake do
       expect {
         service.run!
       }.to_not change(Source, :count)
-      OpmlFile.first.sources.count.should == 14
+      expect(OpmlFile.first.sources.count).to eq(14)
 
 
-      SourceUpdateWorker.jobs.count.should == 14
+      expect(SourceUpdateWorker.jobs.count).to eq(14)
     end
   end
 
@@ -44,8 +44,8 @@ describe OpmlImport, sidekiq: :fake do
     let(:opml) { File.open('spec/fixtures/my.opml') }
     specify 'beyondPod opml' do
       service.run!
-      Source.count.should == 30
-      service.log.should be_kind_of Array
+      expect(Source.count).to eq(30)
+      expect(service.log).to be_kind_of Array
     end
   end
 
@@ -53,7 +53,7 @@ describe OpmlImport, sidekiq: :fake do
     let(:opml) { '1029ashfa' }
     specify  do
       service.run!
-      service.log.should be_present
+      expect(service.log).to be_present
     end
   end
 
@@ -61,8 +61,8 @@ describe OpmlImport, sidekiq: :fake do
     let(:opml) { File.open('spec/fixtures/hacker-latin1.opml')}
     specify  do
       service.run!
-      service.log.to_s.should include 'File Encodings kaputt'
-      Source.count.should == 14
+      expect(service.log.to_s).to include 'File Encodings kaputt'
+      expect(Source.count).to eq(14)
     end
   end
 
