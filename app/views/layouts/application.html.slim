@@ -7,5 +7,28 @@ html
     = csrf_meta_tags
     meta name="viewport" content="width=device-width, initial-scale=1.0"
   body
-    .container
+    header
+      .container
+        nav class="navbar navbar-default" role="navigation"
+          a class="navbar-brand" href="/" Podfilter
+          ul class="nav navbar-nav"
+            li
+              a href='/impressum' Impressum
+            - if user_signed_in?
+              li.dropdown
+                a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  | Du bist angemeldet
+
+                ul class="dropdown-menu"
+                  - current_user.opml_files.each do |file|
+                    li
+                      = link_to 'OPML-File', opml_file_path(file)
+    section.container
       = yield
+    footer
+      .container
+        h3
+          | Podfilter.de
+          = ' '
+          small #{Source.count} Podcasts indiziert. Davon #{Source.active.count} aktive, #{Source.inactive.count} inaktive, #{Source.error.count} mit Fehlern/bzw. neu hinzugefügt
+

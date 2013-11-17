@@ -1,16 +1,39 @@
+require 'file_mime_type_validator'
 class Source < ActiveRecord::Base
   has_and_belongs_to_many :opml_files
   has_many :owners, through: :opml_files
   has_many :episodes
   mount_uploader :image, ImageUploader
 
+  def self.active
+    source_id = Episode.connection.execute(
+      Episode.select('distinct source_id').
+      where('pubdate > ?', 1.year.ago).to_sql
+    ).to_a.map{|i| i['source_id']}
+    where(id: source_id)
+  end
+
+
   validates :url, presence: true, uniqueness: true, url: true
+  validates :image,
+    :file_mime_type => {
+    :content_type => /image/
+  }, if: ->(r) { r.image.present? }
+
   scope :recent, -> {
     joins(:episodes).
     where('episodes.id = (select episodes.id from episodes where episodes.source_id = sources.id and pubdate is not null order by pubdate desc limit 1)').
     select('sources.*, episodes.id as episode_id, episodes.pubdate as pubdate').
     order('episodes.pubdate desc')
   }
+  scope :error, -> { where('description is null') }
+  scope :inactive, -> { where(id: Episode.select('source_id').having('max(pubdate) <= ?', 1.year.ago).group(:source_id)) }
+  scope :active,   -> { where(id: Episode.select('distinct source_id').where('pubdate > ?', 1.year.ago)) }
+
+  def full_refresh
+    fetch_meta_information
+    update_entries
+  end
 
   def fetch_meta_information
     self.title = parsed_feed.title
