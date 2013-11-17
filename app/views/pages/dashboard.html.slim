@@ -2,7 +2,7 @@ h1 Dashboard
 
 - if current_user.token.present?
   .alert.alert-success
-    Du bist zur Zeit per Cookie angemeldet. Um später hierher zurückzukommen, bookmarke diese Seite:
+    ' Du bist zur Zeit per Cookie angemeldet. Um später hierher zurückzukommen, bookmarke diese Seite:
     pre
       = link_to dashboard_url(token: current_user.token) do
         = dashboard_url(token: current_user.token)
