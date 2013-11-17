@@ -2,7 +2,7 @@ require 'file_mime_type_validator'
 class Source < ActiveRecord::Base
   has_and_belongs_to_many :opml_files
   has_many :owners, through: :opml_files
-  has_many :episodes
+  has_many :episodes, dependent: :destroy
   mount_uploader :image, ImageUploader
 
   def self.active
@@ -21,15 +21,20 @@ class Source < ActiveRecord::Base
   }, if: ->(r) { r.image.present? and r.image_changed? }
 
   scope :recent, -> {
+    active.
+    listened.
     joins(:episodes).
     where('episodes.id = (select episodes.id from episodes where episodes.source_id = sources.id and pubdate is not null order by pubdate desc limit 1)').
     select('sources.*, episodes.id as episode_id, episodes.pubdate as pubdate').
+    where('episodes.pubdate < ?', Time.zone.now).
     order('episodes.pubdate desc')
   }
   scope :error, -> { where('description is null and (offline is null or offline != ?)', true) }
   scope :offline,-> { where(offline: true) }
   scope :active, -> { where(active: true) }
   scope :inactive, -> { where(active: false) }
+  scope :listened, -> { where("(select source_id from opml_files_sources where opml_files_sources.source_id = sources.id limit 1) is not null") }
+
 
   scope :inactive_live, -> { where(id: Episode.select('source_id').having('max(pubdate) <= ?', 1.year.ago).group(:source_id)) }
   scope :active_live,   -> { where(id: Episode.select('distinct source_id').where('pubdate > ?', 1.year.ago)) }

@@ -8,14 +8,18 @@
     li Es gibt keinen Schritt 3
 
 .row
+  .col-md-12
+    h2  Podcasts in den Playlists von Hörern
+.row
   .col-md-6
-    h2 Neuste Episodes
+    h3
+      'Neuste Episodes
 
     ul.list-unstyled
-      - Source.recent.limit(5).each do |source|
+      - Source.recent.limit(10).each do |source|
         li
           - episode = Episode.find(source.episode_id)
-          h3
+          h4
             - if source.image.present?
               .pull-left
                 = image_tag source.image.url(:thumb)
@@ -27,9 +31,9 @@
             = source.title
 
   .col-md-6
-    h2 Neuste Podcasts
+    h3 Neuste Podcasts
     ul.list-unstyled
-      - Source.order('created_at desc').limit(5).each do |source|
+      - Source.listened.order('created_at desc').limit(5).each do |source|
         li
           = render source
 
