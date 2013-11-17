@@ -13,6 +13,8 @@ set :log_level, :info
 set :linked_files, %w{config/database.yml .env}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/upload}
 
+set :sidekiq_default_hooks, true
+
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 # set :keep_releases, 5
 
@@ -34,6 +36,12 @@ namespace :deploy do
   # end
 
   after :finishing, 'deploy:cleanup'
+  after 'deploy:starting',  'sidekiq:quiet'
+  after 'updated',   'sidekiq:stop'
+
+  after 'reverted',  'sidekiq:stop'
+
+  after 'published', 'sidekiq:start'
 end
 
 

@@ -1,4 +1,7 @@
 class OpmlImport
+  BLACKLIST = [
+    /railscasts.*subscriptions/
+  ]
   attr_reader :owner, :log
   def initialize(file, owner)
     @file = file
@@ -42,6 +45,7 @@ class OpmlImport
     end
     outlines.each_with_index do |outline,i|
       url = outline['url'] || outline['xmlUrl']
+      next if url and BLACKLIST.any?{|r| url[r]}
       title = outline['title'] || outline['text']
       source = Source.where(url: url).first_or_initialize(title: title)
       was_new_record = source.new_record?
