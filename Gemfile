@@ -57,5 +57,6 @@ group :unrequired do
   gem 'capistrano-rvm', '~> 0.0.3'
   gem 'capistrano-bundler'
   gem 'capistrano-rails', '~> 1.1.0'
+  gem 'capistrano-rails-console'
   gem 'whenever'
 end

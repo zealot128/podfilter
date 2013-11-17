@@ -45,6 +45,9 @@ GEM
     capistrano-rails (1.1.0)
       capistrano (>= 3.0.0)
       capistrano-bundler (>= 1.0.0)
+    capistrano-rails-console (0.1.0)
+      capistrano (>= 3.0.0)
+      capistrano-rails (>= 1.0.0)
     capistrano-rvm (0.0.3)
       capistrano
     capybara (2.2.0.rc1)
@@ -298,6 +301,7 @@ DEPENDENCIES
   capistrano (~> 3.0.1)
   capistrano-bundler
   capistrano-rails (~> 1.1.0)
+  capistrano-rails-console
   capistrano-rvm (~> 0.0.3)
   capybara (~> 2.2.0.rc1)
   carrierwave
