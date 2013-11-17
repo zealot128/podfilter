@@ -82,6 +82,9 @@ GEM
       dotenv (= 0.9.0)
     erubis (2.7.0)
     eventmachine (1.0.3)
+    exception_notification (4.0.1)
+      actionmailer (>= 3.0.4)
+      activesupport (>= 3.0.4)
     execjs (2.0.2)
     fabrication (2.9.3)
     faraday (0.8.8)
@@ -307,6 +310,7 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 4.0.0)
   dotenv-rails
+  exception_notification
   fabrication
   faraday
   feedzirra

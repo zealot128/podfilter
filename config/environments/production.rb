@@ -12,4 +12,13 @@ Podfilter::Application.configure do
   config.i18n.fallbacks = true
   config.active_support.deprecation = :notify
   config.log_formatter = ::Logger::Formatter.new
+  config.action_mailer.delivery_method = :smtp
+  ActionMailer::Base.smtp_settings = YAML.load_file('config/email.yml')
+
+  config.middleware.use ExceptionNotification::Rack,
+    :email => {
+    :email_prefix => "[Podfilter] ",
+    :sender_address => %{"podfilter" <info@hrfilter.de>},
+    :exception_recipients => %w{info@stefanwienert.de}
+  }
 end

@@ -60,3 +60,7 @@ group :unrequired do
   gem 'capistrano-rails-console'
   gem 'whenever'
 end
+
+group :production do
+  gem 'exception_notification'
+end
