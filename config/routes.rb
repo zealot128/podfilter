@@ -9,8 +9,9 @@ Podfilter::Application.routes.draw do
   get 'dashboard' => 'pages#dashboard', as: :dashboard
   root 'pages#index'
 
-  if Rails.env.development?
-    require 'sidekiq/web'
-    mount Sidekiq::Web, at: '/sidekiq'
+  require 'sidekiq/web'
+  Sidekiq::Web.use Rack::Auth::Basic do |username, password|
+    username == ENV['SIDEKIQ_WEB_USER'] && password == ENV['SIDEKIQ_WEB_PASSWORD']
   end
+  mount Sidekiq::Web, at: '/sidekiq'
 end
