@@ -1,5 +1,7 @@
 http://www.podfilter.de
 
+[![Build Status](https://travis-ci.org/zealot128/podfilter.de.png?branch=master)](https://travis-ci.org/zealot128/podfilter.de)
+[![Code Climate](https://codeclimate.com/github/zealot128/podfilter.de.png)](https://codeclimate.com/github/zealot128/podfilter.de)
 
 ## Contribute:
 
