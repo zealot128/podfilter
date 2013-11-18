@@ -37,6 +37,7 @@ group :test do
   gem 'poltergeist'
   gem 'vcr'
   gem 'webmock'
+  gem 'coveralls', require: false
 end
 gem 'faraday'
 gem 'feedzirra'
