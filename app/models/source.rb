@@ -14,7 +14,7 @@ class Source < ActiveRecord::Base
   end
 
 
-  validates :url, presence: true, uniqueness: true, url: true
+  validates :url, presence: true, uniqueness: true, url: true, if: ->(r) { !Rails.env.test?}
   validates :image,
     :file_mime_type => {
     :content_type => /image/

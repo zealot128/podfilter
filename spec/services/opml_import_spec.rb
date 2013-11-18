@@ -28,8 +28,6 @@ describe OpmlImport, sidekiq: :fake do
         expect(source.opml_files).to eq([OpmlFile.first])
       end
 
-
-
       expect {
         service.run!
       }.to_not change(Source, :count)
@@ -44,7 +42,7 @@ describe OpmlImport, sidekiq: :fake do
     let(:opml) { File.open('spec/fixtures/my.opml') }
     specify 'beyondPod opml' do
       service.run!
-      expect(Source.count).to eq(30)
+      expect(Source.count).to be > 29
       expect(service.log).to be_kind_of Array
     end
   end

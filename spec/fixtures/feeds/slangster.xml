@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/styles/rss/rss20.xsl" type="text/xsl" media="screen"?>
+<?xml-stylesheet href="/styles/rss/rss20.css" type="text/css" media="screen"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>SLANGSTER</title>
+  <itunes:subtitle>Slang Tutorial</itunes:subtitle>
+  <itunes:summary>US Slang Erklärungen
+Slang Dictionary
+Slang Ausdrücke</itunes:summary>
+  <link>http://www.couch-tv.de</link>
+  <description>US Slang Erklärungen
+Slang Dictionary
+Video Podcast
+siehe auch:
+http://www.youtube.com/channel/UCQV8Pi8VJOtzCk1oWC6j7TA/videos?view=0
+</description>
+  <lastBuildDate>Mon, 18 Nov 2013 22:00:52 +0100</lastBuildDate>
+  <language>de-de</language>
+  <copyright>Thorsten Passek</copyright>
+  <generator>www.podhost.de - Hosting your podcasts</generator>
+  <webMaster>Thorsten Passek</webMaster>
+  <managingEditor>Thorsten Passek</managingEditor>
+  <atom:link rel="self" type="application/rss+xml" title="SLANGSTER" href="http://slangster.podspot.de/rss" xmlns:atom="http://www.w3.org/2005/Atom" />
+  <itunes:owner>
+    <itunes:name>Thorsten Passek</itunes:name>
+    <itunes:email>edisonrocks@yahoo.com</itunes:email>
+  </itunes:owner>
+  <itunes:author>Thorsten Passek</itunes:author>
+  <itunes:category text="Education">
+    <itunes:category text="Language Courses" />
+  </itunes:category>
+  <itunes:category text="Education">
+    <itunes:category text="Training" />
+  </itunes:category>
+  <itunes:category text="Comedy" />
+  <itunes:category text="Education">
+    <itunes:category text="Higher Ed" />
+  </itunes:category>
+  <itunes:category text="Education" />
+  <itunes:category text="Games &#038; Hobbies" />
+  <itunes:category text="Arts" />
+  <itunes:category text="Health">
+    <itunes:category text="Sexuality" />
+  </itunes:category>
+  <itunes:category text="Society &#038; Culture" />
+  <itunes:category text="TV &#038; Film" />
+  <itunes:category text="Society &#038; Culture">
+    <itunes:category text="Places &#038; Travel" />
+  </itunes:category>
+  <itunes:category text="Society &#038; Culture">
+    <itunes:category text="Philosophy" />
+  </itunes:category>
+  <itunes:category text="Music" />
+  <itunes:category text="Kids &#038; Family" />
+  <itunes:category text="Arts">
+    <itunes:category text="Literature" />
+  </itunes:category>
+  <itunes:category text="Arts">
+    <itunes:category text="Fashion &#038; Beauty" />
+  </itunes:category>
+  <itunes:keywords>Slang, Englisch, US, US Englisch, English, urban, rap, jive, dictionary, tutorial, langenscheid, langenscheidt, urban dictionary, slang auf deutsch, english, couch, tv, couchtv, couch-tv,  slangster, slangsta, slngsta, knisterpulver, englisch kurs, englisch für fortgeschrittene, Englischkurs</itunes:keywords>
+  <itunes:image href="https://lh3.googleusercontent.com/-riXPC0NrHP4/AAAAAAAAAAI/AAAAAAAAAAA/zREHojNoNlk/s48-c-k/photo.jpg" />
+  <image>
+    <url>https://lh3.googleusercontent.com/-riXPC0NrHP4/AAAAAAAAAAI/AAAAAAAAAAA/zREHojNoNlk/s48-c-k/photo.jpg</url>
+    <title>SLANGSTER</title>
+    <link>http://www.couch-tv.de</link>
+  </image>
+  <itunes:explicit>no</itunes:explicit>
+  <ttl>20</ttl>
+  <item>
+    <title>3-Slangster-how_I_roll</title>
+    <description>Heute bei SLANGSTER: &quot;...that's how I roll&quot;
+Mehr unter 
+https://www.youtube.com/channel/UCQV8Pi8VJOtzCk1oWC6j7TA/videos?view=0
+und 
+http://www.knisterpulver.de/104,0,alben,index,0.html
+und
+http://www.knisterpulver.de/107,0,audio,index,0.html</description>
+    <author>Thorsten Passek</author>
+    <pubDate>Fri, 19 Apr 2013 16:56:09 +0200</pubDate>
+    <guid isPermaLink="false">6b414026dd011df2794a2c536c5bf220</guid>
+    <link>http://slangster.podspot.de/post/3-slangster-how_i_roll/</link>
+    <enclosure url="http://slangster.podspot.de/files/3-Slangster-how_I_roll.mp4" length="27787659" type="audio/mpeg"/>
+  </item>
+  <item>
+    <title>7-Cronic_Slngstr</title>
+    <description>SLANGSTER - der Slang Dictionary
+Heute: &quot;Cronic&quot;
+siehe auch &gt; https://www.youtube.com/channel/UCQV8Pi8VJOtzCk1oWC6j7TA/videos?view=0
+Alben, Podcasts und mehr vom Autor:
+http://www.knisterpulver.de/104,0,alben,index,0.html
+und
+couch-tv.de</description>
+    <author>Thorsten Passek</author>
+    <pubDate>Sat, 16 Mar 2013 19:28:53 +0100</pubDate>
+    <guid isPermaLink="false">fe548ef23929e1e5f4ed231d1ef9c8a6</guid>
+    <link>http://slangster.podspot.de/post/7-cronic_slngstr/</link>
+    <enclosure url="http://slangster.podspot.de/files/7-Chronic_Slngstr.mp4" length="18698000" type="audio/mpeg"/>
+  </item>
+  <item>
+    <title>podster autor</title>
+    <description>&lt;a href=&quot;http://podster.de/claim/1dF3dJ4G13du4dJ3du &quot;&gt;Mein Podcast bei podster&lt;/a&gt;
+&lt;!-- podster.de/claim/1dF3dJ4G13du4dJ3du  --&gt;</description>
+    <author>Thorsten Passek</author>
+    <pubDate>Fri, 15 Feb 2013 16:33:47 +0100</pubDate>
+    <guid isPermaLink="false">8098e24e6c0a599883ee37529174dc7f</guid>
+    <link>http://slangster.podspot.de/post/podster-autor/</link>
+  </item>
+  <item>
+    <title>2-Slangster-rollin_dough</title>
+    <description>Video Podcast:
+US Slang Ausdrücke, Deep Slang - transparent erklärt
+Heute: &quot;rollin in dough&quot;
+siehe auch: 
+http://www.youtube.com/channel/UCQV8Pi8VJOtzCk1oWC6j7TA
+und
+www.couch-tv.de
+</description>
+    <author>Thorsten Passek</author>
+    <pubDate>Fri, 15 Feb 2013 16:19:22 +0100</pubDate>
+    <guid isPermaLink="false">639bae2a20267175fa36c12f5779949f</guid>
+    <link>http://slangster.podspot.de/post/2-slangster-rollin_dough/</link>
+    <enclosure url="http://slangster.podspot.de/files/2-Slangster-rollin_dough.mp4" length="22644457" type="audio/mpeg"/>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,1079 @@
+<br />
+<b>Deprecated</b>:  Assigning the return value of new by reference is deprecated in <b>/kunden/90821_08371/podcast/loudblog/inc/database/adodb.inc.php</b> on line <b>914</b><br />
+<br />
+<b>Deprecated</b>:  Assigning the return value of new by reference is deprecated in <b>/kunden/90821_08371/podcast/loudblog/inc/database/adodb.inc.php</b> on line <b>1988</b><br />
+<br />
+<b>Deprecated</b>:  Assigning the return value of new by reference is deprecated in <b>/kunden/90821_08371/podcast/loudblog/inc/database/adodb.inc.php</b> on line <b>2060</b><br />
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+<channel>
+
+<title>Masskompod</title>
+<link>http://masskompod.rupkalwis.com</link>
+<itunes:subtitle>Der Podcast zum Thema Massenkommunikation</itunes:subtitle>
+<itunes:summary>Mit einem einzelnen Menschen zu kommunizieren ist schon schwer genug - hier geht es aber um die Kommunikation mit Tausenden von Menschen.</itunes:summary>
+<description>Mit einem einzelnen Menschen zu kommunizieren ist schon schwer genug - hier geht es aber um die Kommunikation mit Tausenden von Menschen.</description>
+<language>de-de</language>
+<copyright>(c) 2008 by Udo Rupkalwis</copyright>
+<itunes:owner>
+   <itunes:name>Udo Rupkalwis</itunes:name>
+   <itunes:email>podcast@rupkalwis.com</itunes:email>
+</itunes:owner>
+<managingEditor>podcast@rupkalwis.com (Udo Rupkalwis)</managingEditor>
+<itunes:author>Udo Rupkalwis</itunes:author>
+<image>
+   <url>http://masskompod.rupkalwis.com/audio/rssimage.jpg</url>
+   <title>Masskompod</title>
+   <link>http://masskompod.rupkalwis.com</link>
+</image>
+<itunes:image href="http://masskompod.rupkalwis.com/audio/itunescover.jpg" />
+<pubDate>Mon, 18 Nov 2013 22:02:43 +0100</pubDate>
+<lastBuildDate>Wed, 08 Apr 2009 22:53:00 +0200</lastBuildDate>
+<generator>Loudblog</generator>
+
+<itunes:explicit>no</itunes:explicit>
+
+<itunes:category text="Business">
+<itunes:category text="Management &amp; Marketing" />
+</itunes:category>
+<itunes:category text="Science &amp; Medicine">
+<itunes:category text="Social Sciences" />
+</itunes:category>
+<category>Management &amp; Marketing</category>
+<category>Social Sciences</category>
+
+
+<item>
+    <pubDate>Wed, 08 Apr 2009 22:53:00 +0200</pubDate>
+    <title>masskompod_notsendung</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=39</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=39</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=39#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:summary></itunes:summary>
+
+    <description>&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2009-04-08-92442.mp3"&gt;File Download (6:56 min / 8 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2009-04-08-92442.mp3" length="8388608" type="audio/mpeg" />
+    <itunes:duration>00:06:56</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Tue, 03 Feb 2009 01:16:00 +0100</pubDate>
+    <title>Nr30 Pressekonferenz</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=38</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=38</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=38#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Eine Pressekonferenz ist eine Gratwanderung, die ihresgleichen sucht: irgendwo zwischen stinklangweilig und irrsinnig interessant. Versuchen Sie, aus der Sicht der Journalisten zu denken!</itunes:subtitle>
+    <itunes:summary>Eine Pressekonferenz ist eine Gratwanderung, die ihresgleichen sucht: irgendwo zwischen stinklangweilig und irrsinnig interessant. Versuchen Sie, aus der Sicht der Journalisten zu denken!</itunes:summary>
+
+    <description>&lt;p&gt;Eine Pressekonferenz ist eine Gratwanderung, die ihresgleichen sucht: irgendwo zwischen stinklangweilig und irrsinnig interessant. Versuchen Sie, aus der Sicht der Journalisten zu denken!&lt;br /&gt;
+&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2009-02-03-14887.mp3"&gt;File Download (21:58 min / 25 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2009-02-03-14887.mp3" length="26214400" type="audio/mpeg" />
+    <itunes:duration>00:21:58</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Thu, 22 Jan 2009 23:07:00 +0100</pubDate>
+    <title>Nr29 Begrüßung und Alkoholcamp</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=37</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=37</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=37#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Manchmal muss man von den Regeln der Massenkommunikation einfach abweichen. 
+
+	Au&#223;erdem: Promis im Alkoholcamp &#8211; 14 Tage im Dauersuff. W&#228;re das nicht mal was, um auf s&#228;mtliche Titelseiten zu kommen?</itunes:subtitle>
+    <itunes:summary>Manchmal muss man von den Regeln der Massenkommunikation einfach abweichen. 
+
+	Au&#223;erdem: Promis im Alkoholcamp &#8211; 14 Tage im Dauersuff. W&#228;re das nicht mal was, um auf s&#228;mtliche Titelseiten zu kommen?</itunes:summary>
+
+    <description>&lt;p&gt;Manchmal muss man von den Regeln der Massenkommunikation einfach abweichen. &lt;/p&gt;
+
+	&lt;p&gt;Au&amp;#223;erdem: Promis im Alkoholcamp &amp;#8211; 14 Tage im Dauersuff. W&amp;#228;re das nicht mal was, um auf s&amp;#228;mtliche Titelseiten zu kommen?&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2009-01-22-93431.MP3"&gt;File Download (13:01 min / 15 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2009-01-22-93431.MP3" length="15728640" type="audio/mpeg" />
+    <itunes:duration>00:13:01</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sat, 10 Jan 2009 23:30:00 +0100</pubDate>
+    <title>Nr28 Kunst vernichten, damit das Fernsehen kommt</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=36</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=36</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=36#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Wie bekomme ich m&#246;glichst viel Publikum in eine Kunstaustellung? Mit einer Pressemitteilung zur Vernissage w&#228;re schon viel erreicht. Doch wie w&#228;re es mit einer &#246;ffentlichen Kunstvernichtung?!</itunes:subtitle>
+    <itunes:summary>Wie bekomme ich m&#246;glichst viel Publikum in eine Kunstaustellung? Mit einer Pressemitteilung zur Vernissage w&#228;re schon viel erreicht. Doch wie w&#228;re es mit einer &#246;ffentlichen Kunstvernichtung?!</itunes:summary>
+
+    <description>&lt;p&gt;Wie bekomme ich m&amp;#246;glichst viel Publikum in eine Kunstaustellung? Mit einer Pressemitteilung zur Vernissage w&amp;#228;re schon viel erreicht. Doch wie w&amp;#228;re es mit einer &amp;#246;ffentlichen Kunstvernichtung?!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.panometer.de/de/index.html" title=""&gt;Die Panoramen von Yadegar Asisi&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+&lt;a href="http://architektur.tfh-berlin.de/de/personen/professoren-innen/azizi-namini-yadegar-prof-dipl-ing/profil/" title=""&gt;Prof. Dipl.-Ing. Yadegar Asisi an der TFH Berlin&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2009-01-10-95038.mp3"&gt;File Download (9:34 min / 11 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2009-01-10-95038.mp3" length="11534336" type="audio/mpeg" />
+    <itunes:duration>00:09:34</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sat, 03 Jan 2009 01:26:00 +0100</pubDate>
+    <title>Nr27 Hansdampf in allen Gassen</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=35</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=35</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=35#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Eine wahre Geschichte mit einem tragischen Ausgang f&#252;r den Hauptdarsteller.</itunes:subtitle>
+    <itunes:summary>Eine wahre Geschichte mit einem tragischen Ausgang f&#252;r den Hauptdarsteller.</itunes:summary>
+
+    <description>&lt;p&gt;Eine wahre Geschichte mit einem tragischen Ausgang f&amp;#252;r den Hauptdarsteller.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2009-01-03-15330.mp3"&gt;File Download (15:16 min / 18 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2009-01-03-15330.mp3" length="18874368" type="audio/mpeg" />
+    <itunes:duration>00:15:16</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Wed, 24 Dec 2008 01:29:00 +0100</pubDate>
+    <title>Nr26 Zimpel</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=34</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=34</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=34#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Man muss nicht alles aus dem Kopf wissen. Man muss nur wissen, wo es geschrieben steht. In unserem heutigen Falle steht es im Zimpel!</itunes:subtitle>
+    <itunes:summary>Man muss nicht alles aus dem Kopf wissen. Man muss nur wissen, wo es geschrieben steht. In unserem heutigen Falle steht es im Zimpel!</itunes:summary>
+
+    <description>&lt;p&gt;Man muss nicht alles aus dem Kopf wissen. Man muss nur wissen, wo es geschrieben steht. In unserem heutigen Falle steht es im Zimpel!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.zimpel.de" title=""&gt;Zimpel im www&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-24-15539.mp3"&gt;File Download (8:05 min / 9 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-24-15539.mp3" length="9437184" type="audio/mpeg" />
+    <itunes:duration>00:08:05</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Tue, 23 Dec 2008 00:58:00 +0100</pubDate>
+    <title>Nr25 Wildes Plakatieren</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=33</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=33</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=33#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Eine vermeintlich kosteng&#252;nstige M&#246;glichkeit der Massenkommunikation. Doch hat man sich erst einmal den Zorn des Ordnungsamtes oder der Einwohner zugezogen kann es teuer werden.</itunes:subtitle>
+    <itunes:summary>Eine vermeintlich kosteng&#252;nstige M&#246;glichkeit der Massenkommunikation. Doch hat man sich erst einmal den Zorn des Ordnungsamtes oder der Einwohner zugezogen kann es teuer werden.</itunes:summary>
+
+    <description>&lt;p&gt;Eine vermeintlich kosteng&amp;#252;nstige M&amp;#246;glichkeit der Massenkommunikation. Doch hat man sich erst einmal den Zorn des Ordnungsamtes oder der Einwohner zugezogen kann es teuer werden.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.finanztip.de/recht/immobilien/bw031.htm" title=""&gt;Gerichtsurteil&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-23-13678.MP3"&gt;File Download (7:14 min / 8 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-23-13678.MP3" length="8388608" type="audio/mpeg" />
+    <itunes:duration>00:07:14</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Mon, 22 Dec 2008 01:56:00 +0100</pubDate>
+    <title>Nr24 Verständlichkeit</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=32</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=32</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=32#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Ich habe manchmal das Gef&#252;hl, viele Redner WOLLEN gar nicht, dass man sie versteht. Sie schmei&#223;en mit Fachbegriffen um sich, rattern ihren Text herunter wie ein Maschinengewehr und sprechen so deutlich, als haben sie eine T&#252;rklinke im </itunes:subtitle>
+    <itunes:summary>Ich habe manchmal das Gef&#252;hl, viele Redner WOLLEN gar nicht, dass man sie versteht. Sie schmei&#223;en mit Fachbegriffen um sich, rattern ihren Text herunter wie ein Maschinengewehr und sprechen so deutlich, als haben sie eine T&#252;rklinke im Hals.</itunes:summary>
+
+    <description>&lt;p&gt;Ich habe manchmal das Gef&amp;#252;hl, viele Redner WOLLEN gar nicht, dass man sie versteht. Sie schmei&amp;#223;en mit Fachbegriffen um sich, rattern ihren Text herunter wie ein Maschinengewehr und sprechen so deutlich, als haben sie eine T&amp;#252;rklinke im Hals.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://masskompod.rupkalwis.com/podcast.php" title=""&gt;Ziffer 1&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.zitate24.de/zitat2975.php" title=""&gt;Zitat Martin Luther&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-22-17426.mp3"&gt;File Download (4:15 min / 5 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-22-17426.mp3" length="5242880" type="audio/mpeg" />
+    <itunes:duration>00:04:15</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sat, 20 Dec 2008 23:23:00 +0100</pubDate>
+    <title>Nr23 Urheberrecht</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=30</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=30</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=30#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Urheberrecht&#8230; oder wie ein franz&#246;sischer Komponist zum Zechpreller wurde und vor Gericht daf&#252;r noch Recht bekam.</itunes:subtitle>
+    <itunes:summary>Urheberrecht&#8230; oder wie ein franz&#246;sischer Komponist zum Zechpreller wurde und vor Gericht daf&#252;r noch Recht bekam.</itunes:summary>
+
+    <description>&lt;p&gt;Urheberrecht&amp;#8230; oder wie ein franz&amp;#246;sischer Komponist zum Zechpreller wurde und vor Gericht daf&amp;#252;r noch Recht bekam.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.gema.de/fileadmin/inhaltsdateien/verein/Projekte/flyer_azubi_08.pdf" title="Die Story befindet sich auf Seite 2 des Dokuments."&gt;Die Story aus der aktuellen Episode als PDF&lt;/a&gt; :: Die Story befindet sich auf Seite 2 des Dokuments.&lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-20-94649.mp3"&gt;File Download (3:58 min / 5 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-20-94649.mp3" length="5242880" type="audio/mpeg" />
+    <itunes:duration>00:03:58</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sat, 20 Dec 2008 01:54:00 +0100</pubDate>
+    <title>Nr22 Teleprompter</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=29</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=29</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=29#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Kann der Nachrichtensprecher seine Nachrichten wirklich aus dem Kopf ansagen? Wohl kaum! daf&#252;r gibt es doch Teleprompter!</itunes:subtitle>
+    <itunes:summary>Kann der Nachrichtensprecher seine Nachrichten wirklich aus dem Kopf ansagen? Wohl kaum! daf&#252;r gibt es doch Teleprompter!</itunes:summary>
+
+    <description>&lt;p&gt;Kann der Nachrichtensprecher seine Nachrichten wirklich aus dem Kopf ansagen? Wohl kaum! daf&amp;#252;r gibt es doch Teleprompter!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.zdnet.de/apple_filme_prompt_teleprompter_for_mac_osx_download-39002345-149745-1.htm" title=""&gt;Teleprompter Software für Mac und Windows&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-20-17171.mp3"&gt;File Download (5:13 min / 6 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-20-17171.mp3" length="6291456" type="audio/mpeg" />
+    <itunes:duration>00:05:13</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Fri, 19 Dec 2008 00:35:00 +0100</pubDate>
+    <title>Nr21 Sprechertraining</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=28</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=28</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=28#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>DSDS-Kandidatin Linda Teodosiu im Masskompod. Die Finalistin der 5. Staffel (2008) spricht &#252;ber die Herausforderung, in einem komplett gef&#252;llten Saal zu sprechen &#8211; und das ohne Sprechertraining.</itunes:subtitle>
+    <itunes:summary>DSDS-Kandidatin Linda Teodosiu im Masskompod. Die Finalistin der 5. Staffel (2008) spricht &#252;ber die Herausforderung, in einem komplett gef&#252;llten Saal zu sprechen &#8211; und das ohne Sprechertraining.</itunes:summary>
+
+    <description>&lt;p&gt;DSDS-Kandidatin Linda Teodosiu im Masskompod. Die Finalistin der 5. Staffel (2008) spricht &amp;#252;ber die Herausforderung, in einem komplett gef&amp;#252;llten Saal zu sprechen &amp;#8211; und das ohne Sprechertraining.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.linda-teodosiu.com/" title=""&gt;Lindas Website&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-19-12415.mp3"&gt;File Download (4:15 min / 5 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-19-12415.mp3" length="5242880" type="audio/mpeg" />
+    <itunes:duration>00:04:15</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Thu, 18 Dec 2008 00:26:00 +0100</pubDate>
+    <title>Nr20 Rückhören</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=27</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=27</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=27#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Im heutigen T&#252;rchen des Adventskalenders verbirgt sich etwas, das es praktisch gar nicht gibt. Im Radio, Fernsehn oder bei einer Rede kann man leider nicht einfach zur&#252;ckspulen, wenn man etwas nicht verstanden hat. Eine Herausforderung f&#252;r </itunes:subtitle>
+    <itunes:summary>Im heutigen T&#252;rchen des Adventskalenders verbirgt sich etwas, das es praktisch gar nicht gibt. Im Radio, Fernsehn oder bei einer Rede kann man leider nicht einfach zur&#252;ckspulen, wenn man etwas nicht verstanden hat. Eine Herausforderung f&#252;r den Redner!</itunes:summary>
+
+    <description>&lt;p&gt;Im heutigen T&amp;#252;rchen des Adventskalenders verbirgt sich etwas, das es praktisch gar nicht gibt. Im Radio, Fernsehn oder bei einer Rede kann man leider nicht einfach zur&amp;#252;ckspulen, wenn man etwas nicht verstanden hat. Eine Herausforderung f&amp;#252;r den Redner!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-18-14116.mp3"&gt;File Download (3:56 min / 5 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-18-14116.mp3" length="5242880" type="audio/mpeg" />
+    <itunes:duration>00:03:56</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Wed, 17 Dec 2008 00:00:00 +0100</pubDate>
+    <title>Nr19 Quellenangabe</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=26</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=26</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=26#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Schm&#252;ckt Euch nicht mit fremden Federn! Inhalte aus fremden Quellen m&#252;ssen auch so gekennzeichnet werden &#8211; und sei es nur bei einer Rede vor der Betriebsbelegschaft.</itunes:subtitle>
+    <itunes:summary>Schm&#252;ckt Euch nicht mit fremden Federn! Inhalte aus fremden Quellen m&#252;ssen auch so gekennzeichnet werden &#8211; und sei es nur bei einer Rede vor der Betriebsbelegschaft.</itunes:summary>
+
+    <description>&lt;p&gt;Schm&amp;#252;ckt Euch nicht mit fremden Federn! Inhalte aus fremden Quellen m&amp;#252;ssen auch so gekennzeichnet werden &amp;#8211; und sei es nur bei einer Rede vor der Betriebsbelegschaft.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-17-94787.MP3"&gt;File Download (2:17 min / 3 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-17-94787.MP3" length="3145728" type="audio/mpeg" />
+    <itunes:duration>00:02:17</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Tue, 16 Dec 2008 00:00:00 +0100</pubDate>
+    <title>Nr18 Pressemitteilung</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=25</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=25</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=25#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Wozu braucht man denn eine Pressemitteilung? Journalisten sind doch sonst immer allwissend?!</itunes:subtitle>
+    <itunes:summary>Wozu braucht man denn eine Pressemitteilung? Journalisten sind doch sonst immer allwissend?!</itunes:summary>
+
+    <description>&lt;p&gt;Wozu braucht man denn eine Pressemitteilung? Journalisten sind doch sonst immer allwissend?!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.rupkalwis.com/index.php?option=content&amp;task=view&amp;id=21" title=""&gt;Der Weg zur perfekten Pressemitteilung&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-16-95050.mp3"&gt;File Download (8:05 min / 9 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-16-95050.mp3" length="9437184" type="audio/mpeg" />
+    <itunes:duration>00:08:05</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Mon, 15 Dec 2008 20:07:00 +0100</pubDate>
+    <title>Alle Fehler behoben - Masskompod ist wieder überall zu hören</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=24</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=24</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=24#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Der Masskompod ist nun &#252;berall wieder bestens zu h&#246;ren. Der Fehler lag eindeutig bei mir &#8211; so ehrlich muss ich sein. Ich hatte vergessen, die htaccess-Datei zu erstellen, damit die Dateien auch aus virtuellen Verzeichnissen geladen werden </itunes:subtitle>
+    <itunes:summary>Der Masskompod ist nun &#252;berall wieder bestens zu h&#246;ren. Der Fehler lag eindeutig bei mir &#8211; so ehrlich muss ich sein. Ich hatte vergessen, die htaccess-Datei zu erstellen, damit die Dateien auch aus virtuellen Verzeichnissen geladen werden k&#246;nnen. 
+Also dann&#8230; bis 0 Uhr &#8211; zur n&#228;chsten Ausgabe des Masskompod!</itunes:summary>
+
+    <description>&lt;p&gt;Der Masskompod ist nun &amp;#252;berall wieder bestens zu h&amp;#246;ren. Der Fehler lag eindeutig bei mir &amp;#8211; so ehrlich muss ich sein. Ich hatte vergessen, die htaccess-Datei zu erstellen, damit die Dateien auch aus virtuellen Verzeichnissen geladen werden k&amp;#246;nnen. &lt;br /&gt;
+Also dann&amp;#8230; bis 0 Uhr &amp;#8211; zur n&amp;#228;chsten Ausgabe des Masskompod!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+
+</item>
+
+
+
+<item>
+    <pubDate>Mon, 15 Dec 2008 00:00:00 +0100</pubDate>
+    <title>Nr17 Open Source</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=23</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=23</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=23#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>F&#252;r Computerprogramme kann man bekanntlich ein Verm&#246;gen ausgeben &#8211; doch es geht auch anders, n&#228;mlich kostenlos. Open Source Software gibt es f&#252;r jeden erdenklichen Einsatzzweck &#8211; auch f&#252;r die Massenkommunikation in </itunes:subtitle>
+    <itunes:summary>F&#252;r Computerprogramme kann man bekanntlich ein Verm&#246;gen ausgeben &#8211; doch es geht auch anders, n&#228;mlich kostenlos. Open Source Software gibt es f&#252;r jeden erdenklichen Einsatzzweck &#8211; auch f&#252;r die Massenkommunikation in Form von Sprache, Schrift und Grafik.</itunes:summary>
+
+    <description>&lt;p&gt;F&amp;#252;r Computerprogramme kann man bekanntlich ein Verm&amp;#246;gen ausgeben &amp;#8211; doch es geht auch anders, n&amp;#228;mlich kostenlos. Open Source Software gibt es f&amp;#252;r jeden erdenklichen Einsatzzweck &amp;#8211; auch f&amp;#252;r die Massenkommunikation in Form von Sprache, Schrift und Grafik.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://de.openoffice.org/" title="freie Bürosoftware"&gt;Open Office&lt;/a&gt; :: freie Bürosoftware&lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.inkscape.org/" title="freies Vektorgrafikprogramm"&gt;Inkscape&lt;/a&gt; :: freies Vektorgrafikprogramm&lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+&lt;a href="http://www.audacity.de/" title="freier Audioeditor"&gt;Audacity&lt;/a&gt; :: freier Audioeditor&lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-15-94137.mp3"&gt;File Download (5:58 min / 7 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-15-94137.mp3" length="7340032" type="audio/mpeg" />
+    <itunes:duration>00:05:58</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sun, 14 Dec 2008 00:15:00 +0100</pubDate>
+    <title>Die Lösung des Problems rückt näher</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=22</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=22</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=22#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Derzeit ist der Masskompod noch immer nicht &#252;ber Podster und iTunes zu h&#246;ren. Ich m&#246;chte allen H&#246;rern an dieser Stelle schon mal sagen: es tut mir wirklich leid. Aber: ich bin der L&#246;sung m&#246;glicherweise einen Schritt </itunes:subtitle>
+    <itunes:summary>Derzeit ist der Masskompod noch immer nicht &#252;ber Podster und iTunes zu h&#246;ren. Ich m&#246;chte allen H&#246;rern an dieser Stelle schon mal sagen: es tut mir wirklich leid. Aber: ich bin der L&#246;sung m&#246;glicherweise einen Schritt n&#228;her gekommen. Es liegt am fehlenden htaccess-File. Ich werde mich jetzt also mal in die htaccess-Konventionen reinlesen und das Problem hoffentlich bald beheben!</itunes:summary>
+
+    <description>&lt;p&gt;Derzeit ist der Masskompod noch immer nicht &amp;#252;ber Podster und iTunes zu h&amp;#246;ren. Ich m&amp;#246;chte allen H&amp;#246;rern an dieser Stelle schon mal sagen: es tut mir wirklich leid. Aber: ich bin der L&amp;#246;sung m&amp;#246;glicherweise einen Schritt n&amp;#228;her gekommen. Es liegt am fehlenden htaccess-File. Ich werde mich jetzt also mal in die htaccess-Konventionen reinlesen und das Problem hoffentlich bald beheben!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+
+</item>
+
+
+
+<item>
+    <pubDate>Sat, 13 Dec 2008 19:08:00 +0100</pubDate>
+    <title>Nr16 Nonverbale Kommunikation</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=21</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=21</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=21#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Versuchen Sie doch mal, NICHT zu kommunizieren. Na viel Spa&#223; dabei!</itunes:subtitle>
+    <itunes:summary>Versuchen Sie doch mal, NICHT zu kommunizieren. Na viel Spa&#223; dabei!</itunes:summary>
+
+    <description>&lt;p&gt;Versuchen Sie doch mal, NICHT zu kommunizieren. Na viel Spa&amp;#223; dabei!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://de.wikipedia.org/wiki/Paul_Watzlawick" title=""&gt;Informationen zu Paul Watzlawick&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-13-79057.mp3"&gt;File Download (3:14 min / 4 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-13-79057.mp3" length="4194304" type="audio/mpeg" />
+    <itunes:duration>00:03:14</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sat, 13 Dec 2008 14:24:00 +0100</pubDate>
+    <title>Nr15 Mikrofon</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=20</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=20</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=20#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Ohne Mikrofon kein Ton. Heute gibts ein paar Bemerkungen vom richtigen Umgang mit einem Mikrofon &#8211; schlie&#223;lich will man ja geh&#246;rt werden!</itunes:subtitle>
+    <itunes:summary>Ohne Mikrofon kein Ton. Heute gibts ein paar Bemerkungen vom richtigen Umgang mit einem Mikrofon &#8211; schlie&#223;lich will man ja geh&#246;rt werden!</itunes:summary>
+
+    <description>&lt;p&gt;Ohne Mikrofon kein Ton. Heute gibts ein paar Bemerkungen vom richtigen Umgang mit einem Mikrofon &amp;#8211; schlie&amp;#223;lich will man ja geh&amp;#246;rt werden!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-13-61923.mp3"&gt;File Download (5:30 min / 6 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-13-61923.mp3" length="6291456" type="audio/mpeg" />
+    <itunes:duration>00:05:30</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Fri, 12 Dec 2008 00:02:00 +0100</pubDate>
+    <title>#14 Ladenfunk</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=18</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=18</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=18#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Werbung aus dem Deckenlautsprecher: Der Ladenfunk ist ein hervorragendes Mittel, eine Botschaft vielen Menschen mitzuteilen.</itunes:subtitle>
+    <itunes:summary>Werbung aus dem Deckenlautsprecher: Der Ladenfunk ist ein hervorragendes Mittel, eine Botschaft vielen Menschen mitzuteilen.</itunes:summary>
+
+    <description>&lt;p&gt;Werbung aus dem Deckenlautsprecher: Der Ladenfunk ist ein hervorragendes Mittel, eine Botschaft vielen Menschen mitzuteilen.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-12-93629.MP3"&gt;File Download (6:39 min / 8 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-12-93629.MP3" length="8388608" type="audio/mpeg" />
+    <itunes:duration>00:06:39</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Thu, 11 Dec 2008 00:00:00 +0100</pubDate>
+    <title>#13 Krisen-PR</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=16</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=16</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=16#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Wer sich in Krisensituationen in sein &#8220;Schneckenhaus&#8221; zur&#252;ck zieht l&#228;uft Gefahr, einen gro&#223;en Fehler zu begehen. Oft l&#228;sst sich mit Krisen-PR Schadensbegrenzung betreiben. Wer nun glaubt, dass es ihn nie treffen </itunes:subtitle>
+    <itunes:summary>Wer sich in Krisensituationen in sein &#8220;Schneckenhaus&#8221; zur&#252;ck zieht l&#228;uft Gefahr, einen gro&#223;en Fehler zu begehen. Oft l&#228;sst sich mit Krisen-PR Schadensbegrenzung betreiben. Wer nun glaubt, dass es ihn nie treffen k&#246;nnte, der sollte sich das heutige praktische Beispiel anh&#246;ren.</itunes:summary>
+
+    <description>&lt;p&gt;Wer sich in Krisensituationen in sein &amp;#8220;Schneckenhaus&amp;#8221; zur&amp;#252;ck zieht l&amp;#228;uft Gefahr, einen gro&amp;#223;en Fehler zu begehen. Oft l&amp;#228;sst sich mit Krisen-PR Schadensbegrenzung betreiben. Wer nun glaubt, dass es ihn nie treffen k&amp;#246;nnte, der sollte sich das heutige praktische Beispiel anh&amp;#246;ren.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-11-94045.MP3"&gt;File Download (3:03 min / 4 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-11-94045.MP3" length="4194304" type="audio/mpeg" />
+    <itunes:duration>00:03:03</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Wed, 10 Dec 2008 00:01:00 +0100</pubDate>
+    <title>#12 Jingles</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=14</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=14</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=14#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Die Massenmedien H&#246;rfunk und Fernsehen nutzen f&#252;r ihre Programme Gestaltungselemente, die der Laie gern als Jingle bezeichnet. Oder meint er doch eher ein Drop-In? Oder einen Show-Opener? Oder sollte gar ein Hook-Promo gemeint sein? Es soll </itunes:subtitle>
+    <itunes:summary>Die Massenmedien H&#246;rfunk und Fernsehen nutzen f&#252;r ihre Programme Gestaltungselemente, die der Laie gern als Jingle bezeichnet. Oder meint er doch eher ein Drop-In? Oder einen Show-Opener? Oder sollte gar ein Hook-Promo gemeint sein? Es soll sogar Leute geben, die den Hinz-Triller vom Verkehrsfunk als Jingle bezeichnen.</itunes:summary>
+
+    <description>&lt;p&gt;Die Massenmedien H&amp;#246;rfunk und Fernsehen nutzen f&amp;#252;r ihre Programme Gestaltungselemente, die der Laie gern als Jingle bezeichnet. Oder meint er doch eher ein Drop-In? Oder einen Show-Opener? Oder sollte gar ein Hook-Promo gemeint sein? Es soll sogar Leute geben, die den Hinz-Triller vom Verkehrsfunk als Jingle bezeichnen.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;
+
+    &lt;li&gt;
+&lt;a href="http://de.wikipedia.org/wiki/Jingle" title=""&gt;Jingle bei Wikipedia&lt;/a&gt; :: &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-10-11862.MP3"&gt;File Download (4:46 min / 6 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-10-11862.MP3" length="6291456" type="audio/mpeg" />
+    <itunes:duration>00:04:46</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Tue, 09 Dec 2008 00:00:00 +0100</pubDate>
+    <title>#11 Interview</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=17</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=17</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=17#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Was sollte man beachten, wenn man interviewt wird? Und auf der anderen Seite: was sollte ein Journalist beachten, wenn er einen anderen Menschen interviewt?</itunes:subtitle>
+    <itunes:summary>Was sollte man beachten, wenn man interviewt wird? Und auf der anderen Seite: was sollte ein Journalist beachten, wenn er einen anderen Menschen interviewt?</itunes:summary>
+
+    <description>&lt;p&gt;Was sollte man beachten, wenn man interviewt wird? Und auf der anderen Seite: was sollte ein Journalist beachten, wenn er einen anderen Menschen interviewt?&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-09-58220.MP3"&gt;File Download (5:07 min / 5 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-09-58220.MP3" length="5242880" type="audio/mpeg" />
+    <itunes:duration>00:05:07</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Mon, 08 Dec 2008 00:01:00 +0100</pubDate>
+    <title>#10 Hörfunk</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=13</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=13</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=13#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Die meisten Menschen werden wohl &#8220;Rundfunk&#8221; sagen, wenn es ums Radio geht. Allerdings ist das heutzutage nicht ganz exakt &#8211; korrekterweise m&#252;sste man &#8220;H&#246;rfunk&#8221; sagen. Eine Begriffserkl&#228;rung.</itunes:subtitle>
+    <itunes:summary>Die meisten Menschen werden wohl &#8220;Rundfunk&#8221; sagen, wenn es ums Radio geht. Allerdings ist das heutzutage nicht ganz exakt &#8211; korrekterweise m&#252;sste man &#8220;H&#246;rfunk&#8221; sagen. Eine Begriffserkl&#228;rung.</itunes:summary>
+
+    <description>&lt;p&gt;Die meisten Menschen werden wohl &amp;#8220;Rundfunk&amp;#8221; sagen, wenn es ums Radio geht. Allerdings ist das heutzutage nicht ganz exakt &amp;#8211; korrekterweise m&amp;#252;sste man &amp;#8220;H&amp;#246;rfunk&amp;#8221; sagen. Eine Begriffserkl&amp;#228;rung.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-08-12291.MP3"&gt;File Download (1:53 min / 3 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-08-12291.MP3" length="3145728" type="audio/mpeg" />
+    <itunes:duration>00:01:53</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sun, 07 Dec 2008 00:01:00 +0100</pubDate>
+    <title>#09 Gegendarstellung</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=12</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=12</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=12#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Man muss nicht alles hinnehmen, was in den Zeitungen &#252;ber einen geschrieben wird &#8211; oder was Radio und Fernsehen &#252;ber einen senden. Daf&#252;r gibts ja noch die M&#246;glichkeit der Gegendarstellung.</itunes:subtitle>
+    <itunes:summary>Man muss nicht alles hinnehmen, was in den Zeitungen &#252;ber einen geschrieben wird &#8211; oder was Radio und Fernsehen &#252;ber einen senden. Daf&#252;r gibts ja noch die M&#246;glichkeit der Gegendarstellung.</itunes:summary>
+
+    <description>&lt;p&gt;Man muss nicht alles hinnehmen, was in den Zeitungen &amp;#252;ber einen geschrieben wird &amp;#8211; oder was Radio und Fernsehen &amp;#252;ber einen senden. Daf&amp;#252;r gibts ja noch die M&amp;#246;glichkeit der Gegendarstellung.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-07-12226.MP3"&gt;File Download (2:23 min / 2 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-07-12226.MP3" length="2097152" type="audio/mpeg" />
+    <itunes:duration>00:02:23</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sat, 06 Dec 2008 00:01:00 +0100</pubDate>
+    <title>#08 Fonts</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=11</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=11</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=11#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Fonts, oder auf deutsch Schriftarten, gibt es unz&#228;hlige. Aber welche sollte man nun verwenden? Es gibt 2 gro&#223;e Fallen: man liegt thematisch mit der Schriftart v&#246;llig daneben &#8211; ... oder man verwendet unwissentlich eine kommerzielle </itunes:subtitle>
+    <itunes:summary>Fonts, oder auf deutsch Schriftarten, gibt es unz&#228;hlige. Aber welche sollte man nun verwenden? Es gibt 2 gro&#223;e Fallen: man liegt thematisch mit der Schriftart v&#246;llig daneben &#8211; ... oder man verwendet unwissentlich eine kommerzielle Schriftart und bekommt hinterher Post von einem netten Anwalt.</itunes:summary>
+
+    <description>&lt;p&gt;Fonts, oder auf deutsch Schriftarten, gibt es unz&amp;#228;hlige. Aber welche sollte man nun verwenden? Es gibt 2 gro&amp;#223;e Fallen: man liegt thematisch mit der Schriftart v&amp;#246;llig daneben &amp;#8211; ... oder man verwendet unwissentlich eine kommerzielle Schriftart und bekommt hinterher Post von einem netten Anwalt.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-06-12171.MP3"&gt;File Download (2:46 min / 3 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-06-12171.MP3" length="3145728" type="audio/mpeg" />
+    <itunes:duration>00:02:46</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Fri, 05 Dec 2008 00:01:00 +0100</pubDate>
+    <title>#07 Einschaltquoten</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=10</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=10</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=10#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Davor zittert wohl jeder in der Fernsehbranche: die Einschaltquoten. Die Spitzenwerte vergangener Jahre werden heute wohl nicht mehr erreicht werden k&#246;nnen (zu h&#246;ren ist unter anderem ein kurzes Statement von Dieter Thomas Heck zu den </itunes:subtitle>
+    <itunes:summary>Davor zittert wohl jeder in der Fernsehbranche: die Einschaltquoten. Die Spitzenwerte vergangener Jahre werden heute wohl nicht mehr erreicht werden k&#246;nnen (zu h&#246;ren ist unter anderem ein kurzes Statement von Dieter Thomas Heck zu den Einschaltquoten der ZDF-Hitparade). Heute gibt es zwar ungleich mehr Fernsehger&#228;te als noch vor 30 Jahren &#8211; doch es gibt auch mehr Fernsehsender&#8230;</itunes:summary>
+
+    <description>&lt;p&gt;Davor zittert wohl jeder in der Fernsehbranche: die Einschaltquoten. Die Spitzenwerte vergangener Jahre werden heute wohl nicht mehr erreicht werden k&amp;#246;nnen (zu h&amp;#246;ren ist unter anderem ein kurzes Statement von Dieter Thomas Heck zu den Einschaltquoten der ZDF-Hitparade). Heute gibt es zwar ungleich mehr Fernsehger&amp;#228;te als noch vor 30 Jahren &amp;#8211; doch es gibt auch mehr Fernsehsender&amp;#8230;&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-05-12113.MP3"&gt;File Download (3:59 min / 4 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-05-12113.MP3" length="4194304" type="audio/mpeg" />
+    <itunes:duration>00:03:59</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Thu, 04 Dec 2008 00:01:00 +0100</pubDate>
+    <title>#06 Druckerzeugnisse</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=9</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=9</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=9#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Braucht man in Zeiten elektronischer Medien noch Druckerzeugnisse? Und wenn ja: sollte man die nicht einfach selbst am Computer entwerfen und mit dem Drucker ausdrucken?</itunes:subtitle>
+    <itunes:summary>Braucht man in Zeiten elektronischer Medien noch Druckerzeugnisse? Und wenn ja: sollte man die nicht einfach selbst am Computer entwerfen und mit dem Drucker ausdrucken?</itunes:summary>
+
+    <description>&lt;p&gt;Braucht man in Zeiten elektronischer Medien noch Druckerzeugnisse? Und wenn ja: sollte man die nicht einfach selbst am Computer entwerfen und mit dem Drucker ausdrucken?&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-04-12032.MP3"&gt;File Download (2:03 min / 2 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-04-12032.MP3" length="2097152" type="audio/mpeg" />
+    <itunes:duration>00:02:03</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Wed, 03 Dec 2008 00:01:00 +0100</pubDate>
+    <title>#05 Corporate Design</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=8</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=8</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=8#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Bei manchen Firmen geht es zu wie Kraut und R&#252;ben: Das Briefpapier gr&#252;n, die Visitenkarten blau und das Firmenfahrzeug rot. Wie will man da in der Masse noch erkannt werden? Das Zauberwort lautet Corporate Design &#8211; es muss nur angewendet </itunes:subtitle>
+    <itunes:summary>Bei manchen Firmen geht es zu wie Kraut und R&#252;ben: Das Briefpapier gr&#252;n, die Visitenkarten blau und das Firmenfahrzeug rot. Wie will man da in der Masse noch erkannt werden? Das Zauberwort lautet Corporate Design &#8211; es muss nur angewendet werden!</itunes:summary>
+
+    <description>&lt;p&gt;Bei manchen Firmen geht es zu wie Kraut und R&amp;#252;ben: Das Briefpapier gr&amp;#252;n, die Visitenkarten blau und das Firmenfahrzeug rot. Wie will man da in der Masse noch erkannt werden? Das Zauberwort lautet Corporate Design &amp;#8211; es muss nur angewendet werden!&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-03-11929.MP3"&gt;File Download (2:21 min / 2 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-03-11929.MP3" length="2097152" type="audio/mpeg" />
+    <itunes:duration>00:02:21</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Tue, 02 Dec 2008 00:01:00 +0100</pubDate>
+    <title>#04 Begruessung</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=7</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=7</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=7#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Ja, also, ... ich dache mir, das ich heute mal was &#252;ber Begr&#252;&#223;ungen sagen sollte? Also, &#228;h, ich meine Begr&#252;&#223;ungen, die genau so missraten sind wie dieser Text hier. :-)</itunes:subtitle>
+    <itunes:summary>Ja, also, ... ich dache mir, das ich heute mal was &#252;ber Begr&#252;&#223;ungen sagen sollte? Also, &#228;h, ich meine Begr&#252;&#223;ungen, die genau so missraten sind wie dieser Text hier. :-)</itunes:summary>
+
+    <description>&lt;p&gt;Ja, also, ... ich dache mir, das ich heute mal was &amp;#252;ber Begr&amp;#252;&amp;#223;ungen sagen sollte? Also, &amp;#228;h, ich meine Begr&amp;#252;&amp;#223;ungen, die genau so missraten sind wie dieser Text hier. :-)&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-02-11792.mp3"&gt;File Download (1:52 min / 2 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-02-11792.mp3" length="2097152" type="audio/mpeg" />
+    <itunes:duration>00:01:52</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Mon, 01 Dec 2008 00:01:00 +0100</pubDate>
+    <title>masskompod_03_xmas_01_argumente</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=6</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=6</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Auf dass Euch nie die Argumente ausgehen. Ich w&#252;nsche Euch einen sch&#246;nen 1. Dezember.</itunes:subtitle>
+    <itunes:summary>Auf dass Euch nie die Argumente ausgehen. Ich w&#252;nsche Euch einen sch&#246;nen 1. Dezember.</itunes:summary>
+
+    <description>&lt;p&gt;Auf dass Euch nie die Argumente ausgehen. Ich w&amp;#252;nsche Euch einen sch&amp;#246;nen 1. Dezember.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-01-11648.mp3"&gt;File Download (5:01 min / 5 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-12-01-11648.mp3" length="5242880" type="audio/mpeg" />
+    <itunes:duration>00:05:01</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Sun, 16 Nov 2008 00:22:00 +0100</pubDate>
+    <title>masskompod_02_Aufruf</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=5</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=5</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=5#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Heute gibts nur einen kurzen Aufruf. Nachdem ich nun einige Emails bekam, ob ich denn noch Interviewpartner suche &#8211; in dieser Folge gehe ich darauf n&#228;her ein.
+
+	Wer Fragen, Anregungen oder Kritik hat kann, nein SOLLTE sich &#252;ber die </itunes:subtitle>
+    <itunes:summary>Heute gibts nur einen kurzen Aufruf. Nachdem ich nun einige Emails bekam, ob ich denn noch Interviewpartner suche &#8211; in dieser Folge gehe ich darauf n&#228;her ein.
+
+	Wer Fragen, Anregungen oder Kritik hat kann, nein SOLLTE sich &#252;ber die Kommentarfunktion an mich wenden.</itunes:summary>
+
+    <description>&lt;p&gt;Heute gibts nur einen kurzen Aufruf. Nachdem ich nun einige Emails bekam, ob ich denn noch Interviewpartner suche &amp;#8211; in dieser Folge gehe ich darauf n&amp;#228;her ein.&lt;/p&gt;
+
+	&lt;p&gt;Wer Fragen, Anregungen oder Kritik hat kann, nein SOLLTE sich &amp;#252;ber die Kommentarfunktion an mich wenden.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-11-16-96051.MP3"&gt;File Download (2:05 min / 2 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-11-16-96051.MP3" length="2097152" type="audio/mpeg" />
+    <itunes:duration>00:02:05</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Fri, 14 Nov 2008 02:05:00 +0100</pubDate>
+    <title>masskompod_01_Na_Logo</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=4</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=4</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>In Folge 1 geht es um Firmenlogos. Einen kleinen &#220;berblick gibt schon mal die Wikipedia unter http://de.wikipedia.org/wiki/Firmenlogo
+
+	Meine Gespr&#228;chspartnerin Diana Vogel finden Sie unter http://www.dianavogel.com</itunes:subtitle>
+    <itunes:summary>In Folge 1 geht es um Firmenlogos. Einen kleinen &#220;berblick gibt schon mal die Wikipedia unter http://de.wikipedia.org/wiki/Firmenlogo
+
+	Meine Gespr&#228;chspartnerin Diana Vogel finden Sie unter http://www.dianavogel.com</itunes:summary>
+
+    <description>&lt;p&gt;In Folge 1 geht es um Firmenlogos. Einen kleinen &amp;#220;berblick gibt schon mal die Wikipedia unter http://de.wikipedia.org/wiki/Firmenlogo&lt;/p&gt;
+
+	&lt;p&gt;Meine Gespr&amp;#228;chspartnerin Diana Vogel finden Sie unter http://www.dianavogel.com&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-11-14-95854.MP3"&gt;File Download (31:05 min / 18 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-11-14-95854.MP3" length="18874368" type="audio/mpeg" />
+    <itunes:duration>00:31:05</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Mon, 10 Nov 2008 00:01:00 +0100</pubDate>
+    <title>masskompod_11_xmas_09_interview</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=15</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=15</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=15#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>Was sollte man beachten, wenn man interviewt wird? Und auf der anderen Seite: was sollte ein Journalist beachten, wenn er einen anderen Menschen interviewt?
+
+	Hinweis in eigener Sache: In K&#252;rze zieht der Masskompod um! Die neue Adresse lautet: </itunes:subtitle>
+    <itunes:summary>Was sollte man beachten, wenn man interviewt wird? Und auf der anderen Seite: was sollte ein Journalist beachten, wenn er einen anderen Menschen interviewt?
+
+	Hinweis in eigener Sache: In K&#252;rze zieht der Masskompod um! Die neue Adresse lautet: http://masskompod.rupkalwis.com</itunes:summary>
+
+    <description>&lt;p&gt;Was sollte man beachten, wenn man interviewt wird? Und auf der anderen Seite: was sollte ein Journalist beachten, wenn er einen anderen Menschen interviewt?&lt;/p&gt;
+
+	&lt;p&gt;Hinweis in eigener Sache: In K&amp;#252;rze zieht der Masskompod um! Die neue Adresse lautet: http://masskompod.rupkalwis.com&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-11-10-12685.MP3"&gt;File Download (5:07 min / 5 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-11-10-12685.MP3" length="5242880" type="audio/mpeg" />
+    <itunes:duration>00:05:07</itunes:duration>
+</item>
+
+
+
+<item>
+    <pubDate>Wed, 05 Nov 2008 02:12:00 +0100</pubDate>
+    <title>masskompod_00_nullnummer</title>
+    <link>http://masskompod.rupkalwis.com/index.php?id=3</link>
+    <guid>http://masskompod.rupkalwis.com/index.php?id=3</guid>
+    <dc:creator>Udo Rupkalwis</dc:creator>
+    <itunes:author>Udo Rupkalwis</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <comments>http://masskompod.rupkalwis.com/index.php?id=3#comments</comments>
+    <itunes:keywords>Management &amp;amp; Marketing, Social Sciences</itunes:keywords>
+    <category>Management &amp; Marketing</category>
+    <category>Social Sciences</category>
+    <itunes:subtitle>In diesem Podcast geht es um Massenkommunikation und die damit verbundenen Probleme. Im Vordergrund stehen vor allem die praktischen Beispiele und auch viele reale Erlebnisse der Macher von Massenkommunikation: Radioleute, Fernsehmacher, </itunes:subtitle>
+    <itunes:summary>In diesem Podcast geht es um Massenkommunikation und die damit verbundenen Probleme. Im Vordergrund stehen vor allem die praktischen Beispiele und auch viele reale Erlebnisse der Macher von Massenkommunikation: Radioleute, Fernsehmacher, Druckereimitarbeiter, Grafiker, Texter, B&#252;hnenprofis usw.
+In der Nullnummer stellt sich der Podcaster selbst und seinen Podcast etwas n&#228;her vor.</itunes:summary>
+
+    <description>&lt;p&gt;In diesem Podcast geht es um Massenkommunikation und die damit verbundenen Probleme. Im Vordergrund stehen vor allem die praktischen Beispiele und auch viele reale Erlebnisse der Macher von Massenkommunikation: Radioleute, Fernsehmacher, Druckereimitarbeiter, Grafiker, Texter, B&amp;#252;hnenprofis usw.&lt;br /&gt;
+In der Nullnummer stellt sich der Podcaster selbst und seinen Podcast etwas n&amp;#228;her vor.&lt;/p&gt;
+
+	&lt;p&gt;&lt;a href="http://flattr.com/thing/52766/Karlihaus-Meerane-im-Ruckblick" target="_blank"&gt;&lt;br /&gt;
+&lt;img src="http://api.flattr.com/button/button-static-50x60.png" alt="Flattr this" title="Flattr this" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://masskompod.rupkalwis.com/pod/masskompod-2008-11-05-95227.MP3"&gt;File Download (10:01 min / 9 MB)&lt;/a&gt;&lt;/p&gt;</description>
+
+    <enclosure url="http://masskompod.rupkalwis.com/pod/masskompod-2008-11-05-95227.MP3" length="9437184" type="audio/mpeg" />
+    <itunes:duration>00:10:01</itunes:duration>
+</item>
+
+
+
+</channel>
+
+</rss>

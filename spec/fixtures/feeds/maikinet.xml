@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/styles/rss/rss20.xsl" type="text/xsl" media="screen"?>
+<?xml-stylesheet href="/styles/rss/rss20.css" type="text/css" media="screen"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>http://maikinet-tumblr.podspot.de</title>
+  <link>http://maikinet-tumblr.podspot.de</link>
+  <lastBuildDate>Mon, 18 Nov 2013 22:01:34 +0100</lastBuildDate>
+  <language>de</language>
+  <generator>www.podhost.de - Hosting your podcasts</generator>
+  <atom:link rel="self" type="application/rss+xml" title="" href="http://maikinet-tumblr.podspot.de/rss" xmlns:atom="http://www.w3.org/2005/Atom" />
+  <itunes:explicit>no</itunes:explicit>
+  <ttl>20</ttl>
+  <item>
+    <title>Podcast 22: Im Schnee joggen.</title>
+    <description>Das war eher Schneeschuh wandern als joggen heute!</description>
+    <pubDate>Mon, 03 Dec 2012 18:07:15 +0100</pubDate>
+    <guid isPermaLink="false">4e69c782eb8f7d7cf1e6113db3945999</guid>
+    <link>http://maikinet-tumblr.podspot.de/post/podcast-22-im-schnee-joggen/</link>
+  </item>
+  <item>
+    <title>Podcast 21: Apfel Nachwuchs und Ente zu Weihnachten</title>
+    <description>Wir haben wieder Nachwuchs in unserem Hause bekommen. Ich mache mir Gedanken über unser Weihnachtsmenü 2012 und noch vieles mehr.</description>
+    <pubDate>Fri, 16 Nov 2012 14:56:30 +0100</pubDate>
+    <guid isPermaLink="false">f3b04dede2416253a468eed101bcfb3f</guid>
+    <link>http://maikinet-tumblr.podspot.de/post/podcast-21-apfel-nachwuchs-und-ente-zu-weihnachten/</link>
+  </item>
+  <item>
+    <title>Ausgabe #020 - 1391.56 km</title>
+    <description>bin ich seit März 2012 gelaufen und habe jetzt 18 kg weniger auf der Waage. Dabei habe ich 108017 kCal verbrannt und 24206 Höhenmeter aufwärts überwunden. </description>
+    <pubDate>Wed, 31 Oct 2012 08:34:12 +0100</pubDate>
+    <guid isPermaLink="false">b8e6de7a515fa60958fd9a1a4066e449</guid>
+    <link>http://maikinet-tumblr.podspot.de/post/ausgabe-020-139156-km/</link>
+  </item>
+  <item>
+    <title>Ausgabe #19 Weil</title>
+    <description>Shownotes
+
+Dan Wolf
+Der Bastard
+Losstopschade</description>
+    <pubDate>Thu, 25 Oct 2012 18:53:14 +0200</pubDate>
+    <guid isPermaLink="false">7353635f8dc3f682ca6e24f4cc12cd9a</guid>
+    <link>http://maikinet-tumblr.podspot.de/post/ausgabe-19-weil/</link>
+  </item>
+  <item>
+    <title>Ausgabe #18 ÄhhhUARRRLosstopschade</title>
+    <description>Auf Wunsch, hier noch mal meine letzte Podcast Folge.</description>
+    <pubDate>Mon, 15 Oct 2012 16:44:19 +0200</pubDate>
+    <guid isPermaLink="false">f222bbaff6bca825e2c821121fac31af</guid>
+    <link>http://maikinet-tumblr.podspot.de/post/ausgabe-18-ahhhuarrrlosstopschade-1/</link>
+  </item>
+  <item>
+    <title>Ausgabe #18 ÄhhhUARRRLosstopschade</title>
+    <description>Alles nur geklaut!</description>
+    <pubDate>Wed, 10 Oct 2012 20:19:30 +0200</pubDate>
+    <guid isPermaLink="false">79c260d2a918c8c5ac79f2466d490f1d</guid>
+    <link>http://maikinet-tumblr.podspot.de/post/ausgabe-18-ahhhuarrrlosstopschade/</link>
+  </item>
+  <item>
+    <title>Maikinet der Podcast: Ausgabe #17 Renovieren und immer schön auf die Fresse  </title>
+    <description>Die Tapete macht mich fertig, warum es einige Blog Artikel nicht mehr auf meinem Blog gibt und danke an MarkRitter82 von Twitter.</description>
+    <pubDate>Sun, 07 Oct 2012 16:17:55 +0200</pubDate>
+    <guid isPermaLink="false">92f56db85494391a01a9c10db1b3b3cc</guid>
+    <link>http://maikinet-tumblr.podspot.de/post/maikinet-der-podcast-ausgabe-17-renovieren-und-immer-schon-auf-die-fresse/</link>
+  </item>
+  <item>
+    <title>Maikinet der Podcast: Ausgabe#16 Nein zu Wordpress, ja zu iTunes</title>
+    <description>Der Bastard ist wieder bei Wordpress und nein ich bleibe bei Tumblr. Aber ich sage ja zu iTunes. Desweiteren gibt es jetzt auch noch das LandfunkerTV.</description>
+    <pubDate>Sat, 29 Sep 2012 11:00:23 +0200</pubDate>
+    <guid isPermaLink="false">0c6cae9765ffd1c30ab8e14f4de49d39</guid>
+    <link>http://maikinet-tumblr.podspot.de/post/maikinet-der-podcast-ausgabe16-nein-zu-wordpress-ja-zu-itunes/</link>
+  </item>
+</channel>
+</rss>

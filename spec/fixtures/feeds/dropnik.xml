@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+>
+
+<channel>
+	<title>Drops rettet die Welt</title>
+	<atom:link href="http://oliver.drobnik.com/feed/podcast/" rel="self" type="application/rss+xml" />
+	<link>http://oliver.drobnik.com</link>
+	<description>Drops versucht die Welt zu retten und dabei - Episode für Episode - auch sich selbst.</description>
+	<lastBuildDate>Sun, 01 Sep 2013 17:44:08 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+<!-- podcast_generator="Blubrry PowerPress/5.0.2" mode="advanced" -->
+	<itunes:new-feed-url>http://oliver.drobnik.com/feed/podcast/</itunes:new-feed-url>
+	<itunes:summary>Drops versucht die Welt zu retten und dabei - Episode für Episode - auch sich selbst.</itunes:summary>
+	<itunes:author>Oliver Drobnik</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:image href="http://oliver.drobnik.com/files/powerpress/Drops_rettet_die_Welt.jpg" />
+	<itunes:owner>
+		<itunes:name>Oliver Drobnik</itunes:name>
+		<itunes:email>oliver@drobnik.com</itunes:email>
+	</itunes:owner>
+	<managingEditor>oliver@drobnik.com (Oliver Drobnik)</managingEditor>
+	<itunes:subtitle>Rette mich wer kann!</itunes:subtitle>
+	<image>
+		<title>Drops rettet die Welt</title>
+		<url>http://oliver.drobnik.com/files/powerpress/Drops_rettet_die_Welt.jpg</url>
+		<link>http://oliver.drobnik.com</link>
+	</image>
+	<itunes:category text="Society &amp; Culture">
+		<itunes:category text="Philosophy" />
+	</itunes:category>
+	<item>
+		<title>Drops rettet die Welt #18 &#8211; &#8220;Frauen und die Technik&#8221;</title>
+		<link>http://oliver.drobnik.com/2013/03/drops-rettet-die-welt-18-frauen-und-die-technik/</link>
+		<comments>http://oliver.drobnik.com/2013/03/drops-rettet-die-welt-18-frauen-und-die-technik/#comments</comments>
+		<pubDate>Tue, 12 Mar 2013 20:31:40 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://oliver.drobnik.com/?p=2907</guid>
+		<description><![CDATA[Drops konferiert mit Gastsprecherin Julia über die Welt der Frauen und wie man mehr von ihnen in technische und wissenschaftliche Berufe bekommt. Links Internationaler Frauentag Julia&#8217;s Artikel “WHAT there are actually girls in tech?!” (Englisch) Video: Wie Etsy in einem Jahr die Anzahl &#8230; <a href="http://oliver.drobnik.com/2013/03/drops-rettet-die-welt-18-frauen-und-die-technik/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Drops konferiert mit Gastsprecherin Julia über die Welt der Frauen und wie man mehr von ihnen in technische und wissenschaftliche Berufe bekommt.</p>
+
+<h3>Links</h3>
+<ul>
+<li><a href="http://de.wikipedia.org/wiki/Internationaler_Frauentag">Internationaler Frauentag</a></li>
+<li>Julia&#8217;s Artikel <a href="http://www.julialerntios.com/2013/03/12/what-there-are-actually-girls-in-tech/">“WHAT there are actually girls in tech?!”</a> (Englisch)</li>
+<li>Video: <a href="http://www.youtube.com/watch?v=w4LExVkv4Pw">Wie Etsy in einem Jahr die Anzahl ihrer Programmiererinnen um 500% gesteigert hat </a>(Englisch)</li>
+<li><a href="http://www.cocoanetics.com/2013/03/podcast-42-meet-my-friend-dave/">Podcast mit David Mendels</a>, Professor an der neuen Universität in Jakarta, Indonesien (Englisch)</li>
+<li><a href="http://www.gew.de/Foerderung_auf_europaeischer_Ebene_2.html">Marie Curie Stipendien</a></li>
+<li><a href="http://jcmc.indiana.edu/vol11/issue4/hartmann.html">Eine interessante Studie</a> zum Thema Geschlechtsunterschiede bei Computerspielen (Englisch)</li>
+</ul>
+<p>Bitte um Feedback wie das neue Format ankommt. Entweder per Twitter @OliverDrobnik oder am Blog.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2013/03/drops-rettet-die-welt-18-frauen-und-die-technik/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops_018.mp3" length="55548784" type="audio/mpeg" />
+		<itunes:subtitle>Drops konferiert mit Gastsprecherin Julia über die Welt der Frauen und wie man mehr von ihnen in technische und wissenschaftliche Berufe bekommt. Links  Internationaler Frauentag   Julia&#039;s Artikel “WHAT there are actually girls in tech?!</itunes:subtitle>
+		<itunes:summary>Drops konferiert mit Gastsprecherin Julia über die Welt der Frauen und wie man mehr von ihnen in technische und wissenschaftliche Berufe bekommt.
+
+
+Links
+
+	Internationaler Frauentag
+	Julia&#039;s Artikel “WHAT there are actually girls in tech?!” (Englisch)
+	Video: Wie Etsy in einem Jahr die Anzahl ihrer Programmiererinnen um 500% gesteigert hat (Englisch)
+	Podcast mit David Mendels, Professor an der neuen Universität in Jakarta, Indonesien (Englisch)
+	Marie Curie Stipendien
+	Eine interessante Studie zum Thema Geschlechtsunterschiede bei Computerspielen (Englisch)
+
+Bitte um Feedback wie das neue Format ankommt. Entweder per Twitter @OliverDrobnik oder am Blog.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>57:52</itunes:duration>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #017 – &#8220;Unerwarteter Minderwert&#8221;</title>
+		<link>http://oliver.drobnik.com/2010/12/drops-rettet-die-welt-017/</link>
+		<comments>http://oliver.drobnik.com/2010/12/drops-rettet-die-welt-017/#comments</comments>
+		<pubDate>Sat, 04 Dec 2010 14:06:22 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://oliver.drobnik.com/?p=2682</guid>
+		<description><![CDATA[Unerwartete Zusatzstoffe mit teilweise verheerenden Nebeneffekten in Kosmetikprodukten und Snacks. Und wie Technologie auch ein Segen für den Umweltschutz sein kann. Links CodeCheck.info Gratis iPhone app: CodeCheck.info Drobnik KG Cocoanetics iPhone Development Dieter Pasching, Tenor]]></description>
+				<content:encoded><![CDATA[<p>Unerwartete Zusatzstoffe mit teilweise verheerenden Nebeneffekten in Kosmetikprodukten und Snacks. Und wie Technologie auch ein Segen für den Umweltschutz sein kann.</p>
+
+<h3>Links</h3>
+<ul>
+<li><a href="http://www.CodeCheck.info">CodeCheck.info</a></li>
+<li>Gratis iPhone app: <a href="http://itunes.apple.com/at/app/id359351047?mt=8">CodeCheck.info</a></li>
+<li><a href="http://www.drobnik.com">Drobnik KG</a></li>
+<li><a href="http://www.cocoanetics.com">Cocoanetics iPhone Development</a></li>
+<li><a href="http://www.pasching.cc">Dieter Pasching, Tenor</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2010/12/drops-rettet-die-welt-017/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/17-Drops-017-_Unerwarteter-Minderwert_.mp3" length="13454075" type="audio/mpeg" />
+		<itunes:subtitle>Unerwartete Zusatzstoffe mit teilweise verheerenden Nebeneffekten in Kosmetikprodukten und Snacks. Und wie Technologie auch ein Segen für den Umweltschutz sein kann. Links  CodeCheck.info   Gratis iPhone app: CodeCheck.info   Drobnik KG </itunes:subtitle>
+		<itunes:summary>Unerwartete Zusatzstoffe mit teilweise verheerenden Nebeneffekten in Kosmetikprodukten und Snacks. Und wie Technologie auch ein Segen für den Umweltschutz sein kann.
+
+
+Links
+
+	CodeCheck.info
+	Gratis iPhone app: CodeCheck.info
+	Drobnik KG
+	Cocoanetics iPhone Development
+	Dieter Pasching, Tenor</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>27:58</itunes:duration>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #016 &#8211; &quot;Weltuntergang 2012&quot;</title>
+		<link>http://oliver.drobnik.com/2009/11/drops-rettet-die-welt-016-weltuntergang-2012/</link>
+		<comments>http://oliver.drobnik.com/2009/11/drops-rettet-die-welt-016-weltuntergang-2012/#comments</comments>
+		<pubDate>Sun, 22 Nov 2009 17:19:32 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/?p=2140</guid>
+		<description><![CDATA[Drops forscht nach, ob und wie die Welt am 21. Dezember 2012 untergehen wird. Dabei zeigt er, dass die angebliche Bedrohung nur eine für unsere Geldbörse ist, wenn Scharlatane aus Angst Kapital schlagen wollen. Denn der wahre Weltuntergang wird erst &#8230; <a href="http://oliver.drobnik.com/2009/11/drops-rettet-die-welt-016-weltuntergang-2012/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Drops forscht nach, ob und wie die Welt am 21. Dezember 2012 untergehen wird. Dabei zeigt er, dass die angebliche Bedrohung nur eine für unsere Geldbörse ist, wenn Scharlatane aus Angst Kapital schlagen wollen. Denn der wahre Weltuntergang wird erst in 2700 Jahren sein, wenn man den Kalender der Mayas korrekt interpretiert.</p>
+
+<p>Notizen und Links</p>
+<ul>
+<li><a href="http://www.nasa.gov/topics/earth/features/2012.html">Nasa Artike</a>l &#8220;2012: Beginning of the End or Why the World Won&#8217;t End?&#8221;</li>
+<li><a href="http://en.wikipedia.org/wiki/Maya_calendar">Erklärung des Maya Kalenders auf Wikipedia</a>, allerdings in der englischen Variante, weil diese viel mehr Details enthält.</li>
+<li>Wer astrologischen Rat sucht, der ist mit <a href="http://www.energycoaching.net/">Cornelius Selimov</a> gut beraten</li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2009/11/drops-rettet-die-welt-016-weltuntergang-2012/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-016-Weltuntergang-2012.mp3" length="22329865" type="audio/mpeg" />
+		<itunes:subtitle>Drops forscht nach, ob und wie die Welt am 21. Dezember 2012 untergehen wird. Dabei zeigt er, dass die angebliche Bedrohung nur eine für unsere Geldbörse ist, wenn Scharlatane aus Angst Kapital schlagen wollen.</itunes:subtitle>
+		<itunes:summary>Drops forscht nach, ob und wie die Welt am 21. Dezember 2012 untergehen wird. Dabei zeigt er, dass die angebliche Bedrohung nur eine für unsere Geldbörse ist, wenn Scharlatane aus Angst Kapital schlagen wollen. Denn der wahre Weltuntergang wird erst in 2700 Jahren sein, wenn man den Kalender der Mayas korrekt interpretiert.
+
+
+
+Notizen und Links
+
+	Nasa Artikel &quot;2012: Beginning of the End or Why the World Won&#039;t End?&quot;
+	Erklärung des Maya Kalenders auf Wikipedia, allerdings in der englischen Variante, weil diese viel mehr Details enthält.
+	Wer astrologischen Rat sucht, der ist mit Cornelius Selimov gut beraten</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #015 &#8211; “Talent”</title>
+		<link>http://oliver.drobnik.com/2009/05/drops-rettet-die-welt-015/</link>
+		<comments>http://oliver.drobnik.com/2009/05/drops-rettet-die-welt-015/#comments</comments>
+		<pubDate>Sun, 10 May 2009 17:52:24 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/?p=1964</guid>
+		<description><![CDATA[Drops fragt sich, warum immer Sänger bei allgemeinen Talent-Wettbewerben gewinnen und beweist, dass es so etwas wie Talent überhaupt nicht gibt.]]></description>
+				<content:encoded><![CDATA[<p>Drops fragt sich, warum immer Sänger bei allgemeinen Talent-Wettbewerben gewinnen und beweist, dass es so etwas wie Talent überhaupt nicht gibt.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2009/05/drops-rettet-die-welt-015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-015-Talent.mp3" length="13620646" type="audio/mpeg" />
+		<itunes:subtitle>Drops fragt sich, warum immer Sänger bei allgemeinen Talent-Wettbewerben gewinnen und beweist, dass es so etwas wie Talent überhaupt nicht gibt.</itunes:subtitle>
+		<itunes:summary>Drops fragt sich, warum immer Sänger bei allgemeinen Talent-Wettbewerben gewinnen und beweist, dass es so etwas wie Talent überhaupt nicht gibt.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #014 &#8211; &quot;Alles wird anders&quot;</title>
+		<link>http://oliver.drobnik.com/2009/04/drops-rettet-die-welt-014-alles-wird-anders/</link>
+		<comments>http://oliver.drobnik.com/2009/04/drops-rettet-die-welt-014-alles-wird-anders/#comments</comments>
+		<pubDate>Sun, 19 Apr 2009 18:36:08 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48900</guid>
+		<description><![CDATA[Im letzten Jahr hat sich hat sich viel getan, Finanzkrise, neues Equipment, Verlobung. Obendrein stellt Drops TED vor, &#8220;Ideen, die es wert sind, verteilt zu werden&#8221;.]]></description>
+				<content:encoded><![CDATA[<p>Im letzten Jahr hat sich hat sich viel getan, Finanzkrise, neues Equipment, Verlobung. Obendrein stellt Drops <a id="link_48900_1" rel="nofollow" href="http://www.ted.com/">TED</a> vor, &#8220;Ideen, die es wert sind, verteilt zu werden&#8221;.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2009/04/drops-rettet-die-welt-014-alles-wird-anders/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-014-Alles-wird-anders.mp3" length="11972629" type="audio/mpeg" />
+		<itunes:subtitle>Im letzten Jahr hat sich hat sich viel getan, Finanzkrise, neues Equipment, Verlobung. Obendrein stellt Drops TED vor, &quot;Ideen, die es wert sind, verteilt zu werden&quot;.</itunes:subtitle>
+		<itunes:summary>Im letzten Jahr hat sich hat sich viel getan, Finanzkrise, neues Equipment, Verlobung. Obendrein stellt Drops TED vor, &quot;Ideen, die es wert sind, verteilt zu werden&quot;.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #013 &#8211; &quot;Aber, Glauben &#8230;&quot;</title>
+		<link>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-013-aber-glauben/</link>
+		<comments>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-013-aber-glauben/#comments</comments>
+		<pubDate>Sun, 20 Jul 2008 23:05:51 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48530</guid>
+		<description><![CDATA[Drops war auf einer Hochzeit und da fiel ihm einiges zum Thema Aberglauben und Ja-Worten ein. Ein Plädoyer dafür, sich mehr zu trauen und weniger fürchten.]]></description>
+				<content:encoded><![CDATA[<p>Drops war auf einer Hochzeit und da fiel ihm einiges zum Thema Aberglauben und Ja-Worten ein. Ein Plädoyer dafür, sich mehr zu trauen und weniger fürchten.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-013-aber-glauben/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-013-Aber-Glauben.mp3" length="13494760" type="audio/mpeg" />
+		<itunes:subtitle>Drops war auf einer Hochzeit und da fiel ihm einiges zum Thema Aberglauben und Ja-Worten ein. Ein Plädoyer dafür, sich mehr zu trauen und weniger fürchten.</itunes:subtitle>
+		<itunes:summary>Drops war auf einer Hochzeit und da fiel ihm einiges zum Thema Aberglauben und Ja-Worten ein. Ein Plädoyer dafür, sich mehr zu trauen und weniger fürchten.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #012 &#8211; &quot;Zyklen&quot;</title>
+		<link>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-012-zyklen/</link>
+		<comments>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-012-zyklen/#comments</comments>
+		<pubDate>Sun, 13 Jul 2008 21:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48524</guid>
+		<description><![CDATA[Auch von Bauchkrämpfen läßt Drops sich nicht abhalten, in dieser Folge über die natürlichen Zyklen im Universum zu sprechen. Ausserdem macht er sich Gedanken, dass wir nicht &#8220;auf Pump&#8221; leben sollten, sondern besser in Harmonie mit dem Rad des Lebens.]]></description>
+				<content:encoded><![CDATA[<p>Auch von Bauchkrämpfen läßt Drops sich nicht abhalten, in dieser Folge über die natürlichen Zyklen im Universum zu sprechen. Ausserdem macht er sich Gedanken, dass wir nicht &#8220;auf Pump&#8221; leben sollten, sondern besser in Harmonie mit dem Rad des Lebens.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-012-zyklen/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-012-Zyklen.mp3" length="23898279" type="audio/mpeg" />
+		<itunes:subtitle>Auch von Bauchkrämpfen läßt Drops sich nicht abhalten, in dieser Folge über die natürlichen Zyklen im Universum zu sprechen. Ausserdem macht er sich Gedanken, dass wir nicht &quot;auf Pump&quot; leben sollten, sondern besser in Harmonie mit dem Rad des Lebens.</itunes:subtitle>
+		<itunes:summary>Auch von Bauchkrämpfen läßt Drops sich nicht abhalten, in dieser Folge über die natürlichen Zyklen im Universum zu sprechen. Ausserdem macht er sich Gedanken, dass wir nicht &quot;auf Pump&quot; leben sollten, sondern besser in Harmonie mit dem Rad des Lebens.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #011 &#8211; &quot;Plan im Chaos&quot;</title>
+		<link>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-011-plan-im-chaos/</link>
+		<comments>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-011-plan-im-chaos/#comments</comments>
+		<pubDate>Sun, 06 Jul 2008 21:00:17 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48521</guid>
+		<description><![CDATA[Drops sucht den Plan im Chaos, denn wo Wachstum ist, da werden Systeme schnell so komplex, dass es dafür eine eigene Theorie gibt. Zuvor klärt Drops noch, warum Computer so dumm sind, oder zumindest nur so gescheit, die diejenigen, die sie bedienen.]]></description>
+				<content:encoded><![CDATA[<p>Drops sucht den Plan im Chaos, denn wo Wachstum ist, da werden Systeme schnell so komplex, dass es dafür eine eigene Theorie gibt. Zuvor klärt Drops noch, warum Computer so dumm sind, oder zumindest nur so gescheit, die diejenigen, die sie bedienen.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/07/drops-rettet-die-welt-011-plan-im-chaos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-011-Plan-im-Chaos.mp3" length="32164996" type="audio/mpeg" />
+		<itunes:subtitle>Drops sucht den Plan im Chaos, denn wo Wachstum ist, da werden Systeme schnell so komplex, dass es dafür eine eigene Theorie gibt. Zuvor klärt Drops noch, warum Computer so dumm sind, oder zumindest nur so gescheit, die diejenigen, die sie bedienen.</itunes:subtitle>
+		<itunes:summary>Drops sucht den Plan im Chaos, denn wo Wachstum ist, da werden Systeme schnell so komplex, dass es dafür eine eigene Theorie gibt. Zuvor klärt Drops noch, warum Computer so dumm sind, oder zumindest nur so gescheit, die diejenigen, die sie bedienen.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #010 &#8211; &quot;Fallen lassen&quot;</title>
+		<link>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-010-fallen-lassen/</link>
+		<comments>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-010-fallen-lassen/#comments</comments>
+		<pubDate>Sat, 28 Jun 2008 20:51:19 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48515</guid>
+		<description><![CDATA[Drops ist mutig, er probiert eine neue Position aus: fern des Studios in einem Zelt im Waldviertel, ganz ohne Netz und doppelten Boden. Dabei erzählt er wie ein Lied ihn dazu brachte, sich fallen zu lassen. Plus: Sind die Briten mutiger als die Österreicher? &#8230; <a href="http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-010-fallen-lassen/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Drops ist mutig, er probiert eine neue Position aus: fern des Studios in einem Zelt im Waldviertel, ganz ohne Netz und doppelten Boden. Dabei erzählt er wie ein Lied ihn dazu brachte, sich fallen zu lassen. Plus: Sind die Briten mutiger als die Österreicher?</p>
+<p><a id="link_48515_1" rel="nofollow" href="http://www.rozsavage.com/blog/">Blog von Roz Savage</a>, die solo von Amerika nach Hawaii rudert. Podcast <a id="link_48515_2" rel="nofollow" href="http://twit.tv/roz">Roz rows the Pacific</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-010-fallen-lassen/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-010-Fallen-lassen.mp3" length="22871674" type="audio/mpeg" />
+		<itunes:subtitle>Drops ist mutig, er probiert eine neue Position aus: fern des Studios in einem Zelt im Waldviertel, ganz ohne Netz und doppelten Boden. Dabei erzählt er wie ein Lied ihn dazu brachte, sich fallen zu lassen.</itunes:subtitle>
+		<itunes:summary>Drops ist mutig, er probiert eine neue Position aus: fern des Studios in einem Zelt im Waldviertel, ganz ohne Netz und doppelten Boden. Dabei erzählt er wie ein Lied ihn dazu brachte, sich fallen zu lassen. Plus: Sind die Briten mutiger als die Österreicher?
+
+Blog von Roz Savage, die solo von Amerika nach Hawaii rudert. Podcast Roz rows the Pacific.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #009 &#8211; &quot;2,71828&quot;</title>
+		<link>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-009-271828/</link>
+		<comments>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-009-271828/#comments</comments>
+		<pubDate>Sun, 22 Jun 2008 21:45:41 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48511</guid>
+		<description><![CDATA[Die Eulersche Zahl verdeutlicht, dass die Natur ein weitaus besser mit Zinseszinsen umgehen kann als jede Bank. Drops erklärt die natürliche Methode für grosse Veränderungen: Wachstum.]]></description>
+				<content:encoded><![CDATA[<p>Die Eulersche Zahl verdeutlicht, dass die Natur ein weitaus besser mit Zinseszinsen umgehen kann als jede Bank. Drops erklärt die natürliche Methode für grosse Veränderungen: Wachstum.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-009-271828/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-009-2.71828.mp3" length="17351993" type="audio/mpeg" />
+		<itunes:subtitle>Die Eulersche Zahl verdeutlicht, dass die Natur ein weitaus besser mit Zinseszinsen umgehen kann als jede Bank. Drops erklärt die natürliche Methode für grosse Veränderungen: Wachstum.</itunes:subtitle>
+		<itunes:summary>Die Eulersche Zahl verdeutlicht, dass die Natur ein weitaus besser mit Zinseszinsen umgehen kann als jede Bank. Drops erklärt die natürliche Methode für grosse Veränderungen: Wachstum.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #008 &#8211; &quot;Bestellungen&quot;</title>
+		<link>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-008-bestellungen/</link>
+		<comments>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-008-bestellungen/#comments</comments>
+		<pubDate>Sun, 15 Jun 2008 18:00:06 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48505</guid>
+		<description><![CDATA[Drops erklärt, wie &#8220;Bestellungen beim Universum&#8221; funktionieren und wie man damit auf zauberhafte Weise seine eigene Welt retten kann. Auch werden Gründe besprochen, warum das kosmische Bestellservice funktionieren könnte und was bei der ganzen Zauberei auch schiefgehen könnte.]]></description>
+				<content:encoded><![CDATA[<p>Drops erklärt, wie &#8220;Bestellungen beim Universum&#8221; funktionieren und wie man damit auf zauberhafte Weise seine eigene Welt retten kann. Auch werden Gründe besprochen, warum das kosmische Bestellservice funktionieren könnte und was bei der ganzen Zauberei auch schiefgehen könnte.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-008-bestellungen/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-008-Bestellungen.mp3" length="18088139" type="audio/mpeg" />
+		<itunes:subtitle>Drops erklärt, wie &quot;Bestellungen beim Universum&quot; funktionieren und wie man damit auf zauberhafte Weise seine eigene Welt retten kann. Auch werden Gründe besprochen, warum das kosmische Bestellservice funktionieren könnte und was bei der ganzen Zauberei...</itunes:subtitle>
+		<itunes:summary>Drops erklärt, wie &quot;Bestellungen beim Universum&quot; funktionieren und wie man damit auf zauberhafte Weise seine eigene Welt retten kann. Auch werden Gründe besprochen, warum das kosmische Bestellservice funktionieren könnte und was bei der ganzen Zauberei auch schiefgehen könnte.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #007 &#8211; &quot;Zauberei&quot;</title>
+		<link>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-007-zauberei/</link>
+		<comments>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-007-zauberei/#comments</comments>
+		<pubDate>Sun, 08 Jun 2008 14:46:31 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48500</guid>
+		<description><![CDATA[In dieser Folge verrät Drops, wie sie selbst im Alltag zum Zauberer werden können und wie Magie die Welt zu retten vermag.]]></description>
+				<content:encoded><![CDATA[<p>In dieser Folge verrät Drops, wie sie selbst im Alltag zum Zauberer werden können und wie Magie die Welt zu retten vermag.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-007-zauberei/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-007-Zauberei.mp3" length="24134958" type="audio/mpeg" />
+		<itunes:subtitle>In dieser Folge verrät Drops, wie sie selbst im Alltag zum Zauberer werden können und wie Magie die Welt zu retten vermag.</itunes:subtitle>
+		<itunes:summary>In dieser Folge verrät Drops, wie sie selbst im Alltag zum Zauberer werden können und wie Magie die Welt zu retten vermag.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #006 &#8211; &quot;Work Life Balance&quot;</title>
+		<link>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-006-work-life-balance/</link>
+		<comments>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-006-work-life-balance/#comments</comments>
+		<pubDate>Sun, 01 Jun 2008 16:14:26 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48497</guid>
+		<description><![CDATA[Heute geht es um ein ausgeglichenes Verhältnis zwischen Arbeit und Leben. Als eine Lösung gegen die drohende Arbeitssucht stellt Drops dann das Pareto-Prinzip vor.]]></description>
+				<content:encoded><![CDATA[<p>Heute geht es um ein ausgeglichenes Verhältnis zwischen Arbeit und Leben. Als eine Lösung gegen die drohende Arbeitssucht stellt Drops dann das Pareto-Prinzip vor.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/06/drops-rettet-die-welt-006-work-life-balance/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-006-Work-Life-Balance.mp3" length="22056656" type="audio/mpeg" />
+		<itunes:subtitle>Heute geht es um ein ausgeglichenes Verhältnis zwischen Arbeit und Leben. Als eine Lösung gegen die drohende Arbeitssucht stellt Drops dann das Pareto-Prinzip vor.</itunes:subtitle>
+		<itunes:summary>Heute geht es um ein ausgeglichenes Verhältnis zwischen Arbeit und Leben. Als eine Lösung gegen die drohende Arbeitssucht stellt Drops dann das Pareto-Prinzip vor.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #005 &#8211; &quot;Making Of&quot;</title>
+		<link>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-005-making-of/</link>
+		<comments>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-005-making-of/#comments</comments>
+		<pubDate>Sun, 25 May 2008 21:08:31 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48493</guid>
+		<description><![CDATA[Drops gewährt einen Blick hinter die Kulissen und beantwortet die Fragen: Wer ist dieser Drops? Wie will er die Welt retten? Wie entsteht so ein Podcast? Link zum  Großen Oliver Drobnik Buch]]></description>
+				<content:encoded><![CDATA[<p>Drops gewährt einen Blick hinter die Kulissen und beantwortet die Fragen:</p>
+<ul>
+<li>Wer ist dieser Drops?</li>
+<li>Wie will er die Welt retten?</li>
+<li>Wie entsteht so ein Podcast?</li>
+</ul>
+<p>Link zum  <a id="link_48493_1" href="http://oliver.drobnik.com/2006/06/das-grose-oliver-drobnik-buch/">Großen Oliver Drobnik Buch</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-005-making-of/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-005-Making-Of.mp3" length="24595760" type="audio/mpeg" />
+		<itunes:subtitle>Drops gewährt einen Blick hinter die Kulissen und beantwortet die Fragen:  Wer ist dieser Drops?   Wie will er die Welt retten?   Wie entsteht so ein Podcast? - Link zum  Großen Oliver Drobnik Buch</itunes:subtitle>
+		<itunes:summary>Drops gewährt einen Blick hinter die Kulissen und beantwortet die Fragen:
+
+	Wer ist dieser Drops?
+	Wie will er die Welt retten?
+	Wie entsteht so ein Podcast?
+
+Link zum  Großen Oliver Drobnik Buch</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #004 &#8211; &quot;Ins Netz gegangen&quot; (Teil 3)</title>
+		<link>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-004-ins-netz-gegangen-teil-3/</link>
+		<comments>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-004-ins-netz-gegangen-teil-3/#comments</comments>
+		<pubDate>Sun, 18 May 2008 18:20:47 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48491</guid>
+		<description><![CDATA[Im dritten und letzten Teil der Serie werden zwei interessante Gesetzmäßigkeiten erklärt um den Wert unseres Netzes zu verdeutlichen. Vorher macht Drops noch einen Exkurs zum zweiten wichtigen Glücksmechanismus und wie er mit den Lachmuskeln aus Episode 3 zusammenarbeitet.]]></description>
+				<content:encoded><![CDATA[<p>Im dritten und letzten Teil der Serie werden zwei interessante Gesetzmäßigkeiten erklärt um den Wert unseres Netzes zu verdeutlichen. Vorher macht Drops noch einen Exkurs zum zweiten wichtigen Glücksmechanismus und wie er mit den Lachmuskeln aus Episode 3 zusammenarbeitet.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-004-ins-netz-gegangen-teil-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-004-Ins-Netz-gegangen-3.mp3" length="30381377" type="audio/mpeg" />
+		<itunes:subtitle>Im dritten und letzten Teil der Serie werden zwei interessante Gesetzmäßigkeiten erklärt um den Wert unseres Netzes zu verdeutlichen. Vorher macht Drops noch einen Exkurs zum zweiten wichtigen Glücksmechanismus und wie er mit den Lachmuskeln aus Episod...</itunes:subtitle>
+		<itunes:summary>Im dritten und letzten Teil der Serie werden zwei interessante Gesetzmäßigkeiten erklärt um den Wert unseres Netzes zu verdeutlichen. Vorher macht Drops noch einen Exkurs zum zweiten wichtigen Glücksmechanismus und wie er mit den Lachmuskeln aus Episode 3 zusammenarbeitet.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #003 &#8211; &quot;Ins Netz gegangen&quot; (Teil 2)</title>
+		<link>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-003-ins-netz-gegangen-teil-2/</link>
+		<comments>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-003-ins-netz-gegangen-teil-2/#comments</comments>
+		<pubDate>Sun, 11 May 2008 16:42:12 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48489</guid>
+		<description><![CDATA[Heute geht es um den &#8220;Musculus Risorius&#8221; und wie dieser mit der &#8221;lateralen Hirnmuskulatur&#8221; zusammenarbeitet. Im zweiten Teil der Serie &#8220;Ins Netz gegangen&#8221; zeigt Drops auf, wie wir schädlichen Memen aufsitzen und wie uns ein Netz davor schützen kann.]]></description>
+				<content:encoded><![CDATA[<p>Heute geht es um den &#8220;Musculus Risorius&#8221; und wie dieser mit der &#8221;lateralen Hirnmuskulatur&#8221; zusammenarbeitet. Im zweiten Teil der Serie &#8220;Ins Netz gegangen&#8221; zeigt Drops auf, wie wir schädlichen Memen aufsitzen und wie uns ein Netz davor schützen kann.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-003-ins-netz-gegangen-teil-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-003-Ins-Netz-gegangen-2.mp3" length="19406814" type="audio/mpeg" />
+		<itunes:subtitle>Heute geht es um den &quot;Musculus Risorius&quot; und wie dieser mit der &quot;lateralen Hirnmuskulatur&quot; zusammenarbeitet. Im zweiten Teil der Serie &quot;Ins Netz gegangen&quot; zeigt Drops auf, wie wir schädlichen Memen aufsitzen und wie uns ein Netz davor schützen kann.</itunes:subtitle>
+		<itunes:summary>Heute geht es um den &quot;Musculus Risorius&quot; und wie dieser mit der &quot;lateralen Hirnmuskulatur&quot; zusammenarbeitet. Im zweiten Teil der Serie &quot;Ins Netz gegangen&quot; zeigt Drops auf, wie wir schädlichen Memen aufsitzen und wie uns ein Netz davor schützen kann.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #002 &#8211; &quot;Ins Netz gegangen&quot; (Teil 1)</title>
+		<link>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-002-ins-netz-gegangen-teil-1/</link>
+		<comments>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-002-ins-netz-gegangen-teil-1/#comments</comments>
+		<pubDate>Mon, 05 May 2008 17:27:23 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48474</guid>
+		<description><![CDATA[In dieser Episode erfahren Sie, wie sie ihre &#8220;laterale Hirnmuskulatur&#8221; trainieren. Dann hören Sie den ersten Teil meiner Serie &#8220;Ins Netz gegangen&#8221; in der ich erörtere, wie und warum wir ein globales basis-demokratisches Netz brauchen, in dem wir alle gleichberechtigt teilnehmen können und müssen &#8230; <a href="http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-002-ins-netz-gegangen-teil-1/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>In dieser Episode erfahren Sie, wie sie ihre &#8220;laterale Hirnmuskulatur&#8221; trainieren. Dann hören Sie den ersten Teil meiner Serie &#8220;Ins Netz gegangen&#8221; in der ich erörtere, wie und warum wir ein globales basis-demokratisches Netz brauchen, in dem wir alle gleichberechtigt teilnehmen können und müssen um die Welt zu retten. Teil 1 behandelt einige Grundbegriffe, wie Web 1.0, 2.0 und 3.0.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/05/drops-rettet-die-welt-002-ins-netz-gegangen-teil-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-002-Ins-Netz-gegangen-1.mp3" length="20153336" type="audio/mpeg" />
+		<itunes:subtitle>In dieser Episode erfahren Sie, wie sie ihre &quot;laterale Hirnmuskulatur&quot; trainieren. Dann hören Sie den ersten Teil meiner Serie &quot;Ins Netz gegangen&quot; in der ich erörtere, wie und warum wir ein globales basis-demokratisches Netz brauchen,</itunes:subtitle>
+		<itunes:summary>In dieser Episode erfahren Sie, wie sie ihre &quot;laterale Hirnmuskulatur&quot; trainieren. Dann hören Sie den ersten Teil meiner Serie &quot;Ins Netz gegangen&quot; in der ich erörtere, wie und warum wir ein globales basis-demokratisches Netz brauchen, in dem wir alle gleichberechtigt teilnehmen können und müssen um die Welt zu retten. Teil 1 behandelt einige Grundbegriffe, wie Web 1.0, 2.0 und 3.0.</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+		<item>
+		<title>Drops rettet die Welt #001 &#8211; &quot;Falsche Propheten&quot;</title>
+		<link>http://oliver.drobnik.com/2008/04/drops-rettet-die-welt-001-falsche-propheten/</link>
+		<comments>http://oliver.drobnik.com/2008/04/drops-rettet-die-welt-001-falsche-propheten/#comments</comments>
+		<pubDate>Mon, 28 Apr 2008 17:51:49 +0000</pubDate>
+		<dc:creator><![CDATA[Drops]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://www.drobnik.com/oliver/default.aspx?id=48469</guid>
+		<description><![CDATA[So, jetzt ist es endlich soweit! Die erste Folge meines Podcast ist in der Dose. Ich muss noch diverse Kleinigkeiten, wie z.B. die iTunes-Tags basteln, aber ich dachte mir mal, ich lasse die Folge fliegen, damit sie jeder hören kann, der möchte. Ich überlege &#8230; <a href="http://oliver.drobnik.com/2008/04/drops-rettet-die-welt-001-falsche-propheten/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>So, jetzt ist es endlich soweit! Die erste Folge meines Podcast ist in der Dose. Ich muss noch diverse Kleinigkeiten, wie z.B. die iTunes-Tags basteln, aber ich dachte mir mal, ich lasse die Folge fliegen, damit sie jeder hören kann, der möchte. Ich überlege noch, ob ich einen eigenen Feed für den Podcast mache, oder ob der <a id="link_48469_1" href="http://oliver.drobnik.com/feed/podcast/">Kategoriefeed &#8221;Podcast&#8221;</a> für die meisten Leute zum Abonnieren ausreicht.</p>
+<p>Inhalt: In der ersten Folge nehme ich diverse Gruppen aufs Korn, die viel Geld daran verdienen uns die Zukunft zu prophezeien und behaupte sogar: &#8220;alle Propheten lügen!&#8221;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://oliver.drobnik.com/2008/04/drops-rettet-die-welt-001-falsche-propheten/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://oliver.drobnik.com/files/Drops-001-Falsche-Propheten.mp3" length="17456221" type="audio/mpeg" />
+		<itunes:subtitle>So, jetzt ist es endlich soweit! Die erste Folge meines Podcast ist in der Dose. Ich muss noch diverse Kleinigkeiten, wie z.B. die iTunes-Tags basteln, aber ich dachte mir mal, ich lasse die Folge fliegen, damit sie jeder hören kann, der möchte.</itunes:subtitle>
+		<itunes:summary>So, jetzt ist es endlich soweit! Die erste Folge meines Podcast ist in der Dose. Ich muss noch diverse Kleinigkeiten, wie z.B. die iTunes-Tags basteln, aber ich dachte mir mal, ich lasse die Folge fliegen, damit sie jeder hören kann, der möchte. Ich überlege noch, ob ich einen eigenen Feed für den Podcast mache, oder ob der Kategoriefeed &quot;Podcast&quot; für die meisten Leute zum Abonnieren ausreicht.
+
+Inhalt: In der ersten Folge nehme ich diverse Gruppen aufs Korn, die viel Geld daran verdienen uns die Zukunft zu prophezeien und behaupte sogar: &quot;alle Propheten lügen!&quot;</itunes:summary>
+		<itunes:author>Oliver Drobnik</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+	</item>
+	</channel>
+</rss>

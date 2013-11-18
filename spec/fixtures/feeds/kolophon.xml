@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2germanfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>O'Reilly Kolophon Podcast</title>
+	
+	<link>http://community.oreilly.de/blog</link>
+	<description>Neues aus dem O'Reilly Verlag</description>
+	<lastBuildDate>Mon, 18 Nov 2013 14:35:00 +0000</lastBuildDate>
+	<language>de-DE</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+<!-- podcast_generator="Blubrry PowerPress/5.0.2" mode="advanced" -->
+	<itunes:summary>Der O'Reilly Kolophon Podcast mit  Tim Pritlove ist ein unregelmäßiger Podcast, der Einblicke in die Arbeit und Themen von O'Reilly bietet und die Bücher und  Autoren des Verlags vorstellt. Dabei stehen die Themen im Mittelpunkt und werden in ausführlichen Gesprächen näher gebracht.</itunes:summary>
+	<itunes:author>oreillyblog</itunes:author>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:image href="http://community.oreilly.de/blog/wp-content/uploads/2010/06/logo_kolophon_172x172.jpg" />
+	<itunes:owner>
+		<itunes:name>oreillyblog</itunes:name>
+		<itunes:email>podcast@oreilly.de</itunes:email>
+	</itunes:owner>
+	<managingEditor>podcast@oreilly.de (oreillyblog)</managingEditor>
+	<itunes:subtitle>Der O'Reilly Kolophon Podcast mit Tim Pritlove ist ein unregelmäßiger Podcast, der Einblicke in die Arbeit und Themen von O'Reilly bietet und die Bücher und Autoren des Verlags vorstellt. Dabei stehen die Themen im Mittelpunkt und werden in ausführlichen </itunes:subtitle>
+	<itunes:keywords>O'Reilly, Podcast, Tim Pritlove, Kolophon, Bücher, Autoren</itunes:keywords>
+	<image>
+		<title>oreillyblog » Podcast</title>
+		<url>http://community.oreilly.de/blog/wp-content/uploads/2010/06/logo_kolophon_172x172.jpg</url>
+		<link>http://community.oreilly.de/blog/category/podcast/</link>
+	</image>
+	<itunes:category text="Education" />
+	<itunes:category text="Society &amp; Culture" />
+	<itunes:category text="Technology" />
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/oreillykolophonpodcast" /><feedburner:info uri="oreillykolophonpodcast" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><media:thumbnail url="http://community.oreilly.de/blog/wp-content/uploads/2010/06/logo_kolophon_172x172.jpg" /><media:keywords>O'Reilly, Podcast, Tim Pritlove, Kolophon, Bücher, Autoren</media:keywords><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Education</media:category><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><feedburner:feedFlare href="http://add.my.yahoo.com/content?lg=de&amp;url=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://us.i1.yimg.com/us.yimg.com/i/de/my/addtomyyahoo4.gif">Subscribe with Mein Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/oreillykolophonpodcast" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:feedFlare href="http://www.plusmo.com/add?url=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://plusmo.com/res/graphics/fbplusmo.gif">Subscribe with Plusmo</feedburner:feedFlare><feedburner:feedFlare href="http://www.thefreedictionary.com/_/hp/AddRSS.aspx?http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://img.tfd.com/hp/addToTheFreeDictionary.gif">Subscribe with The Free Dictionary</feedburner:feedFlare><feedburner:feedFlare href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare><feedburner:feedFlare href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare><feedburner:feedFlare href="http://mix.excite.eu/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://image.excite.co.uk/mix/addtomix.gif">Subscribe with Excite MIX</feedburner:feedFlare><feedburner:feedFlare href="http://www.webwag.com/wwgthis.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://www.webwag.com/images/wwgthis.gif">Subscribe with Webwag</feedburner:feedFlare><feedburner:feedFlare href="http://www.podcastready.com/oneclick_bookmark.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://www.podcastready.com/images/podcastready_button.gif">Subscribe with Podcast Ready</feedburner:feedFlare><feedburner:feedFlare href="http://www.wikio.com/subscribe?url=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://www.wikio.com/shared/img/add2wikio.gif">Subscribe with Wikio</feedburner:feedFlare><feedburner:feedFlare href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2Foreillykolophonpodcast" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare><item>
+		<title>KOL012 Digital Lifestyle</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/ns99hDdvV1w/</link>
+		<comments>http://community.oreilly.de/blog/2013/09/12/kol012-digital-lifestyle/#comments</comments>
+		<pubDate>Thu, 12 Sep 2013 10:12:51 +0000</pubDate>
+		<dc:creator><![CDATA[Corina Pahrmann]]></dc:creator>
+				<category><![CDATA[Geekiges]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Fahrrad]]></category>
+		<category><![CDATA[Fahrradio]]></category>
+		<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[GTD]]></category>
+		<category><![CDATA[Lifestyle]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=20029</guid>
+		<description>Ein Gespräch mit dem O&amp;#8217;Reilly-Autor Hans Dorsch über die digitale Organisation des Lebens Hans Dorsch ist Buchautor und Podcaster und hat sich schon lange und intensiv mit digitalen Geräten und ihrer Nutzung auseinander gesetzt. Im Gespräch mit Tim Pritlove schildert er seinen Ansatz beim Verständnis und der Nutzung von Gadgets  - und wie sie nützlich [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/ns99hDdvV1w" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2013/09/12/kol012-digital-lifestyle/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+
+			<itunes:keywords>Android,apple,Fahrrad,Fahrradio,Gadgets,GTD,Lifestyle,Podcast</itunes:keywords>
+	<itunes:subtitle>Ein Gespräch mit dem O'Reilly-Autor Hans Dorsch über die digitale Organisation des Lebens - Hans Dorsch ist Buchautor und Podcaster und hat sich schon lange und intensiv mit digitalen Geräten und ihrer Nutzung auseinander gesetzt.</itunes:subtitle>
+		<itunes:summary>Ein Gespräch mit dem O'Reilly-Autor Hans Dorsch über die digitale Organisation des Lebens
+
+(http://community.oreilly.de/blog/wp-content/uploads/2011/12/logo_kolophon_75x75.jpg)Hans Dorsch ist Buchautor und Podcaster und hat sich schon lange und intensiv mit digitalen Geräten und ihrer Nutzung auseinander gesetzt. Im Gespräch mit Tim Pritlove schildert er seinen Ansatz beim Verständnis und der Nutzung von Gadgets  - und wie sie nützlich für den die Lebensgestaltung eingesetzt werden können. Dies drückt sich auch in einer intensiven Auseinandersetzung mit Getting-Things-Done-Konzepten aus.
+
+
+
+Hans hat für O'Reilly bisher zwei Bücher geschrieben: das Android Smartphone Buch (http://www.oreilly.de/catalog/androidsmartphoquer2ger/) und das Buch zu Android Tablets (http://www.oreilly.de/catalog/buchandroidtabletsger/index.html), hat aber auch schon Übersetzungen beigetragen.
+
+Seine Leidenschaft Fahrrad kanalisiert sich in einem eigenem Podcast zum Thema: Fahrradio (http://fahrrad.io/) thematisiert alles, was mit Fahrrädern zu tun hat und bietet Hintergründe und Interviews.
+
+Links:
+
+Hans Dorsch (http://hansdorsch.com)
+Germanistik (http://de.wikipedia.org/wiki/Germanistik)
+Macintosh SE (http://de.wikipedia.org/wiki/Macintosh_SE)
+Apple eMate 300 (http://en.wikipedia.org/wiki/EMate_300)
+Das Android Smartphone Buch (http://www.oreilly.de/catalog/androidsmartphoquer2ger/index.html)
+Das Buch zu Android Tablets (http://www.oreilly.de/catalog/buchandroidtabletsger/index.html)
+Kaizen (http://de.wikipedia.org/wiki/Kaizen)
+Gettings Things Done (http://de.wikipedia.org/wiki/Getting_Things_Done)
+David Allen (http://www.davidco.com)
+Fahrrad.io (http://fahrrad.io)
+OpenStreetMap (http://de.wikipedia.org/wiki/OpenStreetMap)
+O'Reilly Querformater (http://www.oreilly.de/querformat/)
+Google Now (http://de.wikipedia.org/wiki/Google_Now)
+Paretoprinzip (http://de.wikipedia.org/wiki/Paretoprinzip)
+
+Mehr Informationen über den Podcast und einen Überblick über die bisherigen Episoden gibt es hier (http://community.oreilly.de/blog/kolophon-der-podcast/).
+
+ </itunes:summary>
+		<itunes:author>Corina Pahrmann</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:22:18</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/PeJGOFHtt-M/kol012-digital-lifestyle.mp3" fileSize="49476560" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2013/09/12/kol012-digital-lifestyle/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/PeJGOFHtt-M/kol012-digital-lifestyle.mp3" length="49476560" type="audio/mpeg" /><feedburner:origEnclosureLink>http://meta.metaebene.me/media/kolophon/kol012-digital-lifestyle.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL011 Eltern sein</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/R-15xT9b_OU/</link>
+		<comments>http://community.oreilly.de/blog/2012/12/20/kol011-eltern-sein/#comments</comments>
+		<pubDate>Thu, 20 Dec 2012 08:40:39 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Eltern]]></category>
+		<category><![CDATA[geek]]></category>
+		<category><![CDATA[Geeks]]></category>
+		<category><![CDATA[Kinder]]></category>
+		<category><![CDATA[Kolophon]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=17395</guid>
+		<description>Nicole und Maximillian Dornseif sind verheiratet, haben drei Kinder und sind bekennende Geeks: Menschen, mit besonderer Hingabe zu Technologie und Neugier. In unserem elftem Podcastgespräch sprechen wir mit den beiden über ihr neues Buch &amp;#8220;Eltern sein &amp;#8211; kurz und geek&amp;#8221; und vor allem über ihre ganz persönlichen Erfahrungen mit Kindern, Eltern und anderen Menschen. Themen: [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/R-15xT9b_OU" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2012/12/20/kol011-eltern-sein/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+
+			<itunes:keywords>Eltern,geek,Geeks,Kinder,Kolophon,Podcast</itunes:keywords>
+	<itunes:subtitle>KOL011 Eltern sein</itunes:subtitle>
+		<itunes:summary>Nicole und Maximillian Dornseif sind verheiratet, haben drei Kinder und sind bekennende Geeks: Menschen, mit besonderer Hingabe zu Technologie und Neugier. In unserem elftem Podcastgespräch sprechen wir mit den beiden über ihr neues Buch "Eltern sein - kurz und Geek" und vor allem über ihre ganz persönlichen Erfahrungen mit Kindern, Eltern und anderen Menschen.
+
+Themen: Überraschungen im Real Life; die Irrationalität der "Anderen"; Was Geeks ausmacht; Das Erziehungssystem in Deutschland; An wen sich das Buch wendet; Vom Umgang mit Kindern; Kinder selbst unterrichten; Schule und Hochbegabung; Kinder beteiligen und Lernen als Herausforderung; Science Fiction als Fachliteratur für Kinder; Adaptives Lesen; Geräte aufmachen und ändern; Warum Roboter langweilig sind; Umgang mit Internet und Kommunikation; Das Jahrhundert der Geeks; Wichtige und unwichtige Dinge; Kinder und Selbstverwirklichung.</itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:15:58</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/deCA0Ozlz4A/kol011-eltern-sein.mp3" fileSize="36548614" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2012/12/20/kol011-eltern-sein/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/deCA0Ozlz4A/kol011-eltern-sein.mp3" length="36548614" type="audio/mpeg" /><feedburner:origEnclosureLink>http://meta.metaebene.me/media/kolophon/kol011-eltern-sein.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL010 Kundenservice im Social Web</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/9x7iBWeHlUY/</link>
+		<comments>http://community.oreilly.de/blog/2012/11/01/kol010-kundenservice-im-social-web/#comments</comments>
+		<pubDate>Thu, 01 Nov 2012 10:41:16 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Bücher]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Technologie]]></category>
+		<category><![CDATA[Andreas H. Bock]]></category>
+		<category><![CDATA[CRM]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Kundenbindung]]></category>
+		<category><![CDATA[Kundenservice]]></category>
+		<category><![CDATA[Social Media Marketing]]></category>
+		<category><![CDATA[Social Web]]></category>
+		<category><![CDATA[Telekom_hilft]]></category>
+		<category><![CDATA[Twitter]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=16831</guid>
+		<description>Andreas Bock hat in verschiedenen Bereichen der Internetwirtschaft gearbeitet und letztlich den Internet-basierten Kundenservice der Deutschen Telekom mit aufgebaut. Für O&amp;#8217;Reilly hat er seine Erfahrung im Buch &amp;#8220;Kundenservice im Social Web&amp;#8221; zusammengetragen. Das Buch wendet sich an alle, die für Firmen oder Organisationen in einem öffentlichen Kontakt zu Kunden, Fans und Förderern stehen und gibt [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/9x7iBWeHlUY" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2012/11/01/kol010-kundenservice-im-social-web/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+
+			<itunes:keywords>Andreas H. Bock,CRM,Facebook,Kundenbindung,Kundenservice,Social Media Marketing,Social Web,Telekom_hilft,Twitter</itunes:keywords>
+	<itunes:subtitle>Andreas Bock hat in verschiedenen Bereichen der Internetwirtschaft gearbeitet und letztlich den Internet-basierten Kundenservice der Deutschen Telekom mit aufgebaut. Für O'Reilly hat er seine Erfahrung im Buch "Kundenservice im Social Web" zusammengetr...</itunes:subtitle>
+		<itunes:summary>(http://community.oreilly.de/blog/wp-content/uploads/2011/12/logo_kolophon_75x75.jpg)Andreas Bock hat in verschiedenen Bereichen der Internetwirtschaft gearbeitet und letztlich den Internet-basierten Kundenservice der Deutschen Telekom mit aufgebaut. Für O'Reilly hat er seine Erfahrung im Buch "Kundenservice im Social Web (http://www.oreilly.de/catalog/kundenserviceswger/)" zusammengetragen. Das Buch wendet sich an alle, die für Firmen oder Organisationen in einem öffentlichen Kontakt zu Kunden, Fans und Förderern stehen und gibt konkrete Hilfen zum Aufbau eines modernen Kundenservice.
+
+Im Gespräch mit Tim Pritlove erzählt Andreas Bock über seinen Werdegang im Bereich Kundenservice, den Aufbau von "Telekom hilft (http://feedback.telekom-hilft.de/)" und seine Erfahrungen und Erkenntnisse aus der täglichen Arbeit.
+
+Themen: Persönlicher Hintergrund; Zielgruppe des Buchs; Änderung des Kundenservice durch die Realität des Internets; Kommunikation in der Öffentlichkeit; Direkte Ansprache statt nur Reaktion auf Kundenanfragen; Mitarbeiterbedarf; Humor; Was Firmen im Internet gewinnen können; Von der Vernetzung mit Kunden zur Vernetzung von Kunden; Veränderung der Kommunikation und Änderung der Hierarchien; Interviews mit Protagonisten aus Kundenservice und Marketing; die "Kundenreise" als Annäherung an Produkte und Dienstleistungen; moderne Fleißkärtchen im digitalen Zeitalter; Lektorierung des Buches.
+
+Links:
+
+Andreas Bock: Kundenservice im Social Web (http://kundenservice-im-social-web.net/)
+O'Reilly: Kundenservice im Social Web
+ (http://www.oreilly.de/catalog/kundenserviceswger/index.html)Bildschirmtext
+ (http://de.wikipedia.org/wiki/Bildschirmtext)Universal Mobile Telecommunications System (UMTS)
+ (http://de.wikipedia.org/wiki/Universal_Mobile_Telecommunications_System)Callcenter
+ (http://de.wikipedia.org/wiki/Callcenter)Customer-Relationship-Management (CRM)
+ (http://de.wikipedia.org/wiki/Customer-Relationship-Management)Cluetrain-Manifest
+ (http://de.wikipedia.org/wiki/Cluetrain-Manifest)Gamification
+ (http://de.wikipedia.org/wiki/Gamification)Fleißkärtchen (http://de.wikipedia.org/wiki/Flei%C3%9Fk%C3%A4rtchen)
+
+Interviewpartner im Buch:
+
+Daniel Backhaus (https://www.xing.com/profile/Daniel_Backhaus)
+Günter Greff (https://www.xing.com/profile/Guenter_Greff)
+Gunnar Sohn (http://ne-na.de)
+David Weinberger (http://de.wikipedia.org/wiki/David_Weinberger)
+Mirko Lange (https://www.xing.com/profile/Mirko_Lange)
+Michael Buck (https://www.xing.com/profile/Michael_Buck9)
+Björn Ognibeni (https://www.xing.com/profile/Bjoern_Ognibeni)
+Heike Simmet (https://www.xing.com/profile/Heike_Simmet)
+Reto Stuber (https://www.xing.com/profile/Reto_Stuber)
+Kristin Hentschel (https://www.xing.com/profile/Kristin_Hentschel3)
+Anne M. Schüller (http://www.xing.com/profile/AnneM_Schueller)
+Alexander Rossmann (https://www.xing.com/profile/Alexander_Rossmann)
+Christian Maybaum (https://www.xing.com/profile/Christian_Maybaum)
+Carsten Ulbricht (https://www.xing.com/profile/Carsten_Ulbricht)
+Heike Gallery (https://www.xing.com/profile/Heike_Gallery)
+Sebastian Deterding (https://www.xing.com/profile/Sebastian_Deterding)
+
+ </itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:19:35</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/HRDOR72_scc/kol010-kundenservice-im-social-web.mp3" fileSize="38284430" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2012/11/01/kol010-kundenservice-im-social-web/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/HRDOR72_scc/kol010-kundenservice-im-social-web.mp3" length="38284430" type="audio/mpeg" /><feedburner:origEnclosureLink>http://meta.metaebene.me/media/kolophon/kol010-kundenservice-im-social-web.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL009 Computer-Forensik</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/wP-bpgHvlSo/</link>
+		<comments>http://community.oreilly.de/blog/2012/09/19/kol009-computer-forensik/#comments</comments>
+		<pubDate>Wed, 19 Sep 2012 10:28:40 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Technologie]]></category>
+		<category><![CDATA[Computerforensik]]></category>
+		<category><![CDATA[Datensicherung]]></category>
+		<category><![CDATA[Forensik]]></category>
+		<category><![CDATA[IT-Sicherheit]]></category>
+		<category><![CDATA[Kolophon]]></category>
+		<category><![CDATA[MetaSploit]]></category>
+		<category><![CDATA[Pentesting]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=16180</guid>
+		<description>Die klassische Forensik ist bei der Polizei schon lange auf die digitale Welt ausgedehnt worden. Damit ändern sich auch die Anforderungen und das Feld der digitalen Forensik ist eine ganz eigene Disziplin geworden, die eine besondere Ausbildung voraussetzt. Digitale Forensik spielt natürlich auch in der freien Wirtschaft eine große Rolle, um Schäden zu analysieren, die [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/wP-bpgHvlSo" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2012/09/19/kol009-computer-forensik/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+
+			<itunes:keywords>Computerforensik,Datensicherung,Forensik,IT-Sicherheit,Kolophon,MetaSploit,Pentesting,Podcast</itunes:keywords>
+	<itunes:subtitle>KOL009 Computer-Forensik</itunes:subtitle>
+		<itunes:summary>Die klassische Forensik ist bei der Polizei ist schon lange auf die digitale Welt ausgedehnt worden. Damit ändern sich auch die Anforderungen und das Feld der digitalen Forensik ist eine ganz eigene Disziplin geworden, die eine besondere Ausbildung voraussetzt. Digitale Forensik spielt natürlich auch in der freien Wirtschaft eine große Rolle, um Schäden zu analysieren, die durch Angriffe verursacht wurden.
+
+Victor Völzow und Lorenz Kuhlee haben ihr Wissen aus der Polizeiarbeit und -ausbildung über das Thema im Buch "Computer-Forensik Hacks" zusammengetragen, das jetzt bei O'Reilly erschienen ist. Im Gespräch mit Tim Pritlove stellen die beiden Autoren das Thema vor und berichten von ihren Erfahrungen und welche Lehren man daraus auch für die eigene Datensicherheit ziehen kann.
+
+Themen: Vorstellung der Autoren und des Themas; Datensicherungsmaßnahmen; Live-Forensik; Analysetechniken; Beweissicherung; Analyse von Betriebssystemen; Analyse von Anwendungen; Datenwiederherstellung; Forensik und der Mac; Virtualisierung; Zusammenarbeit mit O'Reilly.</itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:25:38</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/szK-Q_-ir-A/kol009-computer-forensik.mp3" fileSize="41188390" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2012/09/19/kol009-computer-forensik/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/szK-Q_-ir-A/kol009-computer-forensik.mp3" length="41188390" type="audio/mpeg" /><feedburner:origEnclosureLink>http://meta.metaebene.me/media/kolophon/kol009-computer-forensik.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL008 Rechtsfallen im Social Web</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/e0z4hiPGS34/</link>
+		<comments>http://community.oreilly.de/blog/2012/06/06/kol-008-rechtsfallen-im-social-web/#comments</comments>
+		<pubDate>Wed, 06 Jun 2012 08:33:53 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Bücher]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Abmahnfalle]]></category>
+		<category><![CDATA[Anwalt]]></category>
+		<category><![CDATA[Creative Commons]]></category>
+		<category><![CDATA[Datenschutz]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Kolophon]]></category>
+		<category><![CDATA[recht]]></category>
+		<category><![CDATA[Rechtsfallen]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[Social Media Marketing]]></category>
+		<category><![CDATA[urheberrecht]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=14814</guid>
+		<description>Rechtsanwalt Thomas Schwenke beschäftigt sich schon seit Beginn seiner juristischen Tätigkeit aktiv mit dem Internet und kennt viele Probleme, die das Netz in rechtlicher Hinsicht aufwirft, aus eigener Erfahrung. Für den O&amp;#8217;Reilly Verlag hat er jetzt das Buch &amp;#8220;Social Media Marketing &amp;#38; Recht&amp;#8221; geschrieben, in dem die klassischen Fallstricke im Netz ausführlich dokumentiert und erläutert [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/e0z4hiPGS34" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2012/06/06/kol-008-rechtsfallen-im-social-web/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+
+			<itunes:keywords>Abmahnfalle,Anwalt,Creative Commons,Datenschutz,Facebook,Kolophon,recht,Rechtsfallen,Social Media,Social Media Marketing,urheberrecht</itunes:keywords>
+	<itunes:subtitle>Rechtsanwalt Thomas Schwenke beschäftigt sich schon seit Beginn seiner juristischen Tätigkeit aktiv mit dem Internet und kennt viele Probleme, die das Netz in rechtlicher Hinsicht aufwirft, aus eigener Erfahrung.</itunes:subtitle>
+		<itunes:summary>(http://community.oreilly.de/blog/wp-content/uploads/2011/12/logo_kolophon_75x75.jpg)Rechtsanwalt Thomas Schwenke beschäftigt sich schon seit Beginn seiner juristischen Tätigkeit aktiv mit dem Internet und kennt viele Probleme, die das Netz in rechtlicher Hinsicht aufwirft, aus eigener Erfahrung. Für den O'Reilly Verlag hat er jetzt das Buch "Social Media Marketing &amp; Recht (http://www.oreilly.de/catalog/smmrechtger/)" geschrieben, in dem die klassischen Fallstricke im Netz ausführlich dokumentiert und erläutert werden.
+
+Im Gespräch mit Tim Pritlove berichtet Thomas, was ihn zu dem Buch motiviert hat und wie es um die Rechtssicherheit im Netz heutzutage bestellt ist. Ausführlich werden typische Fehler besprochen, die Firmen heutzutage bei der Nutzung von sozialen Medien häufig begehen und wie man sich selbst absichern kann, um nicht auf die Nase zu fallen.
+
+Themen: Juristische Herausforderung Internet; Urheberrecht; Warum bei O’Reilly darüber schreiben?; Zusammenarbeit mit dem Verlag; Urheberrecht als Investitionsschutz; Verlinken und das Zueigenmachen fremder Inhalte; Die Gummiente; Foren und die Störerhaftung; Einräumen von Rechten an Cloud-Dienstleister und Social Networks; Datenschutz und Privatsphäre; User Tracking durch Social Media Logins; Rechtliche Grundsätze für Firmen, die sich in Social Media engagieren; Creative-Commons-Lizenzen.
+
+Links:
+
+Thomas Schwenke (http://spreerecht.de/)
+Thomas Schwenkes Spreerecht-Blog (http://spreerecht.de/blog)
+Buch: Social Media Marketing &amp; Recht (http://spreerecht.de/smmr-buch/) / bei O'Reilly (http://www.oreilly.de/catalog/smmrechtger/)
+Freies eBook über Facebook-Marketing (http://allfacebook.de/allgemeines/rechtliche-stolperfallen-im-facebook-marketing-das-kostenlose-e-book)
+Henning Krieg  (http://kriegsrecht.de)
+KOL004 PR im Social Web (http://community.oreilly.de/blog/2011/05/02/kol004-pr-im-social-web/)
+Michael Seemann zum Urheberrecht  (http://mspr0.de/?p=2903)
+Stefan Niggemeier über Callactive (http://www.stefan-niggemeier.de/blog/tag/callactive/)</itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:26:57</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/9Wl-tAUwh00/kol008-social-media-marketing-und-recht.mp3" fileSize="41788174" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2012/06/06/kol-008-rechtsfallen-im-social-web/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/9Wl-tAUwh00/kol008-social-media-marketing-und-recht.mp3" length="41788174" type="audio/mpeg" /><feedburner:origEnclosureLink>http://community.oreilly.de/blog/wp-content/uploads/kol008-social-media-marketing-und-recht.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL 007 Mac OS X in Windows-Netzen</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/uGij3BktwZg/</link>
+		<comments>http://community.oreilly.de/blog/2011/12/19/kol-007-mac-os-x-in-windows-netzen/#comments</comments>
+		<pubDate>Mon, 19 Dec 2011 11:00:11 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Bücher]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[Asset Management]]></category>
+		<category><![CDATA[Client Management]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[Mac OS X 10 Server]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Netzwerk]]></category>
+		<category><![CDATA[Windows]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=12479</guid>
+		<description>Harald Monihart und André Aulich sind Experten für die Apple Macintosh Plattform und beschäftigen sich seit vielen Jahren im Detail mit den Aspekten der Integration von Mac OS X in heterogene Netzwerke. Ihr neues Buch &amp;#8220;Professionelles Mac OS X-Client-Management in Windows-Netzwerken&amp;#8221; konzentriert sich dabei auf den spezifischen Bereich der Koexistenz von Mac OS X in [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/uGij3BktwZg" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2011/12/19/kol-007-mac-os-x-in-windows-netzen/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+
+			<itunes:keywords>apple,Asset Management,Client Management,Mac OS X,Mac OS X 10 Server,microsoft,Netzwerk,Windows</itunes:keywords>
+	<itunes:subtitle>KOL 007 - Mac OS X Client Management</itunes:subtitle>
+		<itunes:summary>Themen: Entwicklung von Mac OS X; Integrationsprobleme in heterogenen Systemwelten; Annäherung der Systeme durch Standards; Vormarsch des Mac in Firmennetzen durch Mac OS X; Client Management; Nutzung von Microsoft-Diensten für den Mac; Alternativen zu Apple-Diensten; Warum ein Rückzug von Apple aus Enterprise-Produkten gut für das Enterprise sein kann; "Bring Your Own Device"; Aufbau des Buches; Softwareverteilung und Updates mit Open Source Software; Remote Boot; Asset Management; iOS Integration; Management Strategien; die Entstehung des Buches; die Zukunft von Mac OS X Server.</itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:23:45</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/5anKugRi948/kol007.mp3" fileSize="60342513" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2011/12/19/kol-007-mac-os-x-in-windows-netzen/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/5anKugRi948/kol007.mp3" length="60342513" type="audio/mpeg" /><feedburner:origEnclosureLink>http://community.oreilly.de/blog/wp-content/uploads/kol007.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL005 Wie ein Buch entsteht</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/esZQK34a9PI/</link>
+		<comments>http://community.oreilly.de/blog/2011/10/28/kol005-wie-ein-buch-entsteht/#comments</comments>
+		<pubDate>Fri, 28 Oct 2011 09:09:33 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Autor]]></category>
+		<category><![CDATA[Bücher]]></category>
+		<category><![CDATA[Kolophon]]></category>
+		<category><![CDATA[schreiben]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=10616</guid>
+		<description>Gesprächspartner: Inken Kiupel (Lektorin), Roman Zenner (Autor) Bücher erscheinen und Bücher werden gekauft. Doch über die Entstehung des Buches erfährt man wenig. Das wollen wir ändern und sprechen mit der Lektorin Inken Kiupel und dem O&amp;#8217;Reilly-Autor Roman Zenner über diesen Prozess. Themen: Wie findet man Themen und Autoren?; Der Draht zur Leserschaft; Von der Konzeptions- [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/esZQK34a9PI" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2011/10/28/kol005-wie-ein-buch-entsteht/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+
+			<itunes:keywords>Autor,Bücher,Kolophon,Podcast,schreiben</itunes:keywords>
+	<itunes:subtitle>KOL005 Wie ein Buch entsteht</itunes:subtitle>
+		<itunes:summary>Themen: Wie findet man Themen und Autoren?; Der Draht zur Leserschaft; Von der Konzeptions- zur Schreibphase; Wie man Texte organisiert; Zeitplanung für Autoren; Die speziellen Bedürfnisse des Fachbuchmarkts; Hype-Themen im Spiegel des Buchmarkts; Der Wert der Arbeit; Das Netz als Begleitmedium; Vorveröffentlichung unvollenderter Bücher für registrierte Leser; Autoren als Gutachter für andere Bücher; Lebenszyklen bestimmter Themen; Aktualisierung von Büchern im Web; Nutzung kollaborativer Werkzeuge zur Bucherstellung; Woran man merkt, dass ein Buch fertig ist; Was beim Schreiben eines Buches beherzigt werden sollte; Vorbereitung des Buchs für den Satz; Pressearbeit und Vertrieb.</itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:19:28</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/73c5OY8eIC8/kol005-wie-ein-buch-entsteht.mp3" fileSize="57258838" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2011/10/28/kol005-wie-ein-buch-entsteht/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/73c5OY8eIC8/kol005-wie-ein-buch-entsteht.mp3" length="57258838" type="audio/mpeg" /><feedburner:origEnclosureLink>http://community.oreilly.de/blog/wp-content/uploads/kol005-wie-ein-buch-entsteht.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL006 Photoshop</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/wtQ2DvmdLDo/</link>
+		<comments>http://community.oreilly.de/blog/2011/08/24/kol006-photoshop/#comments</comments>
+		<pubDate>Wed, 24 Aug 2011 09:23:02 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=10715</guid>
+		<description>Photoshop ist eines der ältesten und etabliertesten Anwendungsprogramme und weltweit täglich im professionellen Einsatz. Durch seine lange Existenz bedingt, ist die Software aber auch überaus vielseitig und damit mit der Zeit auch sehr komplex geworden. Für Neueinsteiger und Gelegenheitsbenutzer kann die Software damit schnell zu einem Buch mit sieben Siegeln werden. Dagegen hilft natürlich nur [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/wtQ2DvmdLDo" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2011/08/24/kol006-photoshop/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+
+		<itunes:subtitle>Photoshop ist eines der ältesten und etabliertesten Anwendungsprogramme und weltweit täglich im professionellen Einsatz. Durch seine lange Existenz bedingt, ist die Software aber auch überaus vielseitig und damit mit der Zeit auch sehr komplex geworden.</itunes:subtitle>
+		<itunes:summary>Photoshop ist eines der ältesten und etabliertesten Anwendungsprogramme und weltweit täglich im professionellen Einsatz. Durch seine lange Existenz bedingt, ist die Software aber auch überaus vielseitig und damit mit der Zeit auch sehr komplex geworden. Für Neueinsteiger und Gelegenheitsbenutzer kann die Software damit schnell zu einem Buch mit sieben Siegeln werden.
+Dagegen hilft natürlich nur ein anderes Buch und die Autoren Barbara Luef, Tom Kraetschmer und Thomas Lauter haben ein solches gemeinsam mit dem O'Reilly Verlag entwickelt, das sich an diese Zielgruppe richtet.
+Im Gespräch mit Tim Pritlove erläutern zwei der Autoren (Tom Kraetschmer und Thomas Lauter) ihren Ansatz bei der Entwicklung des Buches und sprechen vor allem viel über das Wesen und die Bedeutung von Bildbearbeitung im Allgemeinen und Photoshop im Besonderen.
+Themen: Entwicklung der Bildbearbeitung und der interaktiven Gestaltung am Computer; Statisches Bild vs. Bewegtbild; Planung von Struktur, Umfang und Zielgruppe des Buches; Beispiele und Workshops; Layout und Druckaufwand; Komplexität und die Vermittlung von Basiswissen; Arbeiten mit RAW; Non-Destruktives Arbeiten; Reproduzierbare Ergebnisse; die Ästhetik des 21. Jahrhunderts; Farbkorrektur; Skripting und Automatisierung;  Experimentelles Arbeiten; Bücher und Videotutorials.
+Aus Gründen der Aktualität ziehen wir die Ausgabe 6 des Podcasts vor. Ausgabe 5 ist bereits aufgenommen und und wird in einigen Wochen veröffentlicht.
+Links:
+Photoshop-Buch (http://www.oreilly.de/catalog/adocs5photosger/index.html)
+PageMaker (http://de.wikipedia.org/wiki/Adobe_PageMaker)
+Matrix (http://de.wikipedia.org/wiki/Matrix_(Film))
+Bullet Time (http://de.wikipedia.org/wiki/Bullet_Time)
+Photoshop Document (http://de.wikipedia.org/wiki/Photoshop_Document)
+Rohdatenformat (RAW)  (http://de.wikipedia.org/wiki/Rohdatenformat_(Fotografie))
+Adobe Illustrator (http://de.wikipedia.org/wiki/Adobe_Illustrator)
+Adobe After Effects (http://de.wikipedia.org/wiki/Adobe_After_Effects)
+Tilt Shift Photography  (http://en.wikipedia.org/wiki/Tilt-shift_photography)
+Tron  (http://de.wikipedia.org/wiki/Tron_(Film))
+Farbkorrektur (http://de.wikipedia.org/wiki/Farbkorrektur)
+JavaScript (http://de.wikipedia.org/wiki/JavaScript)
+
+ </itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:26:18</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/CSJtF8UfEzs/kol006-photoshop.mp3" fileSize="62184444" type="audio/mpeg" /><itunes:keywords>Podcast</itunes:keywords><feedburner:origLink>http://community.oreilly.de/blog/2011/08/24/kol006-photoshop/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/CSJtF8UfEzs/kol006-photoshop.mp3" length="62184444" type="audio/mpeg" /><feedburner:origEnclosureLink>http://community.oreilly.de/blog/wp-content/uploads/kol006-photoshop.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL004 PR im Social Web</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/hs0uo8tM9RE/</link>
+		<comments>http://community.oreilly.de/blog/2011/05/02/kol004-pr-im-social-web/#comments</comments>
+		<pubDate>Mon, 02 May 2011 11:00:17 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Kolophon]]></category>
+		<category><![CDATA[PR]]></category>
+		<category><![CDATA[PR im Social Web]]></category>
+		<category><![CDATA[Social Media Marketing]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=8716</guid>
+		<description>Nach einer längeren Winterpause machen wir jetzt mit neuen Ausgaben des O’Reilly-Podcasts „Kolophon“ weiter. Wir haben viel über das Feedback zu den ersten drei Sendungen nachgedacht und freuen uns, wenn wir mit den neuen Folgen den Geschmack und das Interesse unserer Hörer treffen. Die aktuelle Sendung dreht sich um das Thema Öffentlichkeitsarbeit im „Social Web“. [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/hs0uo8tM9RE" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2011/05/02/kol004-pr-im-social-web/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+
+			<itunes:keywords>Kolophon,Podcast,PR,PR im Social Web,Social Media Marketing</itunes:keywords>
+	<itunes:subtitle>Wie verändert sich die Arbeit von Unternehmen, Organisationen und PR-Agenturen im Web 2.0?</itunes:subtitle>
+		<itunes:summary>Anlässlich der Veröffentlichung des Buches "PR im Social Web" in unserem Verlag, spricht Moderator Tim Pritlove mit den beiden Autoren Marie-Christine Schindler und Tapio Liller über das Wesen der Public Relations, der Transformation der PR durch Technologie, den Ängsten, Erwartungen und Chancen des Einsatzes sozialer Netzwerke und anderer Kommunikationsformen im modernen Web.</itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>1:15:32</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/9JgykjnXy7Q/kol004-pr-im-social-web.mp3" fileSize="72553724" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2011/05/02/kol004-pr-im-social-web/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/9JgykjnXy7Q/kol004-pr-im-social-web.mp3" length="72553724" type="audio/mpeg" /><feedburner:origEnclosureLink>http://community.oreilly.de/blog/wp-content/uploads/kol004-pr-im-social-web.mp3</feedburner:origEnclosureLink></item>
+		<item>
+		<title>KOL003 Kochen für Geeks</title>
+		<link>http://feedproxy.google.com/~r/oreillykolophonpodcast/~3/nAXvNSr-Rxg/</link>
+		<comments>http://community.oreilly.de/blog/2010/08/16/kol003-kochen-fur-geeks/#comments</comments>
+		<pubDate>Mon, 16 Aug 2010 08:28:43 +0000</pubDate>
+		<dc:creator><![CDATA[Tim Pritlove]]></dc:creator>
+				<category><![CDATA[Bücher]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[geek]]></category>
+		<category><![CDATA[Kochbuch für Geeks]]></category>
+		<category><![CDATA[Kochen]]></category>
+		<category><![CDATA[Kolophon]]></category>
+		<category><![CDATA[Mela Eckenfels]]></category>
+
+		<guid isPermaLink="false">http://community.oreilly.de/blog/?p=5108</guid>
+		<description>Die dritte Ausgabe des Kolophon-Podcasts widmet sich praktischer Lebenshilfe. Mela Eckenfels, Autorin (gemeinsam mit Petra Hildebrandt) des Buches &amp;#8220;Das Kochbuch für Geeks&amp;#8221; gibt einen Einblick in die Welt der Geeks und ihr schwieriges Verhältnis zur Essensaufnahme. Themen: Zeit vs. Essen; Das LARP-Kochbuch; Kochen als Hackerdisziplin; Dyspraxie; die Vermeidbarkeit von Feinwaagen; Übung macht den Meister; Allgemeine [&amp;#8230;]&lt;img src="http://feeds.feedburner.com/~r/oreillykolophonpodcast/~4/nAXvNSr-Rxg" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://community.oreilly.de/blog/2010/08/16/kol003-kochen-fur-geeks/feed/</wfw:commentRss>
+		<slash:comments>26</slash:comments>
+
+			<itunes:keywords>geek,Kochbuch für Geeks,Kochen,Kolophon,Mela Eckenfels,Podcast</itunes:keywords>
+	<itunes:subtitle>Über die Inkompatibilität von Geeks und Nahrungsausnahme und was man dagegen tun kann</itunes:subtitle>
+		<itunes:summary>Die dritte Ausgabe des Kolophon-Podcasts widmet sich praktischer Lebenshilfe. Mela Eckenfels, Autorin (gemeinsam mit Petra Hildebrandt) des Buches "Das Kochbuch für Geeks (http://www.oreilly.de/catalog/geeksckbkger/)" gibt einen Einblick in die Welt der Geeks und ihr schwieriges Verhältnis zur Essensaufnahme.
+
+Themen: Zeit vs. Essen; Das LARP-Kochbuch; Kochen als Hackerdisziplin; Dyspraxie; die Vermeidbarkeit von Feinwaagen; Übung macht den Meister;  Allgemeine Probleme des Nerds beim Kochen; Nahrungsmittelkunde; die Bedeutung guten Essens für das Programmieren; Omelettes ohne Pfannen; Kochen auf Vorrat; Kuchen aus dem Einmachglas; Modulares Kochen und die programmierbare Küche; Brot in der Pfanne; SOs beindrucken; Backen im Kühlschrank; der kulinarische Geek; Energieplasma; die Neigung des Geeks zur asiatischen Küche; das Periodensystem der Lebensmittel.</itunes:summary>
+		<itunes:author>Tim Pritlove</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:duration>54:27</itunes:duration>
+	<media:content url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/JxLxfuS8W1Q/kol003-kochen-fuer-geeks.mp3" fileSize="52317566" type="audio/mpeg" /><feedburner:origLink>http://community.oreilly.de/blog/2010/08/16/kol003-kochen-fur-geeks/</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/oreillykolophonpodcast/~5/JxLxfuS8W1Q/kol003-kochen-fuer-geeks.mp3" length="52317566" type="audio/mpeg" /><feedburner:origEnclosureLink>http://community.oreilly.de/blog/wp-content/uploads/kol003-kochen-fuer-geeks.mp3</feedburner:origEnclosureLink></item>
+	<media:credit role="author">oreillyblog</media:credit><media:rating>nonadult</media:rating><media:description type="plain">Der O'Reilly Kolophon Podcast mit Tim Pritlove ist ein unregelmäßiger Podcast, der Einblicke in die Arbeit und Themen von O'Reilly bietet und die Bücher und Autoren des Verlags vorstellt. Dabei stehen die Themen im Mittelpunkt und werden in ausführlichen </media:description></channel>
+</rss>

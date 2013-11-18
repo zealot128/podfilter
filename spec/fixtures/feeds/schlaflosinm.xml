@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Alter SiM-Feed, bitte löschen!</title>
+        <link>http://www.schlaflosinmuenchen.com</link>
+        <description>Dieser Feed wird nicht mehr aktualisiert! Bitte abonniert http://feeds.schlaflosinmuenchen.com/weeklysim.xml. Danke!</description>
+        <generator>Feeder 2.1.10(1428); Mac OS X Version 10.6.7 (Build 10J869) http://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>de-de</language>
+        <copyright>Annik Rubens</copyright>
+        <managingEditor>Annik@schlaflosinmuenchen.com</managingEditor>
+        <webMaster>Annik@schlaflosinmuenchen.com</webMaster>
+        <pubDate>Tue, 10 May 2011 12:57:41 +0200</pubDate>
+        <lastBuildDate>Tue, 10 May 2011 12:57:41 +0200</lastBuildDate>
+        <image>
+            <url>http://www.podsitter.com/Bilder/SIMicon144.jpg</url>
+            <title>Schlaflos in München AAC</title>
+            <link>http://www.schlaflosinmuenchen.com</link>
+            <width>144</width>
+            <height>144</height>
+        </image>
+        <atom:link href="http://www.schlaflosinmuenchen.com/weeklysimAAC.xml" rel="self" type="application/rss+xml"/>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>yes</itunes:block>
+        <itunes:category text="Technology">
+            <itunes:category text="Podcasting"/>
+        </itunes:category>
+        <item>
+            <title>Dieser Feed wird eingestellt!</title>
+            <description><![CDATA[Bitte "um-abonnieren" in http://feeds.schlaflosinmuenchen.com/weeklysim.xml]]></description>
+            <author>annik@schlaflosinmuenchen.com</author>
+            <pubDate>Thu, 05 May 2011 13:56:11 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/aacweg.mp3" length="379639" type="audio/mpeg"/>
+            <guid isPermaLink="false">76D57623-515B-471E-8C05-DB9A514F056D</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>0:47</itunes:duration>
+        </item>
+        <item>
+            <title>Zwischenruf kein AAC mehr</title>
+            <description><![CDATA[<p>Hier ein kleiner Technik-Test und gleichzeitig die Bitte an Euch, den AAC-Feed zu löschen und stattdessen den "normalen" SiM-Feed zu abonnieren. Die RSS-Adresse lautet: http://feeds.schlaflosinmuenchen.com/weeklysim.xml. Danke und frohe Ostern!</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/aac.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/aac.mp3">hier herunterladen</a>.</p>]]></description>
+            <pubDate>Wed, 20 Apr 2011 09:21:06 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/aac.mp3" length="1152922" type="audio/mpeg"/>
+            <guid isPermaLink="false">E048FDCB-0302-4E8D-9CF2-908FD012D6F3</guid>
+            <itunes:author>Annik Rubens</itunes:author>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>1:03</itunes:duration>
+        </item>
+        <item>
+            <title>SiM #577 - Bei Gott jetzt hat sie's...</title>
+            <description><![CDATA[<p>Ich hab mir gerade das iPhone bestellt. Lange hab ich mich gewehrt, jetzt geht's irgendwie nicht mehr. Und ePlus hat es mir leider leicht gemacht...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim577.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim577.mp3">hier herunterladen</a>.</p>]]></description>
+            <pubDate>Wed, 27 Apr 2011 20:20:06 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim577.mp3" length="9206590" type="audio/mpeg"/>
+            <guid isPermaLink="false">E8DA43CB-3370-49B2-8903-0FD7804AE5E5</guid>
+            <itunes:author>Annik Rubens</itunes:author>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>9:27</itunes:duration>
+            <dc:creator>Annik Rubens</dc:creator>
+        </item>
+        <item>
+            <title>SiM #576 - Vincent will endlich noch mehr</title>
+            <description><![CDATA[<p>Lange hat's gedauert, aber jetzt hab ich endlich diesen netten Film gesehen. Ich fürchte zwar, nett ist genau das richtige Wort, denn er ist weder außergewöhnlich noch grandios, aber er ist solide geschrieben und sehr gut gespielt, wie ich finde. </p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim576.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim576.mp3">hier herunterladen</a></p>]]></description>
+            <author>annik@schlaflosinmuenchen.com</author>
+            <pubDate>Wed, 20 Apr 2011 09:02:37 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim576.mp3" length="7542912" type="audio/mpeg"/>
+            <guid isPermaLink="false">A9588F40-0A34-4D03-B582-E2FA24F0E479</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <dc:creator>Annik Rubens</dc:creator>
+        </item>
+        <item>
+            <title>SiM #575 - Ich mag Hakan Nesser doch...</title>
+            <description><![CDATA[<p>Ich dachte ja, ich finde ihn blöd - aber jetzt habe ich <a href="http://www.amazon.de/gp/product/344275173X/ref=as_li_ss_tl?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=344275173X">"Die Perspektive des Gärtners" von Hakan Nesser </a>gelesen und muss sagen: Chapeau! Das Buch hat mich hineingezogen in einen Strudel aus Emotionen von Mitleid bis Trauer und Spannung. Daher sage ich es offiziell: Herr Nesser, ich hab Ihnen unrecht getan.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim575.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim575.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Thu, 14 Apr 2011 20:52:32 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim575.mp3" length="6121600" type="audio/mpeg"/>
+            <guid isPermaLink="false">79301272-833F-4F06-AA27-03A131DBD4F3</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #574 - Blogempfehlungen</title>
+            <description><![CDATA[<p>Habt Ihr Blogempfehlungen für mich? Ich würd gern mehr schmökern im Internet! Bislang wurden mir diese hier bei Twitter empfohlen:</p>
+
+<p>@Toby1525: <a href="http://www.ikeahackers.net">ikeahackers.net</a>
+<br />@gmaschek: <a href="http://verkabelt.at">verkabelt.at</a>
+<br />@skizzenblog: <a href="http://www.skizzenblog.clausast.de">skizzenblog.clausast.de</a>
+<br />@LaGatinha85: <a href="http://www.loveandmarriage.de/page/3/">loveandmarriage.de</a>
+<br />@DC9FO: <a href="http://www.nairobinights.co.cc">nairobinights.co.cc</a>
+<br />@wonzl: <a href="http://www.notizbuchblog.de">notizbuchblog.de</a>
+<br />@fitnessinfos: <a href="http://www.hauptsach-gsund.de/">hauptsach-gsund.de</a>
+<br />@ghand01: <a href="http://buggisch.wordpress.com/">buggisch.wordpress.com</a></p>
+
+<p>Wenn Ihr noch mehr habt, ab damit in die Kommentarfunktion...</p>
+
+<p>Ich lese bislang eigentlich nur den <a href="http://nice-bastard.blogspot.com/">nice-bastard.blogspot.com</a> und <a href="http://www.geekologie.com/">geekologie.com</a>...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim574.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim574.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Sun, 10 Apr 2011 13:19:08 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim574.mp3" length="10489984" type="audio/mpeg"/>
+            <guid isPermaLink="false">AF293508-8FBC-42AC-A833-153DF9FC38B1</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #573 - Medienkompetenztag</title>
+            <description><![CDATA[<p>Gestern war ich beim Medienkompetenztag des BR. Eine rundum gelungene Veranstaltung! Und wenn Ihr Lehrer seid, dann habt Ihr im November nochmal die Möglichkeit dazu, daran teilzunehmen. Ach, und meinen Babysitter hab ich bei den <a href="http://www.haushelden.de?rcode=408483">haushelden.de</a> gefunden.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim573.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim573.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Thu, 07 Apr 2011 12:58:47 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim573.mp3" length="8276096" type="audio/mpeg"/>
+            <guid isPermaLink="false">469B135E-9582-4BA2-AB31-EB52B7D7A11B</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Zwischenruf aus dem "Einschlafen-Podcast"</title>
+            <description><![CDATA[<p>Ich war zu Gast bei Toby - und er hat mich in seinem netten <a href="http://einschlafen-podcast.de/">"Einschlafen-Podcast"</a> interviewt. Hört rein!</p>
+
+<p>[audio:http://einschlafen-podcast.de/einschlafen/0048-annik-finns-reise.mp3]</p>
+
+<p>Episode <a href="http://einschlafen-podcast.de/einschlafen/0048-annik-finns-reise.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Tue, 29 Mar 2011 22:38:33 +0200</pubDate>
+            <enclosure url="http://einschlafen-podcast.de/einschlafen/0048-annik-finns-reise.mp3" length="54863020" type="audio/mpeg"/>
+            <guid isPermaLink="false">CE46639B-DE8F-429C-9019-8E74DFF69F27</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #572 - 6 Jahre SiM!</title>
+            <description><![CDATA[<p>Das gibt es doch nicht, ich hab den SiM-Geburtstag verpennt! Zum Glück hat mich Angelika auf Facebook darauf hingewiesen...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim572.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim572.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Mon, 21 Mar 2011 17:21:12 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim572.mp3" length="22601856" type="audio/mpeg"/>
+            <guid isPermaLink="false">6A34CDD8-75A7-4AFE-9D6E-EA99686275C3</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #571 - Die mit dem Podbaby</title>
+            <description><![CDATA[Es war eigentlich so schön still gerade, da dachte ich, ich könnte podcasten. Weit gefehlt... Das Podbaby meldet sich lautstark zu Wort, aber ich hoffe, Ihr versteht mich trotzdem. Ein Dank geht an Mareile aus Chester Springs, Goetz aus München, Andrew aus London, Thorsten aus München, Irina aus Philly und Jacob aus Fremont. Und ansonsten hab ich den Oscar verpasst, "King's Speech" aber trotzdem gesehen. Ich lese gerade <a href="http://www.amazon.de/gp/product/3492054226?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3492054226">"Schuld"</a> von Ferdinand von Schirach, mit der grandiosen <a href="http://www.amazon.de/gp/product/B002EWVOVG?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=B002EWVOVG">Leselampe,</a> ich habe <a href="http://clk.tradedoubler.com/click?p=23761&a=1152616&url=http%3A%2F%2Fitunes.apple.com%2FWebObjects%2FMZStore.woa%2Fwa%2FviewMovie%3Fid%3D394899894%26s%3D143443%26uo%3D4%26partnerId%3D2003">"Lügen macht erfinderisch"</a> mit Ricky Gervais gesehen und war im Tierpark Hellabrunn. Ach ja, und Ihr könnt mich als Gast im <a href="http://www.geek-week.de/2011/02/19/guttenplag-wiki-obama-one-pass-jeopardy-%e2%80%93-geek-week-podcast-036/">Geek-Week-Podcast </a>hören. Viel Spaß!]]></description>
+            <pubDate>Mon, 07 Mar 2011 11:06:09 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim571.mp3" length="20228224" type="audio/mpeg"/>
+            <guid isPermaLink="false">6AC94FF8-4FC2-4A5C-A2FC-531950878039</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #570 - Gefühlte Nähe zu Tron</title>
+            <description><![CDATA[<p>Ich kann nicht sagen, warum - aber ich fand "Tron - Legacy" total genial. Wunderbare Optik, gute Musik und die Story - naja. Um die ging's ja nicht... Dafür muss ich leider abraten von <a href="http://www.amazon.de/gp/product/3570100065?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3570100065">"Gefühlte Nähe"</a>, dem Roman von Kolumnist Harald Martenstein. Lest lieber seine Kolumnen-Bücher...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim570.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim570.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Wed, 09 Feb 2011 13:05:01 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim570.mp3" length="17518720" type="audio/mpeg"/>
+            <guid isPermaLink="false">EFA47EF3-9CB4-4FD1-9028-2DAFCF390F83</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #569 - Auf Small World stehen</title>
+            <description><![CDATA[<p>Ein kleiner Hinweis auf den Film <a href="http://www.amazon.de/gp/product/3257230885?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3257230885">"Small World"</a> mit Gerard Depardieu und Alexandra Maria Lara, eine kurze Rezi von <a href="http://www.amazon.de/gp/product/3462042416?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3462042416">"Wofür stehst Du?"</a> von Giovanni di Lorenzo und Axel Hacke und ansonsten viel "Drumrumgequatsche" wie immer... Ich empfehle Euch nämlich, die <a href="http://www.uni-muenchen.de/aktuelles/publikationen/tonspur/index.html">Tonspur Forschung</a> zu hören und Facebook-Fan von <a href="http://www.facebook.com/GlobalWohnen">Global Wohnen</a> zu werden.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim569.mp3]</p>]]></description>
+            <pubDate>Sat, 22 Jan 2011 12:28:57 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim569.mp3" length="16945280" type="audio/mpeg"/>
+            <guid isPermaLink="false">D2D725F7-446A-4D90-B76D-95A6F5FEEF10</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #568 - Lachen und schiessen</title>
+            <description><![CDATA[<p>Ein sturmfreier Abend mit den Großeltern als Babysitter - und wir waren in der Lach- und Schießgesellschaft. Haben dort das <a href="http://www.lachundschiess.de/03/index2.htm">aktuelle Stück des Haus-Ensembles </a>gesehen und für gut befunden. Einziger Wermutstropfen war wie immer die unerträgliche Enge...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim568.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim568.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Sun, 16 Jan 2011 10:35:49 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim568.mp3" length="16810112" type="audio/mpeg"/>
+            <guid isPermaLink="false">3364F225-2B3D-4D8E-98C7-85DCF986C8F2</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #567 - Ein frohes neues Jahr!</title>
+            <description><![CDATA[<p>Heute wünsche ich Euch schlicht und einfach ein frohes neues Jahr 2011! Ich hoffe, Ihr seid gut "reingerutscht" und freut Euch auf die Monate, die uns da bevorstehen!</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim567.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim567.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Sat, 01 Jan 2011 16:19:40 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim567.mp3" length="7186560" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-567-ein-frohes-neues-jahr</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #566 - Dick im Geschäft</title>
+            <description><![CDATA[<p>Erstmal vielen Dank für das Intro von Toby vom <a href="http://www.einschlafen-podcast.de">einschlafen-podcast.de</a>. Heute endlich mal wieder ein Interviewpartner. Peter Kuhn von der <a href="http://ascuro.ch/">Ascuro AG</a> erzählt uns, wie schwer übergewichtige Menschen es im Alltag haben. Seine Firma verkauft im Online-Shop <a href="http://www.simplybig.eu">simplybig.eu</a> viele Produkte, die dicken Menschen helfen sollen. Mehr Informationen auch bei <a href="http://adicare.eu/">Adicare</a>. Er plädiert für mehr Verständnis und dafür, Vorbehalte endlich abzulegen! Wäre doch ein guter Vorsatz für's nächste Jahr... Das von ihm angesprochene Buch ist <a href="http://www.amazon.de/gp/product/0898159954?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=0898159954">Fat! So?: Because You Don't Have to Apologize for Your Size</a>.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim566.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim566.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Wed, 15 Dec 2010 18:30:01 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim566.mp3" length="44208256" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-566-dick-im-geschäft</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Zwischenruf aus "Na Servus"</title>
+            <description><![CDATA[<p>Heute mal ein kurzer Zwischengruß aus dem Abenteuerurlaub, geklaut aus <a href="http://www.naservus.de">"Na Servus"</a> mit Alex Wunschel  </p>
+
+<p>[audio:http://pimpmybrain.podspot.de/files/naservus14.mp3]</p>
+
+<p>Episode <a href="http://pimpmybrain.podspot.de/files/naservus14.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Mon, 22 Nov 2010 17:59:03 +0100</pubDate>
+            <enclosure url="http://pimpmybrain.podspot.de/files/naservus14.mp3" length="16473559" type="audio/mpeg"/>
+            <guid isPermaLink="false">zwischenruf-aus-na-servus</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #565 - Meine Hörtipps für Euch </title>
+            <description><![CDATA[<p>Danke an Daniel, Stefan und Andrew! Filmtipps: "Mary & Max", "Eat Pray Love" und "Wächter der Wüste". Dazu ein paar Worte zu eBooks und Wolf Haas-Krimis. Und dann meine komplette Podcastliste!</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim565.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim565.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Thu, 28 Oct 2010 12:44:14 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim565.mp3" length="40077440" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-565-meine-hörtipps-für-euch</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #564 - Ich: Sozial unverbesserliches Baby</title>
+            <description><![CDATA[<p>Gleich mal drei Filmtipps: Ich habe <a href="http://www.thesocialnetwork-movie.com/">"The Social Network"</a> gesehen, sowie den grandiosen Dokumentarfilm "Babys" (hier der <a href="http://www.youtube.com/watch?v=vWKFpPa_yUE">Trailer</a>)und das Animationsspektakel <a href="http://movies.universal-pictures-international-germany.de/icheinfachunverbesserlich/">"Ich: Einfach unverbesserlich"</a>. Falls Ihr noch kein DVD-Leih-Abo habt, macht eines bei <a href="http://www.lovefilm.de">www.lovefilm.de</a>, Gutscheincode SIM bringt Euch vier Wochen kostenlos DVDs ins Haus! Dazu verrate ich Euch noch, warum Tiger jetzt deutschlandweit berühmt wird...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim564.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim564.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Fri, 15 Oct 2010 09:47:32 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim564.mp3" length="24156288" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-565-ich-sozial-unverbesserliches-baby</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #563 - Vulkane und Sunshine Cleaning</title>
+            <description><![CDATA[<p>Ein Dankeschön geht an Thomas aus Glückstadt, Stefan aus München und Nona aus Menlo Park in Kalifornien. Und an Friederike, die mir eine echte Postkarte aus Island geschickt hat - was mich gleich zum nächsten Thema bringt, und zwar meiner neuen <a href="http://www.uni-muenchen.de/aktuelles/publikationen/tonspur/index.html">Tonspur Forschung </a>über die Vulkane in Island. Dazu noch zwei Filmtipps: The American und Sunshine Cleaning, beide sehenswert. Falls Ihr noch kein DVD-Abo habt, macht eines für vier Wochen kostenlos bei <a href="http://www.lovefilm.de">www.lovefilm.de.</a> Gutscheincode SIM.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim563.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim563.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Thu, 30 Sep 2010 12:43:10 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim563.mp3" length="23380096" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-563-vulkane-und-sunshine-cleaning</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #562 - Salat, Gedanken und nochmal Salat</title>
+            <description><![CDATA[<p>Heute mal live aus der Küche - ganz ohne Kochshow. Also lauter aufdrehen!</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim562.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim562.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Fri, 10 Sep 2010 18:49:25 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim562.mp3" length="18794624" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-562-salat-gedanken-und-nochmal-salat</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #561 - Die Wiesn-Guide-App ist online!</title>
+            <description><![CDATA[<p>Endlich, endlich, endlich hat das Warten ein Ende! Nach nichtmal fünf Tagen ist unsere iPhone App "Wiesn-Guide" im iTunes Store online und ich bin ziemlich aus dem Häuschen deswegen. Wie aufregend! Jetzt müssen wir nur noch sehen, dass sie in der Liste nicht mehr ganz unten steht, sondern endlich nach oben wandert... Wenn Ihr also 1,59 Euro übrig habt, schlagt zu! Hier ist <a href="http://clk.tradedoubler.com/click?p=23761&a=1152616&url=http%3A%2F%2Fitunes.apple.com%2Fde%2Fapp%2Fwiesn-guide%2Fid390058748%3Fmt%3D8%26uo%3D4%26partnerId%3D2003">der Link direkt zur App.</a></p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim561.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim561.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Fri, 03 Sep 2010 08:42:02 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim561.mp3" length="16054400" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-561-die-wiesnguideapp-ist-online</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #560 - Nichts zu erzählen</title>
+            <description><![CDATA[<p>Das ist echt wie in alten Podcasting-Zeiten - ich hab überhaupt gar nichts zu erzählen und bringe es doch auf 18 Minuten! So funktioniert Podcasting...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim560.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim560.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Tue, 31 Aug 2010 17:20:37 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim560.mp3" length="22630528" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-560-nichts-zu-erzählen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #559 - Oktoberfest und Inception</title>
+            <description><![CDATA[<p>Kunterbunt hüpfe ich vom Tierarzt zum Backen, vom Oktoberfest zu "Inception", von meinem <a href="http://www.lovefilm.de">Lovefilm-</a>Film <a href="http://www.lovefilm.de/film/Liebe-auf-den-zweiten-Blick/211261/review/98462/">"Liebe auf den zweiten Blick" </a>zum Kloster Andechs und zum Ende von Schlaflos in München. Hört selbst.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim559.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim559.mp3">hier herunterladen.</p>]]></description>
+            <pubDate>Mon, 09 Aug 2010 17:36:15 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim559.mp3" length="39569536" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-559-oktoberfest-und-inception</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #558 - Vor der Sommerpause</title>
+            <description><![CDATA[<p>Ich weiß ich weiß ich weiß ich weiß - ich hab einen Monat nix getan. Wobei - so ganz richtig ist das ja nicht. Ich habe viel getan - aber keine Podcasts für SiM produziert! Daher hab ich heute mein Aufnahmegerät mal mit ins Auto genommen und melde mich daher mal nicht aus dem Schrank, sondern von dort. Hört selbst, ich bin zu faul für Shownotes...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim558.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim558.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Wed, 14 Jul 2010 17:06:53 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim558.mp3" length="30273664" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-558-vor-der-sommerpause</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #557 - Hubschrauber, Dampfloks und Öl</title>
+            <description><![CDATA[<p>Endlich mal wieder Zeit und Ruhe für einen Podcast! Viele Themen haben sich aufgestaut: Ich war bei <a href="http://de.wikipedia.org/wiki/Harry_Rowohlt">Harry Rowohlt</a>, ich bin mit einer <a href="http://www.localbahnverein.de/">Dampflok</a> gefahren, ich war auf dem Michael Bublé-Konzert und bin seither Fan von <a href="http://www.naturallyseven.com/">Naturally 7</a>, ich muss meinen Senf zu Eurovision Song Contest, WM, Ölbohrkatastrophe und <a href="http://www.dldwomen.com">DLDWomen</a> abgeben (hier mein Beitrag für <a href="http://download.radioeins.de/mp3/medienmagazin/mm20100612.mp3">Radio Eins Medienmagazin mit Jörg Wagner</a>)und mich über die Hubschrauber in der Innenstadt beschweren, und mich bedanken bei Mee-z für seine Nachricht auf dem Anrufbeantworter. Danke auch an Pierre aus Stockholm und Brian aus Ottobrunn für Eure Unterstützung!</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim557.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim557.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Mon, 14 Jun 2010 11:55:05 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim557.mp3" length="50315392" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-557-hubschrauber-dampfloks-und-öl</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #556 - Maike, Nix und Flattr</title>
+            <description><![CDATA[<p>Heute hört Ihr mal was passiert, wenn ich Übercaster nicht verstehe. Aber am Ende ging doch alles gut, also keine Angst. Los geht es mit Alzheimer-Forschung und Immunologie, das sind nämlich die beiden Themen, die ich gerade für die <a href="http://www.uni-muenchen.de/aktuelles/publikationen/tonspur/index.html">Tonspur Forschung</a> beackere. Dann geht's weiter zu Maike und ihrem Blog <a href="http://www.cookiesandmonsters.com/">"Cookies & Monsters"</a> und der Bitte an Euch alle, Euch typisieren zu lassen, näheres dazu <a href="https://www.dkms.de/spender/watte-statt-nadel/index.html">hier</a>. Und weiter zu <a href="http://www.flattr.com">Flattr</a>, dem Micropayment-Dienst für Blogger und Podcaster. Ich hab ein neues Twitter-Design, über das ich mich sehr freue, danke dafür an Miriam von <a href="http://www.justimagine.de">Just Imagine</a> (auch auf <a href="http://www.facebook.com/justimagineMUC">Facebook zu finden</a>, und mit den Besuchskindern waren wir in der <a href="http://www.filmstadt.de/">Bavaria Filmstadt</a> und auf dem Hallenspielplatz <a href="http://www.juxundtollerei.com/">Jux und Tollerei </a>in Parsdorf. Dann noch Hinweise zu <a href="http://www.kochplaner.de">kochplaner.de</a>, dem wunderbaren Hörbuch "Der Nix" von Pierre Sanoussi-Bliss (<a href="http://www.amazon.de/gp/product/393857206X?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=393857206X">hier als Buch</a>), und mein Inderprojekt muss ich auch kurz erwähnen. Ach ja, und das beste München-Buch wie ich finde ist <a href="http://www.amazon.de/gp/product/3897053330?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3897053330">"München für Zugereiste"</a> von Harald Hordych. Ich glaube, das war's....</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim556.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim556.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Wed, 19 May 2010 10:14:11 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim556.mp3" length="34982016" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-556-maike-nix-und-flattr</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #555 - Philipp sein oder nicht sein</title>
+            <description><![CDATA[<p>Endlich mal ein Interview mit dem netten Philipp Wimmer über seinen außergewöhnlichen Beruf: Er ist nämlich Schauspieler. Mehr über ihn auf <a href="http://www.philippwimmer.com">seinem Blog</a>, seiner <a href="http://www.sein-nichtsein.de">beruflichen Homepage</a> oder in seinem <a href="http://podcast.toheselue.com">Podcast.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim555.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim555.mp3">hier herunterladen</a>.</p>]]></description>
+            <pubDate>Tue, 11 May 2010 17:32:25 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim555.mp3" length="31791232" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-555-philipp-sein-oder-nicht-sein</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #554 - Joachim Seidel und der HimbeerToni</title>
+            <description><![CDATA[<p>Heute mal wieder ein Interview, und zwar per Telefon mit Joachim Seidel. Der "Altpunkt" lebt in Hamburg und ist Journalist. Er hat ein Buch geschrieben, einen Roman, "HimbeerToni" (<a href="http://www.amazon.de/gp/product/3492257925?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3492257925">hier bei Amazon)</a>. Leicht biografische Züge hat das natürlich schon: Da geht es um Toni, einen Altpunk, der nicht erwachsen werden will, es dann aber werden muss, da seine Freundin ein Kind erwartet. Am schönsten fand ich selber den Schreibstil von Joachim und die Charaktere, die wirklich sehr liebevoll geschildert sind. </p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim554.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim554.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Tue, 04 May 2010 13:02:08 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim554.mp3" length="27481941" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-554-joachim-seidel-und-der-himbeertoni</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #553 - Danke, für dies und das</title>
+            <description><![CDATA[<p>Längst ist es Zeit für eine neue Folge, und heute mal ganz kurz und spontan ganz viele Dankeschöns an einige von Euch... Dazu mehr zum neuen Podcast <a href="http://www.naservus.de">Na Servus</a> mit Alex Wunschel und zu all dem, was sonst noch los ist und war.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim553.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim553.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Thu, 22 Apr 2010 18:03:51 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim553.mp3" length="25981056" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-553-danke-für-dies-und-das</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #552 - Über den Wolken mit Pilot Olli</title>
+            <description><![CDATA[<p>Heute spreche ich mit dem fliegenden Olländer. Neee, mit Olli, dem Piloten. Ich hab mich schon lange auf dieses Gespräch gefreut, denn Piloten gehören zu der Berufsgruppe, mit der ich wirklich noch nie gesprochen habe... Dementsprechend viele Fragen hatte ich auch. Wenn Euch interessiert, was Olli so treibt, dann besucht doch <a href="http://lebenausdemkoffer.digital-dictators.de">sein Blog</a> oder hört Euch seinen Podcast an, den er mit Alex Kahl (@Probefahrer) zusammen macht. Mit dem plant er auch gerade das Projekt <a href="http://www.pedestrian2pilot.net">Pedestrian2Pilot</a>. Sein Flugzeug ist übrigens die <a href="http://de.wikipedia.org/wiki/McDonnell_Douglas_MD-11">MD-11</a> und wenn Ihr ihm bei Twitter folgen wollt, dann fragt höflich nach bei @holyolli.</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim552.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim552.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Thu, 01 Apr 2010 19:40:01 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim552.mp3" length="37470336" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-552-über-den-wolken-mit-pilot-olli</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #551 - Kinoschelte und Musikschelte</title>
+            <description><![CDATA[<p>The Rohrspatz is back! Heute muss ich mir mal wieder zwei Dinge von der Seele reden, und zwar wie sehr mich die Musikindustrie nervt und wie sehr mich schlechte Kinokartenverkäufer nerven. Ansonsten hab ich aber eigentlich super Laune, also keine Angst...</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim551.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim551.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Tue, 30 Mar 2010 11:45:53 +0200</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim551.mp3" length="28201088" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-551-kinoschelte-und-musikschelte</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #550 - Fünf Jahre Podcast #SiM5</title>
+            <description><![CDATA[<p>Der Geburtstag ist vorbei - fünf Jahre SiM liegen hinter mir und Euch. Schön war die Feier, schön sind die Gedanken, meine Bilanz ist durchweg positiv. Auf in die nächsten Folgen und Jahre! Danke an Philipp (<a href="http://toheselue.wordpress.com/category/podcast/">hier geht's zu seiner Podcast-Seite</a>)für die beiden schönen Interviews mit Uwe und Siegfried. Den Link zu den tollen Fotos von <a href="http://www.vietmeier.com/">Mathias Vietmeier</a> reiche ich nach, sobald es ihn gibt. Danke auch dafür!</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim550.mp3]</p>
+
+<p>Episode <a href="http://traffic.libsyn.com/schlaflos/sim550.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Sun, 21 Mar 2010 13:30:18 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim550.mp3" length="33400960" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-550-fünf-jahre-podcast-sim5</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #549 - Cassandra träumt vom Circus</title>
+            <description><![CDATA[<p>Heute Abend steigt die große Sause in der "Niederlassung", Buttermelcherstraße 6. Wir feiern fünf Jahre Schlaflos in München - denn morgen ist der große Geburtstag. Schon komisch, etwas zu feiern, das eigentlich aus reiner Planlosigkeit entstanden ist... Vorher wollte ich mich noch kurz zu Wort melden und erzähle Euch zum einen von einem Besuch im Circus Krone und zum anderen vom Film "Cassandras Traum". Viel Spaß!</p>
+
+<p>[audio:http://traffic.libsyn.com/schlaflos/sim549.mp3]</p>
+
+<p>Episode <a href="http://media.libsyn.com/media/schlaflos/sim549.mp3">hier herunterladen</a>.</p>]]></description>
+            <pubDate>Sat, 20 Mar 2010 14:20:14 +0100</pubDate>
+            <enclosure url="http://traffic.libsyn.com/schlaflos/sim549.mp3" length="23267456" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-549-cassandra-träumt-vom-circus</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #548 - Sipgate und die eBooks</title>
+            <description><![CDATA[<p>Heute etwas gehetzt - und das ohne Grund! Und ich hatte vergessen, das Mikro einzuschalten, also ist es "nur" der iMac, daher etwas weit weg. Naja, kann auch mal vorkommen. Es gibt einen neuen SiM-Anrufbeantworter, den ich in nächster Zeit wieder öfter einsetzen möchte (089-38168221). Außerdem finde ich, dass eBooks eine tolle neue Chance für Autoren sind...</p>
+
+<p>[audio:http://media.libsyn.com/media/schlaflos/sim548.mp3]</p>
+
+<p>Episode <a href="http://media.libsyn.com/media/schlaflos/sim548.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Thu, 04 Mar 2010 13:13:48 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim548.mp3" length="16726144" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-548-sipgate-und-die-ebooks</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #547 - Geht's noch?</title>
+            <description><![CDATA[<p><img src="http://www.podsitter.com/gabriele.jpg" align="left">Ein Gespräch mit der Autorin Gabriele Wawrzinek über ihr Buch <a href="http://www.amazon.de/gp/product/3426798395?ie=UTF8&tag=annikrubenssc-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3426798395">"Geht's noch - Vom Umgang mit sturen Eseln und beleidigten Leberwürsten. Wie Sie Konflikte kreativ lösen"</a>. Sie war zu Besuch bei mir auf der Couch und wir haben geplaudert über Konflikte generell und im Besonderen, über das Leben als Freiberuflerin in München und über mögliche weitere Bücher, die in der Planung sind...</p>
+
+<p>[audio:http://media.libsyn.com/media/schlaflos/sim547.mp3]</p>
+
+<p>Episode <a href="http://media.libsyn.com/media/schlaflos/sim547.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Fri, 26 Feb 2010 18:10:46 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim547.mp3" length="22950016" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-547-gehts-noch</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #546 - Luxus und das neue Setup</title>
+            <link>http://www.podsitter.com/wordpress/sim-546-luxus-und-das-neue-setup</link>
+            <description><![CDATA[<p>Ich freue mich gerade riesig, riesig, riesig über das neue Setup! Jetzt ist alles leichter und toller und überhaupt. Mehr dazu auf www.schlaflosinmuenchen.com. Dazu noch die Frage: Was ist für Euch Luxus? Übrigens: Für diese Folge habe ich von Anfang bis Online 13 Minuten gebraucht. Yessss!</p>
+
+<p>[audio:http://media.libsyn.com/media/schlaflos/sim546.mp3]</p>
+
+<p>Episode <a href="http://media.libsyn.com/media/schlaflos/sim546.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Mon, 22 Feb 2010 18:41:48 +0100</pubDate>
+            <category domain="http://www.schlaflosinmuenchen.com/category/podcastepisode/">SiM-Episode</category>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim546.mp3" length="5767296" type="audio/mpeg"/>
+            <guid isPermaLink="true">http://www.podsitter.com/wordpress/p?=1710</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #545 - Emil, Strato und T.C. Boyle</title>
+            <description><![CDATA[Emil Steinberger ist einer, mit dem ich aufgewachsen bin. Also heute eine kleine Hommage an ihn. Dazu noch eine Schimpftirade auf den Kundenservice von Strato und ein großes Lob an T.C. Boyle für den Roman "América". Großartig!]]></description>
+            <pubDate>Sun, 21 Feb 2010 16:59:32 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim545.mp3" length="14815360" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-545-emil-strato-und-tc-boyle</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #544 - Pastewka und der Strom</title>
+            <description><![CDATA[Pastewka, die deutsche Sprache, Topinambour, Pastinaken und Süßkartoffeln, der große Stromwechsel und drei Hörtipps - sonst noch Fragen?]]></description>
+            <pubDate>Tue, 09 Feb 2010 20:46:03 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim544.mp3" length="14411904" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-544-pastewka-und-der-strom</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #543 - Simon's Katze</title>
+            <pubDate>Tue, 02 Feb 2010 14:52:02 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim543.mp3" length="9351296" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-543-simons-katze</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #542 - Die Spinnen im Radio</title>
+            <description><![CDATA[Heute alles über Spinnen, Schnee und Radio... Bin heute etwas schreibfaul...]]></description>
+            <pubDate>Thu, 28 Jan 2010 15:49:03 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim542.mp3" length="10811520" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-542-die-spinnen-im-radio</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #541 - Geschenke, Silvester und der Zoll</title>
+            <description><![CDATA[Heute ärgere ich mich ein wenig über Geschenke, dann noch über Silvester und den Zoll. Sonst geht's mir aber gut...]]></description>
+            <pubDate>Fri, 22 Jan 2010 14:27:06 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim541.mp3" length="10029184" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-541-geschenke-silvester-und-der-zoll</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #540 - Der neue Trend: Broschen!</title>
+            <description><![CDATA[www.schlaflosinmuenchen.com]]></description>
+            <pubDate>Fri, 22 Jan 2010 10:36:10 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim540.mp3" length="2118023" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-540-der-neue-trend-broschen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #539 - Party zum 5. SiM-Geburtstag</title>
+            <description><![CDATA[<p>Habt Ihr Lust, am 20. März den fünften SiM-Geburtstag zu feiern? </p>
+
+<p>[audio:http://media.libsyn.com/media/schlaflos/sim539.mp3]</p>
+
+<p>Episode <a href="http://media.libsyn.com/media/schlaflos/sim539.mp3">hier herunterladen</a></p>]]></description>
+            <pubDate>Wed, 20 Jan 2010 19:36:14 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim539.mp3" length="2386048" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-539-party-zum-5-simgeburtstag-1</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #538 - Avatar und die Morgans</title>
+            <pubDate>Sun, 17 Jan 2010 20:19:01 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim538.mp3" length="6037632" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-538-avatar-und-die-morgans</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #537 - Der Übercaster-Test</title>
+            <pubDate>Thu, 14 Jan 2010 10:31:49 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim537.mp3" length="4688000" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-537-der-übercastertest</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #536 - Auf ein Neues</title>
+            <description><![CDATA[Ein neues Jahr. Ein neues Jahrzehnt. Unglaublich. Und immer noch SiM! Der Podcast feiert am 21. März 2010 sein fünfjähriges Bestehen. Grauselig, oder? Und das von mir, die sonst nie irgendwas lange durchhält... Anyway, in der ersten Folge des neuen Jahres (dedicated to @Coke) geht's um alles und nichts und das Buch Alles hat seine Zeit" von Ennio Flaiano. Und um den Film "Das weiße Band" - sehenswert, wenn auch ein bißchen zu lang. Und um mein neues DAB-Radio.]]></description>
+            <pubDate>Tue, 05 Jan 2010 13:46:45 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim536.mp3" length="16582412" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-536-auf-ein-neues</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #535 - Pauschalurlaub und das neue Jahrzehnt</title>
+            <description><![CDATA[www.schlaflosinmuenchen.com]]></description>
+            <pubDate>Mon, 21 Dec 2009 17:00:59 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim535.mp3" length="25111596" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-535-pauschalurlaub-und-das-neue-jahrzehnt</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Annik im Türchen Nr. 15 vom Höradvent</title>
+            <pubDate>Tue, 15 Dec 2009 10:10:54 +0100</pubDate>
+            <enclosure url="http://www.hoeradvent.de/podpress_trac/web/569/0/15annik2009.mp3" length="4761600" type="audio/mpeg"/>
+            <guid isPermaLink="false">annik-im-türchen-nr-15-vom-höradvent</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #534 - Bonn und der Urlaub</title>
+            <description><![CDATA[www.schlaflosinmuenchen.com]]></description>
+            <pubDate>Fri, 27 Nov 2009 13:54:34 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim534.mp3" length="30246053" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-534-bonn-und-der-urlaub</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #533 - Towelhead und Michael Moore</title>
+            <description><![CDATA[Alle Links: www.schlaflosinmuenchen.com]]></description>
+            <pubDate>Tue, 17 Nov 2009 16:36:51 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim533.mp3" length="29045094" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-533-towelhead-und-michael-moore</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #532 - Von Osho bis Livepodcasting</title>
+            <description><![CDATA[Heute wird SiM vor Publikum produziert, also ist alles etwas anders als sonst. Zunächst mal Danke an Monika für das nette Intro. Und ein Hinweis auf meine neuen Podcasts "Tonspur Forschung" und "Productronica-Podcast". Nach einem kurzen Werbeblock für Lovefilm und die ARD Hörspieltage geht's weiter mit Musik von Faradize und einem Hinweis auf die Podcon in Saarbrücken. Kurz noch ein Tipp zum Lesen: ich schreibe nämlich Artikel für Chip.de. Eine kurze Publikumsumfrage leitet dann über zum Interview mit Mathias Vietmeier über seinen Glauben - wenn man das so ausdrücken kann.]]></description>
+            <pubDate>Thu, 29 Oct 2009 21:34:32 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim532.m4a" length="41882531" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-532-von-osho-bis-livepodcasting</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Zwischenstand: Fools Garden</title>
+            <description><![CDATA[Alles unter www.schlaflosinmuenchen.com]]></description>
+            <pubDate>Wed, 14 Oct 2009 10:41:04 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/simfool.mp3" length="3209981" type="audio/mpeg"/>
+            <guid isPermaLink="false">zwischenstand-fools-garden</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #531 - Wies'n und mehr</title>
+            <pubDate>Mon, 05 Oct 2009 11:36:25 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim531.mp3" length="23913708" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-531-wiesn-und-mehr</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #530 - Oben und Mathias Vietmeier</title>
+            <description><![CDATA[Alle Infos unter www.schlaflosinmuenchen.com]]></description>
+            <pubDate>Wed, 30 Sep 2009 15:00:01 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim530.mp3" length="28373681" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-530-oben-und-mathias-vietmeier</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #529 - District 9 und Fahrrad-Rikscha</title>
+            <description><![CDATA[<p>Heute weniger Geschimpfe als letzte Woche, dafür mehr zu meinem Hörbuch (www.wiesnhoerbuch.de), kurz eine Filmkritik zu "District 9" und ein Interview mit Fahrrad-Rikschafahrer Sebastian.</p>
+
+<p>Mehr unter www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Mon, 21 Sep 2009 20:21:36 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim529.m4a" length="31176315" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-529-district-9-und-fahrradrikscha</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #528 - iPod nano und Journalismuskrise</title>
+            <description><![CDATA[So, Sommerpause ist vorbei! SiM ist wieder da. Und da ist die erste Folge natürlich extra lang geworden - Mitteilungsbedürfnis und so... Ihr erfahrt alles über meine neuen Projekte, alles über meine Journalismuskrise, meinen neuen iPod nano und überhaupt. Viel Spaß!]]></description>
+            <pubDate>Mon, 14 Sep 2009 16:57:15 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim528.m4a" length="38202103" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-528-ipod-nano-und-journalismuskrise</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #527 - Kunst, Herzmassage und Stimmen</title>
+            <description><![CDATA[<p>Der Tag begann mit moderner Kunst in der Sammlung Brandhorst. Dort war ich mit Anatol vom Spieleveteranen-Podcast, der mir übrigens den WNYC Radiolab-Podcast ans Herz gelegt hat. Denkt übrigens dran, dass Ihr mit dem Gutscheincode SIM bei Lovefilm 30 Tage umsonst DVDs leihen könnt! Lebenswichtig: Denkt bei Herzmassage an "Staying Alive" von den BeeGees oder an "Another one bites the dust" von Queen. Da passt der Rhythmus. Der SWR ist fleissig dabei im Web 2.0, jetzt auch mit Dschungel im Twitter. Und schon sind wir in Baden-Württemberg, und genau dort war ich am Wochenende, und zwar zu einem Workshop im Thieme-Verlag. Demnächst gibt es einen Testbericht des Zoom H4n, bis dahin rätsele ich, wie ich Blog, Facebook und Twitter unter einen Hut bringen soll. Außerdem gibt es ein Slow German-Forum, das zwar noch sehr blöd aussieht, aber immerhin funktioniert. Am Schluss noch was Lustiges von voices.com und ein Hinweis auf drei hörenswerte Podcasts aus dem SiM-Umfeld: Zwitschercast, TouchTalk und Brieftour-Pod.</p>
+
+<p>Alle Links unter www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Thu, 09 Jul 2009 18:58:29 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim527.m4a" length="11989279" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-527-kunst-herzmassage-und-stimmen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #526 - Die ego.fm Sprechstunde</title>
+            <description><![CDATA[<p>Zunächst mal ein Lob für Sarah Kuttner's Mängelexemplar (Link rechts in der Spalte), war gar nicht schlecht! Ebenso die MP3-Downloads bei Amazon, funktioniert gut, wenn ich auch iTunes lieber mag. Dann noch ein Hinweis auf einen FAZ-Artikel über Podcasting (und mich) und falls Ihr die Möglichkeit habt, schaut Euch Urban Priol bei "Zimmer frei" an, das Memory-Spiel war grandios! Empfehlen kann ich das Buch von Christine Westermann und Jörg Thaddeusz, "Aufforderung zum Tanz".</p>
+
+<p>Links auf www.schlaflosinmuenchen.com</p>
+
+<p>[audio:http://media.libsyn.com/media/schlaflos/sim526.mp3]</p>
+
+<p>Episode hier herunterladen</p>]]></description>
+            <pubDate>Wed, 01 Jul 2009 15:10:59 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim526.mp3" length="67912787" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-526-die-egofm-sprechstunde</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #525 - Niche, Natalie und Impfung</title>
+            <description><![CDATA[Die Links zur Folge (auf www.schlaflosinmuenchen.com): Pro7 Mascerade, Bejeweled Blitz, Annikator, niche09, Natalie, Guy Kawasaki "The Art of the Start", Filmfest München und Werbung bei Facebook.]]></description>
+            <pubDate>Wed, 24 Jun 2009 16:25:52 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim525.mp3" length="29899067" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-525-niche-natalie-und-impfung</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #524 - Jeff Jarvis und die Radio Rock Revolution</title>
+            <description><![CDATA[3:43 Grüße / 5:47 Lovefilm-Werbung: Einfach Gutscheincode SIM eingeben und einen Monat kostenlos testen / 9:34 SiM auf Weltreise gibt es jetzt auf einer Karte / 10:00 Ich komme doch auf die Niche09 am Samstag / 10:34 Wir brauchen Logos für ersatz.tv / 11:00 SWR 1000 Antworten / 11:45 Radio Rock Revolution / 20:00 Lobhudelei auf Jeff Jarvis / 25:00 Jeff Jarvis im Interview]]></description>
+            <pubDate>Mon, 15 Jun 2009 13:20:46 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim524.m4a" length="20192118" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-524-jeff-jarvis-und-die-radio-rock-revoluti</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #523 - Weeds und die Wahltheorie</title>
+            <description><![CDATA[<p>Ok, die DVD-Empfehlungen: Weeds Staffel 3 und Caroline in the City Staffel 1. Ansonsten Buch-Eher-Nicht-Empfehlung: Lenin kam nur bis Lüdenscheid von Richard David Precht. Dazu noch eine Wahltheorie, ein bißchen hinter den Kulissen von ersatz.TV und das allgemeine Chaos drumherum. Viel Spaß!</p>
+
+<p>[audio:http://media.libsyn.com/media/schlaflos/sim523.mp3]</p>
+
+<p>Episode hier herunterladen</p>
+
+<p>Alle Links unter www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Sun, 07 Jun 2009 20:59:43 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim523.m4a" length="26509633" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-523-weeds-und-die-wahltheorie</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #522 - Frankreich und die Berge</title>
+            <description><![CDATA[Heute kurz meine schönsten Ferienerlebnisse aus Frankreich (die Hotels: Eza Vista, Cloitre St. Louis und New Hotel Marseille) und ein paar News zu "Life of Pi" und "Star Trek".]]></description>
+            <pubDate>Mon, 01 Jun 2009 16:26:42 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim522.m4a" length="32762502" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-522-frankreich-und-die-berge</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #521 - Autismus, Wolverine und MyBrute</title>
+            <description><![CDATA[Heute eine kurze Folge mit der Ankündigung für ein Call-In in der nächsten Folge - ich möchte nämlich gerne ein wenig mit Euch quatschen! Dann noch eine kurze Erklärung zu meinem Wolverine-Kinobesuch und zu Seesmic, meinem Lieblings-Twitter-Client. Momentan spiele ich sehr gerne MyBrute, aber ich hab auch eine neue Sonnenbrille, zu der ich Euch was erzählen muss. Und am Ende dann das eigentliche Thema, sehr ernst: Autismus und Impfungen - besteht da ein Zusammenhang? Seht hier die Folge von Larry King Live und falls Euch das Thema Autismus interessiert, schaut Euch diese Folge von Quarks & Co an.]]></description>
+            <pubDate>Mon, 11 May 2009 16:03:32 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim521.m4a" length="13448818" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-521-autismus-wolverine-und-mybrute</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #520 - Provence, Bircher und Domian</title>
+            <description><![CDATA[Bin wieder da. Trotz Faulheit und Leselust nehm ich mir jetzt die Zeit, den Schreibkram zum Podcast zu machen. Wie ich es hasse! Also. Diesmal geht es erstmal um den Artikel in jetzt.de, dann um meine heute gestartete Serie bei Volvic zu Frankreich-Themen. Bitte brav öfter hinsurfen, damit das auch erfolgreich wird! A propos Frankreich: Im Mai bin ich eine Woche in der Provence und freu mich schon sehr. Auch wenn ich dort auf das Bircher Müsli verzichten muss, dessen Rezept mir der Koch und Chef Georg vom Kaiser Otto verraten hat! Dankeschön übrigens an Josefine vom wunderbaren Hörbuchverlag Solo, und an Ed aus Mandeville! Und natürlich an Brian für das schöne Bücherpaket. Weiter geht es mit einer Sarah Kuttner-Rehabilitation und drei Buchtipps: Daniel Kehlmanns "Ruhm" ist echt nett, ebenso "Jenseits der Scham" von Jürgen Domian und Hella von Sinnen sowie "Traumnovelle" von Arthur Schnitzler. Im Kino kann ich "Monsters vs. Aliens" empfehlen, aber nur in 3D, und ich glaube auch nur im IMAX. Neu gestartet ist die Sendung "Kavka", ein ähnlich modern wirkendes Format wie "Bauerfeind". Nach meinem Putzflash geht es zum dritten "Dzihan & Kamien"-Album und zum Hörtipp "Eine Stunde Zeit". Neues gibt es auch von meinem Internetprojekt, und noch zwei Buchtipps: "Stars des Internets" von Torsten Oelke und "Was würde Google tun?" von Jeff Jarvis. Zum Schluss noch ein Termin: Am 20. Juni findet in München die Niche09 statt, das Podcamp von Alexander Wunschel.]]></description>
+            <pubDate>Tue, 28 Apr 2009 13:58:58 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim520.m4a" length="30646298" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-520-provence-bircher-und-domian</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #519 - Mafia, Provence und Kolumnen</title>
+            <description><![CDATA[Heute bin ich zu faul Euch zu schreiben, was ich erzählt habe. Also: Selber hören. Die erwähnten Bücher sind "Gomorrha" von Roberto Saviano, "Gebrauchsanweisung für München", "Gefährliche Geliebte" von Haruki Murakami und "Making History" von Stephen Fry. Viel Spaß!]]></description>
+            <pubDate>Mon, 20 Apr 2009 15:08:45 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim519.mp3" length="22851350" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-519-mafia-provence-und-kolumnen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #518 - Frühstück, Jazz und Cicero</title>
+            <description><![CDATA[<p>Ein Dankeschön an Rick und Björn erstmal vorweg! Dann geht's weiter zum International Jazz Solo Piano Festival und nach Berlin, bevor wir in München frühstücken im Box und Victorian House. Musikalisch hat Roger Ciceros neues Album "Artgerecht" meine Woche verschönert (Amazon, iTunes) und mich an Barbara Schöneberger erinnert. Bei Audible gibt es gerade ein Casting, bei dem Ihr mitmachen könnt. Georg Schneider podcastet auch wieder, und ich suche einen französischen Interviewpodcast. Dann noch ein paar Worte zum European Podcast Award (Bilder, Videos und so weiter auch bei Norman und dem EPA-Blog, Links bei mir!).</p>
+
+<p>Infos unter www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Tue, 07 Apr 2009 13:25:28 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim518.m4a" length="16086728" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-518-frühstück-jazz-und-cicero</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #517 - Ersatz-Vorfahren gesucht in Frankfurt</title>
+            <description><![CDATA[Die erste Folge nach dem vierten Geburtstag dieses Podcasts! Einfach unglaublich, daher einige Gedanken dazu. Danach geht es auf eine Weltreise von Winnenden bis Hongkong, und dann muss ich mal eben über das Buch "Dear Germany" von Carol Klöppel schimpfen, weil es schlichtweg eine Themaverfehlung - oder Publikumsverfehlung - ist. Über Frankfurt geht es dann weiter zu ersatz.TV, das es jetzt auch endlich bei iTunes gibt (bitte alle abonnieren!). Und als Fernsehtipp die Sendung "Vorfahren gesucht" freitags im WDR.]]></description>
+            <pubDate>Mon, 23 Mar 2009 12:39:54 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim517.m4a" length="22087895" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-517-ersatzvorfahren-gesucht-in-frankfurt</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>4 Jahre SiM!</title>
+            <description><![CDATA[Danke an Ascari, Fy, TominMuc, Isegrim, Josh, Meikel, Venty und Coke für dieses süße Ständchen! Bis Montag!]]></description>
+            <pubDate>Sat, 21 Mar 2009 10:58:01 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/birthday.mp3" length="1924872" type="audio/mpeg"/>
+            <guid isPermaLink="false">4-jahre-sim</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #516 - Amok-Zahnarzt und Hongkongbabysitting</title>
+            <description><![CDATA[<p>Erstmal was zum aktuellen Stand von ersatz.tv. Es geht voran, soviel kann ich schon verraten! Danach ein Dank an Philipp vom Toheselue-Podcast und an Fabian aus Graz. Ich weiß nicht ob es einen Zusammenhang gibt, aber heute war ich beim Zahnarzt, und ich schimpfe in dieser Folge wie ein Rohrspatz. Aufgestaute Aggression, fürchte ich. Zunächst mal eine Schimpftirade über den Heyne-Verlag, dann eine über die Amoklauf-Berichterstattung. Lobend erwähnt werden Richard Bransons Autobiografie "Losing my Virginity" (so hieß das Buch!) und Michael Palins Weltreise-DVDbox "Around the World in 80 days". Auch schön: Mein KonFerenz-Song ist jetzt bei iTunes käuflich zu erwerben, und ich fliege im Mai nach Hongkong. Ihr könnt Euch übrigens in einer Spontaneingebung als Betatester für mein Internet-Projekt bewerben. Dann noch was zum Babysitting, was über meine Auftragslage und dann schon der Abspann. Das Abschluss-Schmankerl liefert heute Loki Schmidt, die bei NDR Info Der Talk ihren Tagesablauf schilderte.</p>
+
+<p>Mehr Infos: www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Mon, 16 Mar 2009 13:14:45 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim516.m4a" length="22943032" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-516-amokzahnarzt-und-hongkongbabysitting</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #515 - Jungfrauen und die Wand</title>
+            <description><![CDATA[Heute mal eine kürzere Folge, denn eigentlich hab ich gerade ein paar Tage Urlaub. Zunächst mal ein Intro von Luca, dann Neues vom Internetprojekt und die Empfehlung: Kauft Euch das Buch "Don't Make Me Think. Web Usability" von Steve Krug. Das ist echt Gold wert! Ebenso wertvoll ist der Roman "Die Wand" von Marlen Haushofer. Eines der besten Bücher, die ich seit langem gelesen habe. Ganz nett dagegen ist die Autobiographie von Richard Branson, dem Virgin-Chef. Dazu später mal mehr. Am Schluss der Folge das lange erwartete Exklusiv-Interview mit Achim von KonFerenz.]]></description>
+            <pubDate>Mon, 02 Mar 2009 14:08:04 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim515.m4a" length="16296041" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-515-jungfrauen-und-die-wand</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #514 - Oscar und die Glaubensfrage</title>
+            <description><![CDATA[<p>Immer wieder montags gibt's SiM, also auch heute, am Rosenmontag. Zunächst mal ein Wort zu einer E-Geige, die ich mir ausgeliehen habe, dann geht's natürlich um die Oscar-Nacht und daher heute auch viele, viele Filmtipps. Ich habe auf DVD Volver - Zurückkehren gesehen und Das Beste kommt zum Schluss - beide fand ich sehr gut. Etwas seltsam durch die Maske fand ich Die Liebe in den Zeiten der Cholera mit Benjamin Bratt (mjamm sogar mit weißem Bart!) und Javier Bardem (sieht irgendwie aus wie Herr Wunschel vom Tellerrand, oder?). Im Kino habe ich "Glaubensfrage" und "Er steht einfach nicht auf Dich" gesehen, diese Woche ist noch "Milk" dran. Ausnahmsweise gibt es heute auch Musik, und zwar "MySpace" von Joshua Grosvent. Kurz noch was zu "Schachnovelle" von Stefan Zweig und zu meinen neuen Postkarten, zum Audible Flexi-Abo und zu einem iTunes-Problem. Natürlich auch Neuigkeiten was mein Internetprojekt angeht, die KonFerenz-CD und mein Podcastratgeber-Hörbuch (siehe Eintrag unten), zu meiner Amazon VISA-Karte, zur Medienkrise.. Ihr merkt schon: Viel zu erzählen! Wenn Ihr mal eine richtig gute "Stars und Hits"-Folge hören wollt, hört Euch die Episode mit Christoph Süß an. Hier gibt es übrigens ein "Making Of"-Video der Folge! Zum Schluss mal wieder ein Mann der Woche, und zwar Klaus Maria Brandauer. Feierabend!</p>
+
+<p>Alle Links: www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Mon, 23 Feb 2009 22:46:36 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim514.m4a" length="45909328" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-514-oscar-und-die-glaubensfrage</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #513 - Medienkrise und Hofbräuhaus</title>
+            <description><![CDATA[<p>Danke erstmal an das Schulradioteam Oberroning für das Intro. Dann geht es erstmal um zwei Bücher, und zwar "Drei Minuten mit der Wirklichkeit" und "Christie Malrys Doppelte Buchführung". Von der Medienkrise kriege ich momentan ganz schön was ab, aber das ist halb so wild. Dafür freue ich mich über den Eee PC von meiner Mama und über einen Besuch bei "Stermann & Grissemann" im Münchner Lustspielhaus. Im Kino habe ich "The International" gesehen und ich empfehle die Quarks & Co-Sendung über die Finanzkrise, gibt es natürlich als Podcast. Neu abonniert habe ich den Podcast vom Hofbräuhaus und vom Quotenmeter und den Wochenspiegel. Ich eifere Obama nach (wie wird nur im Audio verraten!) und bastele weiter an Ersatz.TV, an meinem Podcast-Hörbuch und an der großen PR-Aktion für "InTakt" (konferenz-virtuell.de).</p>
+
+<p>Alle Links: www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Mon, 16 Feb 2009 20:57:40 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim513.m4a" length="22217751" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-513-medienkrise-und-hofbräuhaus</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #512 - Ersatz.TV und die australische Geige</title>
+            <description><![CDATA[<p>Heute ein kurzes Sammelsurium. Es gibt auf www.ersatz.tv erste Bilder des neuen Videopodcasts, und am 27. Februar (ich kann es nicht oft genug sagen), müsst Ihr unbedingt das Album "Intakt" von KonFerenz (www.konferenz-virtuell.de) kaufen. Dann habe ich mich noch über Wordpress 2.7 geärgert und mich über das Buch "Drei Minuten mit der Wirklichkeit" gefreut und totgelacht hab ich mich über "Australia" mit Hugh Jackman. Zum Schluss noch was über mein grandioses Geigenspiel...</p>
+
+<p>Alle Links: www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Mon, 09 Feb 2009 13:58:15 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim512.m4a" length="20129022" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-512-ersatztv-und-die-australische-geige</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #511 - Twuffer, Gotan und die intakte KonFerenz</title>
+            <description><![CDATA[<p>Los geht's! Erstmal Danke an alle von Euch, die mir geschrieben haben oder die sich im Forum verewigt haben. Einhellige Meinung: Es soll so weitergehen wie bisher! Tut es hiermit.</p>
+
+<p>Die Themen heute: GMail endlich auch offline, Twitter zeitversetzt durch tweetlater.com und durch twuffer.com. Kino muss auch mal wieder sein, und zwar die unglaubliche, magische, seltsame, verzwickte Geschichte des Benjamin Button mit Brad Pitt in der Hauptrolle. Ich empfehle lieber die unglaubliche, magische, seltsame, verzwickte Geschichte des Max Tivoli. Und die Biografie von Zelda Fitzgerald.</p>
+
+<p>Danke an Thorsten und Syria und an Siegfried für das Tangopaket bestehend aus dem Roman "Drei Minuten mit der Wirklichkeit" und der CD "Gotan Project live". </p>
+
+<p>Für alle Münchner noch ein Tipp: Ab ins Stadtmuseum! Dort gibt es derzeit eine Sonderausstellung namens "Typisch München", die mir gut gefällt. Weniger gut gefällt mir das Wii-Spiel "Movie Studios Party". Minispiele, die die Welt nicht braucht.</p>
+
+<p>Diese Woche wird übrigens zum ersten Mal was gedreht für unseren Videopodcast, der bald starten soll. Zehn Folgen werden erstmal aufgenommen und geschnippelt, dann abgefeuert. Habt Geduld.</p>
+
+<p>Geduld brauchen auch die Jungs von KonFerenz - bitte, bitte, bitte kauft am 27.2. die CD "InTakt" oder zumindest den Song, bei dem ich den Sprechgesang geliefert habe... </p>
+
+<p>Alle Links wie immer auf www.schlaflosinmuenchen.com 
+<br />Schreibt mir an annik@schlaflosinmuenchen.com 
+<br />Oder sprecht auf den AB: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 02 Feb 2009 19:48:21 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim511.m4a" length="22217615" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-511-twuffer-gotan-und-die-intakte-konferen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #510 - Mariaschwarz und die Wiedergeburt</title>
+            <description><![CDATA[Heute mal wieder nur Gequatsche - und die große Frage: Wie geht es weiter mit SiM? Ich hoffe, Ihr macht mit! Kurz erwähnt wird noch das super Yogastudio Shanti-Om in München, und die beiden Bücher, die ich hier noch als Bildchen abbilde. Also: Ab ins Forum, diskutiert mit! Ich bin gespannt auf Eure Meinung.]]></description>
+            <pubDate>Mon, 26 Jan 2009 00:14:09 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim510.mp3" length="21874393" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-510-mariaschwarz-und-die-wiedergeburt</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #509 - Volvic und die Leselotte</title>
+            <description><![CDATA[<p>Ihr habt es schon gehört - ich habe die letzten zwei Wochen brav Volvic getrunken und darüber gebloggt, und zwar hier. Dadurch ist in mir die Lust geweckt worden, endlich mal wieder Glossen zu schreiben - habe sogar einen Workshop gebucht. Meine Lieblings-Kolumnen sind diese hier:</p>
+
+<p>Vom Leben gezeichnet: Tagebuch eines EndverbrauchersÄ: (Kolumnen)Von mir aus. Wahre GeschichtenPooh's Corner. Complett. Sämtliche Kolumnen, Rezensionen, Berichte, Filmkritiken</p>
+
+<p>In den vergangenen Wochen war ich fleissig und würde Euch daher bitten, zum einen in den Handling-Hören-Podcast reinzuhören, da haben wir die Jubiläumsfolge rund ums Podcasting gebastelt. Zum anderen ist auch der Messe-München-Podcast jetzt online, den die Studenten der Deutschen Journalistenschule mit mir produziert haben.</p>
+
+<p>Was erzähle ich Euch noch in dieser Folge? Alles über die Wii Fit und über Neuschwanstein, über das Franz  Marc-Museum und meinen Kampf mit Stampit und der besseren Online-Frankierungsvariante der Packstation. Mein Kinderbuch "Finns Reise im Schlafanzug" ist ja als Hörbuch auf dem Markt, und jetzt hat Finn auch eine Seite bei MySpace.</p>
+
+<p>Drei Produkte hab ich auch für Euch dabei, und zwar den W-LAN-Bilderrahmen von Kodak (EasyShare W1020 heißt er), für alle Leseratten die Leselotte und sehr zufrieden bin ich mit der externen Mini-Festplatte von Trekstor (TrekStor DataStation pocket g.u externe Festplatte 2,5 Zoll 320 GB (inkl. Nero BackItUp 2 Essentials).</p>
+
+<p>Neuerdings experimentiere ich mit Screencasts, und dazu habe ich die Software Jing verwendet. Als nächstes teste ich Screentoaster. Meinen verbrauchten Toner (also die Kassette) habe ich an diese Adresse geschickt. Und ich habe dieses Buch von Patrick Süskind sehr gerne gelesen (siehe Bild). Drei Kinotipps habe ich auch noch, und zwar Buddenbrooks, The Women und Vicky, Christina, Barcelona.</p>
+
+<p>Lauft los und stöbert in den Vorlesungen der Ludwig-Maximilians-Universität München, die nämlich wie drei andere deutsche Unis endlich in iTunes U zu sehen sind. Ihr könnt auch gerne meinen Beitrag nachhören über Podcatcher, und zwar hier. Zum Schluss noch die Empfehlung, Founders at Work: Stories of Startups' Early Days zu lesen und mein Wasserfazit.</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 19 Jan 2009 17:30:50 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim509.m4a" length="31854621" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-509-volvic-und-die-leselotte</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Kleine Zwischenmeldung</title>
+            <description><![CDATA[<p>SiM geht weiter, keine Sorge. Wenn möglich am Mittwoch, spätestens jedoch am Montag nächster Woche. Ich geb Euch nur schonmal ein paar Hausaufgaben...</p>
+
+<p>www.volvic.de/blog
+<br />www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Mon, 12 Jan 2009 18:39:22 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/zwischen.mp3" length="3061594" type="audio/mpeg"/>
+            <guid isPermaLink="false">kleine-zwischenmeldung</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #508 - Ständchen</title>
+            <pubDate>Wed, 24 Dec 2008 00:00:09 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim508.mp3" length="2279634" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-508-ständchen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #500 - Jens-Uwe live</title>
+            <description><![CDATA[Tja, was macht man nur zur 500. Podcastfolge? Keine Ahnung. Ich habe lange gegrübelt, und dann wusste ich es plötzlich: Ich rufe Jens-Uwe an. Der hat auch bereitwillig seine Nummer rausgerückt, und schon waren wir mitten in einer Plauderei. Viel Spaß beim Mithören.]]></description>
+            <pubDate>Tue, 16 Dec 2008 00:00:53 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim500.mp3" length="30271595" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-500-jensuwe-live</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #490 - Die Nikolaus-Verlosung</title>
+            <description><![CDATA[<p>Heute also endlich die Verlosung. Das war vielleicht eine Arbeit! Jeder hatte die Schnipsel in seinem Lieblings-Format eingesendet, das zu konvertieren hat Zeit gekostet. Falls Ihr Euch nicht hört, keine Sorge: Dann habt Ihr trotzdem an der Verlosung teilgenommen, ich konnte einfach nicht alle Schnipsel spielen.</p>
+
+<p>Gewonnen haben: Andreas den iPod, Susanne und Rosella die Hörbücher aus dem Solo-Hörbuchverlag, Damares den Schmuck von Francis, und die Bücher von Daniel Fiene gingen an Jonathan in Paris, Fabian und Gabi aus Fürstenried. Ein Exemplar von "Finns Reise im Schlafanzug" geht als Trostpreis an Michael.</p>
+
+<p>Danke allen, die mitgemacht haben!</p>]]></description>
+            <pubDate>Sat, 06 Dec 2008 21:03:32 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim490.mp3" length="20220689" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-490-die-nikolausverlosung</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #507 - The Junction</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Tue, 23 Dec 2008 00:00:03 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim507.mp3" length="2085781" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-507-the-junction</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #506 - Liebe Sabine</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Mon, 22 Dec 2008 00:00:13 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim506.mp3" length="3882217" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-506-liebe-sabine</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #505 - Worldmapper</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Sun, 21 Dec 2008 00:00:32 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim505.mp3" length="1870191" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-505-worldmapper</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #504 - George Orwell bloggt</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Sat, 20 Dec 2008 00:00:40 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim504.mp3" length="2015316" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-504-george-orwell-bloggt</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #503 - BBCs ISO-Container</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Fri, 19 Dec 2008 00:00:05 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim503.mp3" length="2215474" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-503-bbcs-isocontainer</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #502 - Poetry Archive</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Thu, 18 Dec 2008 00:00:06 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim502.mp3" length="2108301" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-502-poetry-archive</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #501 - Expli</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Wed, 17 Dec 2008 00:00:59 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim501.mp3" length="1920642" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-501-expli</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #499 - Die Klage gegen Gott</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Mon, 15 Dec 2008 00:00:24 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim499.mp3" length="1751772" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-499-die-klage-gegen-gott</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #498 - MTV.com</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Sun, 14 Dec 2008 00:00:39 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim498.mp3" length="2119136" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-498-mtvcom</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #497 - Die Unvollendete</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Sat, 13 Dec 2008 00:00:18 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim497.mp3" length="2045753" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-497-die-unvollendete</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #496 - Ein neuer Name</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Fri, 12 Dec 2008 00:00:20 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim496.mp3" length="1601646" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-496-ein-neuer-name</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #495 - Deletionpedia</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Thu, 11 Dec 2008 00:00:46 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim495.mp3" length="2018645" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-495-deletionpedia</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #494 - YouTube-Channels</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Wed, 10 Dec 2008 00:00:49 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim494.mp3" length="2603699" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-494-youtubechannels</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #493 - Newseum</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Tue, 09 Dec 2008 00:00:19 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim493.mp3" length="2543642" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-493-newseum</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #492 - Finn und die Drahtseilmenschen</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Mon, 08 Dec 2008 00:00:48 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim492.mp3" length="5939713" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-492-finn-und-die-drahtseilmenschen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #491 - Werner und der blaue Himmel</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Sun, 07 Dec 2008 00:00:33 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim491.mp3" length="6257881" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-491-werner-und-der-blaue-himmel</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #489 - Geschenke für Männer</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Fri, 05 Dec 2008 00:00:53 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim489.mp3" length="4369315" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-489-geschenke-für-männer</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #488 - Sterntaler für Afrika</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Thu, 04 Dec 2008 00:00:57 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim488.mp3" length="3600369" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-488-sterntaler-für-afrika</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #486 - Radio Tyrus</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Tue, 02 Dec 2008 00:00:17 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim486.mp3" length="5464314" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-486-radio-tyrus</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #487 - My Heritage</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Wed, 03 Dec 2008 00:00:22 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim487.mp3" length="5104443" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-487-my-heritage</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #485 - iPod zu gewinnen</title>
+            <description><![CDATA[Der SiM-Adventskalender. Alle Links zu den Folgen auf www.schlaflosinmuenchen.com.]]></description>
+            <pubDate>Mon, 01 Dec 2008 00:00:32 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim485.mp3" length="6174470" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-485-ipod-zu-gewinnen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #484 - Chocri und Finns Reise im Schlafanzug</title>
+            <description><![CDATA[<p>Dankeschön für das Intro an Johannes und das Schulradioteam Oberroning. Danke auch an Paul und Matthias aus Wien für die Unterstützung. Josephine ist die Erste, die mein neues Hörbuch "Finns Reise im Schlafanzug" gekauft hat, das ich mit meiner Freundin Jasmin Hagmann produziert habe. Näheres zu diesem Kinder-Hörbuch unter www.finnsreise.de. Danach noch ein Buchtipp, und zwar Strübel & Passig, und Hartmut hat Schokolade entdeckt von chocri.de. </p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 24 Nov 2008 18:25:14 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim484.m4a" length="21693186" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-484-chocri-und-finns-reise-im-schlafanzug</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #483 - LingQ und London, Baby! </title>
+            <description><![CDATA[<p>So, erstmal zu den London-Tipps, nachdem Dirk so ein schoenes Intro abgeliefert hat. Wir haben im Swissotel The Howard (http://www.swissotel.com/EN/Destinations/United+Kingdom/Swissotel+The+Howard/Hotel+Home/Hotel+Description) gewohnt. Fünf Sterne für pro Person ca. 75 Euro im Doppelzimmer. Beste Lage an der U-Bahn-Station Temple. U-Bahn-Tickets hatten wir im Vorfeld bei london.de gekauft (drei Tage-Karte für 30 Euro). Leckeres Essen gibt es bei Wagamama (http://www.wagamama.com/), Itsu (http://www.itsu.co.uk/) und Crêpe Affaire (http://www.crepeaffaire.com/home.htm), leider geschlossen war das Inamo (http://www.inamo-restaurant.com/). Knallevoll war Abercrombie & Fitch (http://www.abercrombie.com), nett war dagegen der Film Easy Virtue (http://www.easyvirtuethemovie.co.uk/). Sightseeing haben wir auch gemacht, und zwar waren wir natuerlich im groessten Riesenrad der Welt, dem London Eye (http://www.londoneye.com/). Und wir haben eine Annie Leibovitz-Ausstellung gesehen in der National Portrait Gallery (http://www.npg.org.uk/live/). Zum Schluss noch ein Interview mit Steve von der Sprachenlern-Plattform LingQ. Und ganz am Ende hört Ihr das hier: http://www.youtube.com/watch?v=pHKfD-vxtlY.</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Tue, 18 Nov 2008 15:52:15 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim483.m4a" length="43574872" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-483-lingq-und-london-baby</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #482 - Barack, Brandner Kaspar und 1000 Antworten</title>
+            <description><![CDATA[<p>Ein Gruß geht nach dem Intro von Andreas an Maren aus Hannover, und ein Dankeschoen fuer den schoenen Lesestoff geht an Claudio aus England und Saskia aus Muenchen. Ich lese gerade von Brigitte Riebe "Die Suenderin von Siena". Euch lege ich ans Herz, Eure wissenschaftlichen Fragen zu stellen beim neuen SWR-Projekt "1000 Antworten". Oder abonniert erstmal den Podcast und hoert rein. Als naechstes kommt das Thema Mathematik dran. Ich nehme die echt gut gemachte Sendung SWR2 Impuls uebrigens neuerdings zeitgesteuert auf, und zwar mit der Software RadioLover. Kann ich sehr empfehlen. Ebenso empfehle ich den Film "Der Brandner Kaspar". Hab mich amuesiert, aber bahnbrechend ist er natuerlich nicht. Was noch? Ach ja, der neue designierte amerikanische Praesident Barack Obama und die Aussprache seines Namens (seine lustige Rede koennt Ihr hier herunterladen). Und meine Kurse beim SAE und bei Schulz. Endlich kommt auf der Skype-Anrufbeantworter wieder zu Wort, diesmal haben Marco, Saskia und Marc draufgesprochen. Denkt dran: Ihr kriegt immer noch ein kostenloses Hoerbuch hier bei Audible. Und Ihr koennt einen iPod nano gewinnen, wenn Ihr mir bis 6. Dezember einen Lieblingssatz aus Eurem Lieblingsbuch einsprecht oder auf Band sprecht. Das war's fuer heute - fuer mich heisst es jetzt "London, Baby!" (Zitat aus...???)</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 10 Nov 2008 19:47:19 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim482.m4a" length="35263885" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-482-barack-brandner-kaspar-und-1000-antwor</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #481 - Jens-Uwe und Tischthema.TV</title>
+            <description><![CDATA[<p>Heute eine ultralange Episode, denn Ihr hört endlich das Interview mit Thomas und Lucas von Tischthema.tv. Ungefähr einmal pro Monat laden sich die beiden interessante Menschen an ihren Küchentisch ein und machen ihre eigene Video-Talkshow. Unbedingt einen Blick wert, und ich warte sehnsüchtig auf die Audio-Version, dann wäre ich Eure treueste Hörerin! Jens-Uwe hat auch wieder einen Brief geschrieben und hadert weiterhin mit meinen Problemzonen...</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 03 Nov 2008 11:40:18 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim481.m4a" length="51516875" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-481-jensuwe-und-tischthematv</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #480 - Fiene, Fundbüro, Maupin</title>
+            <description><![CDATA[<p>Heute mal eine Folge, die eine Woche alt ist. Passt gut, weil ich gerade erkaeltet bin und nichts aufnehmen will, kann, soll... Zunaechst mal ein Buchtipp von Armistead Maupin (Michael Tolliver Lives), danach ein Gespraech mit Daniel Fiene (www.wasmitmedien.de), und Hartmut empfiehlt "Top Style Pro" (www.bradsoft.com). Ich lese gerade von Brigitte Riebe "Die Hexe und der Herzog". </p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 27 Oct 2008 17:43:32 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim480.m4a" length="24640851" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-480-fiene-fundbüro-maupin</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #479 - Shralp und Schimpfe</title>
+            <description><![CDATA[<p>Heute geht es u.a. um die sae Alumni Convention in Berlin und um Christian Miessner von Shralp - extralanges Interview mit dem Videopodcaster aus München! Mehr zu seiner Arbeit: www.shralp.com</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 20 Oct 2008 13:25:13 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim479.m4a" length="50748786" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-479-shralp-und-schimpfe</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #478 - Cali Lewis und der Senseo-Tee</title>
+            <description><![CDATA[<p>Nach einem schoen musikalischen Intro von Marco geht es los mit Buechern, wie so oft. Erwaehnt diesmal:</p>
+
+<p>Quattro Stagioni: Ein Jahr in Rom
+<br />Karrierefalle Internet. Managen Sie Ihre Online-Reputation, bevor andere es tun!
+<br />Griffin & Sabine: An Extraordinary Correspondence</p>
+
+<p>Ein Dank geht an Frank aus Herzogenaurach, Michael aus Riedstadt, Thomas aus Michelau und Bob aus Dayton/Ohio. Und das Griffin-Buch ist von Scott, vielen Dank! Heute noch mit dabei: Der grosse Senseo-TEE-Test, hier das Zubehoer von Daniel, das ich getestet habe:</p>
+
+<p>Senseo Tee Padhalter HD 7991 (für Pickwick Tee Pads)HD 7991/00
+<br />Pickwick Teepads, Early Grey, 6 Packungen mit jeweils 20 Teepads</p>
+
+<p>Tiger kommt heute auch mal wieder zu Wort, und Hartmut berichtet vom Barcamp in Muenchen, bei dem es uebrigens auch ums Podcasting ging (zum Beispiel hier), und am Ende dann noch das Interview mit Cali Lewis von Geekbrief.TV.</p>
+
+<p>[audio:http://media.libsyn.com/media/schlaflos/sim478.mp3]</p>
+
+<p>Hier die Episode herunterladen
+<br />Hier im Forum mitdiskutieren</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 13 Oct 2008 19:40:44 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim478.m4a" length="35468341" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-478-cali-lewis-und-der-senseotee</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #477 Nachtrag</title>
+            <pubDate>Sun, 05 Oct 2008 22:20:28 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/nachtrag.mp3" length="1715425" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-477-nachtrag</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #477 - Hörbuchgeschenk, Erotik und Bibbern</title>
+            <description><![CDATA[<p>Balthi hat heute das Intro geliefert. Danach geht es los mit dem Podcaststammtisch in Muenchen (Fotos hier: http://www.oosah.com/oosah_gallery.php?gallery_id=3908). Sascha liest mittlerweile die Buddenbrooks, und ich habe seither von Andreas Altmann "Notbremse nicht zu frueh ziehen" gelesen und schmoekere gerade in "Quattro Stagioni" von Stefan Ulrich. Der Videopodcast ist im Werden, ebenso meine GmbH oder mini-GmbH. Fertig ist seit dem Wochenende die DVD mit den Folgen 1-400, falls Ihr sie haben wollt, bitte kurze Mail an mich mit Eurer Adresse, ich sende euch dann die Zahlungsinfos. Zehn Euro plus Porto muesst Ihr von Eurem Taschengeld dafuer ansparen. Danke an Daniel fuer Senseo-Tee und eine Electronic Tango CD, und ein Hoermuss ist die Zuendfunk-Sendung am Samstag, 11. Oktober, um 19.05 Uhr in Bayern2. Da geht es um Internet und Fernsehen und ich hab viele interessante Leute dafuer interviewt! Kurz kommt noch Tom Buhrow zu Wort, ein Ausschnitt aus der Talksendung von Bettina Tietjen (Link: http://podcast.feedarea.de/podcast82559_NDR_2___Tietjen_talkt.html), und mein Chef von SWR2 bittet Euch, Fragen zum Thema Astronomie einzusenden, und zwar hier: http://www.swr.de/swr2/programm/sendungen/impuls/-/id=1853902/nid=1853902/did=4030460/1lesng5/index.html. Ein Geschenk habe ich auch fuer Euch, und zwar schenkt Euch genauer gesagt Audible das spannende Hoerbuch "Amokspiel" von Sebastian Fitzek, gelesen von Simon Jaeger. Ihr muesst Euch lediglich hier registrieren: www.audible.de/sim. Auch Karla macht mit: http://www.audible.de/buchkolumne/. So, weiter geht es mit Erotik. Und zwar habe ich zwei Dinge geschickt bekommen, zum einen "Liebe geht durch die Haut", ein Baendchen mit erotischer Lyrik und Kunst, zum anderen wortlos die CD "Wahre Szenen einer Ehe" von Rudolf Geiser. Zum dritten habe ich aber ein Interview gemacht mit Rebecca Martin zu ihrem Erstlingsroman "Fruehling und so". Es ist eines der Buecher in der neuen Reihe Anais vom Schwarzkopf&Schwarzkopf-Verlag, in der sich alles um erotische Literatur fuer Frauen dreht. Nach diesem heissen Thema noch ein Expertengespraech mit Karin Hertzer ueber ihre Bibberbox "Nie wieder frieren". Ein nettes Geschenk fuer alle Verfrorenen da draussen! Karin gibt jedenfalls Tipps, wie man diesen Winter weniger friert. Fertich!</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Sun, 05 Oct 2008 18:54:52 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim477.m4a" length="38695035" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-477-hörbuchgeschenk-erotik-und-bibbern</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #476 - Baader, Meinhof und ein Bestseller</title>
+            <description><![CDATA[<p>Nach einem netten Intro von Coke empfehle ich Euch erstmal "The Wire". Dann berichte ich ein klitzekleines bißchen ueber meine Web 2.0-Idee und schwaerme von drop.io, Shelfari und Tumblr. Zum "Baader-Meinhof-Komplex" habe ich noch keine endgueltige Meinung, wohl aber zu diesen Buechern:</p>
+
+<p>Mitten ins Gesicht, The Little Black Book of Stories, Happy Birthday, Türke: Ein Kayankaya-Roman, Hamma wieder was gelernt: über das Erwachsenwerden.</p>
+
+<p>Ein Dankeschoen geht an Carsten aus Dissen und Heinrich aus Moosburg fuer die nette Post. Ich arbeite gerade an drei Hoerbuechern, das Erste gibt es wohl ab naechster Woche, mit den SiM-Folgen 1-400, weil einige von Euch die immer noch haben wollen. Tja. Das Schluss-Schmankerl ist heute ein Auszug aus dieser Sendung.</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 29 Sep 2008 15:00:36 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim476.m4a" length="29105688" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-476-baader-meinhof-und-ein-bestseller</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #475 - Der Räuber Kneissl, eigene Hörbücher und ein Gedicht</title>
+            <description><![CDATA[<p>Alle Links bei schlaflosinmuenchen.com 
+<br />Mail an annik@schlaflosinmuenchen.com 
+<br />Mailbox auf 089-23 513 085</p>
+
+<p>Ein Intro von Sebastian eroeffnet die neue Folge. Ich freue mich besonders, dass Richard Miller wieder podcastet und es weitergeht mit Sparkletack. Die heute erwaehnten Buecher sind:</p>
+
+<p>Buddenbrooks: Verfall einer Familie. RomanDie Elfen von New YorkDie Stadt der BlindenLife Isn't All Ha Ha Hee HeeHamma wieder was gelernt: über das Erwachsenwerden</p>
+
+<p>Im Kino habe ich mir den Raeuber Kneissl angeschaut und fuer gut befunden. Auf DVD gab es noch Mitten ins Herz - Ein Song für Dich, bei dem natuerlich die ersten Minuten am Besten sind. Wer einen Zoom H-4 hat: Unbedingt ein Firmware-Update machen, das lohnt sich! Im Web 2.0 entdecke ich derzeit drop.io/schlaflos, tumblr und das von Amazon gekaufte Shelfari. Bei Zoomer gibt es eine neue Kolumne von mir mit reger Diskussion. Bei SWR2 in der Sendung Impuls wird diese Woche meine Weblexikon-Serie zu hoeren sein. Und nebenbei plane ich eigene Hoerbuecher, aber das ist gar nicht so leicht!</p>
+
+<p>Am Montag, 22. September, wird ein Interview mit mir in der Deutschen Welle ausgestrahlt (Eurovox), in dem ich meine Top Ten der Stadt Muenchen verrate. Am 11. Oktober wird es im Zuendfunk auf Bayern2 ein Special geben, auf das ich mich sehr freue, und wer in Muenchen zum Essen gehen will, dem empfehle ich das Shida und das Tenno. Endlich antworte ich auch auf Jens-Uwes Brief in der Podvela, und auf Eure Anrufe auf der Skype-Mailbox (089-23 513 085).</p>
+
+<p>Ein Dank geht an Steffen, und an den Rowohlt-Verlag, der mir das neue Buch von Markus Kavka geschickt hat (siehe oben). Der gespielte Song ist “Be kind to your parents” in der Version von Pete Seeger (gibt es nicht bei iTunes!). Ein Dank auch an Christian von der Hochschule für Musik und Theater fuer den Beitrag gegen das Formatradio. Zum Schluss noch als Hoerempfehlung die Radiowelt auf Bayern2 und ein Gedicht von Nicholas Wachter, produziert von Martin Bauer. Der Titel ist allerdings ein Anderer, als ich dachte - tut mir leid!</p>]]></description>
+            <pubDate>Sun, 21 Sep 2008 16:00:53 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim475.m4a" length="42594316" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-475-der-räuber-kneissl-eigene-hörbücher-un</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #474 - Portugal, Wall-E und Buddenbrooks</title>
+            <description><![CDATA[<p>Wieder da! Diesmal mit Berichten zur Web 2.0-Serie in der Abendzeitung und zu zoomer.de. Dann natürlich meine schönsten Urlaubserlebnisse aus Portugal und meine Einschätzung von ProSieben-Serie Afterworld und Pixar-Film Wall-E. Ich empfehle Euch die Podcasts filmtrailer und Ein Bayer tut rügen und berichte natürlich auch vom Barcamp für Frauen und von meinem ifp-Seminar, bei dem unter anderem Bruder Paulus dabei war. Angeschaut habe ich auch den neuen Batman und 39,90. Und in Sachen Podcasting weise ich hin auf die neue Podcastumfrage und auf den Podcaststammtisch am 4. Oktober in München. Großer Dank gebührt Uwe aus München, Maria aus München und Maria aus Thalkirchen, Roland aus Regensburg, Les aus Sacramento, Bernd aus Baden-Baden und Daniel aus Neuss. Das Intro stammt übrigens von Matthias aus Hamburg und der Podcast-Ausschnitt war aus "Krulwich on Science" von NPR.</p>
+
+<p>Alle Links bei schlaflosinmuenchen.com
+<br />Mail an annik@schlaflosinmuenchen.com
+<br />Mailbox auf 089-23 513 085</p>]]></description>
+            <pubDate>Sun, 14 Sep 2008 23:16:52 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim474.m4a" length="28510664" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-474-portugal-walle-und-buddenbrooks</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #473 - Die Yogafee zu Gast (Fotos im Internet!)</title>
+            <description><![CDATA[<p>Heute mit der Yogafee Verena (www.yogafee.de)</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 11 Aug 2008 15:57:58 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim473.mp3" length="21283605" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-473-die-yogafee-zu-gast</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #472 - Der Prinzessin und der Computerspieler</title>
+            <description><![CDATA[<p>Danke an Henry vom Kielpod für das Intro. Heute mal ein Buch von Francois Lelord, dann die Miniserie "Dr. Horrible" von Joss Whedon. Hörbücher von Bill Bryson (Mein Amerika), Tom Buhrow (Mein Amerika. Dein Amerika), und der Lauscherlounge (Der Prinzessin und Dodo). Jens-Uwe hat endlich wieder einen Brief geschrieben und am Ende gibt es ein Interview mit Anatol über Computerspiele. Yoga gibt es dann nächste Woche...</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 11 Aug 2008 14:42:04 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim472.mp3" length="43706594" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-472-der-prinzessin-und-der-computerspieler</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #471 - Die Akte Mamma Mia in Paris</title>
+            <description><![CDATA[<p>Heute werden mal Filme besprochen. Erst "Zurueck im Sommer" mit Julia Roberts, dann "So ist Paris" mit Juliette Binoche, dann "Mamma Mia" mit Meryl Streep und dann "Akte X". Zwei Serien empfehle ich Euch: "Californication" mit David Duchovny und "Long Way Down" mit Ewan McGregor. Noch kurz erwaehnt sei "Der letzte Kuss" mit Zach Braff (Scrubs). Hartmut wuenscht sich indessen einen kleinen, klitzekleinen Laptop und Buecher hab ich auch im Gepaeck, und zwar "The Bell Jar" von Sylvia Plath und "Faserland" von Christian Kracht. Schliesslich noch die SZ Muenchen Bibliothek, ein Bahn-Buch, alter Schmuck, SWR2 Wissen ueber Ganesh, den indischen Gott und der Abspann. Naechste Woche gibt es ein Interview mit meiner Freundin und Yogalehrerin Verena und Jens-Uwe hat endlich wieder einen Brief geschrieben!</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 04 Aug 2008 14:12:25 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim471.m4a" length="30133779" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-471-die-akte-mamma-mia-in-paris</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #470 - Silbersurfer, WTF und hitzefrei</title>
+            <description><![CDATA[<p>Hartmuts WTF: wt-framework.com
+<br />Franks Seite und Podcast: www.silbersurfer.de</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 28 Jul 2008 13:54:38 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim470.m4a" length="35759373" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-470-silbersurfer-wtf-und-hitzefrei</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #469 - Mrs. Fox und Mr. Dotdean</title>
+            <description><![CDATA[<p>Heute ein Intro von Kay, danach ein Buchtipp: "Mrs Fox will wieder heim" von Sabrina Fox, das mir Peter geschenkt hat (entdeckt im Fröhlich lesen-Podcast). Ein kleiner Ausflug in die Podosphäre führt uns zum Bayern5 Medienmagazin und zu Bayern3 Stars und Hits, und danach endlich mal wieder was vom Skype-Anrufbeantworter. Zu hören sind diesmal Marco zu 5 am Tag, Bastian, Dieter aus Dortmund und Dietmar aus der Sauna in Baden-Baden. </p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 21 Jul 2008 09:16:22 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim469.m4a" length="33990446" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-469-mrs-fox-und-mr-dotdean</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #468 - Kung Fu Hancock isst Müsli</title>
+            <description><![CDATA[<p>Los geht es diese Woche mit einem Intro von TominMuc, gefolgt von einem Ausschnitt aus SWR1 Leute Rheinland-Pfalz mit Schauspieler Winfried Glatzeder. Ein Gruß geht nach Neustadt an der Donau, und dann könnt Ihr weiterhin für den European Podcast Award abstimmen. Das BR-Dossier zum Thema Podcasting ist auch endlich fertig, und ich empfehle Euch das Audible-Flexi-Abo, falls Ihr gerne und viele Hörbücher hört. Was noch? Ein Gruß an Gülay, dann ein Daumen hoch für Kung Fu Panda und ein Daumen halb-hoch für Hancock, relativ gleichgültig bin ich gegenüber den Büchern von Jan Weiler und Minh-Khai Phan-Thi, Dankeschöns gehen an Peter, Eckart, Birgit, Brian und Mareile, und an die Jungs von mymuesli.com. Darüber habe ich auch lafraise.com entdeckt, einen T-Shirt-Laden. Über rottenneighbors.com habe ich einen Beitrag gemacht, der im Computermagazin auf B5 zu hören ist (Link bald hier), und Finger weg vom Wii-Spiel Mini Desktop Racing! </p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Sun, 13 Jul 2008 01:53:03 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim468.m4a" length="27293043" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-468-kung-fu-hancock-isst-müsli</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #467 - Berliner Hans Wurst und die Senioren</title>
+            <description><![CDATA[<p>Nach einem Intro von Uwe geht es diese Woche los, aufgenommen waehrend des Fussball-EM-Endspiels. Ein Gruss geht nach Berlin in Richtung Richard und Havi, Francis, Chinaza, dann noch ein wenig Christopher Street Day und European Podcast Award, ein Lob dem SeniorenNet Süd in Muenchen und ein Schimpf in Richtung W-Lan-Radio. So. Mehr zum Berlin-Aufenthalt in den naechsten Tagen hier auf der Seite. Fotos sind bei Flickr schon online.</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 30 Jun 2008 00:02:48 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim467.m4a" length="22589813" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-467-berliner-hans-wurst-und-die-senioren</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #466 - Wii, wiiiiiiiie toll!</title>
+            <description><![CDATA[<p>Extremely Loud and Incredibly CloseHeute mal eine kurze Folge, nehme ich mir ja immer vor. Ich empfehle Euch als Lektüre für den Urlaub das Buch Extrem laut und unglaublich nah von Jonathan Safran Foer. Wenn Ihr auf das Cover klickt, kommt Ihr zum englischen Original als Taschenbuch (sehr günstig!), der Link bringt Euch zum deutschen Buch. Es geht darin um den kleinen Oskar, der mit dem Tod seines Vaters klar kommen muss. Sein Vater starb bei den Terroranschlägen am 11. September. Natürlich ist das Buch berührend und traurig, aber man muss häufig auch schmunzeln über die Gedanken und Ideen des Jungen. Danke an Richard!</p>
+
+<p>Fisher-Price B0334-0 - Kassettenrecorder mit StimmenverzerrfunktionEin schönes Spielzeug ist auch der Fisher-PriceKassettenrecorder mit Stimmenverzerrfunktion. Da kann man in ein kleines Mikrofon sprechen und das klingt dann wie ein Alien, ein Roboter oder ein Hamster. Für jeden Podcaster ein schönes Spielzeug! Danke an Marc für dieses Geschenk.</p>
+
+<p>Nintendo Wii Konsole - Wii Sports Bundle whiteUnglaublich finde ich die Nintendo Wii Konsole inklusive Wii Sports Bundle. Ich hab dazu noch Mario Kart Wii (inkl. Wii Wheel) geschenkt bekommen, und da ist der Suchtfaktor wirklich extrem hoch. Schade nur, dass es nicht mehr Spiele im Standard-Paket gibt!</p>
+
+<p>Falls Ihr es noch nicht gemacht habt, gebt mir Bescheid wie Euch das neue Layout dieser Seite gefällt. Ascari hat es gebastelt, und Isegrim wird das Forum noch anpassen. Danke Euch sehr dafür!</p>
+
+<p>[audio:http://media.libsyn.com/media/schlaflos/sim466.mp3]</p>
+
+<p>Hier zum Download der Folge
+<br />Hier könnt Ihr im Forum mitdiskutieren</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 23 Jun 2008 16:12:39 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim466.m4a" length="16301447" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-466-wii-wiiiiiiiie-toll</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #465 - Die letzte Sex-Vorlesung</title>
+            <description><![CDATA[<p>Los geht es mit einem Messerundgang ueber die Automatica, weiter geht es mit dem iPod-Spiel Brain Challenge und dann zu meinen Buchtipps: Gerade lese ich Zu Hause sein: Mein Leben in Deutschland und Vietnam. Dazu mehr naechste Woche. Heute aber einiges ueber Will You Please Be Quiet, Please? von Raymond Carver und schimpfen muss ich ueber Randy Pauschs The Last Lecture.  Als Hoerbuch hoere ich gerade von Bill Bryson Mein Amerika: Erinnerungen an eine ganz normale Kindheit. Am Wochenende war ich im Prinz-Carl-Palais und in der Bayerischen Staatskanzlei und danach habe ich eine japanische Teezeremonie besucht. Weiter geht es mit Sex and the City, einigen Skype-Anrufen und dann dem Handling Hoeren-Podcast.</p><p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 16 Jun 2008 16:12:22 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim465.m4a" length="37739446" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-465-die-letzte-sexvorlesung</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #464 - Sommerbücher auf dem Friedhof</title>
+            <description><![CDATA[<p>Erstmal erzähl ich Euch was von Theater auf dem Friedhof und dem Streetlife-Festival in München. Als lustigen französischen Videocast empfehle ich Euch La Chanson du Dimanche. Dann geht es los mit dem Buch-Special. Nicht empfehlenswert weil einfach unbedeutend ist Dinner for Two von Mike Gayle. Ihr habt mir über Twitter folgende Bücher empfohlen:</p><p>Holgerbaer: Suppenkueche Inc. von Thomas Klausmann<br />Richard: Faserland von Christian Kracht<br />KonFerenz: Liebe heute: Short Stories von Maxim Biller<br />nueffl: Duma Key von Stephen King<br />suncoffee: Die Wand von Marlene Haushofer<br />fkoehn: Divorcing Jack von Colin Bateman<br />domestos: Irgendwas von Orhan Pamuk<br />A4K: Jonathan Safran Foer oder Unentschlossen von Benjamin Kunkel<br />selganor_de: Storm Front (Dresden Files) von Jim Butcher<br />Domestos: ministeps. Meine ersten Puzzlekarten. Tiere.<br />Eriktechn: Barking von Tom Holt<br />marcusmeisel: The Omnivore's Dilemma: A Natural History of Four Meals von Michael Pollan<br />chaosblog: Das Echo aller Furcht von Tom Clancy<br />themanuel: Gnosis von Adam Fawer<br />marcowolf: Feuchtgebiete von Charlotte Roche oder was von Matthew Reilly<br />Witti: Die Stadt der träumenden Bücher von Walter Moers<br />tobcast: Wir nennen es Arbeit: Die digitale Boheme von Sascha Lobo und Holm Friebe<br />krimikiste: totgepflegt von Minck&Minck oder Rattenfalle von Robert Pucher<br />_holger: Physik der Superhelden von James Kakalios</p><p>Auge des MondesWeiter geht es mit Brigitte Riebe und ihrem wunderbaren Buch "Auge des Mondes", natürlich inklusive Katzengeschichte. Riebe ist Historikerin und hat 28 Bücher geschrieben. Sie lebt in München-Schwabing und das komplette Interview könnt Ihr hier herunterladen. Einen Auszug gibt es im Podcast zu hören. Ihr nächstes Buch erscheint im August 2008 und heißt Die Hexe und der Herzog. Sie empfiehlt übrigens selbst als Lesetipp Die Brillenmacherin von Titus Müller. Kennen gelernt haben Brigitte und ich uns übrigens über den Friseursalon Cut and Curl. Falls Ihr eine gute Friseurin braucht, die sich mit Naturlocken auskennt, lasst Euch einen Termin bei Agnes geben! Als nächstes lese ich von Brigitte Riebe Moon. Ein Katzenroman. Und dann liegt noch Die Sünderin von Siena auf meinem Nachttisch. Euch wünsche ich erstmal viel Spaß beim Schmökern!</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 09 Jun 2008 14:23:26 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim464.m4a" length="27364158" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-464-sommerbücher-auf-dem-friedhof</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #463 - Indiana Jones und sein Kopfkissen</title>
+            <description><![CDATA[<p>Gilmore Girls - Staffel 7, Vol. 1, Episoden 01-12 (3 DVDs)Ausnahmsweise am Dienstag gibt es eine neue Folge von SiM, Schuld waren die Gilmore Girls. Ehrlich. Ich kann nix dafuer. Anyway, heute plappere ich ueber den neuen Indiana-Jones-Film, ueber meine Grossbestellung bei Amazon.de (inklusive Randy Pausch's "Last Lecture", siehe rechts!) The Last Lectureund ueber das Buch "Bossa Nova: Ein Roman aus der Provinz" von Johano Strasser und ueber Stephen Fry's "The Stars' Tennis Balls" (hier gibt es seinen Podcast!). Eine Antwort auf Jens-Uwes Playboy-Frage gibt es natuerlich auch, dazu kommt eine Kissenbastelanleitung von Hartmut und ein paar Skype-AB-Ansagen von Euch. Was noch? Ein Schluss-Schmankerl mit Alex vom Tellerrand-Podcast.</p><p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23</p>]]></description>
+            <pubDate>Tue, 03 Jun 2008 13:46:42 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim463.m4a" length="32697762" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-463-indiana-jones-und-sein-kopfkissen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #462 - Tofu, Twitter und ein Playboy</title>
+            <description><![CDATA[<p>Zunaechst meldet sich Fy vom Perlenpod (perlenpod.fy-gadiot.de) zu Wort und gibt ihr Fazit vom SiM-Hörer-testen-veganes-Essen-Treffen. Dann muss ich Euch kurz von einem Tofu-Rezept vorschwarmen (chefkoch.de/rezepte/962121201783432/Poulet-Tofugeschnetzeltes-suess-salzig.html) und von einem Buch von Brigitte Riebe, dazu aber ein andermal mehr. Jens-Uwe hat endlich wieder einen Podvela-Brief geschrieben, in dem es um den Playboy geht, und ich habe eine ganz andere Suende entdeckt, und zwar den Pralinenladen sama-sama (sama-sama.de). Die Jazzbar Vogler (jazzbar-vogler.com) kaempft gerade um das Ueberleben, und ich erzaehle Euch noch was ueber die Ami-Serien Dexter, Lipstick Jungle, Samantha Who? und Dr. House. In Hohenaschau im Chiemgau findet gerade die sehenswerte Ausstellung "Adel in Bayern" (www.hdbg.de/adel/) statt, perfekt fuer einen Tagesausflug von Muenchen aus. Bei Twitter tut sich gerade einiges, es gibt mittlerweile auch Twitter-Charts (popkulturjunkie.de/wp/?p=3634). Die Berliner Nacht-Taxe (rbb-online.de/_/fernsehen/index_jsp/key=4878076.html) gibt es leider immer noch nicht als Podcast, dafuer koennt Ihr Euch aber Konstantin Weckers Hoerbuch "Der Klang der ungespielten Toene" anhoeren. Am Schluss noch ein Wort zum Oxfam-Shop und dann hoert Ihr TomInMuc (tomue.macbay.de/wordpress) in seinem Podcast wunderbar lachen...</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 26 May 2008 15:04:49 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim462.m4a" length="48543887" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-462-tofu-twitter-und-ein-playboy</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #461 - Nach dem Hörertreffen</title>
+            <description><![CDATA[<p>Es ist geschafft! Am vergangenen Samstag haben sich 17 SiM-Hoerer mit mir getroffen. Und sie waren ALLE nett. Glueck gehabt! Bis nachts um zwei haben wir gequatscht, was das Zeug haelt, erst im Café Kopfeck, dann im Café Sax. Links zu den Fotos findet Ihr hier. Wir muessen das wiederholen - vielleicht zur Folge 500? Jedenfalls heute noch in der Folge: Ein Interview mit Victor (hier geht's zu seinem Blog mit tollen Fotos, hier zu seinem Podcast) über das Stricken (ich will auch so ein Dreieckstuch!!!) und im Abspann noch ein Schluss-Schmankerl. Naechste Woche dann wieder eine "normale" Folge mit Jens-Uwe, vielen Infos und Hartmut aus dem Schrank.</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 19 May 2008 14:08:23 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim461.m4a" length="44619373" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-461-nach-dem-hörertreffen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #460 - Armenische Iron-Männer</title>
+            <description><![CDATA[<p>Neues aus dem Schrank: Neben ein paar kleinen Anekdoten aus dem Internet heute mal wieder was zu Harry Mulisch's "Die Entdeckung des Himmels". Im Kino habe ich "Iron Man" angeschaut (nettes Popcorn-Kino) und "Meine Mutter, mein Bruder und Ich" (sehenswert). Karsten hat mich auf die Seite vom Soundchicken geschickt, und auf dem Skype-AB war nix drauf! Mitfinanziert hat diese Folge Mareile aus Amerika. Danke schön!</p><p>[audio:http://media.libsyn.com/media/schlaflos/sim460.mp3]</p><p>Alle Links wie immer auf www.schlaflosinmuenchen.com
+<br />Schreibt mir an annik@schlaflosinmuenchen.com
+<br />Oder sprecht auf den AB: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 05 May 2008 13:42:40 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim460.m4a" length="44058936" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-460-armenische-ironmänner</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #459 - Juno, Kirschblüten und der Zoo</title>
+            <description><![CDATA[<p>Heute mal wieder planlos, daher auch ohne Inhalt hier!</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 28 Apr 2008 16:12:13 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim459.m4a" length="35248139" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-459-juno-kirschblüten-und-der-zoo</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #458 - Die Grillsaison ist eröffnet</title>
+            <description><![CDATA[<p>Heute mal wieder planlos, daher auch ohne Inhalt hier! </p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Sun, 20 Apr 2008 22:56:06 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim458.m4a" length="31323525" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-458-die-grillsaison-ist-eröffnet</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #457 - Abgedrehter Nordwind</title>
+            <description><![CDATA[<p>14. April 2008</p>
+
+<p>SiM bleibt planlos, sonst ändert sich aber eine Menge. Zum Beispiel gibt es keinen täglichen Feed mehr, nur noch den wöchentlichen und den erweiterten wöchentlichen mit Kapiteln und Bildchen (nicht auf allen MP3-Playern abspielbar!). Ich werde weiterhin die Seite abspecken.</p>
+
+<p>Zu den Themen aus dem Google-Reader: Andrew Baron von Rocketboom vercheckt seinen Twitter-Account bei eBay. Derzeitiges Gebot: 1125 Dollar! Unglaublich. Dann holen zwei Damen ihre Nichte nicht in Monaco ab, sondern in München, also 850 Kilometer entfernt, und ein Cornflake wird bei eBay für 1350 Dollar verkauft. Sachen gibt’s. Am Münchner Flughafen kontrolliert man die Tasche einer Frau, und die enthält das Skelett ihres Bruders. Ganz legal. Geld verdienen kann man auch durch Schlafen: Das probiert gerade dieser Niederländer. </p>
+
+<p>Dann eine Nachricht zu SiM: Die alten Folgen sind gelöscht. Es gibt sie nicht mehr im Internet. So. Außerdem gibt es nur noch zwei Feeds (siehe oben). Die restlichen Feeds habe ich gelöscht, nicht ohne vorher die Statistiken angeschaut zu haben (siehe links!). Klar doch, ganz sicher hat SiM 1,4 Millionen Downloads… Klaaaaar… </p>
+
+<p>Grüße gibt es diese Folge auch, und zwar an Mädi aus Uruguay, Guido, Simone in Kanada und Christian in Manchester. Ulrich hat mich an mein Kinderbuch-Vorhaben erinnert, und dann gab es ein unglaubliches Audio von den Zwei Fragezeichen (hier im Podcast zu finden!). Danke an Oliver Wolf dafür. (Und ja ich weiß, der Drache hieß Saphira, nicht Eragon. Ähem. Trotzdem hier bei Audible und hier bei Amazon.)</p>
+
+<p>Diese fantastische Fussmatte hat mir übrigens die Bastelfee gebastelt! Toll, nicht? Danach geht es weiter zu einem schönen Interview-Podcast mit Edgar Selge als Gast und weiter zum Filmtipp, und zwar ist das die Komödie Abgedreht mit Mos Def und Jack Black.</p>
+
+<p>Mitfinanziert wurde diese Folge von Karl-Josef, Ulrich und Thomas. Danke schön! Jörg hat mich gefragt, was ich von Communities halte, und zum Schluss schwärme ich Euch noch von einem Buch vor, das mir Susanne empfohlen hat, und zwar “Gut gegen Nordwind” von Daniel Glattauer. Es geht um zwei Menschen, die sich nicht kennen - sich aber nach einem ausführlichen E-Mail-Wechsel ineinander verlieben… </p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 14 Apr 2008 14:41:34 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim457.m4a" length="40497931" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-457-abgedrehter-nordwind</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #456 - Wandtattoos und Fussmatten</title>
+            <description><![CDATA[<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 07 Apr 2008 19:00:24 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim456.mp3" length="20640600" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-456-wandtattoos-und-fussmatten</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #455 - Nach dem Umzug</title>
+            <description><![CDATA[<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 31 Mar 2008 13:14:30 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim455.mp3" length="25309309" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-455-nach-dem-umzug</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #454 - Deutsche Küche und der Umzug</title>
+            <description><![CDATA[<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Sun, 09 Mar 2008 14:29:08 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim454.mp3" length="27901753" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-454-deutsche-küche-und-der-umzug</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #453 - Bahn adé, Bellboy olé</title>
+            <description><![CDATA[<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 03 Mar 2008 22:09:21 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim453.m4a" length="25162268" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-453-bahn-adé-bellboy-olé</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #452 - Moskau, von Miller und Stadelheim</title>
+            <description><![CDATA[<p>Diese Woche freue ich mich über Post aus Moskau, schaue mir das Leben von Oskar von Miller genauer an, grüble über Mohnbrötchen in Dubai, freue mich über meinen IQ, schaue mal Richtung Stadelheim und dann kommt Ihr natürlich auch wieder zu Wort.</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 25 Feb 2008 19:40:07 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim452.m4a" length="33236999" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-452-moskau-von-miller-und-stadelheim</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #451 - Unsere vegane Erde</title>
+            <description><![CDATA[<p>Diese Woche schimpfe ich etwas über den Film "Unsere Erde", dann präsentiere ich Euch Euer Leben in sechs Worten, grübele in der Podvela darüber, wie teuer es ist eine Frau zu sein und zum Schluss kommt das Highlight, ein Interview mit Peter, der beschlossen hat, vegan zu leben.</p>
+
+<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>]]></description>
+            <pubDate>Mon, 18 Feb 2008 19:18:32 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim451.m4a" length="43591160" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-451-unsere-vegane-erde</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #450 - Fingertapser und Maklerwürger</title>
+            <description><![CDATA[<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>
+
+<p>Die Themen dieser Woche:</p>
+
+<p>Neues aus dem Google-Reader
+<br />Mein iPod Touch
+<br />Jens-Uwe und die Podvela
+<br />Mein neues Feindbild: Makler
+<br />Rothko in München
+<br />Abspann</p>]]></description>
+            <pubDate>Tue, 12 Feb 2008 01:13:44 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim450.m4a" length="39149053" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-450-fingertapser-und-maklerwürger</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #449 - Mikrowellenhunde und fliegende Katzen</title>
+            <description><![CDATA[<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>
+
+<p>Die heutigen Themen:</p>
+
+<p>Geschichten aus dem Google-Reader
+<br />Geschenkideen für den Valentinstag
+<br />Jens-Uwe und die Treue</p>]]></description>
+            <pubDate>Mon, 04 Feb 2008 22:53:27 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim449.m4a" length="21299407" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-449-mikrowellenhunde-und-fliegende-katzen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #448 - Weltuntergang und Bücherschnelldurchlauf</title>
+            <description><![CDATA[<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com 
+<br />Mails an Annik: annik@schlaflosinmuenchen.com 
+<br />Anrufbeantworter: 089-23 513 085</p>
+
+<p>Die heutigen Themen:</p>
+
+<p>Ich beschwere mich mal wieder über die Bahn, die zwar einen Hotspot anbietet aber kein Internet, dafür ein Jahr alte Nachrichten wiederkäut. Schwach. Dann noch ein kurzer Abriss über den SiM-Ratsch am Mittwoch über Talkshoe...</p>
+
+<p>Jens-Uwe ist wieder da und schreibt mir einen neuen Brief! Vom Glückwunsch zum Neuen Jahr bis hin zur Beschreibung seines Körpers geht das diesmal, dann macht er auch noch Yoga und philosophiert über die Treue...</p>
+
+<p>Ich habe einige Bücher gelesen, und zwar "Die Frau des Zeitreisenden", "Die Frau im Mond", "Das Deutschlandquiz", "Vom Leben gezeichnet" von Harald Martenstein und jetzt lese ich gerade "The House of God", danach kommen dann noch die "Bösen Schafe" dran. Viel zu tun!</p>]]></description>
+            <pubDate>Mon, 21 Jan 2008 00:38:30 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim448.m4a" length="17200250" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-448-weltuntergang-und-bücherschnelldurchlau</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #447 - Happy Maids, Top 6 und der Abspann</title>
+            <description><![CDATA[<p>Alle Links zu dieser Folge: www.schlaflosinmuenchen.com
+<br />Mails an Annik: annik@schlaflosinmuenchen.com
+<br />Anrufbeantworter: 089-23 513 085</p>
+
+<p>Die heutigen Themen:</p>
+
+<p>In meiner Weihnachtspause war ich sechs Mal im Kino, und davon erzähle ich Euch heute. Welchen ich gut fand und welchen schlecht, das müsst Ihr Euch selber anhören. Dabei sind jedenfalls diese hier:</p>
+
+<p>www.dergoldenekompass-derfilm.de
+<br />www.maennerundfrauen.film.de
+<br />www.darjeelinglimited-derfilm.de
+<br />www.vorne-derfilm.de
+<br />www.iamlegend.de
+<br />www.easternpromises.de</p>
+
+<p>Nach den Filmen kommt nun endlich das Interview mit Helmut von den Happy Maids (www.happymaids.de). Er hat sich aus eigenem Bedürfnis heraus einen Putzdienst ausgedacht, der ganz besonders ist. Hört selbst.</p>
+
+<p>Zum Schluss höre ich noch den AB ab, lasse Euch in den Podcast CatFishShow (www.catfishshow.com) reinhören und in die Serie 30Rock und präsentiere Euch den neuen Abspann.</p>]]></description>
+            <pubDate>Mon, 14 Jan 2008 18:29:22 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim447.m4a" length="50270950" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-447-happy-maids-top-6-und-der-abspann</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #446 - 99 Podcasts und Chinaza, eine tolle Frau</title>
+            <description><![CDATA[<p>SiM #446-1 – Zündfunk, SWR und Wohnungssuche</p>
+
+<p>Andreas hat mir eine Intro-Collage gebastelt, und dann geht es auch schon los: Ich möchte Euch heute kurz erzählen, was sich bei mir so tut, und falls Ihr eine 4-Zimmer-Wohnung in München für mich habt – her damit!</p>
+
+<p>SiM #446-2 – Chinaza</p>
+
+<p>Ich habe mit Chinaza ein Interview geführt, einer tollen Sängerin aus Berlin, die ich zum Glück auch dazu bringen konnte, ihr wunderbares Lachen vorzuführen! Musik darf ich im Podcast nicht spielen, hier aber der Link zu iTunes, zum Vorhören.</p>
+
+<p>SiM #446-3 – 99 Podcasts, Ärger und die Freiheizhalle</p>
+
+<p>Mein neues Verzeichnis 99 Podcasts ist endlich online, stöbert mal ein wenig rum und sagt es weiter – ist vor allem für Anfänger gedacht! Noch ein paar Worte zum Tod des Podcastclubs und ein Tipp für Münchner: Die Freiheizhalle wirkt sehr vielversprechend! Mein Lieblingsalbum ist derzeit „Rock Swings“ von Paul Anka.</p>]]></description>
+            <pubDate>Mon, 07 Jan 2008 16:00:05 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim446a.m4a" length="34524354" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-446-99-podcasts-und-chinaza-eine-tolle-fra</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #445 - Die Weihnachtsverlosung</title>
+            <pubDate>Tue, 18 Dec 2007 12:36:53 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim445.mp3" length="3117594" type="audio/mpeg"/>
+            <guid isPermaLink="false">sim-445-die-weihnachtsverlosung</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #439 – Gesunde Hasen und kranke Amerikaner</title>
+            <description><![CDATA[<p>In Episode 439 geht es um Evelyn Hamann, um einen W-Lan-Hasen und um den Film Sicko von Michael Moore. Ich habe „Ä“ Von Max Goldt gelesen und antworte Juk auf seinen Brief, habe viele kleine Geschichtchen aus dem Netz für Euch zusammengetragen und am Schluss kommt Ihr natürlich auch wieder zu Wort. </p><p>Alle Links zur Folge auf www.schlaflosinmuenchen.com – und der Anrufbeantworter ist zu erreichen unter 089-23 513 085. Mails könnt Ihr schreiben an annik@schlaflosinmuenchen.com. Bleibt schlaflos!</p>]]></description>
+            <pubDate>Mon, 29 Oct 2007 21:22:39 +0100</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim439.m4a" length="51035482" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-439-gesunde-hasen-und-kranke-amerikaner</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #438 – Ratte und Rohrspatz</title>
+            <description><![CDATA[Diese Woche wird erstmal der Sponsor e.on unter die Lupe genommen. Ansonsten erzähle ich Euch von der Podcastnacht in Unterhaching, vom Bosch-Podcast 4plusfisch, ich habe ein Gespräch geführt mit der Autorin Anke Behrend, Jens-Uwe hat einen neuen Brief geschrieben und ich habe endlich den neuen Pixar-Rattenfilm Ratatouille gesehen.]]></description>
+            <pubDate>Mon, 22 Oct 2007 18:49:49 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim438.m4a" length="53286405" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-438-ratte-und-rohrspatz</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #437 – Stellungswechsel, Bordelle und Pandas</title>
+            <description><![CDATA[<p>SiM #437 – Stellungswechsel, Bordelle und Pandas</p><p>Diese Woche erzähle ich Euch was vom Film „Stellungswechsel“. Dann gibt es Neues von der Podvela und aus der Radiowelt, meine Mama war wieder zu Gast und ich war bei Hagen Rether.</p><p>SiM #437-1 – Taxifahrer, Bordelle und betrunkene Papas</p><p>Es war viel los in Zeiten des Oktoberfestes. Zum Beispiel hat die Münchner Polizei in dieser Zeit die Bordelle mal gründlich kontrolliert. Interessant, was dabei zu Tage kam! Außerdem platzten einigen Taxifahrern die Geduldsfäden, und ein Papa hat sich mit 2,0 Promille beim Kinderwagenfahren erwischen lassen. Hobbies hab ich auch für Euch: Rubik-Zauberwürfel und Steine. Ein Dankeschön geht an Karin aus Lotte, Christian aus der Schweiz und Thomas.</p><p>SiM #437-2 – Stellungswechsel und Walgesänge</p><p>Drei Mal Radio, ein Mal Kino. Seit dieser Woche gibt es in Bayern ein neues Jugendradio, Bavarian Open Radio. Außerdem verrate ich Euch nun, was ich Neues für den SWR machen darf und was die Wale vor Hawaii so erzählen. Im Kino habe ich mir die deutsche Komödie „Stellungswechsel“ angeschaut.</p><p>SiM #437-3 – Podvela </p><p>Natürlich gebe ich mein Bestes, um Jens-Uwe wieder etwas besänftigen, nachdem er letztes Mal so beleidigt war, der Gute. Und ich überlege schonmal, wie es bei unserer Wanderung werden wird. Ganz unter uns erzähle ich JUK auch was über meine drei Tage bei der BILD-Zeitung.</p><p>SiM #437-4 – Streik und Kunst</p><p>Ich finde der Streik der Lokführer geht mittlerweile in Richtung Erpressung. Das hat nichts mehr mit Aufmerksamkeit für Missstände zu tun, so wie ich Streiks verstehe. Ich habe vom Streik selber zum Glück noch nicht viel mitbekommen, aber das kommt bestimmt noch. Ein schöneres Thema ist die Kunst – meine Mama war zu Gast und stand Rede und Antwort.</p><p>SiM #437-5 – Hagen Rether und ein Panda</p><p>14 Sekunden lang dauert dieser YouTube-Clip, der mir die Lachtränen in die Augen treibt. Da muss ein Panda niesen. Mehr passiert eigentlich nicht. Mir reicht's. Länger dauert Hagen Rethers Programm „Liebe“. Absolut sehenswert, bitterböse und wahr.</p>]]></description>
+            <pubDate>Tue, 09 Oct 2007 00:30:44 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim437.m4a" length="49053172" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-437-stellungswechsel-bordelle-und-pandas</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #436 – Hochzeit und Hirschisch</title>
+            <description><![CDATA[<p>Diesmal gibt es endlich wieder einen Brief von Jens-Uwe in der Podvela, dann habe ich Hirschisch gelernt und mit Hartmut über SiM-Claims gesprochen. Ich war in einem Hochzeitsforum unterwegs und natürlich bin ich nervös, was die Podcastnacht in Unterhaching am 12. Oktober angeht. </p>
+
+<p>Alle Links auf www.schlaflosinmuenchen.com</p>]]></description>
+            <pubDate>Tue, 02 Oct 2007 13:17:01 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim436.m4a" length="37317600" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-436-hochzeit-und-hirschisch</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #435 – Mama, Memoloop und Lord of War</title>
+            <description><![CDATA[<p>SiM #435 – Mama, Memoloop und Lord of War</p><p>Die Themen diese Woche: Ich habe den Film Lord of War gesehen, schaue fleissig Oktoberfest-Videocasts, war in Baden-Württemberg unterwegs und habe ein Buch von Margriet de Moor gelesen. Außerdem liefere ich wie versprochen das Interview mit einem Web 2.0-Erfinder nach und habe ich mir meine Mama geschnappt, und mit ihr ein wenig über das Internet gequatscht. </p><p>SiM #435-1 – Filmtipp: „Lord of War“ und mehr</p><p>Die U-Bahn-Sitzgelegenheiten in Berlin gibt es hier zu sehen (http://www.berlin-transport.de/ubahnbaenke/U9_13.htm). 64.000 der 11 Millionen Bilder des Bundesarchivs sind ab sofort öffentlich im Internet zugängig – es werden noch mehr. (www.bild.bundesarchiv.de). Die New York Times (http://www.newyorktimes.com) ist jetzt auch wieder kostenlos online lesbar. Falls Ihr dazu keine Lust habt, schaut Euch „Lord of War“ (http://lordofwar-derfilm.de/lordofwar/) an, auch wenn Nicolas Cage mitmacht. Den Trailer gibt’s hier: http://www.youtube.com/watch?v=VOjmfDTxxn0. Empfehlen kann ich Euch übrigens auch den Wies'n-Cast des BR. Sehr nette kleine Schipselchen (http://www.br-online.de/download-podcast/video-download/mp3-download-podcast-wiesn-cast.xml;jsessionid=1XTAHTVJQD4TMCSBUKRSM4QKIGRKMJVC). </p><p>Timeline:<br />Montag<br />08:05 Lord of War<br />11:06 Aus der Podosphäre<br />Dienstag<br />11:51 Generationenfrage<br />15:13 Interview Memoloop<br />Mittwoch<br />29:45 Rastlos in München<br />Donnerstag<br />34:43 Interview Mama<br />Freitag<br />44:20 Buch<br />45:57 Der Abspann</p><p>SiM #435-2 – Florian von Memoloop</p><p>Nach der Generationenfrage (die neue Frage ist: Was würdet Ihr anders machen, wenn Ihr Euer Leben noch einmal leben könntet?) gibt es ein Interview mit Florian von memoloop.de. Hier kann man Erinnerungen eintragen und bebildern und sich so ein richtiges kleines Album erstellen, das man mit anderen teilen kann.</p><p>SiM #435-3 – Meine Weltreise zum SWR</p><p>Nach meiner Pechsträhne zu Beginn der vergangenen Woche wurde es dann doch noch besser. Zunächst habe ich den SWR in Baden-Baden besucht und dort ein neues Projekt ausgeheckt, und dann war ich in Tübingen beim Schülerradiotag Baden-Württemberg, was rein von der Fahrtzeit sich nicht wirklich gelohnt hat – fünf Stunden habe ich zurück gebraucht! Es lebe die Deutsche Bahn. Ein Danke geht an Heinrich aus Moosburg für seine finanzielle Unterstützung dieser Folge, sowie Grüße an André aus Wismar und Agnes aus Jamaika. </p><p>SiM #435-4 – Mama und das Internet</p><p>Ihr hattet es Euch im Forum gewünscht und Euer Wunsch war mir Befehl. Also habe ich natürlich meine Mama eingeladen und mit ihr drei Teile zu unterschiedlichen Themen aufgenommen. Heute fangen wir damit mal an – und zwar mit dem Thema Internet.<br /> <br />SiM #435-5 – Buchtipp: „Erst grau dann weiß dann blau“  <br />Ein wie immer guter Buchtipp von Marc. Es geht um eine Frau, die von einem Tag auf den anderen verschwindet. Keiner weiß, wo sie geblieben ist. Zwei Jahre später ist sie wieder da und lebt ihr Leben so weiter, wie sie es gewohnt war. Sie beantwortet keine der sich aufdrängenden Fragen. (http://www.amazon.de/Erst-grau-dann-wei%C3%9F-blau/dp/3423120738/ref=pd_bbs_sr_2/028-6028702-3284503?ie=UTF8&s=books&qid=1190577594&sr=8-2)</p>]]></description>
+            <pubDate>Mon, 24 Sep 2007 16:23:54 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim435.m4a" length="58718489" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-435-mama-memoloop-und-lord-of-war</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #434 - Ein Hauptmann und der Pumuckl-Fernseher</title>
+            <description><![CDATA[Los geht es mit einem Intro von Marc aus Belgien. Und dann kommt die Folge, die ich gerade noch vor dem großen PC-Crash aufgenommen habe. Daher leider ohne das geplante Interview, das längst im Kasten ist. Wird nachgeliefert, versprochen. Dafür geht es diese Woche um ein Hörbuch von Axel Hacke, eine Umfrage, und ich hab dank Meikel mal wieder einen Mann der Woche gefunden.]]></description>
+            <pubDate>Mon, 17 Sep 2007 23:35:52 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim434.m4a" length="29311448" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-434-ein-hauptmann-und-der-pumucklfernseher</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #433 – Quechup-Quatsch und Schokoregen</title>
+            <description><![CDATA[<p>SiM #433-1 - Bahn, Bush und WG-Pech</p><p>Vielen Dank erstmal für das Intro von Tomlwirbel aus Wien<br />http://tomlwirbel.mycyberhome.net/. In den drei Geschichten geht es unter anderem um Bush-Countdowns. Zu finden unter:<br />Firefox-Addon: https://addons.mozilla.org/de/firefox/addon/3792<br />Backwards Bush: http://www.backwardsbush.com/ <br />Ein großes Danke geht diese Woche an: Ulrich aus Marburg, Norbert aus Köln und Timo aus Montabaur.</p><p>14:43<br />SiM #433-2 – Chocolate Rain hoch drei</p><p>Das Originallied von Tay Zonday kennt Ihr bestimmt (http://www.youtube.com/watch?v=EwTZ2xpQwpA). Mittlerweile gibt es aber unzählige Parodien auf diesen Song. Am Besten gefallen mir die Versionen von Darth – äh, Chad Vader, die 8bit-Version und natürlich dieses Kätzchen:</p><p>http://www.youtube.com/watch?v=RQOG4IdmC6s&mode=related&search=</p><p>19:18<br />SiM #433-3 – Quechup-Quatsch und Katzen 2.0</p><p>Mein neuestes Experiment bezieht sich auf Pownce (http://pownce.com/AnnikRubens/) und Catster (http://www.catster.com/cats/623672). Dass man die Finger von Quechup lassen sollte, weiß ich mittlerweile auch (http://www.podsitter.com/wordpress/?p=246). Ansonsten freue ich mich total, dass Ihr mir so fleissig Audio-Feedback gegeben habt! Die ganzen sieben Minuten von Lisa könnt Ihr hier runterladen (http://www.podsitter.com/lisa.mp3). </p><p>41:02<br />SiM #433-4 - Lucky Number Potter</p><p>Den neuen Harry Potter-Film finde ich optisch sättigend, inhaltlich aber unbefriedigend. Empfehlen kann ich Euch einen Thriller von 2006, und zwar Lucky Number Slevin mit Josh Hartnett, Bruce Willis, Morgan Freeman und Sir Ben Kingsley. Spannend und ungewöhnlich konstruiert!</p><p>http://www.harrypotterundderordendesphoenix.de/</p><p>45:14<br />SiM #433-5 – Schlaflos in Stuttgart</p><p>Vergangene Woche war ich zwei Tage lang in Stuttgart an der Hochschule der Medien. Dort wurde ein Hörspiel aufgenommen über drei Männer und eine Frau in einer WG. „Vier plus Fisch“ wird das Projekt heißen. Als Podcast werden die sechs Folgen im Oktober online gestellt. Hier seht Ihr schonmal, wie es hinter den Kulissen zuging (http://www.podsitter.com/wordpress/?p=247). Und auch Simon von iSightseeing.de hat ein Video online gestellt. Im Abspann gehen übrigens Grüße an Susanne und Luna, Anna und Kai. Denkt an „Schlaflos in Unterhaching“, unsere Podcastnacht am 12. Oktober bei München (http://www.podcastnight.de/)!</p>]]></description>
+            <pubDate>Mon, 10 Sep 2007 17:10:40 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim433.m4a" length="51464310" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-433-quechupquatsch-und-schokoregen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #432 - Jazz, Liebe und Organspende</title>
+            <description><![CDATA[<p>SiM 432
+<br />Danke an Dominique für das geflötete Intro! In Folge 432 geht es um den Münchner Frank Sinatra, ein Buch über die Liebe, neue Songs von Hartmut und das erste Fazit in Sachen Web 2.0 – wie viele Freunde habe ich denn nun wirklich? </p>
+
+<p>MONTAG: 
+<br />SiM #432-1 - Die Web 2.0-Zahlen </p>
+
+<p>Die Geschichten aus aller Welt für diese Woche: Japanische Kalorienzähler, zu große Feuerwehrautos und die blinde Golferin. Ach, und natürlich die Kinderhochzeit. Im Web 2.0-Experiment hat sich gezeigt: Twitter bringt eher was für Menschen, die sich wirklich kennen. Bei Facebook ändert sich nicht viel. MySpace ist in Führung was fremde Freunde angeht und Sevenload ist top was die Hörerzahl der dort hochgeladenen Podcasts angeht. Last.fm macht am meisten Spaß, vor allem die Gruppenfunktion. Die SiM-Gruppe hat 77 Mitglieder, Durchschnittsalter 26. Mein Newsletter dagegen hat mittlerweile 60 Abonnenten – also hat auch Web 1.0 einen Sinn.</p>
+
+<p>DIENSTAG
+<br />SiM #432-2 – Die Jazzbar Vogler</p>
+
+<p>Ich war am Freitag das erste Mal in der mittlerweile zehn Jahre alten Jazzbar Vogler (Rumfordstraße 17 in München). Bei keinem oder sehr niedrigem Eintritt kann man hier wunderbaren Jazzabenden lauschen. So wie am Freitag bei Ecco di Lorenzo ( HYPERLINK "http://www.eccoland.de" http://www.eccoland.de) und seinem Klaviertrio. </p>
+
+<p>MITTWOCH
+<br />SiM #432-3 – Buchtipp: „Das Buch der lächerlichen Liebe“</p>
+
+<p>Der Tscheche Milan Kundera ist mittlerweile 78 Jahre alt und wartet weiterhin auf den Literatur-Nobelpreis. Aus seiner Heimat hat man ihn verstoßen, seither lebt er im Exil in Paris. Ich habe sein „Buch der lächerlichen Liebe“ gelesen und es hat mir gut gefallen. Bei Audible gibt es zwei Hörbücher von Kundera, beide gelesen von Rufus Beck. </p>
+
+<p>http://partners.webmasterplan.com/click.asp?ref=264676&site=3582&type=text&tnb=4</p>
+
+<p>DONNERSTAG
+<br />SiM #432-4 – Hartmut singt wieder</p>
+
+<p>Drei Stücke habe ich diesmal Hartmut auf die Kopfhörer gelegt, ohne dass er wusste, worum es geht. Könnt Ihr die Lieder erraten? </p>
+
+<p>FREITAG:
+<br />SiM #432-5 – Organspende und Happy Maids</p>
+
+<p>Im Abspann ist eine Menge los! Im Forum wird derzeit über Organspende und Ehrenamtlichkeit diskutiert. ( HYPERLINK "http://www.organspende-info.de" http://www.organspende-info.de). Gegrüßt wird Meikel aus Kiel und Helmut von den Happy Maids ( HYPERLINK "http://www.happymaids.de" http://www.happymaids.de). Danke an Lutz für den Kaffee und Attila für die Postkarte und natürlich an Pierre für die Überraschung.</p>
+
+<p><a href="http://podster.de/claim/5dl0dJndF0de5du ">Mein Podcast bei podster</a></p>]]></description>
+            <pubDate>Mon, 27 Aug 2007 16:10:37 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim432.m4a" length="24317250" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-432-jazz-liebe-und-organspende</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #431 - Hollywood bis Stockholm</title>
+            <description><![CDATA[<p>Made in Hollywood und die Munich Readery</p><p>Vielen Dank an Bastian für das Intro! Los geht es mit ein paar Geschichten über mysteriöse Amazon-Bestellungen, geistliche Nackjogger, und kreative IKEA-Bastler. Weiter geht es mit der Munich Readery, einem Second Hand Bookshop in München, bei dem man gelesene Bücher in Zahlung geben kann. Kurz spiele ich Euch auch noch die Neue Deutsche Hymne vor.</p><p>Eisduell mit Hartmut</p><p>Egal wie das Wetter ist – ein Eis geht immer. Hartmut stellt uns daher heute seine Lieblingseisdiele vor und ich muss gestehen, dass ich die exotischen Geschmacksvariationen von Alfons Schubecks Eis sehr spannend finde.</p><p>Web 2.0 Backstage</p><p>Ich habe mal ein wenig rumgestöbert und versucht herauszufinden, wer hinter den ganzen Web 2.0-Applikationen steckt. Wer finanziert MySpace, wer hat Facebook erfunden, wer kam auf die Twitter-Idee? Wie viel Geld steckt in diesen Unternehmen und wie sieht die Zukunft aus? Ihr habt mich übrigens aufmerksam gemacht unter anderem auf Virb.com, Orkut.com, StudiVZ, Delicio.us, Magnolia, Qype.com, Fellowweb.de.</p><p>Norman vs. Jens-Uwe</p><p>Jens-Uwe versteht meinen Humor nicht! Hilfe! Ich bin entsetzt! Da müssen wir unbedingt noch dran arbeiten, mein Lieber. Vielleicht wenn wir nächstes Frühjahr auf dem Berg sitzen. Ansonsten ist natürlich auch Essen bei mir wichtiger als Trinken. Du musst noch viiiiiel lernen. </p><p>SiM war in Stockholm!</p><p>Ich habe eine neue Lieblingsstadt, und zwar Stockholm. Leider war ich nur etwas mehr als zwei Tage dort, viel zu kurz um all das zu erledigen, was ich gern gemacht hätte. Klar, dass ich dort selber ein SiM-auf-Weltreise-Foto gemacht habe. Weitere Fotos von dort und übrigens endlich auch von der Documenta in Kassel stelle ich so bald wie möglich bei Flickr online.</p>]]></description>
+            <pubDate>Mon, 20 Aug 2007 21:09:43 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim431.m4a" length="36107372" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-431-hollywood-bis-stockholm</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #430 - Vom Winde verweht und Lüftergeräusche</title>
+            <description><![CDATA[<p>SiM #430-1 - Edberg in der Ecosphere</p><p>Das Tischthema hat diese Woche für das Intro gesorgt, los geht es danach mit drei Geschichtchen aus aller Welt und dann frage ich mich, was eigentlich aus Stefan Edberg geworden ist. Das Geheimnis der Woche ist die Ecosphere.</p><p>SiM #430-2 - Interview: Karla von der Buchkolumne</p><p>Ich habe Karla vom Buchkolumne-Podcast in Schwabing getroffen. Und nachdem sie mich interviewt hatte zu meinem Podcastbuch, habe ich ihr natürlich auch ein Mikro unter die Nase gehalten. Mich hat interessiert: Wie wurde sie zur Leseratte?</p><p>SiM #430-3 - Web 17.0 die Zweite</p><p>Langsam geht der Selbstversuch in die zweite Runde. Last.fm und Facebook habe ich akzeptiert, über MySpace rümpfe ich immer noch die Nase, weil es einfach so schlecht bedienbar und altmodisch ist. Bei Last.fm sind mittlerweile die SiM-Charts online, also die Lieblingsmusik der registrierten SiM-Hörer. Über Twitter könnt Ihr jedenfalls mehr oder weniger live bei der Produktion von SiM dabei sein.</p><p>SiM #430-4 – Kinotipp: „Beste Zeit“</p><p>Marcus Rosenmüller ist wohl der Name, der derzeit für bayerische moderne Filme steht. Diesmal hat er zwei Teenagermädchen in den Mittelpunkt seines Films gestellt, auf dem Weg ins Erwachsenenleben.</p><p>SiM #430-5 – Podvela mit Jens-Uwe</p><p>Was hält mein Brieffreund Jens-Uwe eigentlich vom Rauchverbot, das in seiner niedersächsischen Heimat seit August gilt? </p><p>Näheres zum Podcast auf www.schlaflosinmuenchen.com. Quatscht auf den Anrufbeantworter unter 089-23 513 085, schreibt eine Mail an annik(at)schlaflosinmuenchen.com oder beteiligt Euch an der Diskussion im Forum.</p>]]></description>
+            <pubDate>Mon, 13 Aug 2007 21:01:07 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim430.m4a" length="19727648" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-430-vom-winde-verweht-und-lüftergeräusche</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #429 - Sparschweinschutz und Annik 2.0</title>
+            <description><![CDATA[<p>SiM #429-1 - Demenz-Haltestellen und Sparschweinschutz</p>
+
+<p>Danke an Holger vom Macmaniacs-Podcast ( HYPERLINK "http://www.macmaniacs.at" http://www.macmaniacs.at) für das Intro! Los geht es diese Woche mit einem besonderen Buswartehäuschen und Ihr könnt meinen Chat-Auftritt bei Politik Digital hier ( HYPERLINK "http://www.politik-digital.de/salon/transcripte/arubens_070731.shtml" \t "_blank" http://www.politik-digital.de/salon/transcripte/arubens_070731.shtml) nachlesen. Für engagierte Mitbürger empfiehlt es sich natürlich, der Aktion für den Schutz der Sparschweine beizutreten ( HYPERLINK "http://www.sparschweinschutz.de" http://www.sparschweinschutz.de). Und noch drei Nicht-Nachrichten, My Name Is Earl kommt nach Deutschland und wird irgendwann auf RTL ausgestrahlt, Harry Potter bekommt Telefonterror und vermisst wird ein Swimmingpool. </p>
+
+
+<p>SiM #429-2 - Podvela: Drogenspür-Fruchtfliegen</p>
+
+<p>Ist es nicht schlimm, wenn man nichts riecht? Weder den Schokokuchen noch den Hundehaufen noch frische Erdbeeren oder faule Eier? Armer Jens-Uwe. Dafür muntere ich meinen lieben Brieffreund natürlich auf, indem ich ihm von meinem liebsten Körperteil erzähle. </p>
+
+
+<p>SiM #429-3 – Waschmaschinen-Fussel-Kunst</p>
+
+<p>TominMuc hat mir auf den Skype-AB gesprochen – nehmt Euch ein Beispiel und traut Euch! Geht vom normalen Telefon aus genauso (089-23 513 085) oder direkt bei Skype (annikrubens). Ich will Euch hören! Erzählt mir was! Ansonsten gehen diese Woche Dankeschöns an Andreas aus München, Saskia und Isegrim. In der Podosphäre hören wir rein in den Documenta-Podcast und in SWR1 Leute. </p>
+
+
+<p>SiM #429-4 – Interview mit Steffen über die Bahn</p>
+
+<p>Ich habe genug geschimpft über die Bahn – obwohl mir schon wieder eine Tirade auf der Zunge liegt, wenn ich auch nur an die Lokführerstreiks denke. Nicht weil sie ihr Geld nicht wert sind, sondern weil ich keine Lust habe, auf der Strecke zu bleiben! Mein Hörer Steffen jedenfalls hat das gute Haar an der Bahn gefunden: Den Mobilitätsservice für Menschen mit Behinderungen zum Beispiel. Vorbildlich.</p>
+
+
+<p>SiM #429-5 - Flickr, Facebook & Co.</p>
+
+<p>Ich habe mich dem Selbsttest gestellt und mich eingelassen auf all das, was mittlerweile unter dem Stichwort Web 2.0 firmiert. Von Flickr über Frappr über Facebook, Twitter, Myspace und wie sie alle heißen. Was es bringt? Das erzähle ich Euch. Ganz sicher bin ich aber noch nicht.</p>]]></description>
+            <pubDate>Mon, 06 Aug 2007 22:07:58 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim429.m4a" length="34097000" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-429-sparschweinschutz-und-annik-20</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #428 - Kästner, Tränen und Kühe</title>
+            <description><![CDATA[<p>Dennis läutet Folge 428 ein mit einem fulminanten Intro, bevor es zum Filmtipp geht: Jarhead. Zwei Jahre alt, Antikriegsfilm, Jake Gyllenhaal in der Hauptrolle und wirklich gut gemacht. Ich hab ihn lange vor mir hergeschoben, bis er mir von meinem Ausleihzettel bei Amazon in die Hände flatterte.</p>
+
+<p>Der Mann der Woche ist auch mal wieder dran, ein Thementipp von Don Pasquale hat mich darauf gebracht, dass Erich Kästner vor 33 Jahren gestorben ist. Seine Bücher kennen wir alle, von „Das doppelte Lottchen“ bis „Der kleine Mann und die kleine Miss“. Dass Erichs Sohn Thomas das Werk seines Vaters schützt, wusste ich bislang nicht. Mehr gibt es hier:</p>
+
+<p>http://www.erich-kaestner-museum.de" http://www.erich-kaestner-museum.de
+<br />http://www.kaestner-im-netz.de/" http://www.kaestner-im-netz.de/
+<br />http://www.katzensuchdienst.de/Katze/EKKatzen.html</p>
+
+<p>Eva Siebenherz hat ein tragisches Schicksal hinter sich. Sie hat Misshandlungen in einem DDR-Gefängnis erlebt und man hat ihr ihre zwei Söhne weggenommen. Sie wurden zur Adoption freigegeben, und erst Jahre später hat Eva den Kontakt wieder herstellen können.</p>
+
+<p>Dankeschöns gehen diese Woche an Edward aus Mandeville, USA, Ruth aus Stephanskirchen, meinen treuen Hörer Maghnus, Steffen aus Rellingen und Klaus aus Göppingen. Ein besonderer Gruß geht an Christoph aus der Schweiz für die schönste Mail der Woche. Zur Bahn habe ich natürlich auch wieder meinen Senf abzugeben, und zu den Wilden Tagen des Bayerischen Rundfunks. Und ich war auf der Documenta! Meine Highlights: Jürgen Stollhans, Zoe Leonard, Iole de Freitas und die antiken chinesischen Stühle von Ai Weiwei. Panoramabilder gibt es hier:
+<br />http://news360.wordpress.com/2007/06/17/documenta12-in-kassel/</p>
+
+<p>Jens-Uwe geht es gut, auch wenn er nicht riechen kann. Er ist glücklich und das ist ihm irgendwie unheimlich. Sehr erleichtert jedenfalls bin ich, dass er genauso schlecht in Erdkunde ist wie ich. Puh.</p>]]></description>
+            <pubDate>Mon, 30 Jul 2007 23:14:09 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim428.m4a" length="37126946" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-428-kästner-tränen-und-kühe</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #427 - Wilde Tage, Erotik und Zucker, Kleinkind</title>
+            <description><![CDATA[<p>Wilde Tage, wilde Wochen</p><p>Das Intro wirbt diesmal für den Skynobi-Podcast (skynobi.podspot.de). Drei große Dankeschöns (gibt es das als Mehrzahl?) gehen an Manuel aus Recklinghausen, Alex aus Pisa (im Urlaub) und MikeMacApple aus Nürnberg. Ich bereite mich gerade auf die Wilden Tage beim BR vor und SiM gibt es neuerdings auch bei Sevenload. Der Münchner Merkur hat mich zum „Mensch des Tages gemacht“ (ein Dankeschön auch an Autor Patrik), und ich habe Blog-Koryphäe Jeff Jarvis getroffen. Eine gute Woche.</p><p>6:30<br />Erotik oder Pornografie?</p><p>Aveleen Avidé kennt sich aus mit erotischer Literatur. Und ich habe mit ihr über die Gratwanderung zur Pornografie gesprochen. Wer Avidés Videointerviews mit Autoren abonnieren möchte, der kann dies hier tun. </p><p>http://aveleen-avide.podspot.de</p><p>20:59<br />Podvela: Wie geht’s?<br />Ich muss feststellen, dass es gar nicht einfach ist, auf die Frage „Wie geht's“ eine Antwort zu finden. Da hat mich Jens-Uwe ganz schön in die Falle gelockt. Nächste Woche werden wir hören, ob er es besser schafft als ich. Challenge extended!</p><p>29:02<br />Zucker, Kleinkind<br />Ich habe Hartmut einen Song auf die Ohren gelegt, den Ihr nicht hören könnt. Aber ich bin sicher, Ihr erratet ihn trotzdem, oder? Ich lag jedenfalls bei der Aufzeichnung unter dem Tisch vor Lachen. Viel Spaß mit dieser kleinen Überbrückung bis zum nächsten Fundbüro.</p><p>34:21<br />Expeditionen ins Podreich<br />Aus der Podosphäre: „Was mit Medien“ tötet Loriot, Grzimek ist politisch unkorrekt und die Word Nerds wollen Babies stillen. <br />Danke an Meikel für das neue Bahn-Ärger-Intro, allerdings rümpfe ich diese Woche meine Stirn wegen Nokia: Wieso kann man Nokia-Handies nicht 1:1 synchronisieren, ganz einfach mit einem integrierten Knopfdruck?<br />Aus dem Forum: „A Year Without Made in China“ von Sara Bongiorni hat mich an die Diskussion im Forum erinnert, ob man chinesische Produkte boykottieren soll.  Und: Wir wollen das oft irreführende und eigentlich nichts sagende Wort „Podcast“ ersetzen. Derzeitige Vorschläge: Radio on Demand, Jedermannssender, Offair, Datenradio, Volkscast, Webcast, Internetsendung, Netcast, Ton-Tagebuch. Selbst eine Idee dazu? Die Diskussion findet Ihr unter „SiM-Hörer unter sich“.</p>]]></description>
+            <pubDate>Sun, 22 Jul 2007 22:05:36 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim427.m4a" length="42812892" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-427-wilde-tage-erotik-und-zucker-kleinkin</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>SiM #426 - Inguschen und Bahnluschen</title>
+            <description><![CDATA[<p>Alles über die Bahn</p><p>Zunächst mal ein Dankeschön an Jan aus Melbourne für das schöne Intro und an Wolf-Peter und Daniel für die Paypal-Spenden, die diese Folge mitfinanziert haben! Noch mal ein Hinweis auf meinen Schmankerl-Feed (http://www.podsitter.com/schmankerl.xml) und auf die Musik Top Ten im Forum. Und dann natürlich ein Special über meine 106 Minuten Verspätung bei der Deutschen Bahn gestern. Ich habe mich daraufhin mal schlau gemacht: Wie hoch ist das Kontingent für die 29-Euro-Tickets? Wie viele Züge sind alt oder neu? Wie sieht es mit den Schienen aus? Wie viele Züge sind verspätet? Und: Dürfen Polizisten kostenlos Bahn fahren? Unbeantwortet bleibt, ob die Lautsprechertexte vorgegeben sind und wie sich der Fahrpreis aufschlüsseln lässt. Besserungsvorschläge habe ich ja auch, vom Schaffner-Boxsack bis zur Caprisonne für alle. Ernstgemeint: Ich hätte gerne einen SMS-Service, der mich über Verspätungen informiert. Mehr zur Bahn: http://de.wikipedia.org/wiki/Portal:Bahn und bei den zehn Geboten der Bahn. (http://www.bahn.de/p/view/mdb/content/pdf/diverse/charta_plakat_a4_neu.pdf)</p><p>17:12 <br />Interview: Dave, der Wortzauberer</p><p>Ich habe mich mit Dave Shepherd getroffen, einem der drei WordNerds vom gleichnamigen Podcast (http://thewordnerds.org). Wir waren im Augustiner Biergarten und haben über Zaubertricks, Schüler und Deutschland gesprochen. Er hat mich übrigens zum Baseball-Fan gemacht, und ich musste mich auch gleich durch eine rote Schirmmütze outen! Zu den Zauberbüchern, die Dave erwähnt: http://daveshepmagic.com/ebook.html.</p><p>29:22<br />Buchtipp: Das Wetter vor 15 Jahren</p><p>„Das Wetter vor 15 Jahren“ von Wolf Haas hatte mir Marc aus Herzogenrath geschenkt. Ein ungewöhnliches, amüsantes Buch, in Interviewform geschrieben und spannend, mit üblicher Sprachkunst des Österreichers. Es geht um das Gespräch einer Reporterin mit dem Buchautor selbst. Das neue Werk wird bis ins kleinste Detail besprochen, und so erfahren auch wir alles über die Liebesgeschichte eines „Wetten dass...?“-Kandidaten. Ein schönes Interview mit dem Autor hat Wolfgang Tischer vom Literaturcafé-Podcast mit Wolf Haas geführt: <br />http://www.literaturcafe.de/wolf-haas-das-wetter-vor-15-jahren-buchmesse-podcast-2006/</p><p>34:26<br />Podvela über Ratten mit Schluckauf</p><p>Ich konnte Jens-Uwe zum Glück heilen von seiner Angst vor abgestandenem Wasser. Aber jetzt fragt er plötzlich danach, wie es mir geht. Das ist ganz schön schwer zu verkraften!</p><p>40:51<br />Inguschetien und Geräusper</p><p>Die Bildungsoffensive bei SiM geht weiter! Diesmal mit ehemaligen Sowjetrepubliken, heute fangen wir an mit Inguschetien (http://www.ingushetia.ru/ ). Dazu gibt es ein Räusper-Experiment und Neues aus dem Forum sowie alles, was sich auf dem Skype-Anrufbeantworter (089-23 513 085) angestaut hat. Hättet Ihr übrigens eine Idee, wie man das Wort Podcast ersetzen könnte?</p>]]></description>
+            <pubDate>Mon, 16 Jul 2007 23:14:15 +0200</pubDate>
+            <enclosure url="http://media.libsyn.com/media/schlaflos/sim426.m4a" length="51364797" type="audio/x-m4a"/>
+            <guid isPermaLink="false">sim-426-inguschen-und-bahnluschen</guid>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>C3D2 Podcast</title>
+    <link>http://www.c3d2.de/</link>
+    <description>C3D2 Podcast</description>
+    <language>de</language>
+    <copyright>http://creativecommons.org/licenses/by-sa/2.0/de/</copyright>
+    <image>
+      <title>C3D2</title>
+      <url>http://www.c3d2.de/images/ck.png</url>
+      <link>http://www.c3d2.de/</link>
+    </image>
+    <itunes:subtitle>Radio &amp; Podcasts vom CCC Dresden</itunes:subtitle>
+    <itunes:summary>
+              Pentaradio, Pentacast &amp; Pentamusic vom Chaos Computer Club Dresden.
+            </itunes:summary>
+    <itunes:image href="http://www.c3d2.de/images/ck.png"/>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:category text="Technology"/>
+    <atom:link rel="payment" href="https://flattr.com/thing/51034/Pentaradio-24" type="text/html"/>
+    <itunes:author>Chaos Computer Club Dresden</itunes:author>
+    <itunes:owner>
+      <itunes:name>C3D2</itunes:name>
+      <itunes:email>mail@c3d2.de</itunes:email>
+    </itunes:owner>
+    <atom:link rel="prev-archive" href="podcast-archiv.xml"/>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Protest aus dem Netz</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3450_protest_aus_dem_netz.mp4" length="220857104" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3450_protest_aus_dem_netz.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Protest aus dem Netz</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Wikileaks</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3434_wikileaks.mp4" length="221750918" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3434_wikileaks.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Wikileaks</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: polit-bash.org Jeopardy</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3448_polit.mp4" length="182648484" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3448_polit.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>polit-bash.org Jeopardy</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Rechtliche Rahmenbedingungen für Datenschutz      in Sachsen</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3465_rechtliche_rahmenbedingungen_fuer_datenschutz_in_sachsen.mp4" length="199426993" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3465_rechtliche_rahmenbedingungen_fuer_datenschutz_in_sachsen.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Rechtliche Rahmenbedingungen für Datenschutz      in Sachsen</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Eine Zensur findet statt (1)</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3299_eine_zensur_findet_statt_1.mp4" length="253861595" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3299_eine_zensur_findet_statt_1.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Eine Zensur findet statt (1)</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Eine Zensur findet statt (2)</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3299_eine_zensur_findet_statt_2.mp4" length="10845075" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3299_eine_zensur_findet_statt_2.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Eine Zensur findet statt (2)</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Selbstverteidigung im Internet</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3459_selbstverteidigung_im_internet.mp4" length="229773930" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3459_selbstverteidigung_im_internet.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Selbstverteidigung im Internet</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Datenschutzfreundliche Terminplanung</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3348_datenschutzfreundliche_terminplanung.mp4" length="193640290" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3348_datenschutzfreundliche_terminplanung.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Datenschutzfreundliche Terminplanung</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Anonym surfen</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3260_anonym_surfen.mp4" length="174513454" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3260_anonym_surfen.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Anonym surfen</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Internet-Kommunikation ohne Zwischenspeichern</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3338_internet.mp4" length="146885777" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3338_internet.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Internet-Kommunikation ohne Zwischenspeichern</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Kryptographische Grundlagen</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3347_kryptographische_grundlagen.mp4" length="246763796" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3347_kryptographische_grundlagen.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Kryptographische Grundlagen</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Sicherheitsarchitektur für den kontrollierten      Zugriff auf mobile digitale Patientenakten</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3337_sicherheitsarchitektur_fuer_den_kontrollierten_zugriff_auf_mobile_digitale_patientenakten.mp4" length="203447317" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3337_sicherheitsarchitektur_fuer_den_kontrollierten_zugriff_auf_mobile_digitale_patientenakten.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Sicherheitsarchitektur für den kontrollierten      Zugriff auf mobile digitale Patientenakten</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Wider das unauslöschliche Siegel</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3346_wider_das_unausloeschliche_siegel.mp4" length="222914558" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3346_wider_das_unausloeschliche_siegel.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Wider das unauslöschliche Siegel</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Wünschdirwas: Welche Social Software Features unterstützen Gruppen in zivilgesellschaftlicher und politischer Arbeit?</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3432_wuenschdirwas.mp4" length="207147231" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3432_wuenschdirwas.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Wünschdirwas: Welche Social Software Features unterstützen Gruppen in zivilgesellschaftlicher und politischer Arbeit?</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Sicherheit durch Verunsicherung</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3437_sicherheit_durch_verunsicherung.mp4" length="209696889" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3437_sicherheit_durch_verunsicherung.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Sicherheit durch Verunsicherung</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Open source through microsocieties</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3411_open_source_through_microsocieties.mp4" length="133097343" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3411_open_source_through_microsocieties.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Open source through microsocieties</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Internetsperren</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3463_internetsperren.mp4" length="226608370" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3463_internetsperren.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Internetsperren</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Tor - The Onion Router</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3455_tor.mp4" length="156155438" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3455_tor.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Tor - The Onion Router</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Goorakel &amp; Co.</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3429_goorakel_co.mp4" length="252316643" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3429_goorakel_co.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Goorakel &amp; Co.</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Systematik der Schutzziele</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3354_systematik_der_schutzziele.mp4" length="134539141" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3354_systematik_der_schutzziele.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Systematik der Schutzziele</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Daten im Netz aus rechtlicher Sicht</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3386_daten_im_netz_aus_rechtlicher_sicht.mp4" length="232971365" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3386_daten_im_netz_aus_rechtlicher_sicht.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Daten im Netz aus rechtlicher Sicht</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Selbstdatenschutz für EinsteigerInnen</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3310_selbstdatenschutz_fuer_einsteigerinnen.mp4" length="229774320" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3310_selbstdatenschutz_fuer_einsteigerinnen.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Selbstdatenschutz für EinsteigerInnen</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Verbraucherschutz im Netz</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3454_verbraucherschutz_im_netz.mp4" length="205492193" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3454_verbraucherschutz_im_netz.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Verbraucherschutz im Netz</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Bürgerportale, Egov-Gateways, GoogleAnalytics</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3355_buergerportale_egov.mp4" length="166100038" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3355_buergerportale_egov.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Bürgerportale, Egov-Gateways, GoogleAnalytics</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Drahtlose Spuren</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3342_drahtlose_spuren.mp4" length="233885108" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3342_drahtlose_spuren.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Drahtlose Spuren</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: AK Datenbank</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3443_ak_datenbank.mp4" length="140229756" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3443_ak_datenbank.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>AK Datenbank</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Wikileaks</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3434_wikileaks.mp4" length="221750918" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3434_wikileaks.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Wikileaks</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Trotz Aufklärung nichts zu verbergen?</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3380_trotz_aufklaerung_nichts_zu_verbergen.mp4" length="228004870" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3380_trotz_aufklaerung_nichts_zu_verbergen.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Trotz Aufklärung nichts zu verbergen?</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Vom Aufstieg der Piraten</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3431_vom_aufstieg_der_piraten.mp4" length="223966832" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3431_vom_aufstieg_der_piraten.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Vom Aufstieg der Piraten</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Lightning Talks (1)</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3477_lightning_talks_1.mp4" length="231130657" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3477_lightning_talks_1.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Lightning Talks (1)</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: Lightning Talks (2)</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3477_lightning_talks_2.mp4" length="85495925" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3477_lightning_talks_2.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Lightning Talks (2)</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2009: Videomitschnitte: ... und Tschüß!</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds09-videomitschnitte.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2009/3466_und_tschuess.mp4" length="21518910" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds09-videomitschnitte.html+++http://ftp.c3d2.de/datenspuren/2009/3466_und_tschuess.mp4</guid>
+      <pubDate>Tue, 05 Nov 2013 23:59:59 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/news/datenspuren-2009.png" title="Datenspuren 2009" alt="Datenspuren 2009" class=""/><p class="">
+    We're <em>lucky!</em> Die Mitschnitte der <a href="http://datenspuren.de/2009/">Datenspuren 2009</a> haben
+    endlich ihren Weg zu uns gefunden.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>... und Tschüß!</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>pentaradio24: Cryptocalypse?</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+    Im Zuge der NSA-Affäre ist die sogenannte <em>Cryptocalypse</em>
+    in aller Munde. Dabei galt Kryptographie lange als sicheres Mittel
+    um Kommunikation zu schützen.
+  </p><p class="">
+    Dabei ist die positive Auswirkung, dass sich die Crypto-Community
+    endlich mal wieder die vielbenutzte Systeme wie PGP, SSL, Tor und
+    Truecrypt einer Überprüfung unterzogen wurden.
+  </p><p class="">
+    Live hören könnt ihr Pentaradio wieder heute um 21:30-23:00 Uhr auf
+    <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>). Macht
+    mit im <a href="http://www.c3d2.de/muc.html">Chat!</a>
+    Und wenn ihr Fragen habt: <a href="tel:+49-351-32054711">anrufen!</a>
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/pentaradio24-20131022.html</link>
+      <enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2013-10-22.mp3" length="87339028" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20131022.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2013-10-22.mp3</guid>
+      <pubDate>Tue, 22 Oct 2013 15:32:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+    Im Zuge der NSA-Affäre ist die sogenannte <em>Cryptocalypse</em>
+    in aller Munde. Dabei galt Kryptographie lange als sicheres Mittel
+    um Kommunikation zu schützen.
+  </p><p class="">
+    Dabei ist die positive Auswirkung, dass sich die Crypto-Community
+    endlich mal wieder die vielbenutzte Systeme wie PGP, SSL, Tor und
+    Truecrypt einer Überprüfung unterzogen wurden.
+  </p><p class="">
+    Live hören könnt ihr Pentaradio wieder heute um 21:30-23:00 Uhr auf
+    <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>). Macht
+    mit im <a href="http://www.c3d2.de/muc.html">Chat!</a>
+    Und wenn ihr Fragen habt: <a href="tel:+49-351-32054711">anrufen!</a>
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>pentaradio24 vom 22. Oktober 2013</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+      <atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20131022.html&amp;title=pentaradio24%3A%20Cryptocalypse%3F&amp;description=%0A%20%20%20%20Im%20Zuge%20der%20NSA-Aff%C3%A4re%20ist%20die%20sogenannte%20Cryptocalypse%0A%20%20%20%20in%20aller%20Munde.%20Dabei%20galt%20Kryptographie%20lange%20als%20sicheres%20Mittel%0A%20%20%20%20um%20Kommunikation%20zu%20sch%C3%BCtzen.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5247_privacy_by_design.mp3" length="12221233" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5247_privacy_by_design.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Privacy by Design</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5240_was_ist_eigentlich_sichere_kommunikation.mp3" length="34299402" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5240_was_ist_eigentlich_sichere_kommunikation.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Was ist eigentlich sichere Kommunikation?</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5177_private_und_freie_geo_welt.mp3" length="34335482" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5177_private_und_freie_geo_welt.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>private und freie Geo Welt</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5257_prism_tempora.mp3" length="36520364" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5257_prism_tempora.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>PRISM / TEMPORA</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5161_wenn_guter_code_zu_schlechter_software_wird.mp3" length="34142604" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5161_wenn_guter_code_zu_schlechter_software_wird.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Wenn guter Code zu schlechter Software wird.</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5233_backdoors_mit_bordmitteln.mp3" length="39051450" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5233_backdoors_mit_bordmitteln.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Backdoors mit Bordmitteln</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5172_webrtc.mp3" length="36685665" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5172_webrtc.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>WebRTC</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5139_wie_surfe_ich_sicher_im_netz.mp3" length="33930238" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5139_wie_surfe_ich_sicher_im_netz.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Wie surfe ich sicher im Netz?</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5239_idee_fuer_einen_emailprovider_der_anderen_art.mp3" length="25699838" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5239_idee_fuer_einen_emailprovider_der_anderen_art.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Idee für einen Emailprovider der anderen Art</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5174_synthetic_knowledge_from_thought_and_the_fabric_of_information.mp3" length="50030895" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5174_synthetic_knowledge_from_thought_and_the_fabric_of_information.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Synthetic knowledge from thought and the fabric of information</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5175_ddmesh.mp3" length="18464277" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5175_ddmesh.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>ddmesh</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5170_lightning_talks.mp3" length="65176876" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5170_lightning_talks.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Lightning Talks</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5249_psychologische_auswirkungen_der_ueberwachung.mp3" length="65404562" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5249_psychologische_auswirkungen_der_ueberwachung.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Psychologische Auswirkungen der Überwachung</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5248_pentanews_gameshow.mp3" length="67350747" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5248_pentanews_gameshow.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Pentanews Gameshow</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5235_ist_oeffentlichkeit_selbstverstaendlich.mp3" length="21510302" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5235_ist_oeffentlichkeit_selbstverstaendlich.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Ist Öffentlichkeit selbstverständlich?</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5292_askemos.mp3" length="45773910" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5292_askemos.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Askemos - ethische Cloud</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5169_angst.mp3" length="42675561" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5169_angst.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>ANGST</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5234_abmahnungen_bei_offenem_wlan_und_andere_fragen_an_einen_anwalt.mp3" length="40005380" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5234_abmahnungen_bei_offenem_wlan_und_andere_fragen_an_einen_anwalt.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Abmahnungen bei offenem WLAN und andere Fragen an einen Anwalt</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5225_podiumsdiskussion.mp3" length="88552638" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5225_podiumsdiskussion.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>Podiumsdiskussion</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte komplett</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5263_closing_event.mp3" length="2542413" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-komplett.html+++http://ftp.c3d2.de/datenspuren/2013/5263_closing_event.mp3</guid>
+      <pubDate>Tue, 08 Oct 2013 02:19:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Sie sind komplett, die Mitschnitte der
+    <a href="http://datenspuren.de/2013/">Datenspuren 2013</a>!
+    Ebenfalls konsumierbar sind sie als <a href="http://datenspuren.de/2013/mitschnitte-rss.xml">Podcast-Feed</a>
+    und per <a href="http://bitlove.org/c3d2/ds13">BitTorrent</a>.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>closing event</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>pentaradio24: Verwert mein nicht</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      Die Gesellschaft für musikalische Aufführungs und mechanische Vervielfältigungsrechte (GEMA) ist seit 1933 die einzige staatlich legitimierte Verwertungsgesellschaft.  Ob Gema Vermutung oder das Diktat "einmal Gema, immer Gema": Eine  festgefahrene Geschäftsidee jagt die nächste. Zeit, Wind in die  Verwertung zu bringen.
+      Welche Vorteile bringt eine Alternative wie die C3S? Wie schaut es in anderen Ländern aus?
+      Welche möglichkeiten bietet das für Kuenstler ?
+      Was bedeutet eine Alternative zur GEMA fuer die GEMA ?
+
+  </p><p class="">
+    Live hören könnt ihr Pentaradio heute wieder um 21:30-23:00 Uhr auf
+    <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>). Macht
+    mit im <a href="http://www.c3d2.de/muc.html">Chat!</a>
+    Und wenn ihr Fragen habt: <a href="tel:+49-351-32054711">anrufen!</a>
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/pentaradio24-20130924.html</link>
+      <enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2013-09-24.mp3" length="85357462" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20130924.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2013-09-24.mp3</guid>
+      <pubDate>Mon, 23 Sep 2013 20:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      Die Gesellschaft für musikalische Aufführungs und mechanische Vervielfältigungsrechte (GEMA) ist seit 1933 die einzige staatlich legitimierte Verwertungsgesellschaft.  Ob Gema Vermutung oder das Diktat "einmal Gema, immer Gema": Eine  festgefahrene Geschäftsidee jagt die nächste. Zeit, Wind in die  Verwertung zu bringen.
+      Welche Vorteile bringt eine Alternative wie die C3S? Wie schaut es in anderen Ländern aus?
+      Welche möglichkeiten bietet das für Kuenstler ?
+      Was bedeutet eine Alternative zur GEMA fuer die GEMA ?
+
+  </p><p class="">
+    Live hören könnt ihr Pentaradio heute wieder um 21:30-23:00 Uhr auf
+    <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>). Macht
+    mit im <a href="http://www.c3d2.de/muc.html">Chat!</a>
+    Und wenn ihr Fragen habt: <a href="tel:+49-351-32054711">anrufen!</a>
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>pentaradio24 vom 25. September 2013</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+      <atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20130924.html&amp;title=pentaradio24%3A%20Verwert%20mein%20nicht&amp;description=%0A%20%20%20%20%20%20Die%20Gesellschaft%20f%C3%BCr%20musikalische%20Auff%C3%BChrungs%20und%20mechanische%20Vervielf%C3%A4ltigungsrechte%20(GEMA)%20ist%20seit%201933%20die%20einzige%20staatlich%20legitimierte%20Verwertungsgesellschaft.%20%20Ob%20Gema%20Vermutung%20oder%20das%20Diktat%20%22einmal%20Gema%2C%20immer%20Gema%22%3A%20Eine%20%20festgefahrene%20Gesch%C3%A4ftsidee%20jagt%20die%20n%C3%A4chste.%20Zeit%2C%20Wind%20in%20die%20%20Verwertung%20zu%20bringen.%0A%20%20%20%20%20%20Welche%20Vorteile%20bringt%20eine%20Alternative%20wie%20die%20C3S%3F%20Wie%20schaut%20es%20in%20anderen%20L%C3%A4ndern%20aus%3F%0A%20%20%20%20%20%20Welche%20m%C3%B6glichkeiten%20bietet%20das%20f%C3%BCr%20Kuenstler%20%3F%0A%20%20%20%20%20%20Was%20bedeutet%20eine%20Alternative%20zur%20GEMA%20fuer%20die%20GEMA%20%3F%0A%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte online (Teil 1): Podiumsdiskussion</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5225_podiumsdiskussion.mp4" length="449551691" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html+++http://ftp.c3d2.de/datenspuren/2013/5225_podiumsdiskussion.mp4</guid>
+      <pubDate>Sat, 14 Sep 2013 00:13:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></content:encoded>
+      <itunes:subtitle>Podiumsdiskussion</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte online (Teil 1): Lightning Talks</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5170_lightning_talks.mp4" length="330490175" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html+++http://ftp.c3d2.de/datenspuren/2013/5170_lightning_talks.mp4</guid>
+      <pubDate>Sat, 14 Sep 2013 00:13:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></content:encoded>
+      <itunes:subtitle>Lightning Talks</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte online (Teil 1): WebRTC</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5172_webrtc.mp4" length="186187362" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html+++http://ftp.c3d2.de/datenspuren/2013/5172_webrtc.mp4</guid>
+      <pubDate>Sat, 14 Sep 2013 00:13:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></content:encoded>
+      <itunes:subtitle>WebRTC</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte online (Teil 1): ddmesh</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5175_ddmesh.mp4" length="93264692" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html+++http://ftp.c3d2.de/datenspuren/2013/5175_ddmesh.mp4</guid>
+      <pubDate>Sat, 14 Sep 2013 00:13:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></content:encoded>
+      <itunes:subtitle>ddmesh</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>Datenspuren 2013 - Videomitschnitte online (Teil 1): PRISM / TEMPORA</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html</link>
+      <enclosure url="http://ftp.c3d2.de/datenspuren/2013/5257_prism_tempora.mp4" length="185348730" type="video/mp4"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/ds13-videomitschnitte-teil1.html+++http://ftp.c3d2.de/datenspuren/2013/5257_prism_tempora.mp4</guid>
+      <pubDate>Sat, 14 Sep 2013 00:13:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/cfp-flyer-ds13_logo.png" title="Datenspuren 2013" alt="Datenspuren 2013" class=""/><p class="">
+    Videoengel <em>COeins</em> hat sich ins Zeug gelegt und somit
+    können wir bereits nach weniger als einer Woche eine Vorschau auf
+    die ersten fünf Videomitschnitte geben. Insbesondere die
+    Podiumsdiskussion kann euch zur Bundestagswahl in einer Woche zu
+    einer besser informierten Entscheidung verhelfen.
+  </p><p class="">
+      Die Mitschnitte der übrigen Vorträge folgen in den nächsten
+      Wochen.
+    </p></div>]]></content:encoded>
+      <itunes:subtitle>PRISM / TEMPORA</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>pentaradio24: Datenspuren Pre-Show</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+    Ob NSA, BND, Facebook oder Google: Die Datensammelwut hat um sich
+    gegriffen. Es wird gespeichert was anfällt, ausgewertet wird
+    notfalls später. Deshalb fordern wir bei den diesjährigen
+    Datenspuren: Privacy by Design! Privatsphäre von Anfang an. Wo
+    keine Daten anfallen, können auch keine gespeichert werden. Über
+    dies und noch mehr könnt ihr euch mit uns am 7. und 8. September
+    2013 zu den <a href="http://datenspuren.de/">Datenspuren</a>
+    in der Scheune in Dresden unterhalten. Los geht's an beiden Tagen
+    um 10 Uhr und der Eintritt ist frei.
+  </p><p class="">
+    Wir stellen euch in dieser Ausgabe das Programm der Datenspuren vor,
+    erzählen was man beim Junghackertrack so machen kann, welche Vorträge
+    es lohnt anzuhören und welche Workshops besucht werden können.
+  </p><p class="">
+    Live hören könnt ihr Pentaradio heute wieder um 21:30-23:00 Uhr auf
+    <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>). Macht
+    mit im <a href="http://www.c3d2.de/muc.html">Chat!</a>
+    Und wenn ihr Fragen habt: <a href="tel:+49-351-32054711">anrufen!</a>
+  </p><p class="">
+    Mehr Informationen zum Programm, und wir ihr uns helfen könnt, die
+    Datenspuren finanziell zu ermöglichen:
+    <a href="http://datenspuren.de/">datenspuren.de</a>
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/pentaradio24-20130827.html</link>
+      <enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2013-08-27.mp3" length="80208928" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20130827.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2013-08-27.mp3</guid>
+      <pubDate>Tue, 27 Aug 2013 15:23:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+    Ob NSA, BND, Facebook oder Google: Die Datensammelwut hat um sich
+    gegriffen. Es wird gespeichert was anfällt, ausgewertet wird
+    notfalls später. Deshalb fordern wir bei den diesjährigen
+    Datenspuren: Privacy by Design! Privatsphäre von Anfang an. Wo
+    keine Daten anfallen, können auch keine gespeichert werden. Über
+    dies und noch mehr könnt ihr euch mit uns am 7. und 8. September
+    2013 zu den <a href="http://datenspuren.de/">Datenspuren</a>
+    in der Scheune in Dresden unterhalten. Los geht's an beiden Tagen
+    um 10 Uhr und der Eintritt ist frei.
+  </p><p class="">
+    Wir stellen euch in dieser Ausgabe das Programm der Datenspuren vor,
+    erzählen was man beim Junghackertrack so machen kann, welche Vorträge
+    es lohnt anzuhören und welche Workshops besucht werden können.
+  </p><p class="">
+    Live hören könnt ihr Pentaradio heute wieder um 21:30-23:00 Uhr auf
+    <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>). Macht
+    mit im <a href="http://www.c3d2.de/muc.html">Chat!</a>
+    Und wenn ihr Fragen habt: <a href="tel:+49-351-32054711">anrufen!</a>
+  </p><p class="">
+    Mehr Informationen zum Programm, und wir ihr uns helfen könnt, die
+    Datenspuren finanziell zu ermöglichen:
+    <a href="http://datenspuren.de/">datenspuren.de</a>
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>pentaradio24 vom 27. August 2013</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+      <atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20130827.html&amp;title=pentaradio24%3A%20Datenspuren%20Pre-Show&amp;description=%0A%20%20%20%20Ob%20NSA%2C%20BND%2C%20Facebook%20oder%20Google%3A%20Die%20Datensammelwut%20hat%20um%20sich%0A%20%20%20%20gegriffen.%20Es%20wird%20gespeichert%20was%20anf%C3%A4llt%2C%20ausgewertet%20wird%0A%20%20%20%20notfalls%20sp%C3%A4ter.%20Deshalb%20fordern%20wir%20bei%20den%20diesj%C3%A4hrigen%0A%20%20%20%20Datenspuren%3A%20Privacy%20by%20Design!%20Privatsph%C3%A4re%20von%20Anfang%20an.%20Wo%0A%20%20%20%20keine%20Daten%20anfallen%2C%20k%C3%B6nnen%20auch%20keine%20gespeichert%20werden.%20%C3%9Cber%0A%20%20%20%20dies%20und%20noch%20mehr%20k%C3%B6nnt%20ihr%20euch%20mit%20uns%20am%207.%20und%208.%20September%0A%20%20%20%202013%20zu%20den%20Datenspuren%0A%20%20%20%20in%20der%20Scheune%20in%20Dresden%20unterhalten.%20Los%20geht's%20an%20beiden%20Tagen%0A%20%20%20%20um%2010%20Uhr%20und%20der%20Eintritt%20ist%20frei.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/>
+    </item>
+    <item>
+      <title>NSA-Überwachungsaffäre: Wie sicher sind meine Daten im Freistaat Sachsen?</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><dl>
+    <dt>Datum</dt><dd><abbr class="dtstart" title="20130820T193000">Dienstag, 20. August 2013 um 19:30 Uhr</abbr>
+	bis
+	<abbr class="dtend" title="20130820T220000">22:00 Uhr</abbr></dd>
+    
+    <dt>Ort</dt><dd class="location">Grüne Ecke Dresden, Bischofsplatz 6</dd>
+  </dl><p class="">
+      Wir sind von <a href="http://www.johannes-lichdi.de">Johannes Lichdi</a> eingeladen worden mit ihm und dem
+      stellvertretenden Sächsischen Datenschutzbeauftragtem Bernhard Bannasch ueber die juengst aufopferungsvoll
+      veröffentlichten Berichte über Schnüffelprogramme diverser Geheimdienste zu diskutieren. Dem kommen wir gern nach.
+  </p><p class="">
+      Der Schwerpunkt der <a href="http://www.johannes-lichdi.de/prism.html">Veranstaltung</a> liegt bei 
+      den Auswirkungen auf die Bewohner des Freistaats Sachsen. D. h. vor allem seid Ihr eingeladen mit uns zu
+      diskutieren, welche Abzweigung auf der Datenautobahn wohl in die falsche Richtung der Informationsgesellschaft
+      geführt hat.
+  </p><p class="">Dank für den Mitschnitt geht an <a href="http://coloradio.org/">coloRadio</a>.</p></div>]]></description>
+      <link>http://www.c3d2.de/news/event-20130820-lichdi.html</link>
+      <enclosure url="http://ftp.c3d2.de/misc/grueneecke-20130820.mp3" length="103714800" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/event-20130820-lichdi.html+++http://ftp.c3d2.de/misc/grueneecke-20130820.mp3</guid>
+      <pubDate>Sun, 18 Aug 2013 13:21:53 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><dl>
+    <dt>Datum</dt><dd><abbr class="dtstart" title="20130820T193000">Dienstag, 20. August 2013 um 19:30 Uhr</abbr>
+	bis
+	<abbr class="dtend" title="20130820T220000">22:00 Uhr</abbr></dd>
+    
+    <dt>Ort</dt><dd class="location">Grüne Ecke Dresden, Bischofsplatz 6</dd>
+  </dl><p class="">
+      Wir sind von <a href="http://www.johannes-lichdi.de">Johannes Lichdi</a> eingeladen worden mit ihm und dem
+      stellvertretenden Sächsischen Datenschutzbeauftragtem Bernhard Bannasch ueber die juengst aufopferungsvoll
+      veröffentlichten Berichte über Schnüffelprogramme diverser Geheimdienste zu diskutieren. Dem kommen wir gern nach.
+  </p><p class="">
+      Der Schwerpunkt der <a href="http://www.johannes-lichdi.de/prism.html">Veranstaltung</a> liegt bei 
+      den Auswirkungen auf die Bewohner des Freistaats Sachsen. D. h. vor allem seid Ihr eingeladen mit uns zu
+      diskutieren, welche Abzweigung auf der Datenautobahn wohl in die falsche Richtung der Informationsgesellschaft
+      geführt hat.
+  </p><p class="">Dank für den Mitschnitt geht an <a href="http://coloradio.org/">coloRadio</a>.</p></div>]]></content:encoded>
+      <itunes:subtitle>Veranstaltungsmitschnitt</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+    </item>
+    <item>
+      <title>pentaradio24: Unbenannt</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      Pentaradio mit unbenanntem Thema und sehr viel Weltschmerz.
+    </p><p class="">
+      Die erwähnte Nordkoreanische Dokumentation <em>Propaganda</em>
+      gibts <a href="http://www.youtube.com/watch?v=6NMr2VrhmFI">auf
+      YouTube</a>. Viele weitere News der Sendung wurden im <a href="https://pentamedia.c3d2.de/submit/news-per-show/2013-07">im
+      Pentamedia News Submitter</a> gesammelt.
+    </p></div>]]></description>
+      <link>http://www.c3d2.de/news/pentaradio24-20130723.html</link>
+      <enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2013-07-23.mp3" length="83445155" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20130723.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2013-07-23.mp3</guid>
+      <pubDate>Tue, 23 Jul 2013 20:15:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      Pentaradio mit unbenanntem Thema und sehr viel Weltschmerz.
+    </p><p class="">
+      Die erwähnte Nordkoreanische Dokumentation <em>Propaganda</em>
+      gibts <a href="http://www.youtube.com/watch?v=6NMr2VrhmFI">auf
+      YouTube</a>. Viele weitere News der Sendung wurden im <a href="https://pentamedia.c3d2.de/submit/news-per-show/2013-07">im
+      Pentamedia News Submitter</a> gesammelt.
+    </p></div>]]></content:encoded>
+      <itunes:subtitle>pentaradio24 vom 23. Juli 2013</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+      <atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20130723.html&amp;title=pentaradio24%3A%20Unbenannt&amp;description=%0A%20%20%20%20%20%20Pentaradio%20mit%20unbenanntem%20Thema%20und%20sehr%20viel%20Weltschmerz.%0A%20%20%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/>
+    </item>
+    <item>
+      <title>pentaradio24: Naïv im Neuland</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+    Das US-amerikanische Spionageprogramm <a href="http://www.c3d2.de/news/pm-prism.html">PRISM</a> ist ein Ding von vielen,
+    die im letzten Monat ans Licht gekommen sind. Das Programm hätte
+    man ja noch in etwa erwarten können. Dass man in Großbritannien
+    aber per Default einen Spiegel in die interkontinentalen
+    Glasfasern hält, die Amis Stasi-mässige Denunzierungsprogramme zur
+    Whistleblower-Jagd fahren, schlägt dem Fass den Boden aus. Dazu
+    Mutti im Kostümchen die die jahrzehntealten neuen Medien als
+    “Neuland” bezeichnet.
+  </p><p class="">
+    Wir haben uns über 42 Stream-Zuhörer gefreut.
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/pentaradio24-20130625.html</link>
+      <enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2013-06-25.mp3" length="84077386" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20130625.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2013-06-25.mp3</guid>
+      <pubDate>Tue, 25 Jun 2013 14:28:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+    Das US-amerikanische Spionageprogramm <a href="http://www.c3d2.de/news/pm-prism.html">PRISM</a> ist ein Ding von vielen,
+    die im letzten Monat ans Licht gekommen sind. Das Programm hätte
+    man ja noch in etwa erwarten können. Dass man in Großbritannien
+    aber per Default einen Spiegel in die interkontinentalen
+    Glasfasern hält, die Amis Stasi-mässige Denunzierungsprogramme zur
+    Whistleblower-Jagd fahren, schlägt dem Fass den Boden aus. Dazu
+    Mutti im Kostümchen die die jahrzehntealten neuen Medien als
+    “Neuland” bezeichnet.
+  </p><p class="">
+    Wir haben uns über 42 Stream-Zuhörer gefreut.
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>pentaradio24 vom 25. Juni 2013</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+      <atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20130625.html&amp;title=pentaradio24%3A%20Na%C3%AFv%20im%20Neuland&amp;description=%0A%20%20%20%20Das%20US-amerikanische%20Spionageprogramm%20PRISM%20ist%20ein%20Ding%20von%20vielen%2C%0A%20%20%20%20die%20im%20letzten%20Monat%20ans%20Licht%20gekommen%20sind.%20Das%20Programm%20h%C3%A4tte%0A%20%20%20%20man%20ja%20noch%20in%20etwa%20erwarten%20k%C3%B6nnen.%20Dass%20man%20in%20Gro%C3%9Fbritannien%0A%20%20%20%20aber%20per%20Default%20einen%20Spiegel%20in%20die%20interkontinentalen%0A%20%20%20%20Glasfasern%20h%C3%A4lt%2C%20die%20Amis%20Stasi-m%C3%A4ssige%20Denunzierungsprogramme%20zur%0A%20%20%20%20Whistleblower-Jagd%20fahren%2C%20schl%C3%A4gt%20dem%20Fass%20den%20Boden%20aus.%20Dazu%0A%20%20%20%20Mutti%20im%20Kost%C3%BCmchen%20die%20die%20jahrzehntealten%20neuen%20Medien%20als%0A%20%20%20%20%E2%80%9CNeuland%E2%80%9D%20bezeichnet.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/>
+    </item>
+    <item>
+      <title>pentaradio24: Stand und Entwicklung bei AV-Codecs</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+    Zum Pentaradio am 28. Mai thematisieren wir Videocodecs. Als
+    Experten haben wir Michael Roitzsch eingeladen, bekannt aus <a href="http://www.c3d2.de/news/pentacast-27-video-encoding.html">Pentacast 27</a>
+    und <a href="http://www.c3d2.de/news/pentacast-47-farbmanagement.html">Pentacast
+    45</a>.  Neben der Technik wollen wir auch über Problematiken
+    wie DRM und Lizenzpolitik sprechen.
+  </p><p class="">
+    Live hören könnt ihr Pentaradio wieder um 21:30-23:00 Uhr auf
+    <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>). Macht
+    mit im <a href="http://www.c3d2.de/muc.html">Chat!</a>
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/pentaradio24-20130528.html</link>
+      <enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2013-05-28.mp3" length="103797033" type="audio/mpeg"/>
+      <guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20130528.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2013-05-28.mp3</guid>
+      <pubDate>Mon, 27 May 2013 02:05:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+    Zum Pentaradio am 28. Mai thematisieren wir Videocodecs. Als
+    Experten haben wir Michael Roitzsch eingeladen, bekannt aus <a href="http://www.c3d2.de/news/pentacast-27-video-encoding.html">Pentacast 27</a>
+    und <a href="http://www.c3d2.de/news/pentacast-47-farbmanagement.html">Pentacast
+    45</a>.  Neben der Technik wollen wir auch über Problematiken
+    wie DRM und Lizenzpolitik sprechen.
+  </p><p class="">
+    Live hören könnt ihr Pentaradio wieder um 21:30-23:00 Uhr auf
+    <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>). Macht
+    mit im <a href="http://www.c3d2.de/muc.html">Chat!</a>
+  </p></div>]]></content:encoded>
+      <itunes:subtitle>pentaradio24 vom 28. Mai 2013</itunes:subtitle>
+      <itunes:author>CCC Dresden</itunes:author>
+      <atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20130528.html&amp;title=pentaradio24%3A%20Stand%20und%20Entwicklung%20bei%20AV-Codecs&amp;description=%0A%20%20%20%20Zum%20Pentaradio%20am%2028.%20Mai%20thematisieren%20wir%20Videocodecs.%20Als%0A%20%20%20%20Experten%20haben%20wir%20Michael%20Roitzsch%20eingeladen%2C%20bekannt%20aus%20Pentacast%2027%0A%20%20%20%20und%20Pentacast%0A%20%20%20%2045.%20%20Neben%20der%20Technik%20wollen%20wir%20auch%20%C3%BCber%20Problematiken%0A%20%20%20%20wie%20DRM%20und%20Lizenzpolitik%20sprechen.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/>
+    </item>
+  </channel>
+</rss>
+
