@@ -34,7 +34,7 @@ group :development, :test do
 end
 group :test do
   gem 'capybara', '~>2.2.0.rc1'
-  gem 'poltergeist'
+  # gem 'poltergeist'
   gem 'vcr'
   gem 'webmock'
   gem 'coveralls', require: false
