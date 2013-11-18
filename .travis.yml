@@ -1,0 +1,16 @@
+language: ruby
+
+rvm: [2.0.0]
+
+branches:
+  only: [ master ]
+
+before_script:
+  - psql -c 'create database podfilter_test' -U postgres
+  - cp config/database.yml.travis config/database.yml
+
+script:
+  - bundle exec rake db:schema:load
+  - bundle exec rspec
+
+bundler_args: "--without development production"

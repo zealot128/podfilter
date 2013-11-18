@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  database: podfilter_dev
+  pool: 30
+
+test:
+  adapter: postgresql
+  database: podfilter_test

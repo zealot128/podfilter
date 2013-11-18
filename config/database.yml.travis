@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: podfilter_dev
+
+test:
+  adapter: postgresql
+  database: podfilter_test
