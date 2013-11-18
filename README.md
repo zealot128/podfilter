@@ -11,6 +11,7 @@ Fork, install/configure:
 git clone https://github.com/YOURFORK/podfilter.de
 cd podfilter.de
 bundle
+cp config/database.yml.example config/database.yml
 rake db:migrate db:test:prepare
 bundle exec rspec
 
