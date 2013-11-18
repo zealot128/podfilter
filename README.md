@@ -34,3 +34,4 @@ foreman start
 * more community/comment/like aspects
 
 * follow redirects. example http://learn.thoughtbot.com/podcast.xml
+* remove duplicates -> similar mp3/ogg links unification
