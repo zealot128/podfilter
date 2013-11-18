@@ -15,7 +15,7 @@ class SimilarityCalculation
   end
 
   def self.refresh_all
-    Owner.joins(:opml_files).pluck(:id) do |owner_id|
+    Owner.joins(:opml_files).pluck(:id).each do |owner_id|
       SimilarityWorker.perform_async(owner_id)
     end
   end
