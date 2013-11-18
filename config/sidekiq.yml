@@ -1,12 +1,9 @@
 ---
 :verbose: false
-:pidfile: ./tmp/pids/sidekiq.yml
+:pidfile: tmp/pids/sidekiq.pid
 :concurrency: 25
+:url: 'redis://localhost:6379/0'
 production:
-  :redis:
-    :url: 'redis://localhost:6379/0'
-    :namespace: "sidekiq_podfilter_production"
+  :namespace: "sidekiq_podfilter_production"
 development:
-  :redis:
-    :url: 'redis://localhost:6379/0'
-    :namespace: "sidekiq_podfilter_development"
+  :namespace: "sidekiq_podfilter_development"

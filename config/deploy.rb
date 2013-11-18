@@ -14,6 +14,7 @@ set :linked_files, %w{config/database.yml .env config/email.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/uploads}
 
 set :sidekiq_default_hooks, true
+set :sidekiq_pid, -> { "#{current_path}/tmp/pids/sidekiq.pid" }
 
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 # set :keep_releases, 5
