@@ -3,7 +3,3 @@
 :pidfile: tmp/pids/sidekiq.pid
 :concurrency: 25
 :url: 'redis://localhost:6379/0'
-production:
-  :namespace: "sidekiq_podfilter_production"
-development:
-  :namespace: "sidekiq_podfilter_development"
