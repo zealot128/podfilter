@@ -5,7 +5,7 @@ rvm:
 
 branches:
   only:
-    -master
+    - master
 
 before_script:
   - psql -c 'create database podfilter_test' -U postgres
