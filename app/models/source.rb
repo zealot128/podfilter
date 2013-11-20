@@ -80,7 +80,7 @@ class Source < ActiveRecord::Base
     Feedzirra::Feed.add_common_feed_element :"itunes:image", :value => :href, :as => :itunes_image
     Feedzirra::Feed.add_common_feed_element :"itunes:summary", :as => :itunes_summary
     Feedzirra::Feed.add_common_feed_element :"itunes:category", :as => :itunes_categories, :value => :text
-    Feedzirra::Feed.add_common_feed_element "url", :as => :image
+    Feedzirra::Feed.add_common_feed_element "image", :as => :image
 
     @parse_feed ||=  Feedzirra::Feed.fetch_and_parse(url)
   end
