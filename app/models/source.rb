@@ -89,8 +89,8 @@ class Source < ActiveRecord::Base
     parsed_feed.entries.each do |entry|
       guid = entry.respond_to?(:entry_id) ? entry.entry_id : entry.guid
       episode = episodes.where(guid: guid).first_or_initialize
-      episode.title = entry.title
-      episode.url   = entry.url
+      episode.title = entry.title.try(:slice, 0, 255)
+      episode.url   = entry.url.try(:slice, 0, 255)
       episode.description = entry.summary
       episode.pubdate = entry.published
       episode.save

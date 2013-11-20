@@ -43,6 +43,7 @@ namespace :deploy do
   after 'reverted',  'sidekiq:stop'
 
   after 'published', 'sidekiq:start'
+  after 'published', :update_crontab
 end
 
 
