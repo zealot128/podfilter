@@ -22,10 +22,11 @@ require 'capistrano/bundler'
 require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
 require 'capistrano/rails/console'
+require 'capistrano/version'
 require 'sidekiq/capistrano'
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
 Dir.glob('lib/capistrano/tasks/*.cap').each { |r| import r }
 
 
-set :log_level, Logger::INFO
+# set :log_level, Logger::INFO

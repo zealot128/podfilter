@@ -6,6 +6,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'ruby-progressbar'
 gem 'bootstrap-sass', '>= 3.0.0.0'
 gem 'omniauth'
 gem 'omniauth-twitter'
@@ -14,6 +15,7 @@ gem 'slim-rails'
 gem 'pry-rails'
 gem 'pg'
 gem 'dotenv-rails'
+
 group :development do
   gem 'habtm_generator'
   gem 'thin'
@@ -41,7 +43,7 @@ group :test do
 end
 gem 'faraday'
 gem 'feedzirra'
-gem 'sidekiq'
+gem 'sidekiq', github: 'mperham/sidekiq' # Capistrano 3 problems https://github.com/mperham/sidekiq/blob/master/lib/sidekiq/tasks/sidekiq.rake
 gem 'sinatra', require: false
 gem 'sidekiq-unique-jobs'
 gem 'rack-raw-upload'

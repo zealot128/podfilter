@@ -13,8 +13,7 @@ set :log_level, :info
 set :linked_files, %w{config/database.yml .env config/email.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/uploads}
 
-set :sidekiq_default_hooks, true
-set :sidekiq_pid, -> { "#{current_path}/tmp/pids/sidekiq.pid" }
+set :sidekiq_pid, -> { "tmp/pids/sidekiq.pid" }
 
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 # set :keep_releases, 5
@@ -37,14 +36,15 @@ namespace :deploy do
   # end
 
   after :finishing, 'deploy:cleanup'
-  after 'deploy:starting',  'sidekiq:quiet'
-  after 'updated',   'sidekiq:stop'
+  # after 'deploy:starting',  'sidekiq:quiet'
 
-  after 'reverted',  'sidekiq:stop'
+  # after 'reverted',  'sidekiq:start'
 
-  after 'published', 'sidekiq:start'
+  # after 'published', 'sidekiq:restart'
   after 'published', :update_crontab
 end
+
+# before 'deploy:starting', 'sidekiq:add_default_hooks'
 
 
 desc "Update crontab with whenever"
