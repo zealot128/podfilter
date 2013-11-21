@@ -27,6 +27,7 @@ foreman start
 
 ### What could be done?
 
+* Logo/favicon
 * search
 * categorization improvements
 * recommendations

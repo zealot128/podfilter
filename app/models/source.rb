@@ -89,7 +89,7 @@ class Source < ActiveRecord::Base
     parsed_feed.entries.each do |entry|
       guid = entry.respond_to?(:entry_id) ? entry.entry_id : entry.guid
       if guid.blank?
-        guid = entry.published
+        guid = entry.published && entry.published.to_s
       end
       next if guid.blank?
 
