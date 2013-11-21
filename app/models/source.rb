@@ -88,6 +88,10 @@ class Source < ActiveRecord::Base
   def update_entries
     parsed_feed.entries.each do |entry|
       guid = entry.respond_to?(:entry_id) ? entry.entry_id : entry.guid
+      if guid.blank?
+        guid = entry.published
+      end
+      next if guid.blank?
 
       episode = episodes.where(guid: guid.slice(0,255)).first_or_initialize
       episode.title = entry.title.try(:slice, 0, 255)
