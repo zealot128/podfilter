@@ -14,7 +14,7 @@ class Source < ActiveRecord::Base
   end
 
 
-  validates :url, presence: true, uniqueness: true, url: true, if: ->(r) { !Rails.env.test?}
+  validates :url, presence: true, uniqueness: { :case_sensitive => false }, url: true, if: ->(r) { !Rails.env.test?}
   validates :image,
     :file_mime_type => {
     :content_type => /image/
@@ -88,7 +88,8 @@ class Source < ActiveRecord::Base
   def update_entries
     parsed_feed.entries.each do |entry|
       guid = entry.respond_to?(:entry_id) ? entry.entry_id : entry.guid
-      episode = episodes.where(guid: guid).first_or_initialize
+
+      episode = episodes.where(guid: guid.slice(0,255)).first_or_initialize
       episode.title = entry.title.try(:slice, 0, 255)
       episode.url   = entry.url.try(:slice, 0, 255)
       episode.description = entry.summary
