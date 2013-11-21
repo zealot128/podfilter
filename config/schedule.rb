@@ -1,4 +1,4 @@
-# set :output, "/path/to/my/cron_log.log"
+set :output, "/apps/podfilter/prod/shared/log/cron.log"
 job_type :runner, "cd :path && bin/rails runner -e :environment ':task' :output"
 
 
