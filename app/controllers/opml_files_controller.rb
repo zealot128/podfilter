@@ -17,6 +17,11 @@ class OpmlFilesController < ApplicationController
 
   def show
     @opml_file = OpmlFile.find(params[:id])
+    @sources = @opml_file.sources.order('title')
+    respond_to do |f|
+      f.html
+      f.xml
+    end
   end
 
   def destroy
