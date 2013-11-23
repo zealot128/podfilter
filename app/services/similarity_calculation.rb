@@ -6,7 +6,7 @@ class SimilarityCalculation
 
   def refresh
     @user.recommendations.delete_all
-    recommendations(top_k: 5, count: 100).each do |id, weight|
+    recommendations(top_k: 10, count: 100).each do |id, weight|
       r = @user.recommendations.build
       r.weight = weight
       r.source_id = id
