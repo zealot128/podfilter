@@ -32,6 +32,8 @@ describe SimilarityCalculation do
     expect(service).to receive(:podcast_ids).with(owner2).and_return([1,10,20])
     expect(service).to receive(:podcast_ids).with(owner3).and_return([2,20,30])
 
-    expect(service.recommendations).to eq [ [20, 2], [10, 1], [30, 1] ]
+    # o1 hat mit o2 und o3 jeweils einen podcast gemeinsam ( 1 und 2). o2 und o3 bieten podcast 10, 20 und 30, 20 sollte zuerst stehen
+
+    expect(service.recommendations).to eq [ [20, 2], [30, 1], [10, 1] ]
   end
 end
