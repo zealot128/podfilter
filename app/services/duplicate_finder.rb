@@ -50,6 +50,13 @@ class DuplicateFinder
     end
   end
 
+  def self.merge_duplicate_titles
+     titles = Source.roots.group(:title).having('count(title) > 1').order('count_all desc').count.delete_if{|k,v| k.length < 5 }
+      titles.each{|i|
+        Source.merge_sources Source.where(title: i[0])
+      }
+
+  end
 
   def self.find_duplicates
     puts 'Fetching active sources...'
