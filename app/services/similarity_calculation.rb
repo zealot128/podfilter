@@ -34,7 +34,7 @@ class SimilarityCalculation
         distance: distance(ids)
       }
     end
-    similars = users_with_distances.sort_by{|i| i[:distance] }.take(top_k)
+    similars = users_with_distances.sort_by{|i| i[:distance] }.reverse.take(top_k)
     possible_podcast_ids = similars.map{|i| i[:podcast_ids]}.flatten - my_podcasts
     podcast_ids_with_counts = possible_podcast_ids.group_by{|i|i}.map{|id,ids| [id, ids.count] }
     podcast_ids_with_counts.sort_by{|id,c| -c}.take(count)
