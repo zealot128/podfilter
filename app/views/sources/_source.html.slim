@@ -1,5 +1,9 @@
 .source-list-item
-  .pull-left.text-center
+  - if can?(:merge, source) and @sources.present?
+    .pull-right(style='margin-right: 20px')
+      = check_box_tag "sources[]", source.id, false
+
+  .pull-left.table-cell.text-center
     - if (source.weight rescue false)
       - sim = [ 100, source.weight / 5.0 * 100].min.to_i
       .progress.similarity(title="Empfehlung: #{sim}%")
@@ -7,18 +11,20 @@
         .sr-only #{sim}% Empfehlung
     - if source.image.present?
       = image_tag source.image.url(:thumb)
-  div
+  div.table-cell
     .source-title
       strong
         = link_to source.title, source
-        - if source.offline?
-          span.label.label-warning<> offline
-        - if source.active === false
-          span.label.label-warning<> inaktiv
-    code
-      = link_to source.url do
-        = source.url
-    br
-    = render 'sources/manage_button', source: source
-    small.text-muted
-      ' #{source.opml_files.count} Abonnenten, #{source.episodes.count} Episoden
+    ul.list-unstyled
+      - source.all_siblings.each do |sub_source|
+        li
+          code
+            = render 'sources/manage_button', source: sub_source
+            = link_to sub_source.url do
+              = sub_source.url
+            - if source.offline?
+              span.label.label-warning<> offline
+            - if source.active === false
+              span.label.label-warning<> inaktiv
+            small.text-muted<>
+              ' #{source.opml_files.count} Abonnenten, #{source.episodes.count} Episoden

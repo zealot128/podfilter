@@ -11,6 +11,7 @@ class SourcesController < ApplicationController
     if params[:foff]
       sql = sql.where(offline: [nil, false])
     end
+    sql = sql.roots
 
     @sources = sql
   end

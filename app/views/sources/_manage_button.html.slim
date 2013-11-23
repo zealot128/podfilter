@@ -1,7 +1,11 @@
 - if can? :add, source
+  - has = current_user.sources.where(id: source.id).count > 0
   span.btn-group<>
     button type='button'  class="btn-xs btn btn-primary dropdown-toggle" data-toggle="dropdown"
-      ' manage
+      - if has
+        i.fa.fa-check.fa-fw
+      - else
+        i.fa.fa-plus.fa-fw
       span.caret
     ul class="dropdown-menu" role="menu"
       - current_user.opml_files.each do |file|

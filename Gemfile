@@ -18,6 +18,7 @@ gem 'dotenv-rails'
 gem "font-awesome-rails", '~> 4.0'
 gem 'pg_search', '~> 0.7.2'
 gem 'kaminari', '~> 0.15'
+gem 'ancestry'
 
 # https://github.com/mcasimir/kaminari-bootstrap/pull/8/files
 gem 'kaminari-bootstrap', github: 'GBH/kaminari-bootstrap', branch: 'bootstrap3'

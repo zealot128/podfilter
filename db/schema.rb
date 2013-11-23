@@ -11,17 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131120215027) do
+ActiveRecord::Schema.define(version: 20131123211524) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "duplicate_candidates", force: true do |t|
     t.integer "ids", array: true
-    t.string  "md5"
   end
-
-  add_index "duplicate_candidates", ["md5"], name: "index_duplicate_candidates_on_md5", unique: true, using: :btree
 
   create_table "episodes", force: true do |t|
     t.string   "title"
@@ -61,6 +58,7 @@ ActiveRecord::Schema.define(version: 20131120215027) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "image"
+    t.boolean  "admin"
   end
 
   add_index "owners", ["token"], name: "index_owners_on_token", unique: true, using: :btree
@@ -83,9 +81,11 @@ ActiveRecord::Schema.define(version: 20131120215027) do
     t.string   "image"
     t.boolean  "offline"
     t.boolean  "active"
+    t.string   "ancestry"
   end
 
   add_index "sources", ["active"], name: "index_sources_on_active", using: :btree
+  add_index "sources", ["ancestry"], name: "index_sources_on_ancestry", using: :btree
   add_index "sources", ["url"], name: "index_sources_on_url", unique: true, using: :btree
 
 end

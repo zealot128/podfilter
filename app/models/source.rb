@@ -7,6 +7,7 @@ class Source < ActiveRecord::Base
       :tsearch => {:prefix => true}
     }
 
+  has_ancestry
   has_and_belongs_to_many :opml_files
   has_many :owners, through: :opml_files
   has_many :episodes, dependent: :destroy
@@ -112,6 +113,10 @@ class Source < ActiveRecord::Base
 
   def to_param
     "#{id}-#{title.to_url}"
+  end
+
+  def all_siblings
+    root.subtree
   end
 
   private

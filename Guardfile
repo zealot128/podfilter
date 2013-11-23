@@ -5,7 +5,7 @@ ignore(/public/)
 interactor :off
 notification :off
 logger level:       :warn
-guard :rspec do
+guard :rspec, focus_on_failed: true, all_after_pass: true, all_on_start: true do
   watch(%r{^spec/.+_spec\.rb$})
   watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb')  { "spec" }

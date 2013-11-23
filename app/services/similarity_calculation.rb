@@ -51,7 +51,7 @@ class SimilarityCalculation
   end
 
   def podcast_ids(user)
-    user.source_ids
+    user.sources.map{|i| i.root.id }
   end
 
 end

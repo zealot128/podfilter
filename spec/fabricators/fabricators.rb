@@ -1,9 +1,13 @@
 Fabricator :owner  do
 end
 
+Fabricator :admin, from: :owner do
+  admin true
+end
+
 Fabricator :source  do
   title 'Podcast No.1'
-  url 'http://www.example.com/podcast.xml'
+  url { sequence(:url) {|i| "http://www.example.com/podcast#{i}.xml" } }
   description '...'
   active true
   offline false
