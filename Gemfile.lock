@@ -162,6 +162,7 @@ GEM
     kaminari (0.15.0)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    kramdown (1.2.0)
     listen (2.2.0)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -367,6 +368,7 @@ DEPENDENCIES
   jquery.fileupload-rails
   kaminari (~> 0.15)
   kaminari-bootstrap!
+  kramdown
   mini_magick
   omniauth
   omniauth-twitter

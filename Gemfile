@@ -61,6 +61,8 @@ gem 'validate_url'
 gem 'stringex'
 gem 'quilt'
 gem 'rmagick'
+gem 'kramdown'
+
 
 
 group :unrequired do
