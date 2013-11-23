@@ -24,9 +24,9 @@
             = render 'sources/manage_button', source: sub_source
             = link_to sub_source.url do
               = sub_source.url
-            - if source.offline?
+            - if sub_source.offline?
               span.label.label-warning<> offline
-            - if source.active === false
+            - if sub_source.active === false
               span.label.label-warning<> inaktiv
             small.text-muted<>
               ' #{source.opml_files.count} Abonnenten, #{source.episodes.count} Episoden
