@@ -2,8 +2,8 @@ Podfilter::Application.routes.draw do
   get "impressum" => 'pages#impress'
   post 'opml/create', to: 'opml_files#create'
   get  'opml/:id', to: 'opml_files#show', as: :opml_file
-  post 'opml/:id/add/:source_id' => 'opml_files#add_source'
-  post 'opml/:id/remove/:source_id' => 'opml_files#remove_source'
+  post 'opml/:id/add/:source_id' => 'opml_files#add_source', as: :add_source_to_opml
+  post 'opml/:id/remove/:source_id' => 'opml_files#remove_source', as: :remove_source_from_opml
 
   delete 'opml/:id' => 'opml_files#destroy'
 

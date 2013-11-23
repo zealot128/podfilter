@@ -6,10 +6,4 @@ class SourcesController < ApplicationController
   def show
   end
 
-  def add_to_opml
-  end
-
-  def remove_from_opml
-  end
-
 end

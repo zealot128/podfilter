@@ -25,7 +25,7 @@ class OpmlFilesController < ApplicationController
       f.xml {
         if params[:download]
           stream = render_to_string :show
-          send_data(stream, :type=>"text/xml",:filename => "podcast-opml.xml")
+          send_data(stream, type: "text/xml",filename: "podcast-opml.xml")
         end
       }
     end
@@ -33,7 +33,8 @@ class OpmlFilesController < ApplicationController
 
   def add_source
     source = Source.find(params[:source_id])
-    @opml_file.sources << source unless @opml_file.sources.where('sources.id = ?', params[:source_id]).count > 0
+    @opml_file.sources << source unless @opml_file.sources.where('sources.id = ?', source.id).count > 0
+    Recommendation.where(owner_id: current_user.id, source_id: source.id).delete_all
     redirect_back_or_dashboard notice: "Quelle #{source.title} hinzugefügt"
   end
 
