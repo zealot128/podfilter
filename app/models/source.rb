@@ -52,6 +52,17 @@ class Source < ActiveRecord::Base
     inactive_live.update_all active: false
   end
 
+  def self.merge_sources(sources)
+    if sources.count < 2
+      raise ArgumentError
+    end
+    parent = sources.shift
+    sources.each do |s|
+      s.parent = parent
+      s.save validate: false
+    end
+  end
+
   def full_refresh
     if parsed_feed.is_a?(Fixnum) or (parsed_feed.title.blank? and parsed_feed.entries.count == 0)
       self.update_attribute :offline, true
