@@ -11,32 +11,14 @@
     .source-title
       strong
         = link_to source.title, source
-
         - if source.offline?
-          span.label.label-default
-            'offline
+          span.label.label-warning<> offline
         - if source.active === false
-          span.label.label-default
-            'inaktiv
+          span.label.label-warning<> inaktiv
     code
       = link_to source.url do
         = source.url
     br
-    - if can? :add, source
-      span.btn-group
-        button type='button'  class="btn-xs btn btn-default dropdown-toggle" data-toggle="dropdown"
-          ' manage
-          span.caret
-        ul class="dropdown-menu" role="menu"
-          - current_user.opml_files.each do |file|
-            li
-              - if file.sources.include?(source)
-                a href=remove_source_from_opml_path(file,source) title='Von dieser Liste entfernen' data-method='post'
-                  i.fa.fa-check.fa-fw
-                  = file.to_s
-              - else
-                a href=add_source_to_opml_path(file,source) title='Zu dieser Liste hinzufügen' data-method='post'
-                  i.fa.fa-plus.fa-fw
-                  = file.to_s
+    = render 'sources/manage_button', source: source
     small.text-muted
       ' #{source.opml_files.count} Abonnenten, #{source.episodes.count} Episoden

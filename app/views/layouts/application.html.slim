@@ -8,24 +8,7 @@ html
     meta name="viewport" content="width=device-width, initial-scale=1.0"
   body
     header class="navbar navbar-default" role="navigation"
-      nav.container
-        #navbar-main
-          a class="navbar-brand" href="/" Podfilter
-          ul class="nav navbar-nav"
-            li
-              a href='/impressum' Impressum
-            - if user_signed_in?
-              li.dropdown
-                a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  ' Du bist angemeldet
-                  span.caret
-
-                ul class="dropdown-menu"
-                  li
-                    = link_to 'Dashboard', dashboard_path
-                  - current_user.opml_files.each do |file|
-                    li
-                      = link_to 'OPML-File', opml_file_path(file)
+      = render 'layouts/navbar'
     section.container
       - if flash[:notice]
         .alert.alert-success

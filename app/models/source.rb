@@ -1,5 +1,12 @@
 require 'file_mime_type_validator'
 class Source < ActiveRecord::Base
+  include PgSearch
+  pg_search_scope :search,
+    :against => [:title, :description, :url],
+    :using => {
+      :tsearch => {:prefix => true}
+    }
+
   has_and_belongs_to_many :opml_files
   has_many :owners, through: :opml_files
   has_many :episodes, dependent: :destroy

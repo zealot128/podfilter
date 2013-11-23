@@ -2,12 +2,11 @@ h1
   - if @source.image.present?
     .pull-right(style='margin-left: 10px')
       - if @source.active?
-        span.label.label-success aktiv
+        span.label.label-success<> aktiv
       - if @source.active == false
-        span.label.label-default inaktiv
+        span.label.label-default<> inaktiv
       - if @source.offline?
-        span.label.label-default offline
-      = ' '
+        span.label.label-default<> offline
       = image_tag @source.image.url(:thumb)
   = @source.title
 
@@ -17,6 +16,7 @@ h1
     = strip_tags @source.description
   pre
     = link_to @source.url, @source.url
+  = render 'sources/manage_button', source: @source
   p
     strong
       'In diesen OPML-Files enthalten:

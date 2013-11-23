@@ -1,0 +1,16 @@
+- if can? :add, source
+  span.btn-group<>
+    button type='button'  class="btn-xs btn btn-primary dropdown-toggle" data-toggle="dropdown"
+      ' manage
+      span.caret
+    ul class="dropdown-menu" role="menu"
+      - current_user.opml_files.each do |file|
+        li
+          - if file.sources.include?(source)
+            a href=remove_source_from_opml_path(file,source) title='Von dieser Liste entfernen' data-method='post'
+              i.fa.fa-check.fa-fw
+              = file.to_s
+          - else
+            a href=add_source_to_opml_path(file,source) title='Zu dieser Liste hinzufügen' data-method='post'
+              i.fa.fa-plus.fa-fw
+              = file.to_s
