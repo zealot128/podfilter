@@ -1,3 +1,5 @@
+- all_siblings = source.all_siblings
+- image = all_siblings.map{|i|i.image}.find(&:present?)
 .source-list-item
   - if can?(:merge, source) and @sources.present?
     .pull-right(style='margin-right: 20px')
@@ -9,8 +11,8 @@
       .progress.similarity(title="Empfehlung: #{sim}%")
         .progress-bar.progress-bar-default(style="width: #{sim}%")
         .sr-only #{sim}% Empfehlung
-    - if source.image.present?
-      = image_tag source.image.url(:thumb)
+    - if image
+      = image_tag image.url(:thumb)
   div.table-cell
     .source-title
       strong
