@@ -5,6 +5,9 @@ Podfilter::Application.routes.draw do
 
   delete 'opml/:id' => 'opml_files#destroy'
 
+  get 'admin/duplicates'
+  post 'admin/merge'
+
   resources :sources
   get 'dashboard' => 'pages#dashboard', as: :dashboard
   root 'pages#index'

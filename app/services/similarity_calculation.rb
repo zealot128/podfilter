@@ -25,7 +25,7 @@ class SimilarityCalculation
     in_common.count
   end
 
-  def recommendations(top_k: 5, count: 10)
+  def recommendations(top_k: 8, count: 15)
     users_with_distances = other_users.map do |user|
       ids = podcast_ids(user)
       {
