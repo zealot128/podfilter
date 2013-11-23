@@ -34,5 +34,25 @@ describe OpmlFilesController, sidekiq: :fake do
 
   end
 
+  context 'logged in user' do
+    let(:owner) { Fabricate(:owner) }
+    let(:source) { Fabricate(:source)  }
+    let(:opml) { Fabricate(:opml_file, owner: owner) }
+    before :each do
+      session[:owner_id] = owner.id
+    end
+
+    it 'can be added to opml file' do
+      post :add_source, id: opml.id, source_id: source.id
+      opml.reload.sources.count.should == 1
+    end
+
+    it 'can remove sources from opml file' do
+      opml.sources << source
+      post :remove_source, id: opml.id, source_id: source.id
+      opml.reload.sources.count.should == 0
+    end
+  end
+
 
 end

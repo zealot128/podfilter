@@ -39,6 +39,14 @@ class ApplicationController < ActionController::Base
     return true if session[:owner_id] && current_user
   end
 
+  def redirect_back_or_dashboard(*args)
+    if request.env["HTTP_REFERER"]
+      redirect_to :back, *args
+    else
+      redirect_to '/dashboard', *args
+    end
+  end
+
   def require_login
     if !user_signed_in?
       redirect_to root_path, notice: 'Bitte lade erst eine Podcast-Datei hoch.'

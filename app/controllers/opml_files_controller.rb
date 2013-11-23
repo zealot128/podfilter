@@ -31,13 +31,16 @@ class OpmlFilesController < ApplicationController
     end
   end
 
-  def destroy
-    @opml_file = OpmlFile.find(params[:id])
-    if current_user != @opml_file.owner
-      redirect_to root_path, notice: 'Du kannst nur deine eigenen OPMLs löschen'
-    else
-      @opml_file.destroy
-      redirect_to dashboard_path, notice: 'Datei gelöscht'
-    end
+  def add_source
+    source = Source.find(params[:source_id])
+    @opml_file.sources << source unless @opml_file.sources.where('sources.id = ?', params[:source_id]).count > 0
+    redirect_back_or_dashboard notice: "Quelle #{source.title} hinzugefügt"
   end
+
+  def remove_source
+    source = Source.find(params[:source_id])
+    @opml_file.sources = @opml_file.sources - [source]
+    redirect_back_or_dashboard notice: "Quelle #{source.title} entfernt"
+  end
+
 end
