@@ -57,6 +57,9 @@ class Source < ActiveRecord::Base
       raise ArgumentError
     end
     parent = sources.shift
+    parent.parent = nil
+    parent.save validate: false
+
     sources.each do |s|
       s.parent = parent
       s.save validate: false
