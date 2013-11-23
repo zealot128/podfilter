@@ -5,24 +5,34 @@ class ApplicationController < ActionController::Base
   before_action do
     if params[:token]
       current_user
-      flash.now[:notice] = 'Du bist per Cookie angemeldet. Bookmarke die aktuelle Seite um später hierher zurückzukommen'
     end
   end
 
+  rescue_from CanCan::AccessDenied do |exception|
+    redirect_to root_url, :alert => exception.message
+  end
+
   protected
-  def current_user
+
+    # NOTE Cancan 4 -> strong params
+  before_filter do
+    method = "permitted_params"
+    params[resource] &&= send(method) if respond_to?(method, true)
+  end
+
+  def current_user(create=false)
     owner = if params[:token]
       Owner.where(token: params[:token]).first!
     elsif session[:owner_id]
       Owner.find(session[:owner_id])
-    else
+    elsif create
       Owner.create
     end
+    return nil if owner.nil?
     session[:owner_id] = owner.id
     owner
   rescue Exception
     session[:owner_id] = nil
-    Owner.create
   end
 
   def user_signed_in?

@@ -15,6 +15,7 @@ gem 'slim-rails'
 gem 'pry-rails'
 gem 'pg'
 gem 'dotenv-rails'
+gem "font-awesome-rails", '~> 4.0'
 
 group :development do
   gem 'habtm_generator'
@@ -41,6 +42,7 @@ group :test do
   gem 'webmock'
 end
 gem 'faraday'
+gem 'cancan'
 gem 'feedzirra'
 gem 'sidekiq', github: 'mperham/sidekiq' # Capistrano 3 problems https://github.com/mperham/sidekiq/blob/master/lib/sidekiq/tasks/sidekiq.rake
 gem 'sinatra', require: false

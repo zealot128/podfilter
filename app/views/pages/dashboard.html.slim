@@ -18,9 +18,12 @@ h1 Dashboard
             = file.md5
         br
         ' #{file.sources.count} Podcasts enthalten
-      .col-lg-2
-        - if file.owner == @owner
-          = link_to 'Löschen', opml_file_path(file), class: 'btn btn-default', data: { method: :delete }
+      .col-lg-4
+        a.btn.btn-default.btn-xs(href=opml_file_path(file, format: :xml))
+          ' opml anzeigen
+        = ' '
+        a.btn.btn-default.btn-xs(href=opml_file_path(file, format: :xml, download: true))
+          ' opml herunterladen
 
 - if @recommended_sources.count > 0
   h2

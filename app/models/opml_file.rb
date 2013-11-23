@@ -7,6 +7,9 @@ class OpmlFile < ActiveRecord::Base
 
   before_create :randomize_id
 
+  def to_s
+    md5
+  end
   private
   def randomize_id
     begin
@@ -17,5 +20,6 @@ class OpmlFile < ActiveRecord::Base
   before_validation do
     self.md5 = Digest::MD5.hexdigest(self.source)
   end
+
 
 end

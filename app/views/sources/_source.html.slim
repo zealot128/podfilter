@@ -23,5 +23,20 @@
         = source.url
     br
     small.text-muted
-      #{source.opml_files.count} Abonnenten, #{source.episodes.count} Episoden
-
+      ' #{source.opml_files.count} Abonnenten, #{source.episodes.count} Episoden
+    - if can? :add, source
+      span.btn-group
+        button type='button'  class="btn-xs btn btn-default dropdown-toggle" data-toggle="dropdown"
+          ' manage
+          span.caret
+        ul class="dropdown-menu" role="menu"
+          - current_user.opml_files.each do |file|
+            li
+              - if file.sources.include?(source)
+                a href='' title='Von dieser Liste entfernen'
+                  i.fa.fa-check.fa-fw
+                  = file.to_s
+              - else
+                a href='' title='Zu dieser Liste hinzufügen'
+                  i.fa.fa-plus.fa-fw
+                  = file.to_s
