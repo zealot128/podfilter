@@ -1,3 +1,11 @@
+### 2013-11-24 Twitter & Github Login
+
+* Login via Twitter/Github
+* Dashboard optimzation
+* Some Caching
+* OPML-File can have a name -> default name for upload and oauth-login
+
+
 ### 2013-11-23 Search & Merging
 
 * Search Podcasts with filter for offline/inactive
