@@ -34,7 +34,7 @@
     h3
       'Neuste Episodes
 
-    = cache 'newest', Source.recent.first.updated_at do
+    = cache 'newest', Source.recent.first do
       ul.list-unstyled
         - Source.recent.limit(10).each do |source|
           li
