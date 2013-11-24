@@ -1,0 +1,217 @@
+--- !ruby/hash:OmniAuth::AuthHash
+provider: twitter
+uid: '98188244'
+info: !ruby/hash:OmniAuth::AuthHash::InfoHash
+  nickname: stefanwienert
+  name: Stefan Wienert
+  location: Dresden, Germany
+  image: http://pbs.twimg.com/profile_images/2837821740/51d171c3b4cef9b0dfd5e163d5ebca58_normal.jpeg
+  description: Lead developer at @pludoni in Dresden and Frankfurt. Also programming
+    mostly in Ruby and Rails; used to program PHP. VIM FTW
+  urls: !ruby/hash:OmniAuth::AuthHash
+    Website: http://t.co/F1UG9don0R
+    Twitter: https://twitter.com/stefanwienert
+credentials: !ruby/hash:OmniAuth::AuthHash
+  token: 98188244-MpLKJaTOYg0kpq1zpajOZIhoU1lKA3aIpOGfPmdLO
+  secret: pKh83m60jYAD7teONkLsWene3mMDPR3jw86YrpTsW62Yq
+extra: !ruby/hash:OmniAuth::AuthHash
+  access_token: !ruby/object:OAuth::AccessToken
+    token: 98188244-MpLKJaTOYg0kpq1zpajOZIhoU1lKA3aIpOGfPmdLO
+    secret: pKh83m60jYAD7teONkLsWene3mMDPR3jw86YrpTsW62Yq
+    consumer: !ruby/object:OAuth::Consumer
+      key: ToWrGtQh5xRsBhHU83q8Vw
+      secret: Ccbp2omdoCrmvMKixZSzi3FReEeronWdkfPzeEg
+      options:
+        :signature_method: HMAC-SHA1
+        :request_token_path: /oauth/request_token
+        :authorize_path: /oauth/authenticate
+        :access_token_path: /oauth/access_token
+        :proxy: 
+        :scheme: :header
+        :http_method: :post
+        :oauth_version: '1.0'
+        :site: https://api.twitter.com
+      http: !ruby/object:Net::HTTP
+        address: api.twitter.com
+        port: 443
+        local_host: 
+        local_port: 
+        curr_http_version: '1.1'
+        keep_alive_timeout: 2
+        last_communicated: 
+        close_on_empty_response: false
+        socket: 
+        started: false
+        open_timeout: 30
+        read_timeout: 30
+        continue_timeout: 
+        debug_output: 
+        proxy_from_env: true
+        proxy_uri: 
+        proxy_address: 
+        proxy_port: 
+        proxy_user: 
+        proxy_pass: 
+        use_ssl: true
+        ssl_context: !ruby/object:OpenSSL::SSL::SSLContext
+          cert: 
+          key: 
+          client_ca: 
+          ca_file: /etc/ssl/certs/ca-certificates.crt
+          ca_path: 
+          timeout: 
+          verify_mode: 1
+          verify_depth: 5
+          renegotiation_cb: 
+          verify_callback: 
+          options: 2047
+          cert_store: 
+          extra_chain_cert: 
+          client_cert_cb: 
+          tmp_dh_callback: 
+          session_id_context: 
+          session_get_cb: 
+          session_new_cb: 
+          session_remove_cb: 
+          servername_cb: 
+        ssl_session: !ruby/object:OpenSSL::SSL::Session {}
+        enable_post_connection_check: true
+        sspi_enabled: false
+        ca_file: /etc/ssl/certs/ca-certificates.crt
+        ca_path: 
+        cert: 
+        cert_store: 
+        ciphers: 
+        key: 
+        ssl_timeout: 
+        ssl_version: 
+        verify_callback: 
+        verify_depth: 5
+        verify_mode: 1
+      http_method: :post
+      uri: !ruby/object:URI::HTTPS
+        scheme: https
+        user: 
+        password: 
+        host: api.twitter.com
+        port: 443
+        path: ''
+        query: 
+        opaque: 
+        registry: 
+        fragment: 
+        parser: 
+    params:
+      :oauth_token: 98188244-MpLKJaTOYg0kpq1zpajOZIhoU1lKA3aIpOGfPmdLO
+      oauth_token: 98188244-MpLKJaTOYg0kpq1zpajOZIhoU1lKA3aIpOGfPmdLO
+      :oauth_token_secret: pKh83m60jYAD7teONkLsWene3mMDPR3jw86YrpTsW62Yq
+      oauth_token_secret: pKh83m60jYAD7teONkLsWene3mMDPR3jw86YrpTsW62Yq
+      :user_id: '98188244'
+      user_id: '98188244'
+      :screen_name: stefanwienert
+      screen_name: stefanwienert
+    response: !ruby/object:Net::HTTPOK
+      http_version: '1.1'
+      code: '200'
+      message: OK
+      header:
+        cache-control:
+        - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+        content-length:
+        - '721'
+        content-type:
+        - application/json;charset=utf-8
+        date:
+        - Sun, 24 Nov 2013 12:50:18 GMT
+        expires:
+        - Tue, 31 Mar 1981 05:00:00 GMT
+        last-modified:
+        - Sun, 24 Nov 2013 12:50:18 GMT
+        pragma:
+        - no-cache
+        server:
+        - tfe
+        set-cookie:
+        - lang=en
+        - guest_id=v1%3A138529741848255268; Domain=.twitter.com; Path=/; Expires=Tue,
+          24-Nov-2015 12:50:18 UTC
+        status:
+        - 200 OK
+        strict-transport-security:
+        - max-age=631138519
+        x-access-level:
+        - read
+        x-frame-options:
+        - SAMEORIGIN
+        x-rate-limit-limit:
+        - '15'
+        x-rate-limit-remaining:
+        - '13'
+        x-rate-limit-reset:
+        - '1385298273'
+        x-transaction:
+        - c0201844e2229754
+        x-xss-protection:
+        - 1; mode=block
+        connection:
+        - close
+      body: '{"id":98188244,"id_str":"98188244","name":"Stefan Wienert","screen_name":"stefanwienert","location":"Dresden,
+        Germany","description":"Lead developer at @pludoni in Dresden and Frankfurt.
+        Also programming mostly in Ruby and Rails; used to program PHP. VIM FTW","url":"http:\/\/t.co\/F1UG9don0R","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/F1UG9don0R","expanded_url":"http:\/\/stefanwienert.net","display_url":"stefanwienert.net","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":87,"friends_count":153,"listed_count":7,"created_at":"Sun
+        Dec 20 19:29:24 +0000 2009","favourites_count":124,"utc_offset":3600,"time_zone":"Berlin","geo_enabled":true,"verified":false,"statuses_count":1074,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"EBEBEB","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/709104753\/174e453b4463e5183e4aab76dce22f20.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/709104753\/174e453b4463e5183e4aab76dce22f20.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2837821740\/51d171c3b4cef9b0dfd5e163d5ebca58_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2837821740\/51d171c3b4cef9b0dfd5e163d5ebca58_normal.jpeg","profile_link_color":"990000","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"F3F3F3","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+      read: true
+      uri: 
+      decode_content: true
+      socket: 
+      body_exist: true
+  raw_info: !ruby/hash:OmniAuth::AuthHash
+    id: 98188244
+    id_str: '98188244'
+    name: Stefan Wienert
+    screen_name: stefanwienert
+    location: Dresden, Germany
+    description: Lead developer at @pludoni in Dresden and Frankfurt. Also programming
+      mostly in Ruby and Rails; used to program PHP. VIM FTW
+    url: http://t.co/F1UG9don0R
+    entities: !ruby/hash:OmniAuth::AuthHash
+      url: !ruby/hash:OmniAuth::AuthHash
+        urls:
+        - !ruby/hash:OmniAuth::AuthHash
+          url: http://t.co/F1UG9don0R
+          expanded_url: http://stefanwienert.net
+          display_url: stefanwienert.net
+          indices:
+          - 0
+          - 22
+      description: !ruby/hash:OmniAuth::AuthHash
+        urls: []
+    protected: false
+    followers_count: 87
+    friends_count: 153
+    listed_count: 7
+    created_at: Sun Dec 20 19:29:24 +0000 2009
+    favourites_count: 124
+    utc_offset: 3600
+    time_zone: Berlin
+    geo_enabled: true
+    verified: false
+    statuses_count: 1074
+    lang: en
+    contributors_enabled: false
+    is_translator: false
+    profile_background_color: EBEBEB
+    profile_background_image_url: http://a0.twimg.com/profile_background_images/709104753/174e453b4463e5183e4aab76dce22f20.jpeg
+    profile_background_image_url_https: https://si0.twimg.com/profile_background_images/709104753/174e453b4463e5183e4aab76dce22f20.jpeg
+    profile_background_tile: false
+    profile_image_url: http://pbs.twimg.com/profile_images/2837821740/51d171c3b4cef9b0dfd5e163d5ebca58_normal.jpeg
+    profile_image_url_https: https://pbs.twimg.com/profile_images/2837821740/51d171c3b4cef9b0dfd5e163d5ebca58_normal.jpeg
+    profile_link_color: '990000'
+    profile_sidebar_border_color: FFFFFF
+    profile_sidebar_fill_color: F3F3F3
+    profile_text_color: '333333'
+    profile_use_background_image: true
+    default_profile: false
+    default_profile_image: false
+    following: false
+    follow_request_sent: false
+    notifications: false

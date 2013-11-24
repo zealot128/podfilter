@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pbs.twimg.com/profile_images/2837821740/51d171c3b4cef9b0dfd5e163d5ebca58_normal.jpeg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Md5:
+      - 0CRG8/7a6X2CclKpP2ChcA==
+      Etag:
+      - '"0CRG8/7a6X2CclKpP2ChcA=="'
+      Expires:
+      - Wed, 27 Nov 2013 09:28:03 GMT
+      Last-Modified:
+      - Sun, 08 Sep 2013 02:21:09 GMT
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '962'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 24 Nov 2013 13:03:08 GMT
+      Connection:
+      - keep-alive
+      X-Cdn:
+      - FAST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsL
+        DBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/
+        2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+        MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAwADADASIAAhEBAxEB/8QA
+        GQABAQADAQAAAAAAAAAAAAAABgUDBAcC/8QAMRAAAgEDAgQFAwEJAAAAAAAA
+        AQIDAAQRBSEGEjFBEyJRcYEHYcEUIzIzQlKRseHw/8QAGQEAAgMBAAAAAAAA
+        AAAAAAAAAwQAAQIF/8QAHREAAgIDAQEBAAAAAAAAAAAAAQIAEQMSITETFP/a
+        AAwDAQACEQMRAD8A075pJyFRJOUbbA1OwtvmSV35AMsWXAAqw0pBKcx6eXJr
+        1BZHUGWLILnKqp6E47/aubtqI+E2MnPx5pyJDEltczlEClhhAcd996q2PE1h
+        fKpcSxOWwvPysPtuDgfOK27j6XWbReI8mW2JEa4FEtc4WXTrKRbNSSD3OCRW
+        dgYb4mo7NvIWC/ppiMZBbGfj7VlWBjDvAUbpuwX/AI0L4F1e8bxtOu2kxEge
+        IyE+UE9M+lKprmQF/wBn6EZ3ztVEkGoKoQFwWfDttjI7YNIOFNNuWvotR8RW
+        HMymNjjYdx/f/FHjayhwy5K9Rnt6Ut4M1Fo3fTXiwHLSLJnp0JH5rbjnJeEj
+        bsQ6zxNBpVsxnhl5h/KVIz84IoBxDxFax2qSTQuhuRzRg9QKca+8l21vZRRA
+        tI/mZ2AQAdc+vtQb6gzxA2cEVsALctlgwIJP5OKGnT2NnimppcLO7XEt3Ehw
+        UCgkdgTn3pbPOLnGGxynHMDjY9v91E4WRJ9JaZ+ZEMhCqF7bZ296riEqXRAw
+        Rj0HQ+ntUY9ip9h9rlkBAAGD/XSPhC0uLnVBcvbBIogwMpJPMSMYGal6RorX
+        PLPdI6QI3MqnrJ8en3pNFrh09/CiVXiB/h4AI9j+KYOJitiJftxY8gVpTvWg
+        gmIuwvKAQrMuR8+lcw1tItc1tbazu4p0UnzCMDwx3Oe9KNf1sXds36d2WQjb
+        bcGgtteTaXdG6RVZmYBgdsjNBRGB7H2zjTZTYnQIFs9O0+O1SPKRLjrufU+/
+        U1ng1CzkQosbqVxsTRmy1e11FVTlZZ1zzxEjJ9j3FV7ZfEkNwvX93BHlxVst
+        ewCuHFgz/9kgICAgICAgICA=
+    http_version: 
+  recorded_at: Sun, 24 Nov 2013 13:03:08 GMT
+recorded_with: VCR 2.7.0

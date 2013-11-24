@@ -1,6 +1,7 @@
 class Owner < ActiveRecord::Base
   has_many :opml_files
   has_many :identities
+  belongs_to :primary_identity, class_name: 'Identity'
   has_many :sources, through: :opml_files
   mount_uploader :image, ImageUploader
   validate :only_100_owners_per_hour

@@ -21,34 +21,25 @@ module OauthAdapter
         identity.owner
       else
         owner.save! validate: false
-        owner.update_attribute :token, nil
-        owner.identities.create! provider: provider, uid: uid, email: email, name: name, remote_image_url: image
+        i = owner.identities.create! provider: provider, uid: uid, email: email, name: name, remote_image_url: image
+        owner.primary_identity = i
+        owner.token = nil
+        owner.save! validate: false
         owner
       end
     end
+    def uid; @auth.uid end
+    def name; @auth.info.name end
+    def email; @auth.info.email end
+    def image; @auth.info.image end
   end
 
   class Github < Base
-    def provider
-      'github'
-    end
-    def email
-      @auth.info.email
-    end
-    def image
-      @auth.info.image
-    end
-    def uid
-      @auth.uid
-    end
-    def name
-      @auth.info.name
-    end
+    def provider; 'github' end
   end
 
   class Twitter < Base
-    def provider
-      'twitter'
-    end
+    def provider; 'twitter' end
+    def email; nil end
   end
 end

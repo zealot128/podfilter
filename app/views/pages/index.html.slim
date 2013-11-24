@@ -17,7 +17,7 @@
       ol
         li
           | Login via
-          a.btn.btn-primary.btn-xs<> href='/auth/github' rel='nofollow' data-no-turbolink=true
+          a.btn.btn-primary.btn-xs<> href='/auth/twitter' rel='nofollow' data-no-turbolink=true
             i.fa.fa-twitter<>
             | Twitter
           a.btn.btn-primary.btn-xs<> href='/auth/github' rel='nofollow' data-no-turbolink=true
@@ -27,34 +27,34 @@
         li Sich über Empfehlungen im Dashboard freuen
 
 .row
-  .col-md-12
+  .col-lg-12
     h2  Podcasts in den Playlists von Hörern
 .row
-  .col-md-6
+  .col-lg-6
     h3
       'Neuste Episodes
 
-    ul.list-unstyled
-      - Source.recent.limit(10).each do |source|
-        li
-          - episode = Episode.find(source.episode_id)
-          h4
-            - if source.image.present?
-              .pull-left
-                = image_tag source.image.url(:thumb)
-                = ' '
-            = episode.title
-            | &nbsp;
-            small = l episode.pubdate.to_date
-          = link_to source do
-            = source.title
+    = cache 'newest', Source.recent.first.updated_at do
+      ul.list-unstyled
+        - Source.recent.limit(10).each do |source|
+          li
+            - episode = Episode.find(source.episode_id)
+            h4
+              - if source.image.present?
+                .pull-left
+                  = image_tag source.image.url(:thumb)
+                  = ' '
+              = episode.title
+              | &nbsp;
+              small = l episode.pubdate.to_date
+            = link_to source do
+              = source.title
 
-  .col-md-6
+  .col-lg-6
     h3 Neuste Podcasts
     ul.list-unstyled
       - Source.listened.order('created_at desc').limit(5).each do |source|
-        li
-          = render source
+        li = render source
 
 h2 Weiterentwicklungen auf Podfilter.de
 

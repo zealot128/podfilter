@@ -21,10 +21,11 @@ html
       .container
         .row
           .col-lg-12
-            h3
-              | Podfilter.de
-              = ' '
-              small #{Source.count} Podcasts indiziert. Davon #{Source.active.count} aktive, #{Source.inactive.count} inaktive, #{Source.error.count} mit Fehlern/bzw. neu hinzugefügt und #{Source.offline.count} sind offline.
+            = cache 'footer', Source.order('updated_at desc').first do
+              h3
+                | Podfilter.de
+                = ' '
+                small #{Source.count} Podcasts indiziert. Davon #{Source.active.count} aktive, #{Source.inactive.count} inaktive, #{Source.error.count} mit Fehlern/bzw. neu hinzugefügt und #{Source.offline.count} sind offline.
         .row
           .col-lg-12
             ul.list-unstyled

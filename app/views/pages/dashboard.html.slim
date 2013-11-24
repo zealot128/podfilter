@@ -9,13 +9,13 @@ h1 Dashboard
 
 - if current_user.opml_files.count > 0
 
-  h2 Bereits hochgeladene OPMLs
+  h2 Meine Podcast-Listen:
   - current_user.opml_files.each do |file|
     .row.opml-file
       .col-lg-6
         strong
           = link_to file do
-            = file.md5
+            = file.to_s
         br
         ' #{file.sources.count} Podcasts enthalten
       .col-lg-4
@@ -25,11 +25,13 @@ h1 Dashboard
         a.btn.btn-default.btn-xs(href=opml_file_path(file, format: :xml, download: true))
           ' opml herunterladen
 
-- if @recommended_sources.count > 0
   h2
     ' Empfehlungen
     small Was andere Nutzer mit ähnlichen Quellen sonst noch so hören
-  = render @recommended_sources.limit(100)
+  .clearfix
+    = render @recommended_sources
+
+  = paginate @recommended_sources
 
   .clearfix
 - else

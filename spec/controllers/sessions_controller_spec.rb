@@ -14,11 +14,11 @@ describe SessionsController do
       Owner.first.tap do |owner|
         owner.identities.first.email.should == 'info@stefanwienert.de'
         owner.identities.first.image.should be_present
+        owner.primary_identity.should == owner.identities.first
       end
     end
 
     it 'relogins' do
-
       VCR.use_cassette 'github-gravatar' do
         get :create, provider: 'github'
       end
@@ -44,5 +44,26 @@ describe SessionsController do
       session[:owner_id].should == old.id
     end
 
+  end
+  context 'twitter' do
+    before :each do
+      request.env['omniauth.auth'] = YAML.load_file 'spec/fixtures/oauth/twitter.yml'
+    end
+    it 'creates from oauth' do
+      VCR.use_cassette 'twitter-profile' do
+        get :create, provider: 'twitter'
+      end
+      controller.send(:current_user).should be_present
+      Owner.first.tap do |owner|
+        owner.identities.first.image.should be_present
+        owner.primary_identity.should == owner.identities.first
+      end
+
+      session[:owner_id] = nil
+      get :create, provider: 'twitter'
+      session[:owner_id].should == Owner.first.id
+      Owner.count.should == 1
+      Identity.count.should == 1
+    end
   end
 end

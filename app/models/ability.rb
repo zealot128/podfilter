@@ -14,5 +14,9 @@ class Ability
     if user && user.admin?
       can :manage, :all
     end
+
+    if user && user.primary_identity.present?
+
+    end
   end
 end

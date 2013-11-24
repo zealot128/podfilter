@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131124114556) do
+ActiveRecord::Schema.define(version: 20131124120029) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -72,8 +72,10 @@ ActiveRecord::Schema.define(version: 20131124114556) do
     t.datetime "updated_at"
     t.string   "image"
     t.boolean  "admin"
+    t.integer  "primary_identity_id"
   end
 
+  add_index "owners", ["primary_identity_id"], name: "index_owners_on_primary_identity_id", using: :btree
   add_index "owners", ["token"], name: "index_owners_on_token", unique: true, using: :btree
 
   create_table "recommendations", force: true do |t|
