@@ -1,11 +1,30 @@
 .jumbotron#main-attention-drawer
   strong Podcasts mit ähnlichen Interessen finden!
   p Bisher #{Source.count} Podcasts mit #{Episode.count} Episoden indiziert! #{OpmlFile.count} Hörer haben Ihre Liste bereits geteilt.
-  ol
-    li
-      = render 'upload_button'
-    li Ähnliche Podcasts finden
-    li Es gibt keinen Schritt 3
+
+  .row
+    .col-lg-6
+      strong
+        abbr<> title='Ein Format, was fast jeder Podcast-Player als Export verwendet' OPML
+        | zur Hand?
+      ol
+        li
+          = render 'upload_button'
+        li Ähnliche Podcasts finden
+        li Es gibt keinen Schritt 3
+    .col-lg-6
+      strong Manuelle Erstellung
+      ol
+        li
+          | Login via
+          a.btn.btn-primary.btn-xs<> href='/auth/github' rel='nofollow' data-no-turbolink=true
+            i.fa.fa-twitter<>
+            | Twitter
+          a.btn.btn-primary.btn-xs<> href='/auth/github' rel='nofollow' data-no-turbolink=true
+            i.fa.fa-github<>
+            |Github
+        li Podcast Liste via Suche befüllen
+        li Sich über Empfehlungen im Dashboard freuen
 
 .row
   .col-md-12

@@ -12,6 +12,7 @@ Podfilter::Application.routes.draw do
 
   resources :sources
 
+  get '/auth/:provider/callback', to: 'sessions#create', as: :omniauth_provider
   get 'dashboard' => 'pages#dashboard', as: :dashboard
   root 'pages#index'
 

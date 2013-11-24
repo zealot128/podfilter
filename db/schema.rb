@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131123211524) do
+ActiveRecord::Schema.define(version: 20131124114556) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,19 @@ ActiveRecord::Schema.define(version: 20131123211524) do
 
   add_index "episodes", ["source_id", "guid"], name: "episode_uniq_guid", unique: true, using: :btree
   add_index "episodes", ["source_id"], name: "index_episodes_on_source_id", using: :btree
+
+  create_table "identities", force: true do |t|
+    t.integer  "owner_id"
+    t.string   "provider"
+    t.string   "uid"
+    t.string   "email"
+    t.string   "name"
+    t.string   "image"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "identities", ["owner_id"], name: "index_identities_on_owner_id", using: :btree
 
   create_table "opml_files", force: true do |t|
     t.text     "source"

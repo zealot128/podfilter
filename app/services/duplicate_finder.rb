@@ -52,10 +52,9 @@ class DuplicateFinder
 
   def self.merge_duplicate_titles
      titles = Source.roots.group(:title).having('count(title) > 1').order('count_all desc').count.delete_if{|k,v| k.length < 5 }
-      titles.each do |title,count|
-        Source.merge_sources Source.where(title: title).order('offline')
-      end
-
+     titles.each do |title,count|
+       Source.merge_sources Source.where(title: title).order('offline')
+     end
   end
 
   def self.find_duplicates

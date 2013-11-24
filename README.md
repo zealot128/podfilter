@@ -24,18 +24,25 @@ foreman start
 # sidekiq background worker is also started
 ```
 
+If you want to use omniauth logins in Development, you have to add some keys/secrets to .env.development.
+
+```
+TWITTER_CONSUMER_KEY=something
+TWITTER_CONSUMER_SECRET=something
+
+GITHUB_CONSUMER_KEY=something
+GITHUB_CONSUMER_SECRET=something
+```
+
+
 
 ### What could be done?
 
 * Logo/favicon
-* search
-* categorization improvements
-* recommendations
+* categorization
+* recommendations improvements
 * Twitter/ more oauth login
 * Stylings
-* OPML Export
 * Take part without providing a OPML, e.g. by manually liking episodes
 * more community/comment/like aspects
-
 * follow redirects. example http://learn.thoughtbot.com/podcast.xml
-* remove duplicates -> similar mp3/ogg links unification

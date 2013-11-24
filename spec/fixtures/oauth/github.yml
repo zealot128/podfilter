@@ -1,0 +1,47 @@
+--- !ruby/hash:OmniAuth::AuthHash
+provider: github
+uid: '147175'
+info: !ruby/hash:OmniAuth::AuthHash::InfoHash
+  nickname: zealot128
+  email: info@stefanwienert.de
+  name: Stefan Wienert
+  image: https://1.gravatar.com/avatar/6edcb304a03a87ddf5c68239f7d001e4?d=https%3A%2F%2Fidenticons.github.com%2Fa3c81a83e806ab8e4e5f85cb4d572b6c.png&r=x
+  urls: !ruby/hash:OmniAuth::AuthHash
+    GitHub: https://github.com/zealot128
+    Blog: http://www.stefanwienert.net
+credentials: !ruby/hash:OmniAuth::AuthHash
+  token: 378176c207a8567ee00da2199fb8e82becf3f34b
+  expires: false
+extra: !ruby/hash:OmniAuth::AuthHash
+  raw_info: !ruby/hash:OmniAuth::AuthHash
+    login: zealot128
+    id: 147175
+    avatar_url: https://1.gravatar.com/avatar/6edcb304a03a87ddf5c68239f7d001e4?d=https%3A%2F%2Fidenticons.github.com%2Fa3c81a83e806ab8e4e5f85cb4d572b6c.png&r=x
+    gravatar_id: 6edcb304a03a87ddf5c68239f7d001e4
+    url: https://api.github.com/users/zealot128
+    html_url: https://github.com/zealot128
+    followers_url: https://api.github.com/users/zealot128/followers
+    following_url: https://api.github.com/users/zealot128/following{/other_user}
+    gists_url: https://api.github.com/users/zealot128/gists{/gist_id}
+    starred_url: https://api.github.com/users/zealot128/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/zealot128/subscriptions
+    organizations_url: https://api.github.com/users/zealot128/orgs
+    repos_url: https://api.github.com/users/zealot128/repos
+    events_url: https://api.github.com/users/zealot128/events{/privacy}
+    received_events_url: https://api.github.com/users/zealot128/received_events
+    type: User
+    site_admin: false
+    name: Stefan Wienert
+    company: pludoni GmbH
+    blog: http://www.stefanwienert.net
+    location: Dresden, Germany
+    email: 
+    hireable: false
+    bio: "* Working full-time as a Web/Rails/PHP Developer/Teamleader/Product Manager
+      at pludoni GmbH.\r\n* studied CS in University of Applied Sciences Dresden\r\n"
+    public_repos: 38
+    followers: 12
+    following: 12
+    created_at: '2009-10-31T17:51:09Z'
+    updated_at: '2013-11-23T22:42:49Z'
+    public_gists: 20
