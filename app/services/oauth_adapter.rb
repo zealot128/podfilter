@@ -21,7 +21,8 @@ module OauthAdapter
         identity.owner
       else
         owner.save! validate: false
-        owner.identities.create! provider: provider, uid: uid, email: email, name: name
+        owner.update_attribute :token, nil
+        owner.identities.create! provider: provider, uid: uid, email: email, name: name, remote_image_url: image
         owner
       end
     end

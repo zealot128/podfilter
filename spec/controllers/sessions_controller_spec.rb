@@ -7,16 +7,21 @@ describe SessionsController do
     end
 
     it 'creates from github' do
-      get :create, provider: 'github'
+      VCR.use_cassette 'github-gravatar' do
+        get :create, provider: 'github'
+      end
       controller.send(:current_user).should be_present
       Owner.first.tap do |owner|
         owner.identities.first.email.should == 'info@stefanwienert.de'
+        owner.identities.first.image.should be_present
       end
     end
 
     it 'relogins' do
 
-      get :create, provider: 'github'
+      VCR.use_cassette 'github-gravatar' do
+        get :create, provider: 'github'
+      end
 
       session[:owner_id] = nil
       get :create, provider: 'github'
@@ -29,8 +34,12 @@ describe SessionsController do
       old = Owner.create
       session[:owner_id] = old.id
 
-      get :create,  provider: 'github'
+      VCR.use_cassette 'github-gravatar' do
+        get :create,  provider: 'github'
+      end
+
       Owner.count.should == 1
+      Owner.first.token.should be_nil
       Identity.count.should == 1
       session[:owner_id].should == old.id
     end
