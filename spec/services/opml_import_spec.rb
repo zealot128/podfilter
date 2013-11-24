@@ -16,6 +16,7 @@ describe OpmlImport, sidekiq: :fake do
       OpmlFile.first.tap do |file|
         expect(file.owner).to eq(owner)
         expect(file.source).to include '<?xml'
+        expect(file.name).to match(/Import vom \d{2}\.\d{2}\.\d{4}/)
       end
     end
 

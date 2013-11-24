@@ -65,6 +65,6 @@ class OpmlImport
   end
 
   def opml
-    @opml ||= OpmlFile.create(owner: owner, source: text)
+    @opml ||= OpmlFile.create(owner: owner, source: text, name: "Import vom #{I18n.l(Date.today)}")
   end
 end

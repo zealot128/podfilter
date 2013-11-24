@@ -25,6 +25,9 @@ module OauthAdapter
         owner.primary_identity = i
         owner.token = nil
         owner.save! validate: false
+        if owner.opml_files.count == 0
+          owner.opml_files.create! name: 'Standard-Liste'
+        end
         owner
       end
     end

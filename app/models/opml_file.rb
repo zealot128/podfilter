@@ -3,13 +3,13 @@ class OpmlFile < ActiveRecord::Base
   belongs_to :owner
 
   validates :md5, uniqueness: { scope: :owner_id }
-  validates :source, presence: true
 
   before_create :randomize_id
 
   def to_s
-    md5
+    [name,md5].find(&:present?)
   end
+
   private
   def randomize_id
     begin
@@ -18,7 +18,7 @@ class OpmlFile < ActiveRecord::Base
   end
 
   before_validation do
-    self.md5 = Digest::MD5.hexdigest(self.source)
+    self.md5 = Digest::MD5.hexdigest(self.source || self.name)
   end
 
 

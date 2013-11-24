@@ -15,6 +15,7 @@ describe SessionsController do
         owner.identities.first.email.should == 'info@stefanwienert.de'
         owner.identities.first.image.should be_present
         owner.primary_identity.should == owner.identities.first
+        owner.opml_files.count.should == 1
       end
     end
 
