@@ -25,6 +25,7 @@ gem 'ancestry'
 gem 'kaminari-bootstrap', github: 'GBH/kaminari-bootstrap', branch: 'bootstrap3'
 
 group :development do
+  gem 'pry-stack_explorer'
   gem 'habtm_generator'
   gem 'thin'
   gem 'better_errors'
