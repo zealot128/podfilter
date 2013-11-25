@@ -23,32 +23,6 @@ gem 'ancestry'
 
 # https://github.com/mcasimir/kaminari-bootstrap/pull/8/files
 gem 'kaminari-bootstrap', github: 'GBH/kaminari-bootstrap', branch: 'bootstrap3'
-
-group :development do
-  gem 'pry-stack_explorer'
-  gem 'habtm_generator'
-  gem 'thin'
-  gem 'better_errors'
-  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
-  gem 'guard-rspec'
-  # gem 'haml-rails'
-  gem 'foreman'
-  gem 'haml2slim'
-  gem 'html2haml'
-  gem 'quiet_assets'
-  gem 'rails_layout'
-  gem 'rb-inotify', :require=>false
-end
-group :development, :test do
-  gem 'fabrication'
-  gem 'rspec-rails', '~> 3.0.0.beta1'
-end
-group :test do
-  gem 'capybara', '~>2.2.0.rc1'
-  # gem 'poltergeist'
-  gem 'vcr'
-  gem 'webmock'
-end
 gem 'faraday'
 gem 'cancan'
 gem 'feedzirra'
@@ -65,8 +39,6 @@ gem 'quilt'
 gem 'rmagick'
 gem 'kramdown'
 
-
-
 group :unrequired do
   gem 'capistrano', '~> 3.0.1'
   gem 'capistrano-rvm', '~> 0.0.3'
@@ -78,4 +50,32 @@ end
 
 group :production do
   gem 'exception_notification'
+end
+
+group :development do
+  gem 'pry-stack_explorer'
+  gem 'habtm_generator'
+  gem 'thin'
+  gem 'better_errors'
+  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
+  gem 'guard-rspec'
+  # gem 'haml-rails'
+  gem 'foreman'
+  gem 'haml2slim'
+  gem 'html2haml'
+  gem 'quiet_assets'
+  gem 'rails_layout'
+  gem 'rb-inotify', :require=>false
+  gem 'rack-mini-profiler'
+end
+
+group :development, :test do
+  gem 'fabrication'
+  gem 'rspec-rails', '~> 3.0.0.beta1'
+end
+group :test do
+  gem 'capybara', '~>2.2.0.rc1'
+  # gem 'poltergeist'
+  gem 'vcr'
+  gem 'webmock'
 end

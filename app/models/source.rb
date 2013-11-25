@@ -8,7 +8,8 @@ class Source < ActiveRecord::Base
     }
 
   has_ancestry
-  has_and_belongs_to_many :opml_files
+  has_many :opml_files_sources
+  has_many :opml_files, through: :opml_files_sources
   has_many :owners, through: :opml_files
   has_many :episodes, dependent: :destroy
   mount_uploader :image, ImageUploader
@@ -41,7 +42,7 @@ class Source < ActiveRecord::Base
   scope :offline,-> { where(offline: true) }
   scope :active, -> { where(active: true) }
   scope :inactive, -> { where(active: false) }
-  scope :listened, -> { where("(select source_id from opml_files_sources where opml_files_sources.source_id = sources.id limit 1) is not null") }
+  scope :listened, -> { where('owners_count > 0')}
 
 
   scope :inactive_live, -> { where(id: Episode.select('source_id').having('max(pubdate) <= ?', 1.year.ago).group(:source_id)) }

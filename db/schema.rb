@@ -11,14 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131124130532) do
+ActiveRecord::Schema.define(version: 20131125233946) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "duplicate_candidates", force: true do |t|
     t.integer "ids", array: true
+    t.string  "md5"
   end
+
+  add_index "duplicate_candidates", ["md5"], name: "index_duplicate_candidates_on_md5", unique: true, using: :btree
 
   create_table "episodes", force: true do |t|
     t.string   "title"
@@ -32,6 +35,7 @@ ActiveRecord::Schema.define(version: 20131124130532) do
     t.datetime "updated_at"
   end
 
+  add_index "episodes", ["pubdate"], name: "index_episodes_on_pubdate", using: :btree
   add_index "episodes", ["source_id", "guid"], name: "episode_uniq_guid", unique: true, using: :btree
   add_index "episodes", ["source_id"], name: "index_episodes_on_source_id", using: :btree
 
@@ -98,10 +102,13 @@ ActiveRecord::Schema.define(version: 20131124130532) do
     t.boolean  "offline"
     t.boolean  "active"
     t.string   "ancestry"
+    t.integer  "owners_count"
   end
 
   add_index "sources", ["active"], name: "index_sources_on_active", using: :btree
   add_index "sources", ["ancestry"], name: "index_sources_on_ancestry", using: :btree
+  add_index "sources", ["offline"], name: "index_sources_on_offline", using: :btree
+  add_index "sources", ["owners_count"], name: "index_sources_on_owners_count", using: :btree
   add_index "sources", ["url"], name: "index_sources_on_url", unique: true, using: :btree
 
 end
