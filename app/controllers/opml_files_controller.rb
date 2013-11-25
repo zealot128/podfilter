@@ -35,12 +35,14 @@ class OpmlFilesController < ApplicationController
     source = Source.find(params[:source_id])
     @opml_file.sources << source unless @opml_file.sources.where('sources.id = ?', source.id).count > 0
     Recommendation.where(owner_id: current_user.id, source_id: source.id).delete_all
+    SimilarityCalculation.refresh_all
     redirect_back_or_dashboard notice: "Quelle #{source.title} hinzugefügt"
   end
 
   def remove_source
     source = Source.find(params[:source_id])
     @opml_file.sources = @opml_file.sources - [source]
+    SimilarityCalculation.refresh_all
     redirect_back_or_dashboard notice: "Quelle #{source.title} entfernt"
   end
 
