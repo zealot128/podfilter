@@ -14,9 +14,8 @@ h1
 .jumbotron
   p
     = strip_tags @source.description
-  pre
-    = link_to @source.url, @source.url
-  = render 'sources/manage_button', source: @source
+  .clearfix
+    = render 'sources/source', source: @source
   p
     strong
       'In diesen OPML-Files enthalten:

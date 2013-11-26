@@ -1,5 +1,5 @@
 - if can? :add, source
-  - has = current_user.sources.where(id: source.id).count > 0
+  - has = current_user.sources.find{|i| i.id == source.id}.present?
   span.btn-group<>
     button type='button'  class="btn-xs btn btn-primary dropdown-toggle" data-toggle="dropdown"
       - if has
@@ -10,7 +10,7 @@
     ul class="dropdown-menu" role="menu"
       - current_user.opml_files.each do |file|
         li
-          - if file.sources.include?(source)
+          - if file.sources.find{|i| i.id == source.id}
             a href=remove_source_from_opml_path(file,source) title='Von dieser Liste entfernen' data-method='post'
               i.fa.fa-check.fa-fw
               = file.to_s

@@ -43,6 +43,7 @@ class Source < ActiveRecord::Base
   scope :active, -> { where(active: true) }
   scope :inactive, -> { where(active: false) }
   scope :listened, -> { where('owners_count > 0')}
+  scope :popular, -> { order('owners_count desc') }
 
 
   scope :inactive_live, -> { where(id: Episode.select('source_id').having('max(pubdate) <= ?', 1.year.ago).group(:source_id)) }
