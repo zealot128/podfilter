@@ -42,7 +42,7 @@ namespace :deploy do
 
   # after 'published', 'sidekiq:restart'
   after 'published', :update_crontab
-  after 'published', :ping_restart
+  after 'restart', :ping_restart
 end
 
 desc 'ping server for passenger restart'

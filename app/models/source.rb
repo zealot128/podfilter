@@ -89,7 +89,10 @@ class Source < ActiveRecord::Base
     # self.language ||= feed.language
     #itunes_categories
     image = take_first(parsed_feed, [:itunes_image, :image])
-    self.remote_image_url = image if image
+    begin
+      self.remote_image_url = image if image
+    rescue ArgumentError
+    end
     self.offline = false
 
     if !self.save
