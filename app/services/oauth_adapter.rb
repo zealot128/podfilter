@@ -3,6 +3,7 @@ module OauthAdapter
     klass = case provider
     when 'github' then Github
     when 'twitter' then Twitter
+    when 'facebook' then Facebook
     end
 
     klass.new(owner, auth).run
@@ -44,5 +45,10 @@ module OauthAdapter
   class Twitter < Base
     def provider; 'twitter' end
     def email; nil end
+  end
+
+  class Facebook < Base
+    def provider; 'facebook' end
+
   end
 end

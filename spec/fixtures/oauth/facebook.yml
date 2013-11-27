@@ -1,0 +1,80 @@
+--- !ruby/hash:OmniAuth::AuthHash
+provider: facebook
+uid: '100001844680649'
+info: !ruby/hash:OmniAuth::AuthHash::InfoHash
+  nickname: stwienert
+  email: stwienert@gmail.com
+  name: Stefan Wienert
+  first_name: Stefan
+  last_name: Wienert
+  image: http://graph.facebook.com/100001844680649/picture?type=square
+  urls: !ruby/hash:OmniAuth::AuthHash
+    Facebook: https://www.facebook.com/stwienert
+  location: Dresden, Germany
+  verified: true
+credentials: !ruby/hash:OmniAuth::AuthHash
+  token: CAAKwrwN7478BAJLoYywZASvhg8ty2NvBppeZAcdf665nmpc5UKVjF94s04W9kMi0NKqa2AmgRqWiWuzJeqoJnZAbvwqv0N2njNWAwje8fHAHYa540vBaK4h3ZABiWItmZCwOoxZBHsKMXBg4EpAQ6k3V3dBb88QYbUNiICq6QnxgRol63AzkVS
+  expires_at: 1390750683
+  expires: true
+extra: !ruby/hash:OmniAuth::AuthHash
+  raw_info: !ruby/hash:OmniAuth::AuthHash
+    id: '100001844680649'
+    name: Stefan Wienert
+    first_name: Stefan
+    last_name: Wienert
+    link: https://www.facebook.com/stwienert
+    username: stwienert
+    location: !ruby/hash:OmniAuth::AuthHash
+      id: '106661926035646'
+      name: Dresden, Germany
+    work:
+    - !ruby/hash:OmniAuth::AuthHash
+      employer: !ruby/hash:OmniAuth::AuthHash
+        id: '673655685979529'
+        name: pludoni GmbH
+      location: !ruby/hash:OmniAuth::AuthHash
+        id: '106661926035646'
+        name: Dresden, Germany
+      position: !ruby/hash:OmniAuth::AuthHash
+        id: '110101155685650'
+        name: Lead Developer
+      description: Ruby, Rails, PHP, Drupal, Entwicklung, Konzeption, Test
+      start_date: 0000-00
+    - !ruby/hash:OmniAuth::AuthHash
+      employer: !ruby/hash:OmniAuth::AuthHash
+        id: '110092432347199'
+        name: HTW Dresden
+      position: !ruby/hash:OmniAuth::AuthHash
+        id: '143212245708047'
+        name: HiWi
+      start_date: 0000-00
+      end_date: 0000-00
+    education:
+    - !ruby/hash:OmniAuth::AuthHash
+      school: !ruby/hash:OmniAuth::AuthHash
+        id: '112171268801673'
+        name: Dresden University of Technology
+      type: College
+      classes:
+      - !ruby/hash:OmniAuth::AuthHash
+        id: '192796974081275'
+        name: Chinesisch
+        description: A1+A2
+    - !ruby/hash:OmniAuth::AuthHash
+      school: !ruby/hash:OmniAuth::AuthHash
+        id: '110092432347199'
+        name: HTW Dresden
+      year: !ruby/hash:OmniAuth::AuthHash
+        id: '144044875610606'
+        name: '2011'
+      type: College
+    gender: male
+    email: stwienert@gmail.com
+    timezone: 1
+    locale: de_DE
+    languages:
+    - !ruby/hash:OmniAuth::AuthHash
+      id: '107825489240781'
+      name: Englisch
+    verified: true
+    updated_time: '2013-10-08T17:09:09+0000'

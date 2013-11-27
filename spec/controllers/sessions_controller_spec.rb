@@ -67,4 +67,29 @@ describe SessionsController do
       Identity.count.should == 1
     end
   end
+  context 'facebook' do
+    before :each do
+      request.env['omniauth.auth'] = YAML.load_file 'spec/fixtures/oauth/facebook.yml'
+    end
+
+    specify 'creates from oauth and relogin' do
+      VCR.use_cassette 'facebook-profile', record: :all do
+        get :create, provider: 'facebook'
+      end
+
+      controller.send(:current_user).should be_present
+      Owner.first.tap do |owner|
+        owner.identities.first.image.should be_present
+        owner.primary_identity.should == owner.identities.first
+      end
+
+      # re login
+      session[:owner_id] = nil
+      get :create, provider: 'facebook'
+      session[:owner_id].should == Owner.first.id
+      Owner.count.should == 1
+      Identity.count.should == 1
+    end
+
+  end
 end

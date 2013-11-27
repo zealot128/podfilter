@@ -18,10 +18,7 @@ ActiveRecord::Schema.define(version: 20131125233946) do
 
   create_table "duplicate_candidates", force: true do |t|
     t.integer "ids", array: true
-    t.string  "md5"
   end
-
-  add_index "duplicate_candidates", ["md5"], name: "index_duplicate_candidates_on_md5", unique: true, using: :btree
 
   create_table "episodes", force: true do |t|
     t.string   "title"
