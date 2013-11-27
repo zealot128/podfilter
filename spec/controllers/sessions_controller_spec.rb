@@ -98,9 +98,7 @@ describe SessionsController do
     end
 
     specify 'creates from oauth and relogin' do
-      VCR.use_cassette 'gplus-profile' do
-        get :create, provider: 'gplus'
-      end
+      get :create, provider: 'gplus'
 
       controller.send(:current_user).should be_present
       Owner.first.tap do |owner|

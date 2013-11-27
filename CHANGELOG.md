@@ -1,6 +1,6 @@
-### 2013-11-27 Facebook Login & Performance
+### 2013-11-27 Facebook/G+ Login & Performance
 
-* Login via Facebook
+* Login via Facebook + Google+
 * various SQL optimizations, indices
 
 ### 2013-11-24 Twitter & Github Login
