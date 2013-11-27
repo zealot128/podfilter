@@ -97,6 +97,7 @@ class Source < ActiveRecord::Base
       self.remote_image_url = nil
       self.image.remove!
       self.valid? # hack -> validation hooks loeschen image
+      self.image.remove!
       self.save!
     end
   end
