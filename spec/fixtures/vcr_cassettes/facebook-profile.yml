@@ -33,9 +33,9 @@ http_interactions:
       X-Fb-Rev:
       - '1024226'
       X-Fb-Debug:
-      - oIaheWcY/KwunaGr5kz/VQ1fFoF8tJDaIztuHCroh/Q=
+      - VPsMx3M/1SPWjd6zwLN/Qjy0+8Q6Yo6J/epmnV/j8wI=
       Date:
-      - Wed, 27 Nov 2013 15:48:49 GMT
+      - Wed, 27 Nov 2013 15:49:43 GMT
       Connection:
       - keep-alive
       Content-Length:
@@ -44,7 +44,7 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Wed, 27 Nov 2013 15:48:50 GMT
+  recorded_at: Wed, 27 Nov 2013 15:49:43 GMT
 - request:
     method: get
     uri: http://profile.ak.fbcdn.net/hprofile-ak-frc1/369261_100001844680649_1736185380_q.jpg
@@ -74,7 +74,7 @@ http_interactions:
       Cache-Control:
       - max-age=1209600
       Date:
-      - Wed, 27 Nov 2013 15:48:50 GMT
+      - Wed, 27 Nov 2013 15:49:43 GMT
       Connection:
       - keep-alive
     body:
@@ -136,5 +136,5 @@ http_interactions:
         21sZU28pIPtwOPYV+6f/AAR8hhgs/iAsEKoD/YpIRQMkwT5NFFfMYr/kpaH+
         F/8Atx+x8H/8knX/AOvn/wAgfaVFFFfSHSf/2Q==
     http_version: 
-  recorded_at: Wed, 27 Nov 2013 15:48:50 GMT
+  recorded_at: Wed, 27 Nov 2013 15:49:43 GMT
 recorded_with: VCR 2.7.0

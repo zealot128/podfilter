@@ -73,7 +73,7 @@ describe SessionsController do
     end
 
     specify 'creates from oauth and relogin' do
-      VCR.use_cassette 'facebook-profile', record: :all do
+      VCR.use_cassette 'facebook-profile' do
         get :create, provider: 'facebook'
       end
 
