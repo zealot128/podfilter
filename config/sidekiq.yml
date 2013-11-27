@@ -1,5 +1,5 @@
 ---
 :verbose: false
 :pidfile: tmp/pids/sidekiq.pid
-:concurrency: 25
+:concurrency: 10
 :url: 'redis://localhost:6379/0'
