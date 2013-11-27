@@ -1,0 +1,23 @@
+--- !ruby/hash:OmniAuth::AuthHash
+provider: gplus
+uid: '108424489606851844704'
+info: !ruby/hash:OmniAuth::AuthHash::InfoHash
+  email: stwienert@gmail.com
+  name: 
+  first_name: 
+  last_name: 
+  image: 
+  urls: !ruby/hash:OmniAuth::AuthHash
+    Google+: 
+credentials: !ruby/hash:OmniAuth::AuthHash
+  token: ya29.1.AADtN_VOAOvBgUUz-bqW29de8_Fm68j1pa_px8g80I2i6Kt7wwfnlYai4hwUMA
+  expires_at: 1385572536
+  expires: true
+extra: !ruby/hash:OmniAuth::AuthHash
+  locale: 
+  gender: 
+  birthday: 
+  raw_info: !ruby/hash:OmniAuth::AuthHash
+    id: '108424489606851844704'
+    email: stwienert@gmail.com
+    verified_email: true

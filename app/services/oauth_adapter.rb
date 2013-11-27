@@ -4,6 +4,7 @@ module OauthAdapter
     when 'github' then Github
     when 'twitter' then Twitter
     when 'facebook' then Facebook
+    when 'gplus' then Gplus
     end
 
     klass.new(owner, auth).run
@@ -49,6 +50,10 @@ module OauthAdapter
 
   class Facebook < Base
     def provider; 'facebook' end
+  end
 
+  class Gplus < Base
+    def provider; 'gplus' end
+    def image; nil end
   end
 end
