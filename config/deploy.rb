@@ -42,7 +42,16 @@ namespace :deploy do
 
   # after 'published', 'sidekiq:restart'
   after 'published', :update_crontab
+  after 'published', :ping_restart
 end
+
+desc 'ping server for passenger restart'
+task :ping_restart do
+  run_locally do
+    execute 'curl --silent http://www.podfilter.de'
+  end
+end
+
 
 # before 'deploy:starting', 'sidekiq:add_default_hooks'
 
