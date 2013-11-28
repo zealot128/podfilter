@@ -17,6 +17,7 @@ describe Source do
     source.update_entries
 
     expect(source.episodes.count).to eq(63)
+    source.episodes.first.media_url.should be_present
 
     source.update_entries
     expect(source.episodes.count).to eq(63)
@@ -30,12 +31,13 @@ describe Source do
 
   describe 'site specific bugs' do
     # Feedburner -> Itunes format nicht richtig erkannt
-    it 'updates oreilly kolophon', vcr: true do
+    it 'updates oreilly kolophon', vcr: true, focus: true do
+      $debug = true
       check_all url: 'kolophon.xml', count: 10
     end
 
     it 'updates geek-week', vcr: true do
-      check_all url: 'geekweek.xml', count: 20, image: false
+      check_all url: 'geekweek.xml', image: false
     end
 
     # Bild ist im falschen Format
@@ -49,7 +51,7 @@ describe Source do
     end
 
     it 'makinet', vcr: true do
-      check_all url: 'maikinet.xml', image: false, count: 8
+      check_all url: 'maikinet.xml', image: false
     end
 
     it 'schlaflosinmuenchen', vcr: true do
@@ -59,6 +61,7 @@ describe Source do
     end
 
     it 'invalid file', vcr: true do
+      pending 'verbose'
       source = feed('masskompod.xml')
       source.full_refresh
       expect(source).to be_offline
@@ -77,5 +80,9 @@ describe Source do
     expect(source.description).to be_present
     expect(source.title).to be_present
     expect(source.episodes.count).to eq(count) if count
+    if count
+      expect(source.episodes.count).to eq(count) if count
+      expect(Episode.first.media_url).to be_present
+    end
   end
 end
