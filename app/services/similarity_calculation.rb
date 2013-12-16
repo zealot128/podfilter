@@ -21,8 +21,10 @@ class SimilarityCalculation
   end
 
   def distance(podcast_ids)
-    in_common = my_podcasts & podcast_ids
-    in_common.count
+    in_common = my_podcasts[:list] & podcast_ids[:list]
+    dont_want = my_podcasts[:ignore] & podcast_ids[:list]
+    both_dont_want = my_podcasts[:ignore] & podcast_ids[:ignore]
+    in_common.count - dont_want.count + both_dont_want.count
   end
 
   def recommendations(top_k: 10, count: 25)
@@ -35,7 +37,8 @@ class SimilarityCalculation
       }
     end
     similars = users_with_distances.sort_by{|i| i[:distance] }.reverse.take(top_k)
-    possible_podcast_ids = similars.map{|i| i[:podcast_ids]}.flatten - my_podcasts
+    possible_podcast_ids = similars.flat_map{|i| i[:podcast_ids][:list]} - my_podcasts[:list]
+    possible_podcast_ids -= my_podcasts[:ignore]
     podcast_ids_with_counts = possible_podcast_ids.group_by{|i|i}.map{|id,ids| [id, ids.count] }
     podcast_ids_with_counts.sort_by{|id,c| -c}.take(count)
   end
@@ -51,7 +54,10 @@ class SimilarityCalculation
   end
 
   def podcast_ids(user)
-    user.sources.map{|i| i.root.id }
+    {
+      list:   user.sources.where('type = ?',  OpmlFile).map{|i| i.root.id },
+      ignore: user.sources.where('type = ?',IgnoreFile).map{|i| i.root.id }
+    }
   end
 
 end
