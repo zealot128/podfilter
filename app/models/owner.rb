@@ -19,7 +19,11 @@ class Owner < ActiveRecord::Base
 
   before_create :randomize_id
 
+  def ignore_file
+    opml_files.where(type: 'IgnoreFile').first || IgnoreFile.create(owner: self, source: '', name: 'Podcast Ignore-Liste')
+  end
   private
+
   def only_100_owners_per_hour
     if Owner.where('created_at > ?', 1.hour.ago).count > 100
       errors.add(:base, 'es wurden schon zuviele neue Nutzer in der letzten Zeit angelegt. Bitte probiere es spaeter noch einmal')

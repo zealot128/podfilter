@@ -6,6 +6,7 @@ class OpmlFile < ActiveRecord::Base
   validates :md5, uniqueness: { scope: :owner_id }
 
   before_create :randomize_id
+  before_validation :set_md5
 
   def to_s
     [name,md5].find(&:present?)
@@ -18,7 +19,8 @@ class OpmlFile < ActiveRecord::Base
     end while OpmlFile.where(:id => self.id).exists?
   end
 
-  before_validation do
+
+  def set_md5
     self.md5 = Digest::MD5.hexdigest(self.source || self.name)
   end
 

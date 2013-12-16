@@ -30,6 +30,7 @@ class OpmlImport
       return opml
     end
     update_sources(opml)
+    owner.ignore_file
     opml
   end
 
@@ -64,6 +65,9 @@ class OpmlImport
     end
   end
 
+  def ignore_opml_file
+    IgnoreFile.create(owner: owner, source: '', name: 'Podcast Ignore-Liste')
+  end
   def opml
     @opml ||= OpmlFile.create(owner: owner, source: text, name: "Import vom #{I18n.l(Date.today)}")
   end

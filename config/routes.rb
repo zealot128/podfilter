@@ -14,7 +14,7 @@ Podfilter::Application.routes.draw do
 
   get '/auth/:provider/callback', to: 'sessions#create', as: :omniauth_provider
   get 'dashboard' => 'pages#dashboard', as: :dashboard
-  get 'recommendations/:owner_id/feed' => 'pages#recommendation_feed'
+  get 'recommendations/:owner_id/feed' => 'pages#recommendation_feed', as: :recommendation_feed
   root 'pages#index'
 
   require 'sidekiq/web'

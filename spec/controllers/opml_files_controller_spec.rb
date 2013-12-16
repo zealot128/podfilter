@@ -9,7 +9,8 @@ describe OpmlFilesController, sidekiq: :fake do
 
     expect(data['url']).to be_present
     expect(data['log']).to be_present
-    expect(OpmlFile.count).to eq(1)
+    expect(OpmlFile.count).to eq(2)
+    expect(IgnoreFile.count).to eq(1)
     expect(session[:owner_id]).to be_present
     expect(controller.send(:current_user)).to eq(OpmlFile.first.owner)
     expect(Source.count).to be > 0

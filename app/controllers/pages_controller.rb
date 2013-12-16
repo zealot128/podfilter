@@ -12,4 +12,8 @@ class PagesController < ApplicationController
       select('sources.*, weight').page(params[:page]).per(10)
 
   end
+
+  def recommendation_feed
+    @owner = Owner.find(owner_id)
+  end
 end

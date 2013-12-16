@@ -29,6 +29,7 @@ module OauthAdapter
         owner.save! validate: false
         if owner.opml_files.count == 0
           owner.opml_files.create! name: 'Standard-Liste'
+          owner.ignore_file
         end
         owner
       end

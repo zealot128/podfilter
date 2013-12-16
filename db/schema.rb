@@ -11,14 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131129151236) do
+ActiveRecord::Schema.define(version: 20131216225048) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "duplicate_candidates", force: true do |t|
     t.integer "ids", array: true
+    t.string  "md5"
   end
+
+  add_index "duplicate_candidates", ["md5"], name: "index_duplicate_candidates_on_md5", unique: true, using: :btree
 
   create_table "episodes", force: true do |t|
     t.string   "title"
@@ -57,10 +60,12 @@ ActiveRecord::Schema.define(version: 20131129151236) do
     t.datetime "updated_at"
     t.string   "md5"
     t.string   "name"
+    t.string   "type"
   end
 
   add_index "opml_files", ["md5", "owner_id"], name: "index_opml_files_on_md5_and_owner_id", using: :btree
   add_index "opml_files", ["owner_id"], name: "index_opml_files_on_owner_id", using: :btree
+  add_index "opml_files", ["type"], name: "index_opml_files_on_type", using: :btree
 
   create_table "opml_files_sources", id: false, force: true do |t|
     t.integer "opml_file_id"
