@@ -13,7 +13,7 @@ describe OpmlImport, sidekiq: :fake do
     it 'creates opml_file object' do
       service.run!
       expect(OpmlFile.count).to eq(2)
-      OpmlFile.where(type: 'OpmlFile').first.tap do |file|
+      OpmlFile.where('source is not null').first.tap do |file|
         expect(file.owner).to eq(owner)
         expect(file.source).to include '<?xml'
         expect(file.name).to match(/Import vom \d{2}\.\d{2}\.\d{4}/)
