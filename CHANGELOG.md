@@ -1,3 +1,11 @@
+### 2013-12-17 Personal Recommendation feed & ignore list
+
+* on Dashboard, user can see link to personal recommendation feed (with/out torrent-files)
+* standard Ignore pseudo source collection for all users
+* every source in ignore file that has user in common with somebody else decreases their similarity
+
+
+
 ### 2013-11-27 Facebook/G+ Login & Performance
 
 * Login via Facebook + Google+
