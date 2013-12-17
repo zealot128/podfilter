@@ -19,6 +19,10 @@ class Owner < ActiveRecord::Base
 
   before_create :randomize_id
 
+  def to_s
+    id.to_s
+  end
+
   def ignore_file
     opml_files.where(type: 'IgnoreFile').first || IgnoreFile.create(owner: self, source: '', name: 'Podcast Ignore-Liste')
   end

@@ -25,6 +25,22 @@ h1 Dashboard
         a.btn.btn-default.btn-xs(href=opml_file_path(file, format: :xml, download: true))
           ' opml herunterladen
 
+  .jumbotron
+    h3
+      i.fa-rss.fa>
+      Individueller Feed mit Empfehlungen
+      small< aus deinen Top-Empfehlungen die neusten Podcasts
+
+    code
+      = link_to recommendation_feed_url(owner_id: current_user) do
+        = recommendation_feed_url(owner_id: current_user)
+    br
+    small
+      | ohne Torrent-Dateien:
+      code
+        = link_to recommendation_feed_url(owner_id: current_user, no_torrent: 1) do
+          = recommendation_feed_url(owner_id: current_user, no_torrent: 1)
+
   h2
     ' Empfehlungen
     small Was andere Nutzer mit ähnlichen Quellen sonst noch so hören
@@ -32,11 +48,6 @@ h1 Dashboard
     = render @recommended_sources
 
   = paginate @recommended_sources
-
-  .jumbotron
-    h3
-      Individueller Feed mit Empfehlungen
-      small< aus deinen Top-Empfehlungen die neusten Podcasts
 
   .clearfix
 - else
