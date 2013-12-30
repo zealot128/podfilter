@@ -41,8 +41,6 @@ GITHUB_CONSUMER_SECRET=something
 * Logo/favicon
 * categorization
 * recommendations improvements
-* Twitter/ more oauth login
 * Stylings
-* Take part without providing a OPML, e.g. by manually liking episodes
 * more community/comment/like aspects
 * follow redirects. example http://learn.thoughtbot.com/podcast.xml
