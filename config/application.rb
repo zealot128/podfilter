@@ -4,6 +4,7 @@ Bundler.require(:default, Rails.env)
 module Podfilter
   class Application < Rails::Application
     config.middleware.use 'Rack::RawUpload'
+    I18n.enforce_available_locales = false
     config.generators do |g|
       g.test_framework :rspec, fixture: true
       g.fixture_replacement :fabrication
