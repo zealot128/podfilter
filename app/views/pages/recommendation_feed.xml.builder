@@ -14,7 +14,7 @@ xml.rss(version: "2.0",
         xml.link  episode.url
         xml.pubDate episode.pubdate.rfc822
         xml.description do
-          xml.cdata! episode.description
+          xml.cdata! episode.description || ''
         end
         xml.guid episode.guid
         xml.enclosure(url: episode.media_url, type: episode.media_type)
