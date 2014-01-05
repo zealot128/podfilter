@@ -60,9 +60,11 @@
   .col-lg-6
     h3 Neuste Podcasts
     ul.list-unstyled
-      - Source.listened.order('created_at desc').limit(5).each do |source|
+      - Source.listened.order('created_at desc').limit(10).each do |source|
         li = render source
 
-h2 Weiterentwicklungen auf Podfilter.de
+p
+  = link_to 'Weiterentwicklungen auf Podfilter.de', '#changelog', data: { toggle: 'collapse' }
 
-= markdown File.read('CHANGELOG.md')
+#changelog.collapse
+  = markdown File.read('CHANGELOG.md')
