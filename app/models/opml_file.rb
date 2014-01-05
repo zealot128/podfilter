@@ -8,6 +8,8 @@ class OpmlFile < ActiveRecord::Base
   before_create :randomize_id
   before_validation :set_md5
 
+  scope :opml_files, -> { where type: 'OpmlFile' }
+
   def to_s
     [name,md5].find(&:present?)
   end

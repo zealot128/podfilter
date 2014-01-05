@@ -1,3 +1,10 @@
+
+### 2014-01-05 Bugfixes
+
+* Source-Seite fix
+* Merging von vielen gleichen Podcasts
+* Anzahl Hoerer korrigiert
+
 ### 2013-12-17 Personal Recommendation feed & ignore list
 
 * on Dashboard, user can see link to personal recommendation feed (with/out torrent-files)
