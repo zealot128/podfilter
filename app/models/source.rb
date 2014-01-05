@@ -24,10 +24,10 @@ class Source < ActiveRecord::Base
 
 
   validates :url, presence: true, uniqueness: { :case_sensitive => false }, url: true, if: ->(r) { !Rails.env.test?}
-  validates :image,
-    :file_mime_type => {
-    :content_type => /image/
-  }, if: ->(r) { r.image.present? and r.image_changed? }
+  # validates :image,
+  #   :file_mime_type => {
+  #   :content_type => /image/
+  # }, if: ->(r) { r.image.present? and r.image_changed? }
 
   scope :recent, -> {
     active.
