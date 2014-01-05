@@ -16,10 +16,6 @@ h1
     = strip_tags @source.description
   .clearfix
     = render 'sources/source', source: @source
-  p
-    strong
-      'In diesen OPML-Files enthalten:
-    = render @source.opml_files
   - if @source.offline?
     .alert.alert-warning
       ' Der Podcast konnte nicht abgerufen werden und ist als
