@@ -24,9 +24,8 @@ describe OpmlImport, sidekiq: :fake do
       service.run!
       expect(Source.count).to eq(14)
       Source.first.tap do |source|
-        expect(source.title).to eq('RaumZeitLabor Podcast')
         expect(source.url).to   eq('http://feeds.feedburner.com/RaumzeitlaborPodcast')
-        expect(source.opml_files).to eq([OpmlFile.first])
+        expect(source.opml_files).to eq([OpmlFile.where('source is not null').first])
       end
 
       expect {

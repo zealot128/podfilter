@@ -13,6 +13,7 @@ class Source < ActiveRecord::Base
   has_many :owners, through: :opml_files
   has_many :episodes, dependent: :destroy
   mount_uploader :image, ImageUploader
+  belongs_to :podcast
 
   def self.active
     source_id = Episode.connection.execute(
@@ -84,25 +85,10 @@ class Source < ActiveRecord::Base
   end
 
   def fetch_meta_information
-    self.title = parsed_feed.title if parsed_feed.title
-    self.description = take_first(parsed_feed, [:itunes_summary, :description, :title]).strip rescue nil
-    # self.language ||= feed.language
-    #itunes_categories
-    image = take_first(parsed_feed, [:itunes_image, :image])
-    begin
-      self.remote_image_url = image if image
-    rescue ArgumentError
-    end
+    self.podcast ||= Podcast.where(title: parsed_feed.title).first_or_initialize
+    self.podcast.update_meta_information(parsed_feed)
     self.offline = false
-
-    if !self.save
-      self.image = nil
-      self.remote_image_url = nil
-      self.image.remove!
-      self.valid? # hack -> validation hooks loeschen image
-      self.image.remove!
-      self.save!
-    end
+    self.save!
   end
 
   def parsed_feed
@@ -135,13 +121,5 @@ class Source < ActiveRecord::Base
 
   def all_siblings
     root.subtree
-  end
-
-  private
-
-  def take_first(object, methods)
-    methods.select{|m| object.respond_to?(m)}.
-      map{|m| object.send(m) }.
-      find{|i|i}
   end
 end

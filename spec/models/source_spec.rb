@@ -7,9 +7,9 @@ describe Source do
       source = feed("c3d2.xml")
       source.fetch_meta_information
 
-      expect(source.description).to eq('Pentaradio, Pentacast & Pentamusic vom Chaos Computer Club Dresden.')
-      expect(source.title).to eq('C3D2 Podcast')
-      expect(source.image).to be_present
+      expect(source.podcast.description).to eq('Pentaradio, Pentacast & Pentamusic vom Chaos Computer Club Dresden.')
+      expect(source.podcast.title).to eq('C3D2 Podcast')
+      expect(source.podcast.image).to be_present
   end
 
   it 'updates feed entries', vcr: true do
@@ -57,7 +57,7 @@ describe Source do
     it 'schlaflosinmuenchen', vcr: true do
       source = feed('schlaflosinm.xml')
       source.fetch_meta_information
-      expect(source.description).to include 'Dieser Feed wird nicht mehr aktualisiert'
+      expect(source.podcast.description).to include 'Dieser Feed wird nicht mehr aktualisiert'
     end
 
     it 'invalid file', vcr: true do
@@ -76,9 +76,9 @@ describe Source do
       source = feed(url)
     end
     source.full_refresh
-    expect(source.image).to be_present if image
-    expect(source.description).to be_present
-    expect(source.title).to be_present
+    expect(source.podcast.image).to be_present if image
+    expect(source.podcast.description).to be_present
+    expect(source.podcast.title).to be_present
     expect(source.episodes.count).to eq(count) if count
     if count
       expect(source.episodes.count).to eq(count) if count

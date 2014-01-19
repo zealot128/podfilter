@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131230000201) do
+ActiveRecord::Schema.define(version: 20140119122954) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -86,6 +86,15 @@ ActiveRecord::Schema.define(version: 20131230000201) do
   add_index "owners", ["primary_identity_id"], name: "index_owners_on_primary_identity_id", using: :btree
   add_index "owners", ["token"], name: "index_owners_on_token", unique: true, using: :btree
 
+  create_table "podcasts", force: true do |t|
+    t.text     "title"
+    t.text     "description"
+    t.string   "image"
+    t.integer  "subscriber_count"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "recommendations", force: true do |t|
     t.integer "owner_id"
     t.integer "source_id"
@@ -106,12 +115,14 @@ ActiveRecord::Schema.define(version: 20131230000201) do
     t.boolean  "active"
     t.string   "ancestry"
     t.integer  "owners_count"
+    t.integer  "podcast_id"
   end
 
   add_index "sources", ["active"], name: "index_sources_on_active", using: :btree
   add_index "sources", ["ancestry"], name: "index_sources_on_ancestry", using: :btree
   add_index "sources", ["offline"], name: "index_sources_on_offline", using: :btree
   add_index "sources", ["owners_count"], name: "index_sources_on_owners_count", using: :btree
+  add_index "sources", ["podcast_id"], name: "index_sources_on_podcast_id", using: :btree
   add_index "sources", ["url"], name: "index_sources_on_url", unique: true, using: :btree
 
 end
