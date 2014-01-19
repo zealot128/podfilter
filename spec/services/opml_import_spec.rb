@@ -13,7 +13,7 @@ describe OpmlImport, sidekiq: :fake do
     it 'creates opml_file object' do
       service.run!
       expect(OpmlFile.count).to eq(2)
-      OpmlFile.where('source is not null').first.tap do |file|
+      OpmlFile.no_ignore.first.tap do |file|
         expect(file.owner).to eq(owner)
         expect(file.source).to include '<?xml'
         expect(file.name).to match(/Import vom \d{2}\.\d{2}\.\d{4}/)
@@ -25,13 +25,13 @@ describe OpmlImport, sidekiq: :fake do
       expect(Source.count).to eq(14)
       Source.first.tap do |source|
         expect(source.url).to   eq('http://feeds.feedburner.com/RaumzeitlaborPodcast')
-        expect(source.opml_files).to eq([OpmlFile.where('source is not null').first])
+        expect(source.opml_files).to eq([OpmlFile.no_ignore.first])
       end
 
       expect {
         service.run!
       }.to_not change(Source, :count)
-      expect(OpmlFile.first.sources.count).to eq(14)
+      expect(OpmlFile.no_ignore.first.sources.count).to eq(14)
 
 
       expect(SourceUpdateWorker.jobs.count).to eq(14)

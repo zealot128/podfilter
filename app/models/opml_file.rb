@@ -9,6 +9,7 @@ class OpmlFile < ActiveRecord::Base
   before_validation :set_md5
 
   scope :opml_files, -> { where type: 'OpmlFile' }
+  scope :no_ignore, -> { where 'type is null or type != ?', 'IgnoreFile' }
 
   def to_s
     [name,md5].find(&:present?)
