@@ -73,7 +73,6 @@ end
 group :development, :test do
   gem 'fabrication'
   gem 'rspec-rails', '~> 3.0.0.beta1'
-  gem 'simplecov'
 end
 group :test do
   gem 'capybara', '~>2.2.0.rc1'

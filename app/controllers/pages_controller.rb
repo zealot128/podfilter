@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   before_action :require_login, only: :dashboard
   def index
+    @most = Podcast.order('subscriber_count desc').limit(20).includes(:sources)
   end
 
   def impress

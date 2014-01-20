@@ -62,6 +62,22 @@
         li
           .row
             = render podcast
+.row
+  .col-lg-6
+    h3 Beliebteste Podcasts
+    ol.list-unstyled.newest
+      - @most.take(10).each do |podcast|
+        li
+          .row
+            = render podcast
+  .col-lg-6
+    h3 &nbsp;
+    ol.list-unstyled.newest
+      - @most.drop(10).each do |podcast|
+        li
+          .row
+            = render podcast
+
 
 p
   = link_to 'Weiterentwicklungen auf Podfilter.de', '#changelog', data: { toggle: 'collapse' }
