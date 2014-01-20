@@ -1,3 +1,7 @@
+### 2014-01-20
+
+* Responsiveness/Views/Layout ueberarbeitet
+* internes Refaktoring: "Podcast" Modell mit verschiedenen Varianten (Sources)
 
 ### 2014-01-05 Bugfixes
 

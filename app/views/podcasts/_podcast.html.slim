@@ -2,15 +2,15 @@
   .row
     .logo
       - if podcast.try :weight
-        - sim = [ 100, podcast.weight / 5.0 * 100].min.to_i
+        - sim = [ 100, podcast.weight / 8.0 * 100].min.to_i
         .progress.similarity(title="Empfehlung: #{sim}%")
           .progress-bar.progress-bar-default(style="width: #{sim}%")
           .sr-only #{sim}% Empfehlung
       = image_tag podcast.image.url(:thumb)
     .main
       .source-title: strong = link_to podcast.title, podcast
-      .row
-        - podcast.sources.each do |source|
+      - podcast.sources.each do |source|
+        .row
           .source
             = render 'sources/manage_button', source: source
             = link_to [podcast, source] do
