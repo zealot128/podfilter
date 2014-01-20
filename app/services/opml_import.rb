@@ -48,7 +48,7 @@ class OpmlImport
       url = outline['url'] || outline['xmlUrl']
       next if url and BLACKLIST.any?{|r| url[r]}
       title = outline['title'] || outline['text']
-      source = Source.where(url: url).first_or_initialize(title: title)
+      source = Source.where(url: url).first_or_initialize
       was_new_record = source.new_record?
       if source.save
         if source.opml_files.where('opml_file_id = ?', opml_file.id).count == 0
@@ -68,6 +68,7 @@ class OpmlImport
   def ignore_opml_file
     IgnoreFile.create(owner: owner, source: '', name: 'Podcast Ignore-Liste')
   end
+
   def opml
     @opml ||= OpmlFile.create(owner: owner, source: text, name: "Import vom #{I18n.l(Date.today)}")
   end

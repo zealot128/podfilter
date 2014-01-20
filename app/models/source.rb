@@ -45,6 +45,9 @@ class Source < ActiveRecord::Base
   scope :inactive, -> { where(active: false) }
   scope :listened, -> { where('owners_count > 0')}
   scope :popular, -> { order('owners_count desc') }
+  scope :without_media_live, -> { where('(select id from episodes where source_id = sources.id and media_url is null limit 1) is not null') }
+  scope :with_media_live,    -> { where('(select id from episodes where source_id = sources.id and media_url is not null limit 1) is not null') }
+
 
 
   scope :inactive_live, -> { where(id: Episode.select('source_id').having('max(pubdate) <= ?', 1.year.ago).group(:source_id)) }
@@ -53,6 +56,8 @@ class Source < ActiveRecord::Base
   def self.update_active_status
     active_live.update_all active: true
     inactive_live.update_all active: false
+    with_media_live.update_all has_media: true
+    without_media_live.update_all has_media: false
   end
 
   def self.merge_sources(sources)
@@ -91,6 +96,23 @@ class Source < ActiveRecord::Base
     self.save!
   end
 
+  def badges
+    b = []
+    if active? and !offline?
+      b << :active
+    elsif active == false and !offline?
+      b << :inactive
+    else
+      b << :offline
+    end
+    if has_media
+      b << :has_media
+    else
+      b << :has_no_media
+    end
+    b
+  end
+
   def parsed_feed
     @parse_feed ||=  Feedzirra::Feed.fetch_and_parse(url, max_redirects: 5)
   end
@@ -113,10 +135,6 @@ class Source < ActiveRecord::Base
       episode.save
     end
 
-  end
-
-  def to_param
-    "#{id}-#{title.to_url}"
   end
 
   def all_siblings

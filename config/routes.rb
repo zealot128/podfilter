@@ -10,7 +10,9 @@ Podfilter::Application.routes.draw do
   get 'admin/duplicates'
   post 'admin/merge'
 
-  resources :sources
+  resources :podcasts, only: [:index, :show] do
+    resources :sources, only: :show
+  end
 
   get '/auth/:provider/callback', to: 'sessions#create', as: :omniauth_provider
   get 'dashboard' => 'pages#dashboard', as: :dashboard

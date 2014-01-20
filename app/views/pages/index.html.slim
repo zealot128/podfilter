@@ -1,6 +1,6 @@
 .jumbotron#main-attention-drawer
   strong Podcasts mit ähnlichen Interessen finden!
-  p Bisher #{Source.count} Podcasts mit #{FastQueries.episode_count} Episoden indiziert! #{OpmlFile.opml_files.count} Hörer haben Ihre Liste bereits geteilt.
+  p Bisher #{Podcast.count} Podcasts mit #{FastQueries.episode_count} Episoden indiziert! #{OpmlFile.opml_files.count} Hörer haben Ihre Liste bereits geteilt.
 
   .row
     .col-lg-6
@@ -41,26 +41,27 @@
     h3
       'Neuste Episodes
 
-    = cache ['newest', Source.recent.first.pubdate] do
+    = cache ['newest', Episode.order('created_at desc').limit(1).pluck('created_at').first || 1] do
       ul.list-unstyled
-        - Source.recent.limit(10).each do |source|
+        - FastQueries.recently_updated_podcasts.each do |episode, podcast|
           li
-            - episode = Episode.find(source.episode_id)
             h4
               .pull-left
-                = image_tag source.image.url(:thumb)
+                = image_tag podcast.image.url(:thumb)
                 = ' '
               = episode.title
               | &nbsp;
               small = l episode.pubdate.to_date
-            = link_to source do
-              = source.title
+            = link_to podcast_source_path(podcast, episode.source_id) do
+              = podcast.title
 
   .col-lg-6
     h3 Neuste Podcasts
-    ul.list-unstyled
-      - Source.listened.order('created_at desc').limit(10).each do |source|
-        li = render source
+    ul.list-unstyled.newest
+      - Podcast.listened.order('created_at desc').limit(10).each do |podcast|
+        li
+          .row
+            = render podcast
 
 p
   = link_to 'Weiterentwicklungen auf Podfilter.de', '#changelog', data: { toggle: 'collapse' }

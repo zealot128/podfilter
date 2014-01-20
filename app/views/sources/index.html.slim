@@ -20,7 +20,6 @@ h1 Podcasts suchen
 hr
 - if can? :merge, @sources
   = form_tag admin_merge_path, method: :post do
-    = render @sources
 
     .form-group.clearfix.clear(style='clear: both;')
       button.btn.btn-primary Merge

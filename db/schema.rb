@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140119122954) do
+ActiveRecord::Schema.define(version: 20140119235540) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,8 +36,12 @@ ActiveRecord::Schema.define(version: 20140119122954) do
     t.text     "media_url"
   end
 
+  add_index "episodes", ["created_at", "source_id"], name: "index_episodes_on_created_at_and_source_id", using: :btree
+  add_index "episodes", ["created_at"], name: "index_episodes_on_created_at", using: :btree
   add_index "episodes", ["pubdate"], name: "index_episodes_on_pubdate", using: :btree
+  add_index "episodes", ["source_id", "created_at"], name: "index_episodes_on_source_id_and_created_at", using: :btree
   add_index "episodes", ["source_id", "guid"], name: "episode_uniq_guid", unique: true, using: :btree
+  add_index "episodes", ["source_id", "pubdate"], name: "index_episodes_on_source_id_and_pubdate", using: :btree
   add_index "episodes", ["source_id"], name: "index_episodes_on_source_id", using: :btree
 
   create_table "identities", force: true do |t|
@@ -73,6 +77,7 @@ ActiveRecord::Schema.define(version: 20140119122954) do
   end
 
   add_index "opml_files_sources", ["opml_file_id", "source_id"], name: "opml_files_sources_index", unique: true, using: :btree
+  add_index "opml_files_sources", ["source_id"], name: "index_opml_files_sources_on_source_id", using: :btree
 
   create_table "owners", force: true do |t|
     t.string   "token"
@@ -116,12 +121,15 @@ ActiveRecord::Schema.define(version: 20140119122954) do
     t.string   "ancestry"
     t.integer  "owners_count"
     t.integer  "podcast_id"
+    t.boolean  "has_media"
   end
 
   add_index "sources", ["active"], name: "index_sources_on_active", using: :btree
   add_index "sources", ["ancestry"], name: "index_sources_on_ancestry", using: :btree
+  add_index "sources", ["has_media"], name: "index_sources_on_has_media", using: :btree
   add_index "sources", ["offline"], name: "index_sources_on_offline", using: :btree
   add_index "sources", ["owners_count"], name: "index_sources_on_owners_count", using: :btree
+  add_index "sources", ["podcast_id", "id"], name: "index_sources_on_podcast_id_and_id", using: :btree
   add_index "sources", ["podcast_id"], name: "index_sources_on_podcast_id", using: :btree
   add_index "sources", ["url"], name: "index_sources_on_url", unique: true, using: :btree
 

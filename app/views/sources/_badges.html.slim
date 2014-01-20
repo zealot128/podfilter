@@ -1,0 +1,27 @@
+span.label.label-default< title='Feed URL öffnen'
+  = link_to source.url, style: 'color: white' do
+    span.fa.fa-fw.fa-external-link
+- source.badges.each do |badge|
+  - if badge == :active
+    span.label.label-success<> title='Feed konnte erfolgreich abgerufen werden und hatte in letzter Zeit neue Episoden'
+      i.fa.fa-check-circle.fa-fw
+  - if badge == :inactive
+    span.label.label-default<> title='Feed konnte zwar abgerufen werden, hat aber keine neuen Episoden'
+      i.fa.fa-question-circle.fa-fw
+  - if badge == :offline
+    span.label.label-default<> title='Feed ist offline und konnte nicht abgerufen werden'
+      i.fa.fa-exclamation-circle.fa-fw
+
+  - if badge == :has_media
+    span.label.label-success<> title='Feed hat Episoden mit Medieninhalten'
+      i.fa.fa-volume-up.fa-fw
+  - if badge == :has_no_media
+    span.label.label-default<> title='Feed hat keine Medieninhalte'
+      i.fa.fa-volume-up.fa-fw
+
+span.label.label-default> title="#{pluralize source.owners_count, 'Abonnent', 'Abonnenten'}"
+  span.fa.fa-users.fa-fw>
+  = source.owners_count
+span.label.label-default> title="#{pluralize source.episodes.count, 'Episode', 'Episoden'}"
+  span.fa.fa-list-ul.fa-fw>
+  = source.episodes.count

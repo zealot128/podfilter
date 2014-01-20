@@ -1,0 +1,37 @@
+.jumbotron
+  .clearfix
+    = image_tag @podcast.image.url(:medium), style: 'float: left; margin-right: 20px'
+    h1 = @podcast.title
+    p
+      = sanitize @podcast.description
+  .clearfix
+    h3 Varianten
+    table.table
+      - @podcast.sources.each do |source|
+        tr
+          td
+            = render 'sources/manage_button', source: source
+          td
+            - if @source == source
+              small = readable_url source.url
+            - else
+              a href="#{podcast_source_path(@podcast, source)}"
+                small = readable_url source.url
+          td
+            = render 'sources/badges', source: source
+
+
+- if @source.present?
+  h2 Variante: #{@source.url}
+
+
+  - if @source.offline?
+    .alert.alert-warning
+      ' Der Podcast konnte nicht abgerufen werden und ist als
+      span.label.label-default offline
+      ' markiert.
+
+  - if @source.episodes.count == 0
+    .alert.alert-warning
+      | Keine Episoden gefunden
+  = render @source.episodes.order('pubdate desc')

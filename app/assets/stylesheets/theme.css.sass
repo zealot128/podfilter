@@ -1,6 +1,7 @@
 // @import bootstrap-amelia.min
 // @import bootstrap/theme
 
+@import themes/bootstrap-united.min
 
 .fileinput-button
   position: relative
@@ -15,23 +16,14 @@
     left: 0
     width: 100%
     font-size: 100px
-.source-list-item
-  margin-bottom: 20px
-  width: 45%
-  max-width: 500px
-  min-width: 300px
-  float: left
-  .col-lg-6 &, .jumbotron &
-    width: 100%
-    max-width: 100%
-  code
-    white-space: normal
 .episode-body
   img
     float: left
     margin-right: 10px
 .episode
   clear: both
+  h3
+    margin-bottom: 0
 .pull-left img
   margin-right: 10px
 .similarity.progress
@@ -41,3 +33,29 @@
   margin-top: 5px
 .table-cell
   display: table-cell
+
+.podcast-list-item
+  margin-bottom: 20px
+  @extend .col-lg-6
+  @extend .col-xs-12
+  .newest &
+    @extend .col-lg-12
+
+  .source
+    @extend small
+    @extend .col-lg-7
+    @extend .col-md-6
+    @extend .col-xs-12
+    display: inline-block
+    text-indent: -10px
+    margin-left: 10px
+    margin-right: -10px
+  .badges
+    @extend .col-lg-5
+    @extend .col-md-6
+    @extend .col-xs-12
+  .logo
+    @extend .col-xs-2
+    @extend .text-center
+  .main
+    @extend .col-xs-10

@@ -1,13 +1,13 @@
 .episode
   h3
     = episode.title
-  .subtitle: small
+  .subtitle: small.text-muted
     = l episode.pubdate.to_date
-    = ' '
+    span<> &ndash;
     = link_to episode.url do
       = episode.url
 
   .episode-body
-    =sanitize episode.description
+    =html_description episode.description
 
 

@@ -1,0 +1,17 @@
+h1 Podcasts suchen
+
+= form_tag podcasts_path, method: :get, class: 'form' do
+  .form-group
+    input.form-control type='text' placeholder='Podcasts suchen' name='q' value=params[:q]
+
+  .form-group
+    button.btn.btn-inverse type='submit'
+      i.fa.fa-fw.fa-search<>
+      | Suchen
+
+- @podcasts.in_groups_of(2) do |group|
+  .row
+    = render group.compact
+    .clearfix.visible-xs
+
+= paginate @podcasts
