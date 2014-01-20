@@ -76,3 +76,4 @@ pickle-email-*.html
 
 public/uploads/
 .env.development
+public/coverage

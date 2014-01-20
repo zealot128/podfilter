@@ -1,6 +1,7 @@
 class OpmlFile < ActiveRecord::Base
   has_many :opml_files_sources
   has_many :sources, through: :opml_files_sources
+  has_many :podcasts, through: :sources
   belongs_to :owner
 
   validates :md5, uniqueness: { scope: :owner_id }

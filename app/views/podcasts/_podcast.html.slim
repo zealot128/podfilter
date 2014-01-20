@@ -2,7 +2,7 @@
   .row
     .logo
       - if podcast.try :weight
-        - sim = [ 100, source.weight / 5.0 * 100].min.to_i
+        - sim = [ 100, podcast.weight / 5.0 * 100].min.to_i
         .progress.similarity(title="Empfehlung: #{sim}%")
           .progress-bar.progress-bar-default(style="width: #{sim}%")
           .sr-only #{sim}% Empfehlung

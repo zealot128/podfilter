@@ -16,7 +16,7 @@
   div.table-cell
     .source-title
       strong
-        = link_to source.title, source
+        = link_to source.title, [source.podcast, source]
     ul.list-unstyled
       - source.all_siblings.each do |sub_source|
         li

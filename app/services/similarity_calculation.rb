@@ -9,7 +9,7 @@ class SimilarityCalculation
     recommendations(top_k: 10, count: 100).each do |id, weight|
       r = @user.recommendations.build
       r.weight = weight
-      r.source_id = id
+      r.podcast_id = id
       r.save!
     end
   end
@@ -55,8 +55,8 @@ class SimilarityCalculation
 
   def podcast_ids(user)
     {
-      list:   user.sources.where('type = ?',  OpmlFile).map{|i| i.root.id },
-      ignore: user.sources.where('type = ?',IgnoreFile).map{|i| i.root.id }
+      list:   user.podcasts.where('type = ?',  OpmlFile).pluck('podcasts.id'),
+      ignore: user.podcasts.where('type = ?',IgnoreFile).pluck('podcasts.id')
     }
   end
 

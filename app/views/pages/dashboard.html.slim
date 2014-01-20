@@ -45,9 +45,12 @@ h1 Dashboard
     ' Empfehlungen
     small Was andere Nutzer mit ähnlichen Quellen sonst noch so hören
   .clearfix
-    = render @recommended_sources
+    - @recommended_podcasts.in_groups_of(2) do |group|
+      .row
+        = render group.compact
+        .clearfix.visible-xs
 
-  = paginate @recommended_sources
+  = paginate @recommended_podcasts
 
   .clearfix
 - else

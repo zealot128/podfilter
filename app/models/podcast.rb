@@ -52,6 +52,9 @@ class Podcast < ActiveRecord::Base
     end
   end
 
+  def set_subscriber_count!
+    update_column :subscriber_count, owners.count('distinct owners.id')
+  end
   private
   def take_first(object, methods)
     methods.select{|m| object.respond_to?(m)}.
@@ -59,7 +62,4 @@ class Podcast < ActiveRecord::Base
       find{|i|i}
   end
 
-  def set_subscriber_count!
-    update_column :subscriber_count, owners.count('distinct owners.id')
-  end
 end
