@@ -4,6 +4,7 @@ module ApplicationHelper
   end
 
   def html_description(text)
+    return "" if text.blank?
     if text['<']
       sanitize text
     else
