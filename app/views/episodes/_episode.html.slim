@@ -2,7 +2,7 @@
   h3
     = episode.title
   .subtitle: small.text-muted
-    = l episode.pubdate.to_date
+    = l( (episode.pubdate || episode.created_at).to_date)
     span<> &ndash;
     = link_to episode.url do
       = episode.url
