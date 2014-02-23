@@ -11,7 +11,8 @@ h1 = @title
 
 - @podcasts.in_groups_of(2) do |group|
   .row
-    = render group.compact
+    - group.compact.each do |item|
+      = render item
     .clearfix.visible-xs
 
 
