@@ -7,7 +7,7 @@ class Source < ActiveRecord::Base
       :tsearch => {:prefix => true}
     }
 
-  has_ancestry
+  # has_ancestry
   has_many :opml_files_sources
   has_many :opml_files, through: :opml_files_sources
   has_many :owners, through: :opml_files
@@ -47,8 +47,6 @@ class Source < ActiveRecord::Base
   scope :popular, -> { order('owners_count desc') }
   scope :without_media_live, -> { where('(select id from episodes where source_id = sources.id and media_url is null limit 1) is not null') }
   scope :with_media_live,    -> { where('(select id from episodes where source_id = sources.id and media_url is not null limit 1) is not null') }
-
-
 
   scope :inactive_live, -> { where(id: Episode.select('source_id').having('max(pubdate) <= ?', 1.year.ago).group(:source_id)) }
   scope :active_live,   -> { where(id: Episode.select('distinct source_id').where('pubdate > ?', 1.year.ago)) }
@@ -114,7 +112,7 @@ class Source < ActiveRecord::Base
   end
 
   def parsed_feed
-    @parse_feed ||=  Feedzirra::Feed.fetch_and_parse(url, max_redirects: 5)
+    @parse_feed ||=  Feedzirra::Feed.fetch_and_parse(url, max_redirects: 5, timeout: 30)
   end
 
   def update_entries

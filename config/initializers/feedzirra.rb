@@ -19,3 +19,6 @@ Feedzirra::Feed.add_common_feed_entry_element   :enclosure, :value => :url, :as 
 
 Feedzirra::Feed.add_common_feed_entry_element 'media:content' , as: :enclosure_url, value: :url
 
+
+# Ethon.logger = Logger.new('/dev/null')
+

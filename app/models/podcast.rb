@@ -10,6 +10,8 @@ class Podcast < ActiveRecord::Base
   has_many :owners, through: :sources, counter_cache: :subscriber_count
   after_save :set_subscriber_count!
 
+  acts_as_taggable_on :categories
+
   scope :listened, -> {
     where('(select podcast_id from sources inner join opml_files_sources on opml_files_sources.source_id = sources.id inner join opml_files on opml_files.id = opml_file_id where podcast_id = podcasts.id and opml_files.type != ? limit 1) is not null', 'IgnoreFile')
   }
@@ -25,7 +27,7 @@ class Podcast < ActiveRecord::Base
   def update_meta_information(parsed_feed)
     self.title ||= parsed_feed.title if parsed_feed.title
     self.description ||= take_first(parsed_feed, [:itunes_summary, :description, :title]).strip rescue nil
-    # self.language ||= feed.language
+    self.language = [ parsed_feed.entries.map(&:summary), self.description].join('. ').language
     #itunes_categories
     image = take_first(parsed_feed, [:itunes_image, :image])
     unless image?

@@ -22,12 +22,19 @@ gem "font-awesome-rails", '~> 4.0'
 gem 'pg_search', '~> 0.7.2'
 gem 'kaminari', '~> 0.15'
 gem 'ancestry'
+gem 'whatlanguage'
 
 # https://github.com/mcasimir/kaminari-bootstrap/pull/8/files
 gem 'kaminari-bootstrap', github: 'GBH/kaminari-bootstrap', branch: 'bootstrap3'
 gem 'faraday'
 gem 'cancan'
+
+# gem 'feedzirra', github: 'zealot128/feedzirra'
+# gem 'feedzirra', path: 'gems/feedzirra/'
 gem 'feedzirra'
+gem 'nokogiri'
+gem 'acts-as-taggable-on'
+
 gem 'sidekiq', github: 'mperham/sidekiq' # Capistrano 3 problems https://github.com/mperham/sidekiq/blob/master/lib/sidekiq/tasks/sidekiq.rake
 gem 'sinatra', require: false
 gem 'sidekiq-unique-jobs'
