@@ -8,6 +8,9 @@ class PodcastsController < ApplicationController
     when :most
       sql = sql.order('subscriber_count desc')
       @title = 'Beliebteste Podcasts'
+    when :recent
+      sql = FastQueries.recently_updated_podcasts(limit: 200)
+      @title = 'Kürzlich aktualisiert'
     else
       @title = 'Podcasts suchen'
     end

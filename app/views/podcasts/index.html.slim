@@ -14,4 +14,5 @@ h1 = @title
     = render group.compact
     .clearfix.visible-xs
 
-= paginate @podcasts
+
+= paginate @podcasts if @podcasts.respond_to?(:current_page)

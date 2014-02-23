@@ -10,7 +10,8 @@ Podfilter::Application.routes.draw do
   get 'admin/duplicates'
   post 'admin/merge'
 
-  get 'browse/most-popular' => 'podcasts#index', order: :most
+  get 'browse/most-popular'     => 'podcasts#index', order: :most
+  get 'browse/recently-updated' => 'podcasts#index', order: :recent
   # get 'browse/most', 'postcasts#index', order: :most
 
   resources :podcasts, only: [:index, :show] do

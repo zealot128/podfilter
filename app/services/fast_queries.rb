@@ -18,7 +18,7 @@ module FastQueries
     SELECT * FROM episodes_per_podcast
     WHERE (SELECT id FROM podcasts WHERE podcasts.id = podcast_id AND subscriber_count > 0 LIMIT 1) IS NOT NULL
     ORDER BY created_at desc
-    LIMIT #{limit.to_i};
+    LIMIT #{limit};
     SQL
     result = Podcast.connection.execute(query).to_a
     episode_ids = result.map{|i| i['id']}

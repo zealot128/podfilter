@@ -40,6 +40,7 @@
   .col-lg-6
     h3
       'Neuste Episodes
+      small<: a href=browse_recently_updated_path Mehr
 
     = cache ['newest', Episode.order('created_at desc').limit(1).pluck('created_at').first || 1] do
       ul.list-unstyled
@@ -64,7 +65,9 @@
             = render podcast
 .row
   .col-lg-6
-    h3 Beliebteste Podcasts
+    h3
+      Beliebteste Podcasts
+      small<: a href=browse_most_popular_path Alle
     ol.list-unstyled.newest
       - @most.take(10).each do |podcast|
         li
