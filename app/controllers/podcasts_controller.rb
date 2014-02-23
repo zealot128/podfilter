@@ -4,6 +4,13 @@ class PodcastsController < ApplicationController
     if params[:q]
       sql = sql.search(params[:q])
     end
+    case params[:order]
+    when :most
+      sql = sql.order('subscriber_count desc')
+      @title = 'Beliebteste Podcasts'
+    else
+      @title = 'Podcasts suchen'
+    end
     @podcasts = sql
   end
 
