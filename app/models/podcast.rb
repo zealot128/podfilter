@@ -11,6 +11,9 @@ class Podcast < ActiveRecord::Base
   has_many :owners, through: :sources, counter_cache: :subscriber_count
   after_save :set_subscriber_count!
 
+  scope :uncategorized, -> { where('(select category_id from categories_podcasts where podcast_id=podcasts.id limit 1) is null') }
+  scope :active, -> { where('(select active from sources where sources.podcast_id = podcasts.id and active = \'t\' limit 1) is not null') }
+
   acts_as_taggable_on :itunes_categories
 
   scope :listened, -> {

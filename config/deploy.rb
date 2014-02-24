@@ -68,3 +68,32 @@ task :update_crontab do
   end
 end
 
+
+
+namespace :rails do
+  task :tail, :file do |t, args|
+    file = args[:file] || 'production'
+    on roles(:app) do
+      execute "tail -f #{shared_path}/log/#{file}.log"
+    end
+  end
+
+  desc 'Access a remote bash console'
+  task bash: ['deploy:set_rails_env'] do
+    app_server = roles(:app).first
+
+    # RVM support
+    if rvm_loaded?
+      Rake::Task['rvm:hook'].invoke
+      set :rvm_map_bins, ((fetch(:rvm_map_bins) || []) + ['rails'])
+    end
+
+    # command = []
+    # command << "#{fetch(:rvm_path)}/bin/rvm #{fetch(:rvm_ruby_version)} do" if rvm_loaded?
+    # command << "bundle exec" if bundler_loaded?
+    # command << "rails console #{fetch(:rails_env)}"
+    command = 'bash'
+
+    exec %Q(ssh #{app_server.user}@#{app_server.hostname} -p #{app_server.port || 22} -t "export RAILS_ENV=#{fetch(:rails_env)} && cd #{current_path} && #{command} ")
+  end
+end
