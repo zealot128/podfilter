@@ -14,6 +14,7 @@ Podfilter::Application.routes.draw do
   get 'browse/recently-updated' => 'podcasts#index', order: :recent
   # get 'browse/most', 'postcasts#index', order: :most
 
+  get 'podcasts/category/:category_id' => 'podcasts#index', as: :category
   resources :podcasts, only: [:index, :show] do
     resources :sources, only: :show
   end

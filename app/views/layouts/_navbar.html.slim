@@ -12,6 +12,12 @@ nav.container
           b.caret<
         ul.dropdown-menu
           li: a href='/browse/most-popular' Beliebste
+          li.divider
+          - Category.podcast_counts.sort_by{|i|-i.count}.each do |category|
+            li
+              = link_to category do
+                = category.translated_name
+                span.badge< = category.count
           /* li: a href='/browse/recently-updated' Kürzlich aktualisiert */
 
       - if user_signed_in?
