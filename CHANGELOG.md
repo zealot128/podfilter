@@ -1,3 +1,9 @@
+### 2014-02-24
+
+* Podcast Kategorien: Nutzung der Itunes-Kategorien Liste und Angabe der Podcasts
+* Sortierung nach Popularitaet moeglich
+* Technisches: Jetzt Timeout nach 30s beim Fetchen, Turbolinks wieder aktiviert zum schnelleren Seitenaufbau
+
 ### 2014-01-20
 
 * Responsiveness/Views/Layout ueberarbeitet
