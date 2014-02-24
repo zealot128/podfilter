@@ -85,7 +85,7 @@ class ItunesCategories
 
   def self.categories(category_list)
     categories = []
-    category_list.each do |item|
+    category_list.reject(&:blank?).each do |item|
       item.strip!
       if CATEGORIES[item]
         categories += [item, CATEGORIES[item] ]
