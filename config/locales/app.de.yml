@@ -9,3 +9,19 @@ de:
   errors:
     messages:
       extension_white_list_error: "Die Dateiendung %{extension} ist nicht erlaubt, erlaubt sind nur: %{allowed_types}"
+  categories:
+    "Arts": "Kunst"
+    "Business": "Business"
+    "Business News": ""
+    "Comedy": "Unterhaltung"
+    "Education": "Bildung"
+    "Games & Hobbies": "Spiel & Hobby"
+    "Government & Organizations": "Regierung & Organisationen"
+    "Health": "Gesundheit"
+    "Kids & Family": "Familie und Kinder"
+    "Religion & Spirituality": "Religion"
+    "Science & Medicine": "Wissenschaft & Medizin"
+    "Society & Culture": "Gesellschaft & Kultur"
+    "Sports & Recreation": "Sport & Freizeit"
+    "Technology": "Technologie"
+    "TV & Film": "TV & Film"

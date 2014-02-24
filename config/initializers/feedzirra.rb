@@ -1,6 +1,6 @@
 Feedzirra::Feed.add_common_feed_element :"itunes:image", :value => :href, :as => :itunes_image
 Feedzirra::Feed.add_common_feed_element :"itunes:summary", :as => :itunes_summary
-Feedzirra::Feed.add_common_feed_element :"itunes:category", :as => :itunes_categories, :value => :text
+Feedzirra::Feed.add_common_feed_elements :"itunes:category", :as => :itunes_categories, :value => :text
 Feedzirra::Feed.add_common_feed_element :url, :as => :image
 
 Feedzirra::Feed.add_common_feed_entry_element   :"feedburner:origEnclosureLink", as: :enclosure_url
