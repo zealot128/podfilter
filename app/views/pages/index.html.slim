@@ -52,7 +52,7 @@
                 = ' '
               = episode.title
               | &nbsp;
-              small = l episode.pubdate.to_date
+              small = l episode.pubdate.to_date rescue '??'
             = link_to podcast_source_path(podcast, episode.source_id) do
               = podcast.title
 
