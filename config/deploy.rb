@@ -1,6 +1,6 @@
 set :application, 'podfilter'
 set :repo_url, 'https://github.com/zealot128/podfilter.de.git'
-set :rvm_ruby_version, '2.0.0-p353'
+set :rvm_ruby_version, '2.1.1'
 set :rvm_type, :user
 
 
