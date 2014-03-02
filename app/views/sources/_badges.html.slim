@@ -9,7 +9,7 @@ span.label.label-default< title='Feed URL öffnen'
     span.label.label-default<> title='Feed konnte zwar abgerufen werden, hat aber keine neuen Episoden'
       i.fa.fa-question-circle.fa-fw
   - if badge == :offline
-    span.label.label-default<> title='Feed ist offline und konnte nicht abgerufen werden'
+    span.label.label-warning<> title='Feed ist offline und konnte nicht abgerufen werden'
       i.fa.fa-exclamation-circle.fa-fw
 
   - if badge == :has_media

@@ -54,8 +54,8 @@ class Source < ActiveRecord::Base
   def self.update_active_status
     active_live.update_all active: true
     inactive_live.update_all active: false
-    with_media_live.update_all has_media: true
     without_media_live.update_all has_media: false
+    with_media_live.update_all has_media: true
   end
 
   def self.merge_sources(sources)
