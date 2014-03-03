@@ -30,6 +30,8 @@ nav.container
 
           ul class="dropdown-menu"
             li = link_to 'Dashboard', dashboard_path
+            li = link_to 'Logout', abmelden_path
+
     - if current_page?(root_path) || current_page?(dashboard_path)
       = form_tag podcasts_path, method: :get, class: 'navbar-form navbar-left' do
         .form-group
