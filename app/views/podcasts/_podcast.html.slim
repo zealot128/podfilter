@@ -10,7 +10,7 @@
     .main
       .source-title: strong = link_to podcast.title, podcast
       - sources = podcast.sources.order('owners_count desc, active desc')
-      - limit   = @podcast ? 1000 : 5
+      - limit   = @podcast == podcast ? 1000 : 5
       - sources.limit(limit).each do |source|
         .row
           .source
@@ -19,7 +19,7 @@
               = readable_url source.url
           .badges
             = render 'sources/badges', source: source
-      - if sources.count > 5
+      - if sources.count > limit
         .row
           .source
             = link_to podcast do
