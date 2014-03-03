@@ -13,7 +13,7 @@
         .row
           .source
             = render 'sources/manage_button', source: source
-            = link_to [podcast, source] do
+            = link_to [podcast, source], title: "#{source.url} auf Podfilter" do
               = readable_url source.url
           .badges
             = render 'sources/badges', source: source
