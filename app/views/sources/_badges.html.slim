@@ -21,7 +21,7 @@ span.label.label-default< title='Feed URL öffnen'
 
 span.label.label-default> title="#{pluralize source.owners_count, 'Abonnent', 'Abonnenten'}"
   span.fa.fa-users.fa-fw>
-  = source.owners_count
+  = '%02d' % source.owners_count
 span.label.label-default> title="#{pluralize source.episodes.count, 'Episode', 'Episoden'}"
   span.fa.fa-list-ul.fa-fw>
-  = source.episodes.count
+  = '%02d' % source.episodes.count
