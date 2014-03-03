@@ -9,7 +9,9 @@
       = image_tag podcast.image.url(:thumb)
     .main
       .source-title: strong = link_to podcast.title, podcast
-      - podcast.sources.order('owners_count desc, active desc').each do |source|
+      - sources = podcast.sources.order('owners_count desc, active desc')
+      - limit   = @podcast ? 1000 : 5
+      - sources.limit(limit).each do |source|
         .row
           .source
             = render 'sources/manage_button', source: source
@@ -17,3 +19,8 @@
               = readable_url source.url
           .badges
             = render 'sources/badges', source: source
+      - if sources.count > 5
+        .row
+          .source
+            = link_to podcast do
+              = pluralize sources.count - 5, 'weitere Quelle', 'weitere Quellen'
