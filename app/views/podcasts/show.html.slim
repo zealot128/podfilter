@@ -19,6 +19,9 @@
                 small = readable_url source.url
           td
             = render 'sources/badges', source: source
+- if (s=@podcast.similar_podcasts(limit: 6)).count > 0
+  h2 Ähnliche Podcasts
+  = render s
 
 
 - if @source.present?

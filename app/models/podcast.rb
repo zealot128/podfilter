@@ -27,6 +27,10 @@ class Podcast < ActiveRecord::Base
      where('pubdate > ?',1.month.ago)
   }
 
+  def similar_podcasts(limit: 10)
+    ids = SimilarPodcasts.new.similar(self, limit: limit)
+    Podcast.where(id: ids).sort_by{|i| ids.index(i.id)}
+  end
 
   def update_meta_information(parsed_feed)
     self.title ||= parsed_feed.title if parsed_feed.title

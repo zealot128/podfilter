@@ -9,7 +9,7 @@
       = image_tag podcast.image.url(:thumb)
     .main
       .source-title: strong = link_to podcast.title, podcast
-      - podcast.sources.each do |source|
+      - podcast.sources.order('owners_count desc, active desc').each do |source|
         .row
           .source
             = render 'sources/manage_button', source: source
