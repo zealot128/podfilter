@@ -8,22 +8,21 @@ class PodcastsController < ApplicationController
       @category = Category.find(params[:category_id])
       sql = sql.where('(select categories_podcasts.podcast_id from categories_podcasts where categories_podcasts.podcast_id = podcasts.id and categories_podcasts.category_id = ? limit 1) is not null', @category)
       sql = sql.order('subscriber_count desc')
-      @title = "Kategorie: #{@category.translated_name}"
+      @title = I18n.t('podcasts.index.category_page_title', category: @category.translated_name)
     end
     case params[:order]
     when :most
       sql = sql.order('subscriber_count desc')
-      @title = 'Beliebteste Podcasts'
+      @title = I18n.t('podcasts.index.popular_title')
     when :recent
       sql = FastQueries.recently_updated_podcasts(limit: 200)
-      @title = 'Kürzlich aktualisiert'
-    else
-      @title = 'Podcasts suchen'
+      @title = I18n.t('podcasts.index.recently_updated_podcasts')
     end
     @podcasts = sql
   end
 
   def show
     @podcast = Podcast.where(id: params[:id]).includes(:sources).first!
+    @title = @podcast.title
   end
 end

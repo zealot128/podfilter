@@ -13,12 +13,12 @@ class SessionsController < ApplicationController
     # http://guides.rubyonrails.org/security.html#session-fixation-countermeasures
     reset_session
     session[:owner_id] = owner.id
-    redirect_to dashboard_path, notice: 'Du wurdest eingeloggt'
+    redirect_to dashboard_path, notice: I18n.t('application.signed_in')
   end
 
   def destroy
     reset_session
-    redirect_to root_url, notice: 'Signed out!'
+    redirect_to root_url, notice: I18n.t('application.signed_out')
   end
 
 end

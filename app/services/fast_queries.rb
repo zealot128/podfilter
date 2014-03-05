@@ -16,8 +16,8 @@ module FastQueries
       )a1 WHERE pos = 1
     )
     SELECT * FROM episodes_per_podcast
-    WHERE (SELECT id FROM podcasts WHERE podcasts.id = podcast_id AND subscriber_count > 0 LIMIT 1) IS NOT NULL
-    ORDER BY created_at desc
+    WHERE (SELECT id FROM podcasts WHERE podcasts.id = podcast_id AND subscriber_count > 0 LIMIT 1) IS NOT NULL AND pubdate < '#{Time.now.to_s}'
+    ORDER BY pubdate desc
     LIMIT #{limit};
     SQL
     result = Podcast.connection.execute(query).to_a

@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title Podfilter
+    title = page_title
     = stylesheet_link_tag    "application", media: "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
@@ -23,11 +23,13 @@ html
           .col-lg-12
             = cache ['footer', Source.order('updated_at desc').first] do
               h3
-                | Podfilter.de
+                | Podfilter.de | Podfilter.org
                 = ' '
-                small #{Source.count} Podcasts indiziert. Davon #{Source.active.count} aktive, #{Source.inactive.count} inaktive, #{Source.error.count} mit Fehlern/bzw. neu hinzugefügt und #{Source.offline.count} sind offline.
+                small = t 'footer.stats', podcast_count: Podcast.count, source_count: Source.count, active_count: Source.active.count, inactive_count: Source.inactive.count, error_count: Source.error.count, offline_count: Source.offline.count
         .row
           .col-lg-12
             ul.list-unstyled
-              li: a href='https://github.com/zealot128/podfilter.de' Issues/Contributing on Github
+              li: a href='https://github.com/zealot128/podfilter.de'
+                | footer.contributing
+
   = render 'layouts/tracking'

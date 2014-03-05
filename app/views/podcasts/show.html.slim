@@ -9,32 +9,27 @@
     table.table
       - @podcast.sources.each do |source|
         tr
-          td
-            = render 'sources/manage_button', source: source
+          td = render 'sources/manage_button', source: source
           td
             - if @source == source
               small = readable_url source.url
             - else
               a href="#{podcast_source_path(@podcast, source)}"
                 small = readable_url source.url
-          td
-            = render 'sources/badges', source: source
-- if (s=@podcast.similar_podcasts(limit: 6)).count > 0
-  h2 Ähnliche Podcasts
-  = render s
+          td = render 'sources/badges', source: source
+- if (similar = @podcast.similar_podcasts(limit: 6)).count > 0
+  h2 podcasts.show.similar_podcasts
+  = render similar
 
 
 - if @source.present?
-  h2 Variante: #{@source.url}
-
+  h2 = t '.podcasts.show.source', url: @source.url
 
   - if @source.offline?
     .alert.alert-warning
-      ' Der Podcast konnte nicht abgerufen werden und ist als
-      span.label.label-default offline
-      ' markiert.
+      | podcasts.show.offline
 
   - if @source.episodes.count == 0
     .alert.alert-warning
-      | Keine Episoden gefunden
+      | podcasts.show.no_new
   = render @source.episodes.order('pubdate desc')

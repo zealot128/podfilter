@@ -49,7 +49,7 @@ class ApplicationController < ActionController::Base
 
   def require_login
     if !user_signed_in?
-      redirect_to root_path, notice: 'Bitte lade erst eine Podcast-Datei hoch.'
+      redirect_to root_path, notice: I18n.t('application.require_login')
     end
   end
 end

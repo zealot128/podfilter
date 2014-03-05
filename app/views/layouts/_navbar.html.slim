@@ -8,34 +8,36 @@ nav.container
         a href='/impressum' Impressum
       li.dropdown
         a.dropdown-toggle href='#' data-toggle="dropdown"
-          | Podcasts
+          | header.podcast_url
           b.caret<
         ul.dropdown-menu
-          li: a href='/browse/most-popular' Beliebste
+          li: a(href='/browse/most-popular')
+            | header.popular_link
           li.divider
           - Category.podcast_counts.sort_by{|i|-i.count}.each do |category|
             li
               = link_to category do
                 = category.translated_name
                 span.badge< = category.count
-          /* li: a href='/browse/recently-updated' Kürzlich aktualisiert */
 
       - if user_signed_in?
         li.dropdown
           a href="#" class="dropdown-toggle" data-toggle="dropdown"
             - if current_user.primary_identity && current_user.primary_identity.image.present?
-              img<> src=current_user.primary_identity.image.url(:thumb)  style='width: 16px' class='image'
-            ' Du bist angemeldet
+              img<> src=(current_user.primary_identity.image.url(:thumb))  style='width: 16px' class='image'
+            | header.logged_in
             span.caret
 
           ul class="dropdown-menu"
-            li = link_to 'Dashboard', dashboard_path
-            li = link_to 'Logout', abmelden_path
+            li: a href=dashboard_path
+              | header.dashboard_link
+            li: a href=abmelden_path
+              | header.logout_link
 
     - if current_page?(root_path) || current_page?(dashboard_path)
       = form_tag podcasts_path, method: :get, class: 'navbar-form navbar-left' do
         .form-group
-          input.form-control type='text' placeholder='Podcasts suchen' name='q'
+          input.form-control type='text' placeholder="#{t('header.placeholder')}" name='q'
         button.btn.btn-inverse type='submit'
           i.fa.fa-fw.fa-search<>
-          | Suchen
+          | header.search_button

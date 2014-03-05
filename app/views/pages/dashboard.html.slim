@@ -1,49 +1,46 @@
 h1 Dashboard
 
+
 - if current_user.token.present?
   .alert.alert-success
-    ' Du bist zur Zeit per Cookie angemeldet. Um später hierher zurückzukommen, bookmarke diese Seite:
+    | dashboard.cookie_message
     pre
       = link_to dashboard_url(token: current_user.token) do
         = dashboard_url(token: current_user.token)
 
 - if current_user.opml_files.count > 0
 
-  h2 Meine Podcast-Listen:
+  h2 dashboard.podcast_lists
   - current_user.opml_files.each do |file|
     .row.opml-file
       .col-lg-6
         strong
           = link_to file do
-            = file.to_s
+            == file.to_s
         br
-        ' #{file.sources.count} Podcasts enthalten
+        = t 'dashboard.contains_podcasts', count: file.sources.count
       .col-lg-4
-        a.btn.btn-default.btn-xs(href=opml_file_path(file, format: :xml))
-          ' opml anzeigen
-        = ' '
+        a.btn.btn-default.btn-xs> href=(opml_file_path(file, format: :xml))
+          | dashboard.show_opml
         a.btn.btn-default.btn-xs(href=opml_file_path(file, format: :xml, download: true))
-          ' opml herunterladen
+          | dashboard.download_opml
 
   .jumbotron
     h3
       i.fa-rss.fa>
-      Individueller Feed mit Empfehlungen
-      small< aus deinen Top-Empfehlungen die neusten Podcasts
+      | dashboard.recommendation_feed
 
     code
       = link_to recommendation_feed_url(owner_id: current_user) do
         = recommendation_feed_url(owner_id: current_user)
     br
-    small
-      | ohne Torrent-Dateien:
-      code
-        = link_to recommendation_feed_url(owner_id: current_user, no_torrent: 1) do
-          = recommendation_feed_url(owner_id: current_user, no_torrent: 1)
+    h3
+      small dashboard.recommendation_feed_without_torrent
+    code
+      = link_to recommendation_feed_url(owner_id: current_user, no_torrent: 1) do
+        = recommendation_feed_url(owner_id: current_user, no_torrent: 1)
 
-  h2
-    ' Empfehlungen
-    small Was andere Nutzer mit ähnlichen Quellen sonst noch so hören
+  h2 dashboard.recommendation_headline
   .clearfix
     - @recommended_podcasts.in_groups_of(2) do |group|
       .row
@@ -54,8 +51,7 @@ h1 Dashboard
 
   .clearfix
 - else
-  p
-    Bisher gibt es noch keine Empfehlungen. Lade OPML Files hoch oder komme später noch einmal wieder
+  p dashboard.no_recommendations
 br
 br
 br
@@ -65,8 +61,9 @@ br
 br
 
 .jumbotron#main-attention-drawer
-  strong
-    ' Neue OPML hochladen:
+  strong>
+    | dashboard.upload_new_opml
+
   = render 'upload_button'
 
 

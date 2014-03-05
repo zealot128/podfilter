@@ -88,12 +88,15 @@ de:
       offline: "Der Podcast konnte nicht abgerufen werden und ist als <span class='label label-default'>offline</span> markiert."
       no_new: 'Keine Episoden gefunden'
       similar_podcasts: Ähnliche Podcasts
+      source: "Quelle: %{url}"
   opml_files:
     added: "Quelle %{title} hinzugefügt"
     remove: "Quelle %{title} entfernt"
   application:
     require_login: "Bitte lade erst eine Podcast-Datei hoch oder melde dich an."
     upload_opml: 'OPML hochladen'
+    signed_in: 'Du wurdest eingeloggt.'
+    signed_out: 'Du wurdest ausgeloggt.'
   dashboard:
     cookie_message: ' Du bist zur Zeit per Cookie angemeldet. Um später hierher zurückzukommen, bookmarke diese Seite:'
     podcast_lists: 'Meine Podcast-Listen:'
@@ -108,3 +111,12 @@ de:
     no_recommendations: "Bisher gibt es noch keine Empfehlungen. Füge weitere Podcasts zu deiner Liste hinzu oder komme später noch einmal wieder."
     upload_new_opml: 'Neue OPML hochladen:'
 
+  opml_import:
+    encoding_latin1: "File Encodings kaputt - Nehme LATIN1 an"
+    already_uploaded: 'Du hast die Datei bereits hochgeladen'
+    no_entries_found: 'Keine Einträge im OPML-File gefunden!'
+    source_known: "%{url} auf Podfilter bekannt."
+    source_unknown: "%{url} neu hinzugefügt."
+    skip_entry: "Überspringe Eintrag %{number}: %{title}/%{url} %{error}"
+    ignore_name: 'Podcast Ignore-Liste'
+    default_name: "Import vom %{date}"

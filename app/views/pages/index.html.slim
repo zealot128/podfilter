@@ -1,22 +1,24 @@
 .jumbotron#main-attention-drawer
-  strong Podcasts mit ähnlichen Interessen finden!
-  p Bisher #{Podcast.count} Podcasts mit #{FastQueries.episode_count} Episoden indiziert! #{OpmlFile.no_ignore.count} Hörer haben Ihre Liste bereits geteilt.
+  strong pages.index.headline
+  p
+    = t '.stats', podcast_count: Podcast.count,
+        episode_count: FastQueries.episode_count,
+        listener_count: OpmlFile.no_ignore.count
 
   .row
     .col-lg-6
       strong
-        abbr<> title='Ein Format, was fast jeder Podcast-Player als Export verwendet' OPML
-        | zur Hand?
+        abbr<> title=t('.opml_explanation') OPML
+        = t '.opml_ready'
       ol
-        li
-          = render 'upload_button'
-        li Ähnliche Podcasts finden
-        li Es gibt keinen Schritt 3
+        li = render 'upload_button'
+        li pages.index.opml_step_2
+        li pages.index.opml_step_3
     .col-lg-6
-      strong Manuelle Erstellung
+      strong pages.index.manuell
       ol
         li
-          | Login via
+          | pages.index.login_by
           a.btn.btn-primary.btn-xs<> href='/auth/twitter' rel='nofollow' data-no-turbolink=true
             i.fa.fa-twitter<>
             | Twitter
@@ -29,18 +31,18 @@
           a.btn.btn-primary.btn-xs<> href='/auth/gplus' rel='nofollow' data-no-turbolink=true
             i.fa.fa-google-plus-square>
             |Google+
-          p: small Keine persönlichen Informationen gespeichert oder Posts in deinem Namen - niemals!
-        li Podcast Liste via Suche befüllen
-        li Sich über Empfehlungen im Dashboard freuen
+          p: small pages.index.auth_disclaimer
+        li pages.index.manuel_step2
+        li pages.index.manuel_step3
 
 .row
   .col-lg-12
-    h2  Podcasts in den Playlists von Hörern
+    h2 pages.index.headline_podcasts_listened
 .row
   .col-lg-6
     h3
-      'Neuste Episodes
-      small<: a href=browse_recently_updated_path Mehr
+      | pages.index.newest_episodes
+      small<: a href=browse_recently_updated_path pages.index.more
 
     = cache ['newest', Episode.order('created_at desc').limit(1).pluck('created_at').first || 1] do
       ul.list-unstyled
@@ -57,7 +59,7 @@
               = podcast.title
 
   .col-lg-6
-    h3 Neuste Podcasts
+    h3 pages.index.newest_podcasts
     ul.list-unstyled.newest
       - Podcast.listened.order('created_at desc').limit(10).each do |podcast|
         li
@@ -66,24 +68,21 @@
 .row
   .col-lg-6
     h3
-      Beliebteste Podcasts
+      paged.index.most_popular
       small<: a href=browse_most_popular_path Alle
     ol.list-unstyled.newest
       - @most.take(10).each do |podcast|
-        li
-          .row
-            = render podcast
+        li: .row = render podcast
   .col-lg-6
     h3 &nbsp;
     ol.list-unstyled.newest
       - @most.drop(10).each do |podcast|
-        li
-          .row
-            = render podcast
+        li: .row = render podcast
 
 
 p
-  = link_to 'Weiterentwicklungen auf Podfilter.de', '#changelog', data: { toggle: 'collapse' }
+  = link_to '#changelog', data: { toggle: 'collapse' } do
+    | pages.index.development
 
 #changelog.collapse
   = markdown File.read('CHANGELOG.md')

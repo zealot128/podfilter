@@ -15,4 +15,11 @@ module ApplicationHelper
   def readable_url(url)
     url.gsub(%r{https?://(www\.)?}, '')
   end
+
+  def page_title
+    [
+      'Podfilter' ,
+      @title || t("#{controller_name}.#{action_name}.page_title", default: t('page_slogan'))
+    ].join(' | ')
+  end
 end

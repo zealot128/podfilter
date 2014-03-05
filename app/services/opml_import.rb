@@ -17,7 +17,7 @@ class OpmlImport
                          @file
                        end
                 if !text.valid_encoding?
-                  @log << "File Encodings kaputt - Nehme LATIN1 an"
+                  @log << t('encoding_latin1')
                   text = text.force_encoding(Encoding::ISO8859_1).encode(Encoding::UTF_8)
                 end
                 text
@@ -26,7 +26,7 @@ class OpmlImport
 
   def run!
     if opml.new_record?
-      @log << 'Du hast die Datei bereits hochgeladen'
+      @log << t('already_uploaded')
       return opml
     end
     update_sources(opml)
@@ -37,11 +37,15 @@ class OpmlImport
 
   protected
 
+  def t(string, args={})
+    I18n.t("opml_import.#{string}", args)
+  end
+
   def update_sources(opml_file)
     document = Nokogiri::XML.parse(opml_file.source)
     outlines = document.search('outline')
     if outlines.count ==0
-      @log << 'Keine Einträge im OPML-File gefunden!'
+      @log << t('no_entries_found')
       return
     end
     outlines.each_with_index do |outline,i|
@@ -52,24 +56,25 @@ class OpmlImport
       was_new_record = source.new_record?
       if source.save
         if source.opml_files.where('opml_file_id = ?', opml_file.id).count == 0
-          @log << "#{url} bereits in Datenbank vorhanden."
+          @log << t('source_known', url: url)
           source.opml_files << opml_file
         end
         if was_new_record
-          @log << "#{url} neu hinzugefügt."
+          @log << t('source_unknown', url: url)
           SourceUpdateWorker.perform_async(source.id)
         end
       else
-        @log << "Überspringe Eintrag #{i + 1}: #{title}/#{url} #{source.errors.full_messages.to_sentence}"
+        @log << t('skip_entry', number: i+1, title: title, url: url, error: source.errors.full_messages.to_sentence)
       end
     end
   end
 
   def ignore_opml_file
-    IgnoreFile.create(owner: owner, source: '', name: 'Podcast Ignore-Liste')
+    IgnoreFile.create(owner: owner, source: '', name: t('ignore_name'))
   end
 
   def opml
-    @opml ||= OpmlFile.create(owner: owner, source: text, name: "Import vom #{I18n.l(Date.today)}")
+    date = I18n.l(Date.today)
+    @opml ||= OpmlFile.create(owner: owner, source: text, name: t('default_name', date: date ))
   end
 end
