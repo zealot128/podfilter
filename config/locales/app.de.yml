@@ -5,7 +5,7 @@ de:
         source:
           attributes:
             image:
-              wrong_content_type: Kein Bild gefunden
+              wrong_content_type: "Kein Bild gefunden"
   errors:
     messages:
       extension_white_list_error: "Die Dateiendung %{extension} ist nicht erlaubt, erlaubt sind nur: %{allowed_types}"
@@ -25,3 +25,86 @@ de:
     "Sports & Recreation": "Sport & Freizeit"
     "Technology": "Technologie"
     "TV & Film": "TV & Film"
+  page_slogan: "Podcast-Suchmaschine mit Empfehlungen"
+  page_url: "Podfilter.de"
+  pages:
+    index:
+      headline: "Podcasts mit ähnlichen Interessen finden!"
+      stats: "Bisher %{podcast_count} Podcasts mit %{episode_count} Episoden indiziert! %{listener_count} Hörer haben Ihre Liste bereits geteilt."
+      opml_explanation: "Ein Format, was fast jeder Podcast-Player als Export verwendet"
+      opml_ready: 'zur Hand?'
+      opml_step_2: "Ähnliche Podcasts finden"
+      opml_step_3: "Es gibt keinen Schritt 3"
+      manuell: "Manuelle Erstellung"
+      login_by: "Login via"
+      auth_disclaimer: "Keine persönlichen Informationen gespeichert oder Posts in deinem Namen - niemals!"
+      manuel_step2: "Podcast Liste via Suche befüllen"
+      manuel_step3: "Sich über Empfehlungen im Dashboard freuen"
+      headline_podcasts_listened: "Podcasts in den Playlists von Hörern"
+      newest_episodes: "Neuste Episoden"
+      more: "Mehr"
+      newest_podcasts: "Neuste Podcasts"
+      most_popular: "Beliebteste Podcasts"
+      development: "Weiterentwicklungen auf Podfilter.de"
+  footer:
+    stats: "%{podcast_count} Podcasts mit insgesamt %{source_count} Quellen indiziert. Davon %{active_count} aktive, %{inactive_count} inaktive, %{error_count} mit Fehlern/bzw. neu hinzugefügt und %{offline_count} sind offline."
+    contributing: 'Fehlermeldungen und Mitentwickeln auf Github'
+  header:
+    logged_in: 'Du bist angemeldet'
+    logout_link: 'Ausloggen'
+    popular_link: 'Nach Beliebtheit'
+    podcast_url: 'Podcasts'
+    search_button: "Suchen"
+    placeholder: "Podcasts finden"
+    dashboard_link: 'Dashbboard'
+  podcast:
+    score: "Empfehlung: %{percent}%"
+    source_on_podfilter: "%{url} auf Podfilter"
+    further_sources:
+      one: "eine weitere Quelle"
+      other: "%{count} weitere Quellen"
+    badges:
+      open_url: "Feed-URL öffnen"
+      success: "Feed konnte erfolgreich abgerufen werden und hatte in letzter Zeit neue Episoden"
+      no_new_episodes: "Feed konnte zwar abgerufen werden, hat aber keine neuen Episoden"
+      offline: "Feed ist offline und konnte nicht abgerufen werden"
+      has_media: "Feed hat Episoden mit Medieninhalten"
+      has_no_media: "Feed hat keine Medieninhalte"
+  words:
+    subscriber:
+      one: "1 Abonnent"
+      other: "%{count} Abonnenten"
+    episode:
+      one: "1 Episode"
+      other: "%{count} Episoden"
+
+  podcasts:
+    index:
+      page_title: 'Podcasts suchen'
+      category_page_title: "Kategorie %{category}"
+      popular_title: 'Beliebteste Podcasts'
+      recently_updated: "Kürzlich aktualisiert"
+    show:
+      offline: "Der Podcast konnte nicht abgerufen werden und ist als <span class='label label-default'>offline</span> markiert."
+      no_new: 'Keine Episoden gefunden'
+      similar_podcasts: Ähnliche Podcasts
+  opml_files:
+    added: "Quelle %{title} hinzugefügt"
+    remove: "Quelle %{title} entfernt"
+  application:
+    require_login: "Bitte lade erst eine Podcast-Datei hoch oder melde dich an."
+    upload_opml: 'OPML hochladen'
+  dashboard:
+    cookie_message: ' Du bist zur Zeit per Cookie angemeldet. Um später hierher zurückzukommen, bookmarke diese Seite:'
+    podcast_lists: 'Meine Podcast-Listen:'
+    contains_podcasts:
+      one: "1 Podcast enthalten"
+      other: "%{count} Podcasts enthalten"
+    show_opml: "OPML anzeigen"
+    download_opml: "OPML herunterladen"
+    recommendation_feed: "Individueller Feed mit Empfehlungen <small> aus deinen Top-Empfehlungen die neusten Podcasts</small>"
+    recommendation_feed_without_torrent: "ohne Torrent-Dateien:"
+    recommendation_headline: "Empfehlungen <small> Was andere Nutzer mit ähnlichen Quellen sonst noch so hören </small>"
+    no_recommendations: "Bisher gibt es noch keine Empfehlungen. Füge weitere Podcasts zu deiner Liste hinzu oder komme später noch einmal wieder."
+    upload_new_opml: 'Neue OPML hochladen:'
+

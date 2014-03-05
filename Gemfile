@@ -23,6 +23,7 @@ gem 'pg_search', '~> 0.7.2'
 gem 'kaminari', '~> 0.15'
 gem 'ancestry'
 gem 'whatlanguage'
+gem 'sitemap_generator'
 
 # https://github.com/mcasimir/kaminari-bootstrap/pull/8/files
 gem 'kaminari-bootstrap', github: 'GBH/kaminari-bootstrap', branch: 'bootstrap3'
