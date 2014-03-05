@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<opml version="2.0">
+  <head>
+    <title>AntennaPod Subscriptions</title>
+  </head>
+  <body>
+    <outline text="99% Invisible" title="99% Invisible" type="rss" xmlUrl="http://feeds.99percentinvisible.org/99percentinvisible" htmlUrl="http://99percentinvisible.prx.org"/>
+    <outline text="Bad Voltage » Ogg Vorbis" title="Bad Voltage » Ogg Vorbis" type="rss" xmlUrl="http://www.badvoltage.org/feed/ogg/" htmlUrl="http://www.badvoltage.org"/>
+    <outline text="Black Sparrow Media Network" title="Black Sparrow Media Network" type="rss" xmlUrl="http://blacksparrowmedia.net/feed" htmlUrl="http://blacksparrowmedia.net"/>
+    <outline text="CRE: Technik, Kultur, Gesellschaft" title="CRE: Technik, Kultur, Gesellschaft" type="rss" xmlUrl="http://cre.fm/feed/oga" htmlUrl="http://cre.fm"/>
+    <outline text="David Allen Company Podcast" title="David Allen Company Podcast" type="rss" xmlUrl="http://davidco.com/individuals/podcasts" htmlUrl="http://www.davidco.com/podcast.php"/>
+    <outline text="FLOSS Weekly" title="FLOSS Weekly" type="rss" xmlUrl="http://leo.am/podcasts/floss" htmlUrl="http://twit.tv/floss"/>
+    <outline text="Freakonomics Radio" title="Freakonomics Radio" type="rss" xmlUrl="http://feeds.feedburner.com/freakonomicsradio" htmlUrl="http://www.wnyc.org/articles/freakonomics-podcast/"/>
+    <outline text="Free as in Freedom" title="Free as in Freedom" type="rss" xmlUrl="http://faif.us/feeds/cast-ogg" htmlUrl="http://faif.us/cast/"/>
+    <outline text="GTD® Virtual Study Group" title="GTD® Virtual Study Group" type="rss" xmlUrl="http://feeds.feedburner.com/GtdVirtualStudyGroup" htmlUrl="http://www.gtdvsg.com"/>
+    <outline text="Hacker Public Radio" title="Hacker Public Radio" type="rss" xmlUrl="http://hackerpublicradio.org/hpr_ogg_rss.php" htmlUrl="http://hackerpublicradio.org/about.php"/>
+    <outline text="Intentional Living Podcast" title="Intentional Living Podcast" type="rss" xmlUrl="http://feeds.feedburner.com/LivingAnEpicLife" htmlUrl="http://www.kendallgiles.com"/>
+    <outline text="Journal de 19h" title="Journal de 19h" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_11736.xml" htmlUrl="http://www.radiofrance.fr/chaines/france-inter01/information/journaux/"/>
+    <outline text="La marche de l'histoire" title="La marche de l'histoire" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_11739.xml" htmlUrl="http://www.radiofrance.fr/"/>
+    <outline text="Linux Outlaws" title="Linux Outlaws" type="rss" xmlUrl="http://feeds.feedburner.com/linuxoutlaws-ogg" htmlUrl="http://sixgun.org"/>
+    <outline text="Linux Voice Podcast" title="Linux Voice Podcast" type="rss" xmlUrl="http://www.linuxvoice.com/podcast_ogg.rss" htmlUrl="http://www.linuxvoice.com/podcast_ogg.rss"/>
+    <outline text="NPR: Planet Money Podcast" title="NPR: Planet Money Podcast" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=510289" htmlUrl="http://www.npr.org/planetmoney"/>
+    <outline text="Plan B" title="Plan B" type="rss" xmlUrl="http://feeds.feedburner.com/planbogg" htmlUrl="http://www.jupiterbroadcasting.com"/>
+    <outline text="Radiolab from WNYC" title="Radiolab from WNYC" type="rss" xmlUrl="http://www.radiolab.org/feeds/podcast/" htmlUrl="http://www.radiolab.org/series/podcasts/"/>
+    <outline text="Rendez-vous avec X" title="Rendez-vous avec X" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_14726.xml" htmlUrl="http://www.radiofrance.fr/franceinter/em/rendezvousavecx/"/>
+    <outline text="School Sucks Project » Podcasts" title="School Sucks Project » Podcasts" type="rss" xmlUrl="http://schoolsucksproject.com/category/podcast/feed" htmlUrl="http://schoolsucksproject.com"/>
+    <outline text="SourceTrunk" title="SourceTrunk" type="rss" xmlUrl="http://feeds.feedburner.com/sourcetrunk_ogg" htmlUrl="http://www.sourcetrunk.com/ogg.rss"/>
+    <outline text="The Changelog" title="The Changelog" type="rss" xmlUrl="http://feeds.5by5.tv/changelog" htmlUrl="http://5by5.tv/changelog"/>
+    <outline text="The Command Line Podcast" title="The Command Line Podcast" type="rss" xmlUrl="http://feeds.thecommandline.net/cmdln" htmlUrl="http://thecommandline.net/"/>
+    <outline text="The Dick Turpin Road Show" title="The Dick Turpin Road Show" type="rss" xmlUrl="http://feeds.feedburner.com/tdtrs" htmlUrl="http://tdtrs.co.uk/"/>
+    <outline text="The Moth Podcast" title="The Moth Podcast" type="rss" xmlUrl="http://feeds.themoth.org/themothpodcast" htmlUrl="http://www.themoth.org"/>
+    <outline text="The Peace Revolution Podcast" title="The Peace Revolution Podcast" type="rss" xmlUrl="http://peacerevolution.podomatic.com/rss2.xml" htmlUrl="http://peacerevolution.podomatic.com"/>
+    <outline text="This American Life" title="This American Life" type="rss" xmlUrl="http://feeds.thisamericanlife.org/talpodcast" htmlUrl="http://www.thisamericanlife.org"/>
+    <outline text="Ubuntu Podcast » ogg" title="Ubuntu Podcast » ogg" type="rss" xmlUrl="http://feeds.feedburner.com/UbuntuUkPodcastOgg-high?format=xml" htmlUrl="http://podcast.ubuntu-uk.org"/>
+  </body>
+</opml>

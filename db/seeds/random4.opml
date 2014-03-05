@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+    <head>
+        <title>
+            gPodder subscriptions
+        </title>
+        <dateCreated>
+            Sat, 01 Aug 2009 09:40:56 +0200
+        </dateCreated>
+    </head>
+    <body>
+        <outline text="Das Radiomagazin des CCC Erfa Ulms mit allerlei Wissenswertem aus der Welt der Computertechnik, Medien und Netzkultur." title="/dev/radio - nomusic" type="rss" xmlUrl="http://ulm.ccc.de/dev/radio/podcast-nomusic.xml"/>
+        <outline text="Die wöchentliche Talkrunde rund um Apple, Mac, iPod + iPhone, Gadgets und so. Fast live aus München." title="Bits und so" type="rss" xmlUrl="http://www.bitsundso.de/feed/"/>
+        <outline text="Diskutieren, reden, streiten, lachen, weinen - alles geht in den zwei Blue-Moon-Sprechstunden jeden Abend von 22 bis 0 Uhr." title="Blue Moon" type="rss" xmlUrl="http://www.fritz.de/podcasts/sendungen/Blue_Moon.feed.podcast.xml"/>
+        <outline text="Jeden Sonntag stellen die WDR 2 Buchkritikerinnen Christine Westermann und Antje Deistler ein neues Buch vor. Krimi oder Liebesroman - WDR 2 empfiehlt gute Sonntagslektüre." title="Bücher im WDR 2 - Radio zum Mitnehmen" type="rss" xmlUrl="http://podcast.wdr.de/radio/buecher.xml"/>
+        <outline text="Das monatliche Live-Talk-Radio auf Fritz" title="Chaosradio" type="rss" xmlUrl="http://chaosradio.ccc.de/chaosradio-latest.rss"/>
+        <outline text="Der Interview-Podcast zu Technik, Gesellschaft und Kultur" title="Chaosradio Express" type="rss" xmlUrl="http://chaosradio.ccc.de/chaosradio_express-latest.rss"/>
+        <outline text="Um dem Bedürfnis nach Austausch mit anderen nachdenklichen Menschen zu entsprechen, hat WDR 5 mit der Sendung &quot;Das philosophische Radio&quot; ein einzigartiges, regelmäßiges Forum für die öffentliche philosophische Diskussion geschaffen: Immer am Freitagabend von 20.05 bis 21.00 Uhr werden ein Philosoph oder eine Philosophin über ein Thema, ein Buchautor oder eine Autorin über eine interessante und anregende These mit den Hörerinnen und Hörern von WDR 5 philosophieren. Moderator der Sendung ist Jürgen Wiebicke." title="Das philosophische Radio im WDR 5-Radio zum Mitnehmen" type="rss" xmlUrl="http://podcast.wdr.de/radio/philosophischesradio.xml"/>
+        <outline text="Die Pop-News des Tages witzig, ironisch und informativ..." title="Depeche Pop" type="rss" xmlUrl="http://www.radioeins.de/archiv/podcast/depeche_pop.feed.podcast.xml"/>
+        <outline text="Für Millionen Zuschauer ist der &quot;Presseclub&quot; im ARD Fernsehen und auf WDR 5 ein liebgewordenes Sonntagsritual. Wenn die deutschen und internationalen Journalisten unter wechselnder Leitung von Jörg Schönenborn, Volker Herres und Tina Hassel das Verhältnis der Großmächte erörtern, dem Bundesfinanzminister die Leviten lesen oder die Frage nach der Zukunft der Renten stellen, geschieht das auch bei komplexer Materie allgemein verständlich." title="Der Presseclub im WDR 5-Radio zum Mitnehmen" type="rss" xmlUrl="http://podcast.wdr.de/radio/presseclubwdr5.xml"/>
+        <outline text="SWR3-Reporter Andreas Hain klärt auf" title="Der SWR3-Bescheidwisser" type="rss" xmlUrl="http://www.swr3.de/rss/Der_20SWR3-Bescheidwisser/-/id=477150/did=446726/lsbcnw/index.xml"/>
+        <outline text="Er ist Vorsitzender der Deutschen Dracula-Gesellschaft. Er ist Mitglied des Kommitees des Nobelpreises für kuriose wissenschaftliche Forschungen. Er ist der bekannteste Kriminalbiologe der Welt. Er ist Dr. Mark Benecke. Und er ist jeden Samstag zwischen 9.00 und 12.00 Uhr zu Gast bei Jörg Thadeusz in der Sendung Die Profis » auf radioeins." title="Die Profis - Der Benecke" type="rss" xmlUrl="http://www.radioeins.de/rss.xml?beitrag_114955"/>
+        <outline text="Linux News gesprochen vom DJ President" title="DJ Presidents -  Linux News" type="rss" xmlUrl="http://dj-president.podspot.de/rss"/>
+        <outline text="Die Beiträge der Sendung Computer und Kommunikation" title="dradio-Computer und Kommunikation (komplette Sendung)" type="rss" xmlUrl="http://www.dradio.de/rss/podcast/sendungen/computersendung/?mode=text"/>
+        <outline text="Die Beiträge der Sendung Hintergrund" title="dradio-Hintergrund" type="rss" xmlUrl="http://www.dradio.de/rss/podcast/sendungen/hintergrund?mode=text"/>
+        <outline text="Die Beiträge der Sendung Interview der Woche" title="dradio-Interview der Woche" type="rss" xmlUrl="http://www.dradio.de/rss/podcast/sendungen/interviewderwoche/?mode=text"/>
+        <outline text="Wenn nichts mehr geht, geht immer noch Escape », die radioeins Multimedia-Show! Escape hilft Ihnen wenn Sie überhaupt nicht wissen, wie viel GB sie sich anschaffen sollen und ob auf xD oder MMC. Oder wenn Sie Zweifel darüber hegen, ob die Entscheidung für einen Dual-Core richtig war ob eine X800 dafür nicht etwas unterdimensioniert ist. Dafür haben Daniel Finger und Sven Oswald IHN engagiert - den Experten Georg Schnurer von der c't..." title="Escape - Der Experte" type="rss" xmlUrl="http://www.radioeins.de/rss.xml?beitrag_112658"/>
+        <outline text="Timo Hetzel und die Bits und so-Crew sprechen über die neuesten Spiele, News und Gerüchte aus der wunderbaren Welt der Games." title="Games und so" type="rss" xmlUrl="http://www.gamesundso.de/feed/"/>
+        <outline text="Ein Thema - viele Perspektiven" title="hr2 Der Tag" type="rss" xmlUrl="http://podcast.hr2.de/derTag/podcast.xml"/>
+        <outline text="Eine Viertelstunde Wissen" title="hr2 Wissenswert" type="rss" xmlUrl="http://podcast.hr-online.de/hr2_wissenswert/podcast.xml"/>
+        <outline text="Diskussions- und Beteiligungssendung" title="hr2-kontrovers" type="rss" xmlUrl="http://podcast.hr-online.de/hr2_kontrovers/podcast.xml"/>
+        <outline text="Jeden Sonntag von 14.00 bis 16.00 Uhr lädt Bettina Rust einen prominenten Gast in die Hörbar Rust » ein. Dieser stellt sich in der Sendung vor und die Musik, die in seinem Leben von Bedeutung war und erzählt dazu die passenden Geschichten zum Soundtrack seines Lebens - alte Mixtapes werden rausgekramt - die erste Platte - intime Töne oder peinliche Songs mit persönlichen Erinnerungen des jeweiligen Gastes. Zwei Stunden voller Musik und toller Geschichten - Promis privat in der Hörbar Rust - immer sonntags von 14.00 - 16.00 Uhr. Die Highlights der jeweiligen Sendung können Sie hier downloaden." title="Hörbar Rust" type="rss" xmlUrl="http://www.radioeins.de/rss.xml?beitrag_110178"/>
+        <outline text="Jeden Mittwoch frisch Podcasts vom Küchentisch. Einmal in der Woche laden wir einen Gast in unsere Küche in Berlin, Prenzlauerberg und reden. Eine Stunde, ungeschnitten." title="Küchenradio » Podcasts" type="rss" xmlUrl="http://feeds.feedburner.com/Kuechenradioorg"/>
+        <outline text="Ein Podcast über Medien und das Internet" title="Medienradio.org » Podcast" type="rss" xmlUrl="http://feeds2.feedburner.com/Medienradio_Podcast_rss"/>
+        <outline text="Der Hintergrundpodcast zum Mac, iPhone und iPod" title="mobileMacs" type="rss" xmlUrl="http://feeds.feedburner.com/mobile-macs-podcast"/>
+        <outline text="Der Telefon-Talk als Audio-Podcast in hoher Qualität" title="nachtlager.de | DOMIAN-Audio-Podcast (HQ)" type="rss" xmlUrl="http://www.nachtlager.de/go/de/feed/podcast"/>
+        <outline text="Fernsehen zum Hören" title="Quotenmeter.de TV-Podcast" type="rss" xmlUrl="http://qmtvpodcast.podspot.de/rss"/>
+        <outline text="Das wöchentlich erscheinende SiM von Annik Rubens, jeden Montag neu!" title="Schlaflos in München" type="rss" xmlUrl="http://feeds.schlaflosinmuenchen.com/weeklysim.xml"/>
+        <outline text="Serien und so" title="Serien und so" type="rss" xmlUrl="http://www.serienundso.de/feed/"/>
+        <outline text="Ein Download-Angebot des Bayerischen Rundfunks" title="Sozusagen! - Bayern 2" type="rss" xmlUrl="http://gffstream-9.vo.llnwd.net/e1/podcast/sozusagen/cast.xml"/>
+        <outline text="Ein Download-Angebot des Bayerischen Rundfunks" title="Starke Stücke - Meisterwerke der Musik - Bayern 4 Klassik" type="rss" xmlUrl="http://gffstream-1.vo.llnwd.net/e1/podcast/starke-stuecke/cast.xml"/>
+        <outline text="Wissenschaft aus erster Hand" title="SWR2 Aula" type="rss" xmlUrl="http://www1.swr.de/podcast/xml/swr2/aula.xml"/>
+        <outline text="Diskussionen über Themen aus Kultur, Religion und Politik" title="SWR2 Forum" type="rss" xmlUrl="http://www1.swr.de/podcast/xml/swr2/forum.xml"/>
+        <outline text="Das Magazin für Neugierige und Wissensdurstige" title="SWR2 Impuls" type="rss" xmlUrl="http://www1.swr.de/podcast/xml/swr2/impuls.xml"/>
+        <outline text="Ein akustisches Sachbuchprogramm" title="SWR2 Wissen" type="rss" xmlUrl="http://www1.swr.de/podcast/xml/swr2/wissen.xml"/>
+        <outline text="" title="Trackback" type="rss" xmlUrl="http://trackback.fritz.de/?feed=podcast"/>
+    </body>
+</opml>

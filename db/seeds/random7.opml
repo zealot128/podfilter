@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<opml version="1.0">
+ <head>
+  <text>Podcasts des Benutzers tomson</text>
+ </head>
+ <body>
+  <outline isOpen="true" id="1" text="Podcasts des Benutzers tomson">
+     <outline type="rss" xmlUrl="http://feeds.twit.tv/floss_video_small" htmlUrl="" text="FLOSS Weekly Video (small)" title="FLOSS Weekly Video (small)" />
+     <outline type="rss" xmlUrl="http://www.pcwelt.de/rss/sitemap_video_itunes.xml" htmlUrl="" text="PC-WELT.tv - Tests und Tipps aus der PC-WELT-Redaktion" title="PC-WELT.tv - Tests und Tipps aus der PC-WELT-Redaktion" />
+     <outline type="rss" xmlUrl="http://www1.swr.de/podcast/xml/swr2/99sekunden.xml" htmlUrl="" text="SWR2 99 Sekunden Wissen" title="SWR2 99 Sekunden Wissen" />
+     <outline type="rss" xmlUrl="http://web.ard.de/radiotatort/rss/podcast.xml" htmlUrl="" text="ARD - Radio Tatort" title="ARD - Radio Tatort" />
+     <outline type="rss" xmlUrl="http://www.testticker.de/files/2009/podcasts/nme-podcast.xml" htmlUrl="" text="Podcasts von NetMediaEurope Deutschland" title="Podcasts von NetMediaEurope Deutschland" />
+     <outline type="rss" xmlUrl="http://www.dradio.de/rss/podcast/sendungen/wissenschaftundtechnik/" htmlUrl="" text="dradio - Wissenschaft und Technik" title="dradio - Wissenschaft und Technik" />
+     <outline type="rss" xmlUrl="http://www.dradio.de/rss/podcast/sendungen/forschaksendung/" htmlUrl="" text="dradio - Forschung Aktuell (komplette Sendungen)" title="dradio - Forschung Aktuell (komplette Sendungen)" />
+     <outline type="rss" xmlUrl="http://www.tagesschau.de/export/video-podcast/tagesschau-in-100-sekunden" htmlUrl="" text="Tagesschau in 100 Sekunden - Video-Podcast" title="Tagesschau in 100 Sekunden - Video-Podcast" />
+     <outline type="rss" xmlUrl="http://pod.drs.ch/100_sekunden_wissen_mpx.xml" htmlUrl="" text="100 Sekunden Wissen" title="100 Sekunden Wissen" />
+     <outline type="rss" xmlUrl="http://www.krimikiosk.de/podcast/krimi.php" htmlUrl="" text="Krimikiosk" title="Krimikiosk" />
+     <outline type="rss" xmlUrl="http://www.3sat.de/neues/podcast/podcast.xml" htmlUrl="" text="3sat neues - Das Computermagazin" title="3sat neues - Das Computermagazin" />
+     <outline type="rss" xmlUrl="http://podcast.wdr.de/radio/hoerspiel.xml" htmlUrl="" text="WDR - Hörspiel" title="WDR - Hörspiel" />
+     <outline type="rss" xmlUrl="http://www.br-online.de/podcast/radiowissen/cast.xml" htmlUrl="" text="radioWissen - Bayern 2" title="radioWissen - Bayern 2" />
+     <outline type="rss" xmlUrl="http://www.inforadio.de/podcast.php?165616" htmlUrl="" text="Inforadio - Satirischer Wochenrückblick" title="Inforadio - Satirischer Wochenrückblick" />
+     <outline type="rss" xmlUrl="http://podcast.wdr.de/radio/leonardo.xml" htmlUrl="" text="WDR 5 - Leonardo" title="WDR 5 - Leonardo" />
+     <outline type="rss" xmlUrl="http://podcast.wdr.de/quarks.xml" htmlUrl="" text="WDR Quarks &amp; Co - zum Mitnehmen" title="WDR Quarks &amp; Co - zum Mitnehmen" />
+     <outline type="rss" xmlUrl="http://www.cczwei.de/rss_issues_all.php" htmlUrl="" text="Computerclub 2" title="Computerclub 2" />
+     <outline type="rss" xmlUrl="http://chaosradio.ccc.de/chaosradio-latest.rss" htmlUrl="" text="Chaosradio" title="Chaosradio" />
+     <outline type="rss" xmlUrl="http://cre.fm/feed/mp3/" htmlUrl="" text="CRE: Technik, Kultur, Gesellschaft" title="CRE: Technik, Kultur, Gesellschaft" />
+     <outline type="rss" xmlUrl="http://www.dradio.de/rss/podcast/sendungen/computer/" htmlUrl="" text="dradio.de - Computer und Kommunikation" title="dradio.de - Computer und Kommunikation" />
+     <outline type="rss" xmlUrl="http://www.technikwuerze.de/feed/" htmlUrl="" text="Technikwürze - Web Standards Podcast" title="Technikwürze - Web Standards Podcast" />
+     <outline type="rss" xmlUrl="http://www.tagesschau.de/export/podcast/tagesschau" htmlUrl="" text="Tagesschau Podcast" title="Tagesschau Podcast" />
+    </outline>
+ </body>
+</opml>

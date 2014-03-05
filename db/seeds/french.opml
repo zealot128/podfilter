@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="keywords" content="Podcast.opml" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/mediawiki/opensearch_desc.php" title="Fxp Wiki (English)" />
+<link rel="alternate" type="application/rss+xml" title="Fxp Wiki RSS Feed" href="http://www.fxparlant.net/mediawiki/index.php?title=Special:Recentchanges&amp;feed=rss" />
+<link rel="alternate" type="application/atom+xml" title="Fxp Wiki Atom Feed" href="http://www.fxparlant.net/mediawiki/index.php?title=Special:Recentchanges&amp;feed=atom" />
+		<title>Podcast.opml - Fxp Wiki</title>
+		<style type="text/css" media="screen, projection">/*<![CDATA[*/
+			@import "/mediawiki/skins/common/shared.css?116";
+			@import "/mediawiki/skins/monobook/main.css?116";
+		/*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/mediawiki/skins/common/commonPrint.css?116" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/mediawiki/skins/monobook/IE50Fixes.css?116";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/mediawiki/skins/monobook/IE55Fixes.css?116";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/mediawiki/skins/monobook/IE60Fixes.css?116";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/mediawiki/skins/monobook/IE70Fixes.css?116";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/mediawiki/skins/common/IEFixes.js?116"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/mediawiki/skins";
+var wgArticlePath = "/$1";
+var wgScriptPath = "/mediawiki";
+var wgScript = "/mediawiki/index.php";
+var wgServer = "http://www.fxparlant.net";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "Podcast.opml";
+var wgTitle = "Podcast.opml";
+var wgAction = "view";
+var wgRestrictionEdit = [];
+var wgRestrictionMove = [];
+var wgArticleId = "4391";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "3686";
+var wgVersion = "1.12.0";
+var wgEnableAPI = true;
+var wgEnableWriteAPI = false;
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/mediawiki/skins/common/wikibits.js?116"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript">
+		addOnloadHook(function() { 
+			var i = 1;
+			while ( true ) {
+				var btn = document.getElementById("languageselector-commit-"+i);
+				var sel = document.getElementById("languageselector-select-"+i);
+				var idx = i;
+
+				if (!btn) break;
+
+				btn.style.display = "none";
+				sel.onchange = function() {
+					node = this.parentNode;
+					while( true ) {
+						if( node.tagName.toLowerCase() == "form" ) {
+							node.submit();
+							break;
+						}
+						node = node.parentNode;
+					}
+				};
+
+				i++;
+			}
+		});
+	</script>		<script type="text/javascript" src="/mediawiki/skins/common/ajax.js?116"></script>
+		<link rel="alternate" type="application/rdf+xml" title="Podcast.opml" href="/mediawiki/index.php?title=Special:ExportRDF/Podcast.opml&amp;xmlmime=rdf" />
+		<script type="text/javascript" src="/mediawiki/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/mediawiki/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/mediawiki/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/mediawiki/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		
+		<script type="text/javascript" src="pwc/javascripts/prototype.js"> 
+		</script> <script type="text/javascript" src="pwc/javascripts/window.js"> 
+		</script> <link href="pwc/stylesheets/themes/default.css" rel="stylesheet" type="text/css"/> 
+		<!-- Add this to have a specific theme--> 
+		<link href="pwc/themes/mac_os_x.css" rel="stylesheet" type="text/css"/> 
+		
+	</head>
+<body class="mediawiki ns-0 ltr page-Podcast_opml">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">Podcast.opml</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From Fxp Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<a name="My_podcast_list_of_french_radios_Liste_de_mes_podcast_fran.C3.A7ais"></a><h2> <span class="mw-headline"><span lang="en">My podcast list of french radios</span> <span lang="fr">Liste de mes podcast français</span></span></h2>
+<p><span lang="en">Due to character encoding issue, this page doesn't use the xml highlighting.</span>
+<span lang="fr">De part des difficultés d'encodage des caractères, cette page n'utilise pas la colorisation.</span>
+</p>
+<pre>
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;opml version=&quot;1.0&quot;&gt;
+	&lt;head&gt;
+		&lt;title&gt;Sage OPML Export&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;outline text=&quot;Sage Feeds&quot;&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - CAUSE COMMUNE&quot; title=&quot;France Culture - CAUSE COMMUNE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16613.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Europe1 - Nles technologies&quot; title=&quot;Europe1 - Nles technologies&quot; xmlUrl=&quot;http://www.europe1.fr/podcast/nouvelles_technologies.jsp&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Europe1 - Connaissance&quot; title=&quot;Europe1 - Connaissance&quot; xmlUrl=&quot;http://www.europe1.fr/podcast/connaissance.jsp&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - Chronique Cinéma&quot; title=&quot;France Bleu - Chronique Cinéma&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_15698.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Musique - France Musique vous propose...&quot; title=&quot;France Musique - France Musique vous propose...&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10053.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - DES PAPOUS DANS LA TETE&quot; title=&quot;France Culture - DES PAPOUS DANS LA TETE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_13364.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - NOUS AUTRES&quot; title=&quot;France Inter - NOUS AUTRES&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_18633.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;podictionary&quot; title=&quot;podictionary&quot; xmlUrl=&quot;http://podictionary.libsyn.com/rss&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: La Maison de Cendrine&quot; title=&quot;RTL&nbsp;: La Maison de Cendrine&quot; xmlUrl=&quot;http://podcast.rtl.fr/lamaisondecendrine.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;da scritch blog zone&quot; title=&quot;da scritch blog zone&quot; xmlUrl=&quot;http://dascritch.net/dotclear/rss2.php&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Auto-Radio&quot; title=&quot;RTL&nbsp;: Auto-Radio&quot; xmlUrl=&quot;http://podcast.rtl.fr/autoradio.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Tout nouveau tout beau&quot; title=&quot;RTL&nbsp;: Tout nouveau tout beau&quot; xmlUrl=&quot;http://podcast.rtl.fr/toutnouveautoutbeau.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Tête à Tête&quot; title=&quot;RTL&nbsp;: Tête à Tête&quot; xmlUrl=&quot;http://podcast.rtl.fr/teteatete.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: RTL Santé&quot; title=&quot;RTL&nbsp;: RTL Santé&quot; xmlUrl=&quot;http://podcast.rtl.fr/labellevie.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: RTL Etranger&quot; title=&quot;RTL&nbsp;: RTL Etranger&quot; xmlUrl=&quot;http://podcast.rtl.fr/rtletranger.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Laissez-Vous Tenter&quot; title=&quot;RTL&nbsp;: Laissez-Vous Tenter&quot; xmlUrl=&quot;http://podcast.rtl.fr/laissezvoustenter.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: C'est dans le Journal&quot; title=&quot;RTL&nbsp;: C'est dans le Journal&quot; xmlUrl=&quot;http://podcast.rtl.fr/cestdanslejournal.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Le Fait Politique&quot; title=&quot;RTL&nbsp;: Le Fait Politique&quot; xmlUrl=&quot;http://podcast.rtl.fr/faitpolitique.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: L'Invité de RTL&quot; title=&quot;RTL&nbsp;: L'Invité de RTL&quot; xmlUrl=&quot;http://podcast.rtl.fr/invitertl.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Le Journal Economique&quot; title=&quot;RTL&nbsp;: Le Journal Economique&quot; xmlUrl=&quot;http://podcast.rtl.fr/journaleconomique.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Le Journal de 7h&quot; title=&quot;RTL&nbsp;: Le Journal de 7h&quot; xmlUrl=&quot;http://podcast.rtl.fr/journal7h.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: On ne pouvait pas le rater&quot; title=&quot;RTL&nbsp;: On ne pouvait pas le rater&quot; xmlUrl=&quot;http://podcast.rtl.fr/onnepouvaitpaslerater.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Le Grand Jury&quot; title=&quot;RTL&nbsp;: Le Grand Jury&quot; xmlUrl=&quot;http://podcast.rtl.fr/grandjury.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: La Tête dans les Etoiles&quot; title=&quot;RTL&nbsp;: La Tête dans les Etoiles&quot; xmlUrl=&quot;http://podcast.rtl.fr/tetedanslesetoiles.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: On refait le Monde&quot; title=&quot;RTL&nbsp;: On refait le Monde&quot; xmlUrl=&quot;http://podcast.rtl.fr/onrefaitlemonde.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Les Grosses Têtes&quot; title=&quot;RTL&nbsp;: Les Grosses Têtes&quot; xmlUrl=&quot;http://podcast.rtl.fr/grossestetes.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: On refait le Match&quot; title=&quot;RTL&nbsp;: On refait le Match&quot; xmlUrl=&quot;http://podcast.rtl.fr/onrefaitlematch.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - RENDEZ-VOUS AVEC X...&quot; title=&quot;France Inter - RENDEZ-VOUS AVEC X...&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_14726.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: RTL Zapping&quot; title=&quot;RTL&nbsp;: RTL Zapping&quot; xmlUrl=&quot;http://www.rtl.fr/referencement/podcasting.asp&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;FIP - La sélection et les événements FIP&quot; title=&quot;FIP - La sélection et les événements FIP&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_20000.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - Bons plans intiatives&quot; title=&quot;France Bleu - Bons plans intiatives&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10023.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Le Mouv' - cinéma-DVD&quot; title=&quot;Le Mouv' - cinéma-DVD&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10004.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Le Mouv' - Sous la couette de Jessyca&quot; title=&quot;Le Mouv' - Sous la couette de Jessyca&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10003.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Radio France Multimédia - Les petits contes&quot; title=&quot;Radio France Multimédia - Les petits contes&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10013.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Le Mouv' - Point TV&quot; title=&quot;Le Mouv' - Point TV&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10019.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Le Mouv' - Mika et Zac&quot; title=&quot;Le Mouv' - Mika et Zac&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10018.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Le Mouv - La revue de presse musicale&quot; title=&quot;Le Mouv - La revue de presse musicale&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10026.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Radio France Multimédia - Les dédicaces sonores&quot; title=&quot;Radio France Multimédia - Les dédicaces sonores&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10017.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - Rythm'n Bleu&quot; title=&quot;France Bleu - Rythm'n Bleu&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10062.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Radio France Multimédia - Bonus&quot; title=&quot;Radio France Multimédia - Bonus&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10022.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Radio France Multimédia - Le témoin de la semaine&quot; title=&quot;Radio France Multimédia - Le témoin de la semaine&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10016.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - Chronique Montagne&quot; title=&quot;France Bleu - Chronique Montagne&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_15713.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - La Grande Interview&quot; title=&quot;France Bleu - La Grande Interview&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10037.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - La chronique multimédia&quot; title=&quot;France Bleu - La chronique multimédia&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10045.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - L'horoscope&quot; title=&quot;France Bleu - L'horoscope&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10020.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - LIBRE COURS&quot; title=&quot;France Inter - LIBRE COURS&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_17628.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - Chronique DVD&quot; title=&quot;France Bleu - Chronique DVD&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10021.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Bleu - Entre nous&quot; title=&quot;France Bleu - Entre nous&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10024.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Philofil&quot; title=&quot;France Inter - Philofil&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10010.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Le plus tôt sera le mieux&quot; title=&quot;France Inter - Le plus tôt sera le mieux&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10030.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter&nbsp;: Le fou du roi&quot; title=&quot;France Inter&nbsp;: Le fou du roi&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10048.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Le téléphone sonne&quot; title=&quot;France Inter - Le téléphone sonne&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10052.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - LE MONDE SELON WAM&quot; title=&quot;France Inter - LE MONDE SELON WAM&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_17624.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - INTERCEPTION&quot; title=&quot;France Inter - INTERCEPTION&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_14934.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - LE MASQUE ET LA PLUME&quot; title=&quot;France Inter - LE MASQUE ET LA PLUME&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_14007.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - LA LIBRAIRIE FRANCOPHONE&quot; title=&quot;France Inter - LA LIBRAIRIE FRANCOPHONE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_18647.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - L'INSTANT BLEU&quot; title=&quot;France Inter - L'INSTANT BLEU&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_18630.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - L'humeur vagabonde&quot; title=&quot;France Inter - L'humeur vagabonde&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10054.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Kriss Crumble&quot; title=&quot;France Inter - Kriss Crumble&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10032.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Génération&quot; title=&quot;France Inter - Génération&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10028.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - CONTINENT SCIENCES&quot; title=&quot;France Culture - CONTINENT SCIENCES&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16256.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter&nbsp;: Enfance, les coulisses...&quot; title=&quot;France Inter&nbsp;: Enfance, les coulisses...&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10046.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - ECLECTIK&quot; title=&quot;France Inter - ECLECTIK&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_17621.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Enfance&quot; title=&quot;France Inter - Enfance&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10029.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Cosmopolitaine&quot; title=&quot;France Inter - Cosmopolitaine&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10051.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - CONCORDANCE DES TEMPS&quot; title=&quot;France Culture - CONCORDANCE DES TEMPS&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16278.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - TERRE A TERRE&quot; title=&quot;France Culture - TERRE A TERRE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16277.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - CO2 mon Amour&quot; title=&quot;France Inter - CO2 mon Amour&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10006.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - CINEFILMS&quot; title=&quot;France Inter - CINEFILMS&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_14699.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - CHARIVARI&quot; title=&quot;France Inter - CHARIVARI&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_15456.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter&nbsp;: Café Bazar&quot; title=&quot;France Inter&nbsp;: Café Bazar&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10031.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - LES VENDREDIS DE LA PHILOSOPHIE&quot; title=&quot;France Culture - LES VENDREDIS DE LA PHILOSOPHIE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16409.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - CA SE BOUFFE PAS, CA SE MANGE&quot; title=&quot;France Inter - CA SE BOUFFE PAS, CA SE MANGE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_14871.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Au detour du monde&quot; title=&quot;France Inter - Au detour du monde&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10039.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - 2000 ANS D'HISTOIRE&quot; title=&quot;France Inter - 2000 ANS D'HISTOIRE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_14864.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - LE VIF DU SUJET&quot; title=&quot;France Culture - LE VIF DU SUJET&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16249.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - CAUSE COMMUNE&quot; title=&quot;France Culture - CAUSE COMMUNE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16613.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - LA SUITE DANS LES IDEES&quot; title=&quot;France Culture - LA SUITE DANS LES IDEES&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16260.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - SCIENCE-FRICTIONS&quot; title=&quot;France Culture - SCIENCE-FRICTIONS&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_12456.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - SCIENCE CULTURE&quot; title=&quot;France Culture - SCIENCE CULTURE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_15357.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - REPLIQUES&quot; title=&quot;France Culture - REPLIQUES&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_13397.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - LE REGARD D'ALBERT JACQUARD&quot; title=&quot;France Culture - LE REGARD D'ALBERT JACQUARD&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16496.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - METROPOLITAINS&quot; title=&quot;France Culture - METROPOLITAINS&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16255.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - L'ESPRIT PUBLIC&quot; title=&quot;France Culture - L'ESPRIT PUBLIC&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16119.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - Equinoxe&quot; title=&quot;France Culture - Equinoxe&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10047.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - LE BIEN COMMUN&quot; title=&quot;France Culture - LE BIEN COMMUN&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16279.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;BBC News | News Front Page | World Edition&quot; title=&quot;BBC News | News Front Page | World Edition&quot; xmlUrl=&quot;http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Yahoo! News: Sports News&quot; title=&quot;Yahoo! News: Sports News&quot; xmlUrl=&quot;http://rss.news.yahoo.com/rss/sports&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Sage Blog&quot; title=&quot;Sage Blog&quot; xmlUrl=&quot;http://sage.mozdev.org/rss.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Revue de presse france inter&quot; title=&quot;Revue de presse france inter&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_18780.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - L'ESPRIT PUBLIC&quot; title=&quot;France Culture - L'ESPRIT PUBLIC&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16119.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - RUE DES ENTREPRENEURS&quot; title=&quot;France Inter - RUE DES ENTREPRENEURS&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_14958.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Au detour du monde&quot; title=&quot;France Inter - Au detour du monde&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10039.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Le Mouv' - cinéma-DVD&quot; title=&quot;Le Mouv' - cinéma-DVD&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_10004.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Culture - LA SUITE DANS LES IDEES&quot; title=&quot;France Culture - LA SUITE DANS LES IDEES&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_16260.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - LA LIBRAIRIE FRANCOPHONE&quot; title=&quot;France Inter - LA LIBRAIRIE FRANCOPHONE&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_18647.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;France Inter - Les Insolites de la PQR&quot; title=&quot;France Inter - Les Insolites de la PQR&quot; xmlUrl=&quot;http://radiofrance-podcast.net/podcast/rss_18793.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;RTL&nbsp;: Les Grosses Têtes&quot; title=&quot;RTL&nbsp;: Les Grosses Têtes&quot; xmlUrl=&quot;http://www2.rtl.fr/fournisseurs/podcasting/podcast_RTL_GT.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Loic Le Meur [fr]&quot; title=&quot;Loic Le Meur [fr]&quot; xmlUrl=&quot;http://feeds.feedburner.com/loiclemeurfr&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;La bas si j'y suis&quot; title=&quot;La bas si j'y suis&quot; xmlUrl=&quot;http://www.la-bas.org/podcast.php3&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;01 Net actus&quot; title=&quot;01 Net actus&quot; xmlUrl=&quot;http://www.01net.com/rss/podcast.xml&quot;/&gt;
+			&lt;outline text=&quot;Asian&quot;&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Jugalbandhi&quot; title=&quot;Jugalbandhi&quot; xmlUrl=&quot;http://www.podbazaar.com/rss/126100789566373889&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Personal Performances&quot; title=&quot;Personal Performances&quot; xmlUrl=&quot;http://shumays.libsyn.com/rss&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Sounds of China&quot; title=&quot;Sounds of China&quot; xmlUrl=&quot;http://artsedge.kennedy-center.org/podcasts/soundsOfChina.xml&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Japanese Classical Literature at Bedtime&quot; title=&quot;Japanese Classical Literature at Bedtime&quot; xmlUrl=&quot;http://eloise.cocolog-nifty.com/rodoku/index.rdf&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Josh in Japan&quot; title=&quot;Josh in Japan&quot; xmlUrl=&quot;http://feeds.feedburner.com/JoshInJapan&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;MeroMero&amp;More&quot; title=&quot;MeroMero&amp;More&quot; xmlUrl=&quot;http://iensu.libsyn.com/rss&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Osaka dialect 大阪弁 Japanese lesson in English&quot; title=&quot;Osaka dialect 大阪弁 Japanese lesson in English&quot; xmlUrl=&quot;http://mayumik.seesaa.net/index20.rdf&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Podcast Music Japan&quot; title=&quot;Podcast Music Japan&quot; xmlUrl=&quot;http://www.voiceblog.jp/pcmj/index.rdf&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;R.Y.O. Radio&quot; title=&quot;R.Y.O. Radio&quot; xmlUrl=&quot;http://radio.ryotaueda.com/rss.xml&quot;/&gt;
+			&lt;/outline&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Bernard Mabille&quot; title=&quot;Bernard Mabille&quot; xmlUrl=&quot;http://podcast.bernard-mabille.com/podcast_bm.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;English as a Second Language Podcast&quot; title=&quot;English as a Second Language Podcast&quot; xmlUrl=&quot;http://feeds.feedburner.com/EnglishAsASecondLanguagePodcast&quot;/&gt;
+			&lt;outline text=&quot;Classical&quot;&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Sixthstring&quot; title=&quot;Sixthstring&quot; xmlUrl=&quot;http://sixthstring.org/rss/sixth.xml&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;What's Opera, Doc?&quot; title=&quot;What's Opera, Doc?&quot; xmlUrl=&quot;http://whfropera.com/pod/podcast1.rss&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;Yamaha Wind Instrument Podcasts&quot; title=&quot;Yamaha Wind Instrument Podcasts&quot; xmlUrl=&quot;http://www.yamaha.com/podcasts/winds/winds_rss2.xml&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;The Classical Guitar&quot; title=&quot;The Classical Guitar&quot; xmlUrl=&quot;http://www.jorgerc.com/_mp3/feed.xml&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;The Lutecast&quot; title=&quot;The Lutecast&quot; xmlUrl=&quot;http://feeds.feedburner.com/TheLutecast&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;The Gramophone's podcast&quot; title=&quot;The Gramophone's podcast&quot; xmlUrl=&quot;http://www.gramophone.co.uk/podcast/podcast.xml&quot;/&gt;
+				&lt;outline type=&quot;rss&quot; text=&quot;filmmusic's Podcast&quot; title=&quot;filmmusic's Podcast&quot; xmlUrl=&quot;http://www.gcast.com/u/filmmusic/main.xml&quot;/&gt;
+			&lt;/outline&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;:: THE BIG CACTUS COUNTRY RADIO SHOW - VERSION PODCAST&nbsp;::&quot; title=&quot;:: THE BIG CACTUS COUNTRY RADIO SHOW - VERSION PODCAST&nbsp;::&quot; xmlUrl=&quot;http://bigcactuscountry.radioatlantis.fr/podcast.xml&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Old man radio&quot; title=&quot;Old man radio&quot; xmlUrl=&quot;http://oldmanradio.libsyn.com/rss&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Banjonut's Bluegrass Blog&quot; title=&quot;Banjonut's Bluegrass Blog&quot; xmlUrl=&quot;http://feeds.feedburner.com/BanjonutsBluegrassBlog&quot;/&gt;
+			&lt;outline type=&quot;rss&quot; text=&quot;Music4iPods.com - Jazz&quot; title=&quot;Music4iPods.com - Jazz&quot; xmlUrl=&quot;http://www.music4ipods.com/jazz.xml&quot;/&gt;
+		&lt;/outline&gt;
+	&lt;/body&gt;
+&lt;/opml&gt;
+
+
+</pre>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 4/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+-->
+
+<!-- Saved in parser cache with key fxparlan:pcache:idhash:4391-0!1!0!!en!2!edit=0 and timestamp 20140304163243 -->
+<div class="printfooter">
+Retrieved from "<a href="http://www.fxparlant.net/Podcast.opml">http://www.fxparlant.net/Podcast.opml</a>"</div>
+			<div id="catlinks"><p class='catlinks'><a href="/Special:Categories" title="Special:Categories">Category</a>: <span dir='ltr'><a href="/Category:Firefox" title="Category:Firefox">Firefox</a></span></p></div>			<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+					 <li id="ca-nstab-main" class="selected"><a href="/Podcast.opml" title="View the content page [c]" accesskey="c">Page</a></li>
+					 <li id="ca-talk" class="new"><a href="/mediawiki/index.php?title=Talk:Podcast.opml&amp;action=edit" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+					 <li id="ca-viewsource"><a href="/mediawiki/index.php?title=Podcast.opml&amp;action=edit" title="This page is protected. You can view its source. [e]" accesskey="e">View source</a></li>
+					 <li id="ca-history"><a href="/mediawiki/index.php?title=Podcast.opml&amp;action=history" title="Past versions of this page. [h]" accesskey="h">History</a></li>
+					 <li id="ca-xyAttributes"><a href="/mediawiki/index.php?title=Podcast.opml&amp;action=xyAttributes">Attributes</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/mediawiki/index.php?title=Special:Userlogin&amp;returnto=Podcast.opml" title="You are encouraged to log in, it is not mandatory however. [o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class="portlet" id="p-menu"> 
+        <h5 >Menu:</h5>
+        <div class="pBody">
+	     <ul id="t-menu"><li ><a href="http://www.fxparlant.net/Main_Page"> Home</a></li>
+<li ><a href="http://www.fxparlant.net/Talk:Guestbook"> Guestbook</a></li>
+<li ><a href="http://www.fxparlant.net/Special:Categories"> All Categories</a></li>
+<li onclick="javascript:toggle('Computermenu');">Computer
+    <ul class="menuLevel2" id="Computermenu" style="DISPLAY: none">
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Computer">All this category</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Softwares">Softwares</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Internet">Internet</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Xml">Xml</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Html">Html</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Css">Css</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Batch">Batch</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Windows">Windows</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Java">Java</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Office">Office</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Browsers">Browsers</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Wikis">Wikis</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Internationalization">i18n</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Programming">Programming</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Hosting">Hosting</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Graphic">Graphic</a></li>
+    </ul>
+    </li>
+<li onclick="javascript:toggle('Managementmenu');">Management
+    <ul class="menuLevel2" id="Managementmenu" style="DISPLAY: none">
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Management">All this category</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:HR">Human Resources</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Finance">Finance</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Production">Production</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Knowledge">Knowledge</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Merketing">Marketing</a></li>
+    </ul>
+    </li>
+<li onclick="javascript:toggle('Humanitiesmenu');" >Humanities
+    <ul class="menuLevel2" id="Humanitiesmenu" style="DISPLAY: none">
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Humanities">All this category</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Lacan">Lacan</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Philosophy">Philosophy</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Reading">Reading</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Languages">Languages</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Art">Art</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Religion">Religion</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Geography">Geography</a></li>
+    </ul>
+    </li>
+<li onclick="javascript:toggle('Languagesmenu');" >Languages
+    <ul class="menuLevel2" id="Languagesmenu" style="DISPLAY: none">
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Languages">All this category</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:French">French</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:English">English</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:German">German</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Spanish">Spanish</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Greek">Greek</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Arabic">Arabic</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Hebrew">Hebrew</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Chinese">Chinese</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Japanese">Japanese</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Vocabulary">Vocabulary</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Learning_Languages">Learning</a></li>
+    </ul>
+    </li>
+<li onclick="javascript:toggle('Artmenu');" >Art
+    <ul class="menuLevel2" id="Artmenu" style="DISPLAY: none">
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Art">All this category</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Painting">Painting</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Theater">Theater</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Music">Music</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Poetry">Poetry</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Cinema">Cinema</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Architecture">Architecture</a></li>
+    </ul>
+    </li>
+<li onclick="javascript:toggle('Entertainmentmenu');">Entertainment
+    <ul class="menuLevel2" id="Entertainmentmenu" style="DISPLAY: none">
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Entertainment">All this category</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:SF">Science-Fiction</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Cinema">Cinema</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Bd">Comics</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Detective">Detective</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Children">Children</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Tv">Tv</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Music">Music</a></li>
+    </ul>
+    </li>
+<li onclick="javascript:toggle('Sportmenu');"> Sport
+    <ul class="menuLevel2" id="Sportmenu" style="DISPLAY: none">
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Sport">All this category</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Martial_Arts">Martial Arts</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Swimming">Swimming</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Climbing">Climbing</a></li>
+    </ul>
+    </li>
+<li onclick="javascript:toggle('Miscmenu');">Miscellenaous
+    <ul class="menuLevel2" id="Miscmenu" style="DISPLAY: none">
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Misc">All this category</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Friends">Friends</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/User:Fxp">Me</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Links">Links</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Ideas">Ideas</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Humor">Humour</a></li>
+        <li class="menuLevel2"><a href="http://www.fxparlant.net/Category:Util">Useful</a></li>
+    </ul>
+    </li>
+         </ul>
+        </div>
+    </div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mediawiki/skins/transparent.gif);" href="/Main_Page" title="Visit the Main Page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/Main_Page" title="Visit the Main Page [z]" accesskey="z">Main Page</a></li>
+				<li id="n-portal"><a href="/Fxp_Wiki:Community_Portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="/Fxp_Wiki:Current_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/Special:Recentchanges" title="The list of recent changes in the wiki. [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="/Help:Contents" title="The place to find out.">Help</a></li>
+				<li id="n-sitesupport"><a href="/Fxp_Wiki:Site_support" title="Support us">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" title="Search Fxp Wiki [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/Special:Whatlinkshere/Podcast.opml" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/Special:Recentchangeslinked/Podcast.opml" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-upload"><a href="/Special:Upload" title="Upload files [u]" accesskey="u">Upload file</a></li>
+<li id="t-specialpages"><a href="/Special:Specialpages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/mediawiki/index.php?title=Podcast.opml&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/mediawiki/index.php?title=Podcast.opml&amp;oldid=3686" title="Permanent link to this version of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mediawiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 20:25, 3 April 2006.</li>
+				<li id="viewcount">This page has been accessed 1,403 times.</li>
+				<li id="privacy"><a href="/Fxp_Wiki:Privacy_policy" title="Fxp Wiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/Fxp_Wiki:About" title="Fxp Wiki:About">About Fxp Wiki</a></li>
+				<li id="disclaimer"><a href="/Fxp_Wiki:General_disclaimer" title="Fxp Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served in 0.564 secs. --></body></html>

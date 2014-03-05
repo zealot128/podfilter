@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.1">
+<head>
+    <title>hpodder Podcast Subscriptions</title>
+    <dateCreated>Sat, 05 Jan 2008 21:37:30 GMT</dateCreated>
+    <ownerName>matsch</ownerName>
+</head>
+<body>
+  <outline title="C3D2 Podcast" text="C3D2 Podcast" htmlUrl="https://www.c3d2.de/" type="rss" xmlUrl="https://www.c3d2.de/podcast.xml" />
+  <outline title="Chaosradio Podcast Network (Alle Podcasts)" text="Chaosradio Podcast Network (Alle Podcasts)" htmlUrl="http://chaosradio.ccc.de" type="rss" xmlUrl="http://chaosradio.ccc.de/everything.rss" />
+  <outline title="China Businesscast" text="China Businesscast" htmlUrl="http://www.danwei.org/danwei_fm/" type="rss" xmlUrl="http://feeds.feedburner.com/chinabusinesscast" />
+  <outline title="Elektrischer Reporter" text="Elektrischer Reporter" htmlUrl="http://www.elektrischer-reporter.de/" type="rss" xmlUrl="http://www.elektrischer-reporter.de/index.php/site/rss_qt/" />
+  <outline title="EuroNews - No Comment" text="EuroNews - No Comment" htmlUrl="http://www.euronews.net/index.php?page=podcast" type="rss" xmlUrl="http://feeds.feedburner.com/Euronews-NoComment" />
+  <outline title="First Monday Podcast" text="First Monday Podcast" htmlUrl="http://www.firstmondaypodcast.org/" type="rss" xmlUrl="http://www.firstmondaypodcast.org/rss.xml" />
+  <outline title="Fnordfunk - Fnordfunk (mp3)" text="Fnordfunk - Fnordfunk (mp3)" htmlUrl="http://fnordfunk.cccmz.de/" type="rss" xmlUrl="http://fnordfunk.cccmz.de/index.php?/mediatype_audio_mp3/feeds/categories/9-Fnordfunk.rss" />
+  <outline title="Fnordfunk - ShortFnord (mp3)" text="Fnordfunk - ShortFnord (mp3)" htmlUrl="http://fnordfunk.cccmz.de/" type="rss" xmlUrl="http://fnordfunk.cccmz.de/index.php?/mediatype_audio_mp3/feeds/categories/12-ShortFnord.rss" />
+  <outline title="J!Cast" text="J!Cast" htmlUrl="http://www.jcast.de/" type="rss" xmlUrl="http://www.jcast.de//index.php?option=com_loudbot" />
+  <outline title="NerdAlert Podcast (Ogg)" text="NerdAlert Podcast (Ogg)" htmlUrl="http://www.nerdalert.de/cgi-bin/main.pl?NerdAlert" type="rss" xmlUrl="http://nerdalert.de/feeds/podcast.xml" />
+  <outline title="NoA - Nerds on Air - Radio for Geeks" text="NoA - Nerds on Air - Radio for Geeks" htmlUrl="http://www.clifford.at/noa/" type="rss" xmlUrl="http://www.clifford.at/noa/noa.rss" />
+  <outline title="Rock in China" text="Rock in China" htmlUrl="http://rockinchina.wordpress.com/" type="rss" xmlUrl="http://rockinchina.wordpress.com/feed/" />
+  <outline title="Tagesschau Video-Podcast" text="Tagesschau Video-Podcast" htmlUrl="http://www.tagesschau.de/export/video-podcast" type="rss" xmlUrl="http://www.tagesschau.de/export/video-podcast" />
+  <outline title="The Lunatic Fringe" text="The Lunatic Fringe" htmlUrl="http://tim.geekheim.de/" type="rss" xmlUrl="http://feeds.feedburner.com/TheLunaticFringe" />
+  <outline title="chaile 拆了 - Podcast" text="chaile 拆了 - Podcast" htmlUrl="http://www.chaile.org/" type="rss" xmlUrl="http://www.chaile.org/podcast/feed" />
+  <outline title="radio chaotica podcast" text="radio chaotica podcast" htmlUrl="http://entropia.de/" type="rss" xmlUrl="http://entropia.de/podcast.xml" />
+</body>
+</opml>
