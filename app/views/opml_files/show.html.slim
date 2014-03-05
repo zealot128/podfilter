@@ -1,7 +1,6 @@
-h1 OPML-File
+h1 = t '.page_title'
 
-p
-  | Hochgeladen am: #{l @opml_file.created_at.to_date}
+p = t '.uploaded_on', date: l(@opml_file.created_at.to_date)
 
 
 = render @opml_file.podcasts

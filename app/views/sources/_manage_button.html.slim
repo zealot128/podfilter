@@ -11,10 +11,10 @@
       - current_user.opml_files.each do |file|
         li
           - if file.sources.find{|i| i.id == source.id}
-            a href=remove_source_from_opml_path(file,source) title='Von dieser Liste entfernen' data-method='post'
+            a href="#{remove_source_from_opml_path(file,source)}" title="#{t 'podcast.manage_button.remove_from_list'}" data-method='post'
               i.fa.fa-check.fa-fw
               = file.to_s
           - else
-            a href=add_source_to_opml_path(file,source) title='Zu dieser Liste hinzufügen' data-method='post'
+            a href="#{add_source_to_opml_path(file,source)}" title="#{t 'podcast.manage_button.add_to_list'}" data-method='post'
               i.fa.fa-plus.fa-fw
               = file.to_s

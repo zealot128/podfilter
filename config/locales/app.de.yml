@@ -50,6 +50,7 @@ de:
     stats: "%{podcast_count} Podcasts mit insgesamt %{source_count} Quellen indiziert. Davon %{active_count} aktive, %{inactive_count} inaktive, %{error_count} mit Fehlern/bzw. neu hinzugefügt und %{offline_count} sind offline."
     contributing: 'Fehlermeldungen und Mitentwickeln auf Github'
   header:
+    impressum: 'Impressum'
     logged_in: 'Du bist angemeldet'
     logout_link: 'Ausloggen'
     popular_link: 'Nach Beliebtheit'
@@ -70,6 +71,10 @@ de:
       offline: "Feed ist offline und konnte nicht abgerufen werden"
       has_media: "Feed hat Episoden mit Medieninhalten"
       has_no_media: "Feed hat keine Medieninhalte"
+    manage_button:
+      remove_from_list:
+      add_to_list:
+
   words:
     subscriber:
       one: "1 Abonnent"
@@ -80,16 +85,22 @@ de:
 
   podcasts:
     index:
+      placeholder: 'Podcasts suchen'
       page_title: 'Podcasts suchen'
       category_page_title: "Kategorie %{category}"
       popular_title: 'Beliebteste Podcasts'
       recently_updated: "Kürzlich aktualisiert"
+      search_button: "Suchen"
     show:
       offline: "Der Podcast konnte nicht abgerufen werden und ist als <span class='label label-default'>offline</span> markiert."
       no_new: 'Keine Episoden gefunden'
       similar_podcasts: Ähnliche Podcasts
       source: "Quelle: %{url}"
+      sources: 'Quellen'
   opml_files:
+    show:
+      uploaded_on: 'Hochgeladen am: %{date}'
+      page_title: 'OPML-Datei'
     added: "Quelle %{title} hinzugefügt"
     remove: "Quelle %{title} entfernt"
   application:

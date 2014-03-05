@@ -2,12 +2,12 @@ h1 = @title
 
 = form_tag podcasts_path, method: :get, class: 'form' do
   .form-group
-    input.form-control type='text' placeholder='Podcasts suchen' name='q' value=params[:q]
+    input.form-control type='text' placeholder="#{t('.placeholder')}" name='q' value=params[:q]
 
   .form-group
     button.btn.btn-inverse type='submit'
       i.fa.fa-fw.fa-search<>
-      | Suchen
+      | podcasts.index.search_button
 
 - @podcasts.in_groups_of(2) do |group|
   .row

@@ -5,7 +5,7 @@
     p
       = sanitize @podcast.description
   .clearfix
-    h3 Varianten
+    h3 = t 'podcasts.show.sources'
     table.table
       - @podcast.sources.each do |source|
         tr
