@@ -17,7 +17,7 @@ class Podcast < ActiveRecord::Base
   acts_as_taggable_on :itunes_categories
 
   scope :listened, -> {
-    where('(select podcast_id from sources inner join opml_files_sources on opml_files_sources.source_id = sources.id inner join opml_files on opml_files.id = opml_file_id where podcast_id = podcasts.id and opml_files.type != ? limit 1) is not null', 'IgnoreFile')
+    where('subscriber_count > 2')
   }
   scope :recent_updates, -> {
     joins(:sources => :episodes).
