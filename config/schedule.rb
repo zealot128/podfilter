@@ -18,4 +18,6 @@ end
 every 6.hours do
   runner 'Source.update_active_status'
 end
-
+every 1.day, at: '6am' do
+  rake '-s sitemap:refresh'
+end
