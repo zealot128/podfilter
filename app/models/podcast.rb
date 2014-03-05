@@ -35,7 +35,8 @@ class Podcast < ActiveRecord::Base
   def update_meta_information(parsed_feed)
     self.title ||= parsed_feed.title if parsed_feed.title
     self.description ||= take_first(parsed_feed, [:itunes_summary, :description, :title]).strip rescue nil
-    self.language = [ parsed_feed.entries.map(&:summary), self.description].join('. ').language
+    text = ActionController::Base.new.view_context.strip_tags [ parsed_feed.entries.map(&:summary), self.description, self.title].join('. ')
+    self.language = text.language
 
     ItunesCategories.categories_match(self, parsed_feed)
 
