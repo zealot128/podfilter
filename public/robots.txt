@@ -3,3 +3,11 @@
 # To ban all spiders from the entire site uncomment the next two lines:
 # User-agent: *
 # Disallow: /
+
+Sitemap: http://www.podfilter.de/sitemap.xml.gz
+Disallow: /auth/
+Disallow: /dashboard
+Disallow: /recommendations/
+Disallow: /sidekiq/
+Disallow: /admin/
+Disallow: /opml/
