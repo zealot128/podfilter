@@ -8,11 +8,11 @@ module FastQueries
   def recently_updated_podcasts(limit: 10, interval: 21.days)
     query = <<-SQL
     WITH episodes_per_podcast AS (
-      SELECT id, podcast_id, created_at FROM (
-        SELECT episodes.id , podcast_id, episodes.created_at, row_number() OVER (PARTITION BY podcast_id ORDER BY episodes.created_at DESC) AS pos
+      SELECT id, podcast_id, pubdate FROM (
+        SELECT episodes.id , podcast_id, episodes.pubdate, row_number() OVER (PARTITION BY podcast_id ORDER BY episodes.pubdate DESC) AS pos
         FROM "episodes"
         INNER JOIN "sources" ON "sources"."id" = "episodes"."source_id"
-        WHERE episodes.created_at > '#{interval.ago.to_date.to_s}'
+        WHERE episodes.pubdate > '#{interval.ago.to_date.to_s}'
       )a1 WHERE pos = 1
     )
     SELECT * FROM episodes_per_podcast
