@@ -74,7 +74,7 @@ class Source < ActiveRecord::Base
 
   def full_refresh
     if parsed_feed.is_a?(Fixnum) or (parsed_feed.title.blank? and parsed_feed.entries.count == 0)
-      self.update_attribute :offline, true
+      self.update_column :offline, true
     else
       fetch_meta_information
       update_entries
@@ -90,7 +90,7 @@ class Source < ActiveRecord::Base
   def fetch_meta_information
     self.podcast ||= Podcast.where(title: parsed_feed.title).first_or_initialize
     self.podcast.update_meta_information(parsed_feed)
-    self.offline = false
+    self.update_column :offline, false
     self.save!
   end
 
