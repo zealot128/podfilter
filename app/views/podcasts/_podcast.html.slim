@@ -16,7 +16,8 @@
           .source
             = render 'sources/manage_button', source: source
             = link_to [podcast, source], title: t('podcast.source_on_podfilter', url: source.url) do
-              == readable_url source.url
+              span.cut
+                == readable_url source.url
           .badges
             = render 'sources/badges', source: source
       - if sources.count > limit

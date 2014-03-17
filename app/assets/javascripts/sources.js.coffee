@@ -1,5 +1,8 @@
 
-$(document).on 'page:load page:change ready', ->
+$(document).on 'page:before-change', ->
+  $('body').addClass('app-loading')
+.on 'page:load page:change ready', ->
+  $('body').removeClass('app-loading')
   $('.js-upload').fileupload
     dataType: 'json'
     fail: (e,data)->

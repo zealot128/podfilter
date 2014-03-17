@@ -39,7 +39,7 @@ class Source < ActiveRecord::Base
     where('episodes.pubdate < ?', Time.zone.now).
     order('episodes.pubdate desc')
   }
-  scope :error, -> { where('description is null and (offline is null or offline != ?)', true) }
+  scope :error, -> { where(offline: nil) }
   scope :offline,-> { where(offline: true) }
   scope :active, -> { where(active: true) }
   scope :inactive, -> { where(active: false) }
