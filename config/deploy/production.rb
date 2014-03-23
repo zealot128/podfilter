@@ -1,7 +1,7 @@
 set :stage, :production
 
 
-server 'podfilter',
+server 'localhost',
   user: 'stefan',
   roles: %w{web app db sidekiq}
     # keys: %w(~/.ssh/id_rsa),
