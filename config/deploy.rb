@@ -6,7 +6,7 @@ set :rvm_type, :user
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
-set :deploy_to, '/apps/podfilter/prod'
+set :deploy_to, '/var/www/podfilter'
 set :scm, :git
 
 set :format, :pretty
