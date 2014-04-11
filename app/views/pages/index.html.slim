@@ -61,7 +61,7 @@
   .col-lg-6
     h3 pages.index.newest_podcasts
     ul.list-unstyled.newest
-      - Podcast.listened.order('created_at desc').limit(10).each do |podcast|
+      - Podcast.order('created_at desc').where('subscriber_count > 0').limit(10).each do |podcast|
         li
           .row
             = render podcast
