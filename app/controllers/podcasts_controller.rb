@@ -16,7 +16,7 @@ class PodcastsController < ApplicationController
       @title = I18n.t('podcasts.index.popular_title')
     when :recent
       sql = FastQueries.recently_updated_podcasts(limit: 200)
-      @title = I18n.t('podcasts.index.recently_updated_podcasts')
+      @title = I18n.t('podcasts.index.recently_updated')
     end
     @podcasts = sql
   end

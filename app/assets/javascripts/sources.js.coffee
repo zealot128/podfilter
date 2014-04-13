@@ -2,6 +2,7 @@
 $(document).on 'page:before-change', ->
   $('body').addClass('app-loading')
 .on 'page:load page:change ready', ->
+  new FastClick(document.body)
   $('body').removeClass('app-loading')
   $('.js-upload').fileupload
     dataType: 'json'

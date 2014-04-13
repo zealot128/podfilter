@@ -1,9 +1,16 @@
 nav.container
-  #navbar-main
-    a class="navbar-brand" href="/"
-      i.fa.fa-headphones.fa-fw>
-      | Podfilter
-    ul class="nav navbar-nav"
+  .container-fluid
+    .navbar-header
+      button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main"
+        span class="sr-only"
+        span class="icon-bar"
+        span class="icon-bar"
+        span class="icon-bar"
+      a class="navbar-brand" href="/"
+        i.fa.fa-headphones.fa-fw>
+        | Podfilter
+  #navbar-main.collapse.navbar-collapse
+    ul.nav.navbar-nav
       li
         a href='/impressum'
           | header.impressum

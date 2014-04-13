@@ -125,6 +125,7 @@ GEM
     fabrication (2.9.3)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
+    fastclick-rails (1.0.1)
     feedzirra (0.7.1)
       curb (~> 0.8.1)
       loofah (~> 1.2.1)
@@ -401,6 +402,7 @@ DEPENDENCIES
   exception_notification
   fabrication
   faraday
+  fastclick-rails
   feedzirra
   font-awesome-rails (~> 4.0)
   foreman

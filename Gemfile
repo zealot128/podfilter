@@ -29,6 +29,7 @@ gem 'sitemap_generator'
 gem 'kaminari-bootstrap', github: 'GBH/kaminari-bootstrap', branch: 'bootstrap3'
 gem 'faraday'
 gem 'cancan'
+gem 'fastclick-rails'
 
 # gem 'feedzirra', github: 'zealot128/feedzirra'
 # gem 'feedzirra', path: 'gems/feedzirra/'

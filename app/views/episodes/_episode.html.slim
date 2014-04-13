@@ -8,6 +8,7 @@
       = episode.url
 
   .episode-body
-    =html_description episode.description
+    - if defined?(short)
+      =truncate strip_tags(episode.description), length: 200
 
 
