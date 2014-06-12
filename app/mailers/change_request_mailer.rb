@@ -1,4 +1,5 @@
 class ChangeRequestMailer < ActionMailer::Base
+  default from: 'info@podfilter.de'
 
   def cr(cr)
     @cr = cr
