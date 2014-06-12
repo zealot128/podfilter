@@ -19,7 +19,7 @@ Podfilter::Application.configure do
   config.middleware.use ExceptionNotification::Rack,
     :email => {
     :email_prefix => "[Podfilter] ",
-    :sender_address => %{"podfilter" <info@hrfilter.de>},
+    :sender_address => %{"podfilter" <info@podfilter.de>},
     :exception_recipients => %w{info@stefanwienert.de}
   }
 end

@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
 
   def current_user(create=false)
     owner = if params[:token]
-      Owner.where(token: params[:token]).first!
+      Owner.where(token: params[:token]).first
     elsif session[:owner_id]
       Owner.find(session[:owner_id])
     elsif create
