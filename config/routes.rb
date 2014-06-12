@@ -23,11 +23,22 @@ Podfilter::Application.routes.draw do
   get 'abmelden' => 'sessions#destroy'
   get 'dashboard' => 'pages#dashboard', as: :dashboard
   get 'recommendations/:owner_id/feed' => 'pages#recommendation_feed', as: :recommendation_feed
+
+  resources :change_requests do
+    collection do
+      get :apply
+      patch :apply, action: 'apply_submit'
+    end
+  end
   root 'pages#index'
 
+  if Rails.env.development?
+  get 'uploads/podcast/:style/:id/:foo' => 'pages#not_found'
+  end
   require 'sidekiq/web'
   Sidekiq::Web.use Rack::Auth::Basic do |username, password|
     username == ENV['SIDEKIQ_WEB_USER'] && password == ENV['SIDEKIQ_WEB_PASSWORD']
   end
   mount Sidekiq::Web, at: '/sidekiq'
+
 end

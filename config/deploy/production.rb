@@ -3,10 +3,10 @@ set :stage, :production
 
 server 'localhost',
   user: 'stefan',
-  roles: %w{web app db sidekiq}
+  roles: %w{web app db sidekiq},
     # keys: %w(~/.ssh/id_rsa),
-    # forward_agent: false,
-    # auth_methods: %w(publickey password)
+    forward_agent: true,
+    auth_methods: %w(publickey)
   # }
 # setting per server overrides global ssh_options
 

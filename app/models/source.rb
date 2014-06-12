@@ -15,6 +15,12 @@ class Source < ActiveRecord::Base
   mount_uploader :image, ImageUploader
   belongs_to :podcast
 
+  after_destroy do
+    if self.podcast.sources.blank?
+      self.podcast.destroy
+    end
+  end
+
   def self.active
     source_id = Episode.connection.execute(
       Episode.select('distinct source_id').

@@ -1,0 +1,8 @@
+- if podcast=@change_request.podcast
+  p
+    | Zusätzliche Quelle für
+    a< href="#{url_for podcast}"
+      = podcast.title
+= f.input :url, hint: 'Feed-URL RSS/Atom. Bitte keine Short-URLs'
+= f.input :podcast_id, as: :hidden
+

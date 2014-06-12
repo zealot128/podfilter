@@ -1,0 +1,10 @@
+h1 = t 'change_requests.new.propose'
+
+p = t 'change_requests.new.intro'
+
+= simple_form_for @change_request, url: '/change_requests', as: :change_request do |f|
+  = hidden_field_tag :type, @change_request.type
+  = render @change_request, f: f
+  = f.input :email, label: 'Optional: E-Mail', hint: 'Für Rückfragen und Versand Erfolgsmeldung erfolgt'
+  = f.input :comment, label: 'Optional: Kommentar', as: :text
+  = f.submit t('change_requests.new.propose_button'), class: 'btn btn-primary'

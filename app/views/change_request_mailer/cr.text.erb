@@ -1,0 +1,7 @@
+Typ: <%= @cr.type %>
+
+<% @cr.payload.each do |k,v| %>
+<%=k%>: <%=v%>
+<% end %>
+
+<%= apply_change_requests_url(token: @cr.token)%>

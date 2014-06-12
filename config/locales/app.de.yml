@@ -97,6 +97,7 @@ de:
       similar_podcasts: Ähnliche Podcasts
       source: "Quelle: %{url}"
       sources: 'Quellen'
+      change_source: Quelle ändern oder löschen
   opml_files:
     show:
       uploaded_on: 'Hochgeladen am: %{date}'
@@ -131,3 +132,8 @@ de:
     skip_entry: "Überspringe Eintrag %{number}: %{title}/%{url} %{error}"
     ignore_name: 'Podcast Ignore-Liste'
     default_name: "Import vom %{date}"
+  change_requests:
+    new:
+      propose: Änderung vorschlagen
+      propose_button: Vorschlagen
+      intro: Vielen Dank für die Mithile. Die Änderung wird von mir vorher noch auf Sinnhaftigkeit geprüft. Optional kannst du dir eine E-Mail senden lassen, wenn die Änderung von mir bestätigt wird.

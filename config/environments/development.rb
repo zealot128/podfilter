@@ -8,4 +8,5 @@ Podfilter::Application.configure do
   config.active_support.deprecation = :log
   config.active_record.migration_error = :page_load
   config.assets.debug = true
+  config.action_mailer.default_url_options = { :host => "example.com" }
 end

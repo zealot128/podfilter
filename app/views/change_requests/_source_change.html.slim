@@ -1,0 +1,12 @@
+p.row
+  .col-sm-3
+    | Podcast-Quelle
+  .col-sm-9
+    #{@change_request.source.podcast.title}: #{@change_request.source.url}
+br
+br
+= f.input :action, as: :radio_buttons, collection: %w[change delete]
+= f.input :url, hint: 'Neue URL. Bei delete ignorieren'
+= f.input :source_id, as: :hidden
+br
+br

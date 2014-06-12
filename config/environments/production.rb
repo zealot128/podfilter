@@ -14,6 +14,7 @@ Podfilter::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
   config.action_mailer.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = YAML.load_file('config/email.yml')
+  config.action_mailer.default_url_options = { :host => "www.podfilter.de" }
 
   config.middleware.use ExceptionNotification::Rack,
     :email => {

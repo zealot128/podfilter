@@ -41,4 +41,8 @@ class PagesController < ApplicationController
       f.atom { redirect_to format: :xml }
     end
   end
+
+  def not_found
+    render status: :not_found, layout: false, text: 'Page not found', formats: [:html]
+  end
 end

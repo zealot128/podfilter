@@ -11,3 +11,4 @@ Disallow: /recommendations/
 Disallow: /sidekiq/
 Disallow: /admin/
 Disallow: /opml/
+Disallow: /change_requests/

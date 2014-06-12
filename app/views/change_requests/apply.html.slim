@@ -1,0 +1,8 @@
+h1 = page_title
+
+= simple_form_for @change_request, as: :change_request, url: '' do |f|
+  = hidden_field_tag :type, @change_request.type
+  = render @change_request, f: f
+  = f.input :email, label: 'Optional: E-Mail', hint: 'Bei Rückfragen und bei Erfolgsmeldung erfolgt'
+  = f.input :comment, label: 'Optional: Kommentar', as: :text
+  = f.submit 'Anwenden', class: 'btn btn-primary'
