@@ -23,7 +23,7 @@ module OauthAdapter
         identity.owner
       else
         owner.save! validate: false
-        i = owner.identities.create! provider: provider, uid: uid, email: email, name: name, remote_image_url: image
+        i = owner.identities.create! provider: provider, uid: uid, email: email, name: name, remote_image_url: process_uri(image)
         owner.primary_identity = i
         owner.token = nil
         owner.save! validate: false
@@ -38,6 +38,13 @@ module OauthAdapter
     def name; @auth.info.name end
     def email; @auth.info.email end
     def image; @auth.info.image end
+    def process_uri(uri)
+      require 'open-uri'
+      require 'open_uri_redirections'
+      open(uri, :allow_redirections => :safe) do |r|
+        r.base_uri.to_s
+      end
+    end
   end
 
   class Github < Base

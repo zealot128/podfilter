@@ -25,6 +25,8 @@ gem 'ancestry'
 gem 'whatlanguage'
 gem 'sitemap_generator'
 
+gem 'open_uri_redirections'
+
 # https://github.com/mcasimir/kaminari-bootstrap/pull/8/files
 gem 'kaminari-bootstrap', github: 'GBH/kaminari-bootstrap', branch: 'bootstrap3'
 gem 'faraday'
