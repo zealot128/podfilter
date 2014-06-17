@@ -13,5 +13,9 @@ module Podfilter
     end
     config.time_zone = 'Berlin'
     config.i18n.default_locale = :de
+    config.lograge.enabled = true
+    config.lograge.custom_options = lambda do |event|
+      (event.payload[:params] || {}).except('utf8', 'action','controller')
+    end
   end
 end
