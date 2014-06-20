@@ -39,6 +39,7 @@ module OauthAdapter
     def email; @auth.info.email end
     def image; @auth.info.image end
     def process_uri(uri)
+      return nil if uri.nil?
       require 'open-uri'
       require 'open_uri_redirections'
       open(uri, :allow_redirections => :safe) do |r|
@@ -62,6 +63,5 @@ module OauthAdapter
 
   class Gplus < Base
     def provider; 'gplus' end
-    def image; nil end
   end
 end

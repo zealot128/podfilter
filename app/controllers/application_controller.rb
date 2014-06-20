@@ -12,6 +12,17 @@ class ApplicationController < ActionController::Base
     redirect_to root_url, :alert => exception.message
   end
 
+  before_filter do
+    if request.host == 'podfilter.de'
+      url = request.protocol + 'www.podfilter.de' + request.path
+      redirect_to url, status:  :moved_permanently
+    end
+    if request.host == 'podfilter.org' || request.host == 'www.podfilter.org'
+      url = request.protocol + 'www.podfilter.de' + request.path
+      redirect_to url, status:  :moved_permanently
+    end
+  end
+
   protected
 
     # NOTE Cancan 4 -> strong params
