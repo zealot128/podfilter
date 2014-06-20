@@ -80,9 +80,9 @@
         li: .row = render podcast
 
 
-p
+/* p */
   = link_to '#changelog', data: { toggle: 'collapse' } do
     | pages.index.development
 
-#changelog.collapse
+/* #changelog.collapse */
   = markdown File.read('CHANGELOG.md')
