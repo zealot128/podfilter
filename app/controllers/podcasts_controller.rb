@@ -24,5 +24,8 @@ class PodcastsController < ApplicationController
   def show
     @podcast = Podcast.where(id: params[:id]).includes(:sources).first!
     @title = @podcast.title
+    if source = @podcast.sources.popular.first
+      redirect_to [@podcast, source], status: :moved_permanently
+    end
   end
 end

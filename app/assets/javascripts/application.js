@@ -4,5 +4,7 @@
 //= require bootstrap/collapse
 //= require bootstrap/dropdown
 //= require fastclick
+//= require highcharts
+//= require highcharts/highcharts-more
 //= require_tree .
 //= require turbolinks

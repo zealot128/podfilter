@@ -98,6 +98,7 @@ de:
       source: "Quelle: %{url}"
       sources: 'Quellen'
       change_source: Quelle ändern oder löschen
+      chart: Sendungshäufigkeit
   opml_files:
     show:
       uploaded_on: 'Hochgeladen am: %{date}'

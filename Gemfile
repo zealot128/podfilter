@@ -93,3 +93,4 @@ group :test do
   gem 'simplecov', require: false
 end
 gem "lograge"
+gem 'highcharts-rails'

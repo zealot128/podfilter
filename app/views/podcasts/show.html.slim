@@ -40,4 +40,6 @@
   - if @source.episodes.count == 0
     .alert.alert-warning
       | podcasts.show.no_new
-  = render @source.episodes.order('pubdate desc')
+  - chart = Charts.episode_activity(@source)
+  .js-datechart data-values="#{chart[:values].to_json}" data-labels='#{chart[:labels]}' style='height: 170px' title='#{t('podcasts.show.chart')}'
+  = render @source.episodes.order('pubdate desc'), short: true
