@@ -253,6 +253,8 @@ GEM
       railties (>= 3.1, < 5.0)
     quilt (0.0.8)
     rack (1.5.2)
+    rack-dev-mark (0.4.3)
+      rack (>= 1.1)
     rack-protection (1.5.1)
       rack
     rack-raw-upload (1.1.1)
@@ -438,6 +440,7 @@ DEPENDENCIES
   pry-stack_explorer
   quiet_assets
   quilt
+  rack-dev-mark
   rack-raw-upload
   rails (= 4.1.0.rc1)
   rb-inotify

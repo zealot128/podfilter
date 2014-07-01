@@ -9,4 +9,5 @@ Podfilter::Application.configure do
   config.active_record.migration_error = :page_load
   config.assets.debug = true
   config.action_mailer.default_url_options = { :host => "example.com" }
+  config.rack_dev_mark.enable = true
 end

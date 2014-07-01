@@ -78,6 +78,7 @@ group :development do
   gem 'html2haml'
   gem 'quiet_assets'
   gem 'rb-inotify', :require=>false
+  gem "rack-dev-mark"
   # gem 'rack-mini-profiler'
 end
 

@@ -16,7 +16,7 @@ class ChangeRequests::NewPodcast < ChangeRequest
   end
 
   def to_s
-    base = "Hinzufügen einer neuen Quelle (#{source.url})"
+    base = "Hinzufügen einer neuen Quelle (#{url})"
     if podcast.present?
       base += " zu #{podcast.title}"
     end
