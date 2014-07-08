@@ -20,6 +20,7 @@ Podfilter::Application.configure do
     :email => {
     :email_prefix => "[Podfilter] ",
     :sender_address => %{"podfilter" <info@podfilter.de>},
-    :exception_recipients => %w{info@stefanwienert.de}
+    :exception_recipients => %w{info@stefanwienert.de},
+    ignore_exceptions: ['ActionController::BadRequest'] + ExceptionNotifier.ignored_exceptions
   }
 end
