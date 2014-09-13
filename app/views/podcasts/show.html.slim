@@ -16,11 +16,10 @@
             - else
               a href="#{podcast_source_path(@podcast, source)}"
                 small = readable_url source.url
-            br
-            a.label.label-default<> href="#{new_change_request_path(type: 'ChangeRequests::SourceChange', source_id: source.id)}" title="#{t('podcasts.show.change_source')}"
-              i.fa.fa-edit.fa-fw
           td
             = render 'sources/badges', source: source
+            a.label.label-default<> href="#{new_change_request_path(type: 'ChangeRequests::SourceChange', source_id: source.id)}" title="#{t('podcasts.show.change_source')}"
+              i.fa.fa-edit.fa-fw
       tr
         td colspan='3'
           = link_to 'Weitere Quelle hinzufügen', new_change_request_path(type: 'ChangeRequests::NewPodcast', podcast_id: @podcast.id)
