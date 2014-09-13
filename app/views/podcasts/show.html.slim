@@ -30,8 +30,9 @@
   = render similar
 
 
+.clear
 - if @source.present?
-  h2 = t '.podcasts.show.source', url: @source.url
+  h2 = t 'podcasts.show.source', url: @source.url
 
   - if @source.offline?
     .alert.alert-warning
