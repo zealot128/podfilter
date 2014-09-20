@@ -9,6 +9,16 @@ class DuplicateFinder
     (Rails.cache.read('dupes') || {}).map {|k,v| v + [k] }
   end
 
+  def self.by_title
+    select = "trim(regexp_replace(title, '\\(HD\\)|\\(SD\\)|\\(MP3\\)|\\(MP4\\)|\(\(M4V\)\)', '', 'i'))"
+    titles = Podcast.group(select).having('count(*) > 1').count
+    titles.keys.each do |title|
+      next if title.length < 8
+      podcasts = Podcast.where("#{select} = ?", title)
+      podcasts.first.merge(podcasts)
+    end
+  end
+
   def run
     found_dupes = {}
     ignore = Source.where('url ~ ?', IGNORE.map{|i| Regexp.escape(i) }.join('|')).pluck(:id)
