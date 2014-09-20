@@ -13,8 +13,14 @@ describe ChangeRequests::MergeRequest do
     cr.save
     cr.apply!
 
+    # Idempotent
+    Podcast.first.merge(Podcast.first)
+
     expect(Podcast.count).to be ==  1
     expect(target.podcast.sources.sort).to eql [target, dupe]
     expect(target.podcast.owners.count).to eql 2
+    expect(Podcast.first.subscriber_count).to be == 2
+
+
   end
 end

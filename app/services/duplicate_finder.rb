@@ -23,6 +23,6 @@ class DuplicateFinder
       sorted[k] ||= []
       sorted[k] << v
     end
-    Rails.cache.write('dupes', found_dupes)
+    Rails.cache.write('dupes', sorted)
   end
 end

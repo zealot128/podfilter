@@ -14,11 +14,8 @@ class ChangeRequests::MergeRequest < ChangeRequest
   end
 
   def apply!
-    Source.transaction do
-      source.podcast.destroy
-      source.update_attribute :podcast_id,  target.podcast_id
-      super
-    end
+    target.podcast.merge(source.podcast)
+    super
   end
 
   def source

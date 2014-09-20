@@ -1,16 +1,19 @@
 h1 Duplikate suchen und vernichten!
 
-- @duplicates.each do |d|
-  fieldset.row(id=dom_id(d))
-    = form_tag admin_merge_path,
-      method: :post, data: {remote: true} do
-      = hidden_field_tag :id, d.id
-      table.table
-        tbody
-          - d.sources.each do |source|
-            tr
-              td
-                = check_box_tag "source[#{source}]", source.id
-              td
-                = render source
+- @duplicates.each do |ds|
+  - id = "id-" + ds.map(&:id).map(&:to_s).join
+  fieldset.row id="#{id}"
+    = form_tag admin_merge_path, method: :post, data: { remote: true } do
+      = hidden_field_tag "html_id", id
+      - ds.each do |d|
+        .col-lg-1
+          label
+            = check_box_tag 'source_ids[]', d.id
+            span< Merge
+          br
+          label
+            = radio_button_tag 'target_id', d.id
+            span< Main
+        .col-lg-11
+          = render d
       = submit_tag 'Merge', class: 'btn btn-default'

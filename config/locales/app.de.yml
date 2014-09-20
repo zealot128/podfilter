@@ -57,7 +57,7 @@ de:
     podcast_url: 'Podcasts'
     search_button: "Suchen"
     placeholder: "Podcasts finden"
-    dashboard_link: 'Dashbboard'
+    dashboard_link: 'Dashboard'
   podcast:
     score: "Empfehlung: %{percent}%"
     source_on_podfilter: "%{url} auf Podfilter"

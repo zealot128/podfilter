@@ -31,6 +31,8 @@ html
             ul.list-unstyled
               li: a href='https://github.com/zealot128/podfilter.de'
                 | footer.contributing
+              - if admin?
+                li: a href='/admin/duplicates' [admin] Duplicates
 
   = render 'layouts/tracking'
   .loading-bar

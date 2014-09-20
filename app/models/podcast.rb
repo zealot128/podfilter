@@ -32,6 +32,15 @@ class Podcast < ActiveRecord::Base
     Podcast.where(id: ids).sort_by{|i| ids.index(i.id)}
   end
 
+  def merge(*others)
+    others = others.reject{|i| i.id == id }
+    Podcast.transaction do
+      Source.where(podcast_id: others).update_all podcast_id: id
+      Podcast.where(id: others).destroy_all
+      save
+    end
+  end
+
   def update_meta_information(parsed_feed)
     self.title ||= parsed_feed.title if parsed_feed.title
     self.description ||= take_first(parsed_feed, [:itunes_summary, :description, :title]).strip rescue nil

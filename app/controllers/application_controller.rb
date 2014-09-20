@@ -58,6 +58,11 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def admin?
+    current_user.try(:admin?)
+  end
+  helper_method :admin?
+
   def require_login
     if !user_signed_in?
       redirect_to root_path, notice: I18n.t('application.require_login')
