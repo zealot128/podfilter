@@ -43,6 +43,7 @@ class Podcast < ActiveRecord::Base
     image = take_first(parsed_feed, [:itunes_image, :image])
     unless image?
       begin
+        self.image.ignore_download_errors = true
         self.remote_image_url = image if image
       rescue ArgumentError
       end
@@ -50,9 +51,8 @@ class Podcast < ActiveRecord::Base
     if !self.save
       self.image = nil
       self.remote_image_url = nil
-      self.image.remove!
-      self.valid? # hack -> validation hooks loeschen image
-      self.image.remove!
+      _mounter(:image).instance_variable_set('@remote_url', nil)
+      _mounter(:image).instance_variable_set('@download_error', nil)
       self.save!
     end
   end

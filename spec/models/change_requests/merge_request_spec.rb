@@ -13,8 +13,8 @@ describe ChangeRequests::MergeRequest do
     cr.save
     cr.apply!
 
-    expect(Podcast.count).to ==  1
+    expect(Podcast.count).to be ==  1
     expect(target.podcast.sources.sort).to eql [target, dupe]
-    expect(target.podcast.owners.count).to == 2
+    expect(target.podcast.owners.count).to eql 2
   end
 end

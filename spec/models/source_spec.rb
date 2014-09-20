@@ -4,12 +4,12 @@ describe Source do
     Source.create(url: "file://#{Rails.root}/spec/fixtures/feeds/#{path}")
   end
   it 'updates meta information', vcr: true do
-      source = feed("c3d2.xml")
-      source.fetch_meta_information
+    source = feed("c3d2.xml")
+    source.fetch_meta_information
 
-      expect(source.podcast.description).to eq('Pentaradio, Pentacast & Pentamusic vom Chaos Computer Club Dresden.')
-      expect(source.podcast.title).to eq('C3D2 Podcast')
-      expect(source.podcast.image).to be_present
+    expect(source.podcast.description).to eq('Pentaradio, Pentacast & Pentamusic vom Chaos Computer Club Dresden.')
+    expect(source.podcast.title).to eq('C3D2 Podcast')
+    expect(source.podcast.image).to be_present
   end
 
   it 'updates feed entries', vcr: true do
@@ -32,7 +32,6 @@ describe Source do
   describe 'site specific bugs' do
     # Feedburner -> Itunes format nicht richtig erkannt
     it 'updates oreilly kolophon', vcr: true, focus: true do
-      $debug = true
       check_all url: 'kolophon.xml', count: 10
     end
 
@@ -61,7 +60,6 @@ describe Source do
     end
 
     it 'invalid file', vcr: true do
-      pending 'verbose'
       source = feed('masskompod.xml')
       source.full_refresh
       expect(source).to be_offline
