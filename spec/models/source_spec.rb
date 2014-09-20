@@ -17,7 +17,7 @@ describe Source do
     source.update_entries
 
     expect(source.episodes.count).to eq(63)
-    source.episodes.first.media_url.should be_present
+    expect(source.episodes.first.media_url).to be_present
 
     source.update_entries
     expect(source.episodes.count).to eq(63)

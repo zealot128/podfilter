@@ -2,12 +2,12 @@ class AdminController < ApplicationController
   authorize_resource class: false
 
   def duplicates
-    @duplicates = DuplicateCandidate.limit(20)
+    @duplicates = DuplicateFinder.get_dupegroups
   end
 
   def merge
     sources = Source.where(id: params[:sources])
-    Source.merge_sources sources
+    # TODO
     redirect_back_or_dashboard
   end
 end

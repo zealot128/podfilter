@@ -118,7 +118,7 @@ class Source < ActiveRecord::Base
   end
 
   def parsed_feed
-    @parse_feed ||=  Feedzirra::Feed.fetch_and_parse(url, max_redirects: 5, timeout: 30)
+    @parse_feed ||=  Feedjira::Feed.fetch_and_parse(url, max_redirects: 5, timeout: 30)
   end
 
   def update_entries

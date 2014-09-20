@@ -9,7 +9,7 @@ Sidekiq::Testing.fake!
 Sidekiq::Logging.logger = nil
 
 require 'rspec/rails'
-require 'rspec/autorun'
+# require 'rspec/autorun'
 
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
@@ -18,7 +18,7 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = true
   config.infer_base_class_for_anonymous_controllers = false
   config.order = "random"
-  config.color_enabled = true
+  # config.color_enabled = true
   config.tty = true
 end
 
@@ -29,6 +29,7 @@ VCR.configure do |c|
 end
 
 RSpec.configure do |config|
+  config.infer_spec_type_from_file_location!
   config.before(:each) do |example|
     # Clears out the jobs for tests using the fake testing
     Sidekiq::Worker.clear_all
