@@ -39,7 +39,7 @@ gem 'feedjira'
 gem 'nokogiri'
 gem 'acts-as-taggable-on'
 
-gem 'sidekiq', github: 'mperham/sidekiq' # Capistrano 3 problems https://github.com/mperham/sidekiq/blob/master/lib/sidekiq/tasks/sidekiq.rake
+gem 'sidekiq', '2.17'
 gem 'sinatra', require: false
 gem 'sidekiq-unique-jobs'
 gem 'rack-raw-upload'
