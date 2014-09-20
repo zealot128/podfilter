@@ -12,7 +12,7 @@ class AdminController < ApplicationController
     main = others.find(params[:target_id])
     main.merge(others)
 
-    DuplicateFinder.perform_async
+    DuplicateWorker.perform_async
     @id = params[:html_id]
   end
 end
