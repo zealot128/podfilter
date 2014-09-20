@@ -10,7 +10,7 @@ class DuplicateFinder
   end
 
   def self.by_title
-    select = "trim(regexp_replace(title, '\\(HD\\)|\\(SD\\)|\\(MP3\\)|\\(MP4\\)|\(\(M4V\)\)', '', 'i'))"
+    select = "lower(trim(regexp_replace(title, '\\(HD\\)|\\(SD\\)|\\(MP3\\)|\\(MP4\\)|\(\(M4V\)\)', '', 'i')))"
     titles = Podcast.group(select).having('count(*) > 1').count
     titles.keys.each do |title|
       next if title.length < 8
@@ -18,6 +18,21 @@ class DuplicateFinder
       podcasts.first.merge(podcasts)
     end
   end
+
+  def self.by_url
+    select = "regexp_replace(regexp_replace(url, 'https?:', 'http:'), '/$', '')"
+    urls = Source.group(select).having('count(*) > 1').count
+    urls.keys.each do |url|
+      ids = Source.where("#{select} = :url", url: url).pluck(:podcast_id).uniq
+      if ids.count > 1
+        binding.pry
+        p urls
+        p ids
+      end
+    end
+  end
+
+
 
   def run
     found_dupes = {}
