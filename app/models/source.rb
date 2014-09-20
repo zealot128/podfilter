@@ -20,6 +20,9 @@ class Source < ActiveRecord::Base
       self.podcast.destroy
     end
   end
+  after_save do
+    podcast.try(:set_subscriber_count!)
+  end
 
   def self.active
     source_id = Episode.connection.execute(

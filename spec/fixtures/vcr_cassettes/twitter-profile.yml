@@ -10,7 +10,7 @@ http_interactions:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -65,4 +65,141 @@ http_interactions:
         ewCuHFgz/9kgICAgICAgICA=
     http_version: 
   recorded_at: Sun, 24 Nov 2013 13:03:08 GMT
-recorded_with: VCR 2.7.0
+- request:
+    method: get
+    uri: http://pbs.twimg.com/profile_images/2837821740/51d171c3b4cef9b0dfd5e163d5ebca58_normal.jpeg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy-Report-Only:
+      - default-src 'none'; img-src https://abs.twimg.com https://ssl.google-analytics.com;
+        script-src https://abs.twimg.com https://ssl.google-analytics.com about:;
+        style-src https://abs.twimg.com 'unsafe-inline'; font-src https://abs.twimg.com
+        https://twitter.com;connect-src 'none'; object-src 'none'; media-src 'none';
+        frame-src 'none'; report-uri https://twitter.com/i/csp_report?a=ORTGK%3D%3D%3D&ro=false
+      Content-Type:
+      - image/jpeg
+      Date:
+      - Sat, 20 Sep 2014 19:14:09 UTC
+      Server:
+      - tfe
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '1426'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFET0NUWVBFIGh0bWw+CjxodG1sIHhtbG5zPSJodHRwOi8vd3d3LnczLm9y
+        Zy8xOTk5L3hodG1sIiBsYW5nPSJlbiIgeG1sOmxhbmc9ImVuIj4KICA8aGVh
+        ZD4KICAgIDxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVu
+        dD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4KICAgIDxtZXRhIGh0dHAt
+        ZXF1aXY9IkNvbnRlbnQtTGFuZ3VhZ2UiIGNvbnRlbnQ9ImVuLXVzIj4KICAg
+        IDxtZXRhIG5hbWU9InJvYm90cyIgY29udGVudD0ibm9pbmRleCwgbm9mb2xs
+        b3ciPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRo
+        PWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgPHRpdGxl
+        PlR3aXR0ZXIgLyA/PC90aXRsZT4KICAgIDxsaW5rIGhyZWY9Imh0dHBzOi8v
+        YWJzLnR3aW1nLmNvbS9mYXZpY29ucy9mYXZpY29uLmljbyIgcmVsPSJzaG9y
+        dGN1dCBpY29uIiB0eXBlPSJpbWFnZS94LWljb24iPgogICAgPGxpbmsgcmVs
+        PSJzdHlsZXNoZWV0IiBocmVmPSJodHRwczovL2Ficy50d2ltZy5jb20vZXJy
+        b3JzL2Z1bGxzY3JlZW5fZXJyb3JzLTkxZWNjNjUyZTRmYWZhYzUyY2U4YTFh
+        OGExODFhZDI0LmNzcyI+CiAgPC9oZWFkPgogIDxib2R5PgogICAgPGRpdiBj
+        bGFzcz0idG9wYmFyIGpzLXRvcGJhciI+CiAgICAgIDxkaXYgY2xhc3M9Imds
+        b2JhbC1uYXYiIGRhdGEtc2VjdGlvbi10ZXJtPSJ0b3BfbmF2Ij4KICAgICAg
+        ICA8ZGl2IGNsYXNzPSJnbG9iYWwtbmF2LWlubmVyIj4KICAgICAgICAgIDxk
+        aXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgICAgIDx1bCBjbGFzcz0i
+        bmF2IGpzLWdsb2JhbC1hY3Rpb25zIj4KICAgICAgICAgICAgICA8bGkgY2xh
+        c3M9ImhvbWUiPgogICAgICAgICAgICAgICAgPGEgY2xhc3M9Im5hdi1sb2dv
+        LWxpbmsiIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20iPjxpbWcgY2xhc3M9
+        ImJpcmQiIHNyYz0iaHR0cHM6Ly9hYnMudHdpbWcuY29tL2Vycm9ycy9sb2dv
+        MjN4MTkucG5nIiBhbHQ9IlR3aXR0ZXIiPjwvYT4KICAgICAgICAgICAgICA8
+        L2xpPgogICAgICAgICAgICA8L3VsPgogICAgICAgICAgICA8ZGl2IGNsYXNz
+        PSJwdWxsLXJpZ2h0Ij4KICAgICAgICAgICAgICA8dWwgY2xhc3M9Im5hdiBz
+        ZWNvbmRhcnktbmF2Ij4KICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJo
+        dHRwczovL3R3aXR0ZXIuY29tIiBpZD0iaG9tZUxpbmsiPkhvbWUgJnJhcnI7
+        PC9hPjwvbGk+CiAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgPC9k
+        aXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9k
+        aXY+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImJsdWUtc2t5Ij4KICAg
+        ICAgPGRpdiBjbGFzcz0iYm9keS1jb250ZW50Ij4KCiAgICAgICAgICA8aDE+
+        U29ycnksIHRoYXQgcGFnZSBkb2VzbuKAmXQgZXhpc3QhPC9oMT4KICAgICAg
+        ICAgIDxwPllvdSBjYW4gPGEgaHJlZj0iaHR0cHM6Ly90d2l0dGVyLmNvbS9z
+        ZWFyY2gtaG9tZSI+c2VhcmNoIFR3aXR0ZXI8L2E+IHVzaW5nIHRoZSBzZWFy
+        Y2ggYm94IGJlbG93IG9yIDxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20i
+        PnJldHVybiB0byB0aGUgaG9tZXBhZ2U8L2E+LjwvcD4KICAgICAgICAgIDxm
+        b3JtIGNsYXNzPSJzZWFyY2gtNDA0IiBhY3Rpb249Imh0dHBzOi8vdHdpdHRl
+        ci5jb20vc2VhcmNoIiBtZXRob2Q9ImdldCI+CiAgICAgICAgICAgIDxpbnB1
+        dCBpZD0ic2VhcmNoX3EiIG5hbWU9InEiIHR5cGU9InRleHQiIGFyaWEtbGFi
+        ZWw9IlNlYXJjaCBxdWVyeSIgcGxhY2Vob2xkZXI9IlNlYXJjaCBmb3IgYSB0
+        b3BpYywgZnVsbCBuYW1lLCBvciBAdXNlcm5hbWUiPgogICAgICAgICAgICA8
+        aW5wdXQgY2xhc3M9ImJ0biIgaWQ9InNlYXJjaF9zdWJtaXQiIHR5cGU9InN1
+        Ym1pdCIgdmFsdWU9IlNlYXJjaCI+CiAgICAgICAgICA8L2Zvcm0+CgogICAg
+        ICAgIDxkaXYgY2xhc3M9ImZvb3RlciI+CgogICAgICAgICAgICA8dWwgY2xh
+        c3M9Imxhbmd1YWdlcyI+CgogICAgICAgICAgICAgICAgPGxpPjxhIGRhdGEt
+        bGFuZ3VhZ2U9ImFyIiBocmVmPSIjIj7Yp9mE2LnYsdio2YrYqTwvYT48L2xp
+        PgoKICAgICAgICAgICAgICAgIDxsaT48YSBkYXRhLWxhbmd1YWdlPSJkYSIg
+        aHJlZj0iIyI+RGFuc2s8L2E+PC9saT4KCiAgICAgICAgICAgICAgICA8bGk+
+        PGEgZGF0YS1sYW5ndWFnZT0iZGUiIGhyZWY9IiMiPkRldXRzY2g8L2E+PC9s
+        aT4KCiAgICAgICAgICAgICAgICA8bGk+PGEgZGF0YS1sYW5ndWFnZT0iZW4i
+        IGhyZWY9IiMiPkVuZ2xpc2g8L2E+PC9saT4KCiAgICAgICAgICAgICAgICA8
+        bGk+PGEgZGF0YS1sYW5ndWFnZT0iZW4tZ2IiIGhyZWY9IiMiPkVuZ2xpc2hV
+        SzwvYT48L2xpPgoKICAgICAgICAgICAgICAgIDxsaT48YSBkYXRhLWxhbmd1
+        YWdlPSJlcyIgaHJlZj0iIyI+RXNwYcOxb2w8L2E+PC9saT4KCiAgICAgICAg
+        ICAgICAgICA8bGk+PGEgZGF0YS1sYW5ndWFnZT0iZmkiIGhyZWY9IiMiPlN1
+        b21pPC9hPjwvbGk+CgogICAgICAgICAgICAgICAgPGxpPjxhIGRhdGEtbGFu
+        Z3VhZ2U9ImZpbCIgaHJlZj0iIyI+RmlsaXBpbm88L2E+PC9saT4KCiAgICAg
+        ICAgICAgICAgICA8bGk+PGEgZGF0YS1sYW5ndWFnZT0iZnIiIGhyZWY9IiMi
+        PmZyYW7Dp2FpczwvYT48L2xpPgoKICAgICAgICAgICAgICAgIDxsaT48YSBk
+        YXRhLWxhbmd1YWdlPSJoZSIgaHJlZj0iIyI+16LWtNeR1rDXqNa015nXqjwv
+        YT48L2xpPgoKICAgICAgICAgICAgICAgIDxsaT48YSBkYXRhLWxhbmd1YWdl
+        PSJoaSIgaHJlZj0iIyI+4KS54KS/4KSo4KWN4KSm4KWAPC9hPjwvbGk+Cgog
+        ICAgICAgICAgICAgICAgPGxpPjxhIGRhdGEtbGFuZ3VhZ2U9ImlkIiBocmVm
+        PSIjIj5CYWhhc2EgSW5kb25lc2lhPC9hPjwvbGk+CgogICAgICAgICAgICAg
+        ICAgPGxpPjxhIGRhdGEtbGFuZ3VhZ2U9Iml0IiBocmVmPSIjIj5JdGFsaWFu
+        bzwvYT48L2xpPgoKICAgICAgICAgICAgICAgIDxsaT48YSBkYXRhLWxhbmd1
+        YWdlPSJqYSIgaHJlZj0iIyI+5pel5pys6KqePC9hPjwvbGk+CgogICAgICAg
+        ICAgICAgICAgPGxpPjxhIGRhdGEtbGFuZ3VhZ2U9ImtvIiBocmVmPSIjIj7t
+        lZzqta3slrQ8L2E+PC9saT4KCiAgICAgICAgICAgICAgICA8bGk+PGEgZGF0
+        YS1sYW5ndWFnZT0ibmwiIGhyZWY9IiMiPk5lZGVybGFuZHM8L2E+PC9saT4K
+        CiAgICAgICAgICAgICAgICA8bGk+PGEgZGF0YS1sYW5ndWFnZT0ibm8iIGhy
+        ZWY9IiMiPk5vcnNrPC9hPjwvbGk+CgogICAgICAgICAgICAgICAgPGxpPjxh
+        IGRhdGEtbGFuZ3VhZ2U9InBsIiBocmVmPSIjIj5Qb2xza2k8L2E+PC9saT4K
+        CiAgICAgICAgICAgICAgICA8bGk+PGEgZGF0YS1sYW5ndWFnZT0icHQiIGhy
+        ZWY9IiMiPlBvcnR1Z3XDqnM8L2E+PC9saT4KCiAgICAgICAgICAgICAgICA8
+        bGk+PGEgZGF0YS1sYW5ndWFnZT0icnUiIGhyZWY9IiMiPtCg0YPRgdGB0LrQ
+        uNC5PC9hPjwvbGk+CgogICAgICAgICAgICAgICAgPGxpPjxhIGRhdGEtbGFu
+        Z3VhZ2U9InN2IiBocmVmPSIjIj5TdmVuc2thPC9hPjwvbGk+CgogICAgICAg
+        ICAgICAgICAgPGxpPjxhIGRhdGEtbGFuZ3VhZ2U9InRoIiBocmVmPSIjIj7g
+        uKDguLLguKnguLLguYTguJfguKI8L2E+PC9saT4KCiAgICAgICAgICAgICAg
+        ICA8bGk+PGEgZGF0YS1sYW5ndWFnZT0idHIiIGhyZWY9IiMiPlTDvHJrw6dl
+        PC9hPjwvbGk+CgogICAgICAgICAgICAgICAgPGxpPjxhIGRhdGEtbGFuZ3Vh
+        Z2U9InVyIiBocmVmPSIjIj7Yp9ix2K/ZiDwvYT48L2xpPgoKICAgICAgICAg
+        ICAgICAgIDxsaT48YSBkYXRhLWxhbmd1YWdlPSJ6aC1jbiIgaHJlZj0iIyI+
+        566A5L2T5Lit5paHPC9hPjwvbGk+CgogICAgICAgICAgICA8L3VsPgoKICAg
+        ICAgICAgIDx1bCBjbGFzcz0ibGlua3MiPgogICAgICAgICAgICA8bGkgY2xh
+        c3M9ImZpcnN0Ij4mY29weTsgPHNwYW4gaWQ9ImNvcHlyaWdodC15ZWFyIj48
+        L3NwYW4+IFR3aXR0ZXI8L2xpPgogICAgICAgICAgICA8bGk+PGEgaHJlZj0i
+        aHR0cHM6Ly9hYm91dC50d2l0dGVyLmNvbS8iPkFib3V0PC9hPjwvbGk+CiAg
+        ICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL3N1cHBvcnQudHdpdHRl
+        ci5jb20vIj5IZWxwPC9hPjwvbGk+CiAgICAgICAgICAgIDxsaT48YSBocmVm
+        PSJodHRwOi8vc3RhdHVzLnR3aXR0ZXIuY29tLyI+U3RhdHVzPC9hPjwvbGk+
+        CiAgICAgICAgICA8L3VsPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4K
+        ICAgIDwvZGl2PgogICAgPHNjcmlwdCBzcmM9Imh0dHBzOi8vYWJzLnR3aW1n
+        LmNvbS9lcnJvcnMvNDA0LTRmNTQ0MDVhZjljMGJjZGVjYmU2NTZjYTg4OTNm
+        N2E5LmpzIj48L3NjcmlwdD4KICA8L2JvZHk+CjwvaHRtbD4K
+    http_version: 
+  recorded_at: Sat, 20 Sep 2014 19:14:09 GMT
+recorded_with: VCR 2.9.3

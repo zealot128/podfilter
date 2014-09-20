@@ -23,7 +23,7 @@ module OauthAdapter
         identity.owner
       else
         owner.save! validate: false
-        i = owner.identities.create! provider: provider, uid: uid, email: email, name: name, remote_image_url: process_uri(image)
+        i = owner.identities.create provider: provider, uid: uid, email: email, name: name, remote_image_url: process_uri(image)
         owner.primary_identity = i
         owner.token = nil
         owner.save! validate: false

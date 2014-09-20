@@ -44,4 +44,7 @@ RSpec.configure do |config|
       Sidekiq::Testing.fake!
     end
   end
+  config.expect_with :rspec do |c|
+    c.syntax = [:should, :expect]
+  end
 end

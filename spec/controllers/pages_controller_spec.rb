@@ -5,13 +5,15 @@ describe PagesController do
   specify 'index' do
     podcast = Fabricate(:podcast)
     source = Fabricate(:source, podcast: podcast)
-    opml_file = Fabricate(:opml_file, type: 'OpmlFile')
-    opml_file.sources << source
+    source.opml_files << Fabricate(:opml_file, type: 'OpmlFile')
+    source.opml_files << Fabricate(:opml_file, type: 'OpmlFile')
+    source.opml_files << Fabricate(:opml_file, type: 'OpmlFile')
+    source.save
 
-    Podcast.listened.count.should == 1
+    expect(Podcast.listened.count).to be == 1
 
     get :index
-    response.should be_success
-    response.body.should include podcast.title
+    expect(response).to be_success
+    expect(response.body).to include podcast.title
   end
 end
