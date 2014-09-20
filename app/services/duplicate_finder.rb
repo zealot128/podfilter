@@ -1,5 +1,6 @@
 
 class DuplicateFinder
+  IGNORE = %w[ argovia.ch ]
   def self.cronjob
     new.run
   end
@@ -10,7 +11,8 @@ class DuplicateFinder
 
   def run
     found_dupes = {}
-    Source.find_each do |source|
+    ignore = Source.where('url ~ ?', IGNORE.map{|i| Regexp.escape(i) }.join('|')).pluck(:id)
+    Source.where('id not in (?)', ignore).find_each do |source|
       dupes =  Source.where('podcast_id != ?', source.podcast_id).where('levenshtein_less_equal(url, ?, 2) <= 2', source.url)
       if dupes.count > 0
         dupes.each do |dupe|

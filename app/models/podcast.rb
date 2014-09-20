@@ -33,7 +33,7 @@ class Podcast < ActiveRecord::Base
   end
 
   def merge(*others)
-    others = others.reject{|i| i.id == id }
+    others = others.flatten.reject{|i| i.id == id }
     Podcast.transaction do
       Source.where(podcast_id: others).update_all podcast_id: id
       Podcast.where(id: others).destroy_all
