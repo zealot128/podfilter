@@ -55,7 +55,7 @@ class SimilarityCalculation
 
   def podcast_ids(user)
     {
-      list:   user.podcasts.where('type = ?',  OpmlFile).pluck('podcasts.id'),
+      list:   user.podcasts.where('type = ? or type is null',  OpmlFile).pluck('podcasts.id'),
       ignore: user.podcasts.where('type = ?',IgnoreFile).pluck('podcasts.id')
     }
   end
