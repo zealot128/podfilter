@@ -1,7 +1,8 @@
 Podfilter::Application.routes.draw do
-  get "impressum" => 'pages#impress'
   post 'opml/create', to: 'opml_files#create'
-  get  'opml/:id', to: 'opml_files#show', as: :opml_file
+  contraints(:format => /html/) do
+    get  'opml/:id', to: 'opml_files#show', as: :opml_file
+  end
   post 'opml/:id/add/:source_id' => 'opml_files#add_source', as: :add_source_to_opml
   post 'opml/:id/remove/:source_id' => 'opml_files#remove_source', as: :remove_source_from_opml
 
@@ -10,13 +11,16 @@ Podfilter::Application.routes.draw do
   get 'admin/duplicates'
   post 'admin/merge'
 
-  get 'browse/most-popular'     => 'podcasts#index', order: :most
-  get 'browse/recently-updated' => 'podcasts#index', order: :recent
-  # get 'browse/most', 'postcasts#index', order: :most
+  contraints(:format => /html/) do
+    get "impressum" => 'pages#impress'
+    get 'browse/most-popular'     => 'podcasts#index', order: :most
+    get 'browse/recently-updated' => 'podcasts#index', order: :recent
+    # get 'browse/most', 'postcasts#index', order: :most
 
-  get 'podcasts/category/:category_id' => 'podcasts#index', as: :category
-  resources :podcasts, only: [:index, :show] do
-    resources :sources, only: :show
+    get 'podcasts/category/:category_id' => 'podcasts#index', as: :category
+    resources :podcasts, only: [:index, :show] do
+      resources :sources, only: :show
+    end
   end
 
   get '/auth/:provider/callback', to: 'sessions#create', as: :omniauth_provider
@@ -33,7 +37,7 @@ Podfilter::Application.routes.draw do
   root 'pages#index'
 
   if Rails.env.development?
-  get 'uploads/podcast/:style/:id/:foo' => 'pages#not_found'
+    get 'uploads/podcast/:style/:id/:foo' => 'pages#not_found'
   end
   require 'sidekiq/web'
   Sidekiq::Web.use Rack::Auth::Basic do |username, password|
