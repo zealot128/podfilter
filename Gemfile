@@ -17,6 +17,8 @@ gem 'simple_form', '~> 3.1.0.rc1'
 gem 'slim-rails'
 gem 'pry-rails'
 gem 'pg'
+gem 'transaction_retry'
+
 gem 'dotenv-rails'
 gem "font-awesome-rails", '~> 4.0'
 gem 'pg_search', '~> 0.7.2'
