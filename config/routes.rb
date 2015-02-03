@@ -1,6 +1,6 @@
 Podfilter::Application.routes.draw do
   post 'opml/create', to: 'opml_files#create'
-  contraints(:format => /html/) do
+  constraints(:format => :html) do
     get  'opml/:id', to: 'opml_files#show', as: :opml_file
   end
   post 'opml/:id/add/:source_id' => 'opml_files#add_source', as: :add_source_to_opml
@@ -11,7 +11,7 @@ Podfilter::Application.routes.draw do
   get 'admin/duplicates'
   post 'admin/merge'
 
-  contraints(:format => /html/) do
+  constraints(:format => :html) do
     get "impressum" => 'pages#impress'
     get 'browse/most-popular'     => 'podcasts#index', order: :most
     get 'browse/recently-updated' => 'podcasts#index', order: :recent
