@@ -78,6 +78,21 @@ class Podcast < ActiveRecord::Base
     update_column :subscriber_count, owners.count('distinct owners.id')
   end
 
+  def podlove_data
+    {
+      title: title,
+      subtitle: "",
+      description: description,
+      cover: 'http://www.podfilter.de' + image.url(:medium),
+      feeds: sources.active.map do |s|
+        {
+          type: 'audio',
+          url: s.url
+        }
+      end
+    }
+  end
+
   private
 
   def take_first(object, methods)

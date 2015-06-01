@@ -1,7 +1,6 @@
 
 
 $(document).on 'page:load page:change ready', ->
-  console.log 'called'
   $('.js-datechart').each ->
     element = $(this)
 

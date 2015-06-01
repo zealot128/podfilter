@@ -144,6 +144,12 @@ class Source < ActiveRecord::Base
 
   end
 
+
+  def podlove_data
+    {
+    }
+  end
+
   def all_siblings
     root.subtree
   end

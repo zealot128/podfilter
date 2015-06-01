@@ -4,6 +4,7 @@
     h1 = @podcast.title
     p
       = sanitize @podcast.description
+    = render 'sources/podlove_button', podcast: @podcast, size: 'big'
   .clearfix
     h3 = t 'podcasts.show.sources'
     table.table
