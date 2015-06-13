@@ -14,6 +14,8 @@ class Source < ActiveRecord::Base
   has_many :episodes, dependent: :destroy
   mount_uploader :image, ImageUploader
   belongs_to :podcast
+  belongs_to :redirected_to, class_name: 'Source'
+  has_many :redirected_from, class_name: 'Source', foreign_key: 'redirected_to_id'
 
   after_destroy do
     if self.podcast.sources.blank?
@@ -50,7 +52,8 @@ class Source < ActiveRecord::Base
   }
   scope :error, -> { where(offline: nil) }
   scope :offline,-> { where(offline: true) }
-  scope :active, -> { where(active: true) }
+  scope :active, -> { where(active: true).not_redirected }
+  scope :not_redirected, -> { where('redirected_to_id is null') }
   scope :inactive, -> { where(active: false) }
   scope :listened, -> { where('owners_count > 0')}
   scope :popular, -> { order('owners_count desc') }
@@ -86,13 +89,26 @@ class Source < ActiveRecord::Base
       self.update_column :offline, true
     else
       fetch_meta_information
-      update_entries
+      check_redirect
+      if !redirected
+        update_entries
+      end
     end
   end
 
   def self.enqueue
     pluck(:id).each do |id|
       SourceUpdateWorker.perform_async(id)
+    end
+  end
+
+  def check_redirect
+    if url != parsed_feed.feed_url
+      parent = Source.where(url: parsed_feed.url).first_or_initialize
+      parent.podcast ||= self.podcast
+      parent.save!
+    else
+      self.update_column :redirected_to_id, nil
     end
   end
 
@@ -121,7 +137,7 @@ class Source < ActiveRecord::Base
   end
 
   def parsed_feed
-    @parse_feed ||=  Feedjira::Feed.fetch_and_parse(url, max_redirects: 5, timeout: 30)
+    @parse_feed ||= Feedjira::Feed.fetch_and_parse(url, max_redirects: 5, timeout: 30)
   end
 
   def update_entries
@@ -141,13 +157,6 @@ class Source < ActiveRecord::Base
       episode.media_url = entry.enclosure_url
       episode.save
     end
-
-  end
-
-
-  def podlove_data
-    {
-    }
   end
 
   def all_siblings

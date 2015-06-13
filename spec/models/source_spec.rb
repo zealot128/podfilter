@@ -67,6 +67,16 @@ describe Source do
 
   end
 
+  describe 'redirect handling' do
+    specify 'cre.fm' do
+      source = Source.create(url: 'http://cre.fm/feed/oga')
+      source.full_refresh
+      expect(source.redirected_to).should be_present
+      expect(source.podcast.sources.count).to be == 2
+    end
+
+  end
+
   def check_all(url: nil, count: nil, image: true)
     if url['http']
       source = Source.create(url: url)

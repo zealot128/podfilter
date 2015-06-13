@@ -16,6 +16,7 @@ $(document).on 'page:load page:change ready', ->
       yAxis:
         title:
           text: '#'
+        min: 0
       series: [
         {
           data: element.data('values')
