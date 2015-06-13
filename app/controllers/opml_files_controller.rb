@@ -19,7 +19,7 @@ class OpmlFilesController < ApplicationController
 
   def show
     @opml_file = OpmlFile.find(params[:id])
-    @sources = @opml_file.sources.order('title')
+    @sources = @opml_file.sources.popular
     respond_to do |f|
       f.html
       f.xml {
@@ -37,7 +37,7 @@ class OpmlFilesController < ApplicationController
     Recommendation.where(owner_id: current_user.id, podcast_id: source.podcast_id).delete_all
     source.podcast.set_subscriber_count!
     SimilarityCalculation.refresh_all
-    redirect_back_or_dashboard notice: I18n.t('opml_files.added', title: source.title)
+    redirect_back_or_dashboard notice: I18n.t('opml_files.added', title: source.podcast.title)
   end
 
   def remove_source
@@ -45,7 +45,7 @@ class OpmlFilesController < ApplicationController
     @opml_file.sources = @opml_file.sources - [source]
     SimilarityCalculation.refresh_all
     source.podcast.set_subscriber_count!
-    redirect_back_or_dashboard notice: I18n.t('opml_files.remove', title: source.title)
+    redirect_back_or_dashboard notice: I18n.t('opml_files.remove', title: source.podcast.title)
   end
 
 end

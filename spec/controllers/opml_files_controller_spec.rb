@@ -24,13 +24,13 @@ describe OpmlFilesController, sidekiq: :fake do
       opml_file.sources << cast
       get :show, id: opml_file.id
       assigns(:sources).should include cast
-      response.body.should include cast.title
+      response.body.should include cast.podcast.title
     end
 
     it 'displays opml file' do
       opml_file.sources << cast
       get :show, format: :xml, id: opml_file.id
-      response.body.should include cast.title
+      response.body.should include cast.podcast.title
     end
 
   end

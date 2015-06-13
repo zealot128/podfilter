@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150613142957) do
+ActiveRecord::Schema.define(version: 20150613211014) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -143,24 +143,19 @@ ActiveRecord::Schema.define(version: 20150613142957) do
 
   create_table "sources", force: :cascade do |t|
     t.string   "url",              limit: 255
-    t.string   "title",            limit: 255
-    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "image",            limit: 255
     t.boolean  "offline"
     t.boolean  "active"
-    t.string   "ancestry",         limit: 255
     t.integer  "owners_count"
     t.integer  "podcast_id"
     t.boolean  "has_media"
-    t.boolean  "redirected"
     t.integer  "redirected_to_id"
     t.string   "format"
   end
 
   add_index "sources", ["active"], name: "index_sources_on_active", using: :btree
-  add_index "sources", ["ancestry"], name: "index_sources_on_ancestry", using: :btree
   add_index "sources", ["has_media"], name: "index_sources_on_has_media", using: :btree
   add_index "sources", ["offline"], name: "index_sources_on_offline", using: :btree
   add_index "sources", ["owners_count"], name: "index_sources_on_owners_count", using: :btree
