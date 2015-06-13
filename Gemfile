@@ -55,10 +55,10 @@ gem 'rmagick'
 gem 'kramdown'
 
 group :unrequired do
-  gem 'capistrano', '~> 3.0.1'
-  gem 'capistrano-rvm', github: 'capistrano/rvm'
+  gem 'capistrano'
+  gem 'capistrano-rvm'
   gem 'capistrano-bundler'
-  gem 'capistrano-rails', '~> 1.1.0'
+  gem 'capistrano-rails'
   gem 'capistrano-rails-console'
   gem 'whenever'
 end
