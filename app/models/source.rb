@@ -104,7 +104,7 @@ class Source < ActiveRecord::Base
 
   def check_redirect
     if url != parsed_feed.feed_url
-      parent = Source.where(url: parsed_feed.url).first_or_initialize
+      parent = Source.where(url: parsed_feed.feed_url).first_or_initialize
       parent.podcast ||= self.podcast
       parent.save!
       self.opml_files.each do |oml|
