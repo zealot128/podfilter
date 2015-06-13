@@ -122,6 +122,7 @@ class Source < ActiveRecord::Base
     self.podcast ||= Podcast.where(title: parsed_feed.title).first_or_initialize
     self.podcast.update_meta_information(parsed_feed)
     self.update_column :offline, false
+    self.format = parsed_feed.try(:entries).try(:first).try(:enclosure_type) || 'audio/mp3'
     self.save!
   end
 

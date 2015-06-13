@@ -76,6 +76,8 @@ describe Source do
       expect(source.podcast.sources.count).to be == 2
       expect(source.opml_files.count).to be 0
       expect(source.redirected_to.opml_files.count).to be 1
+      expect(source.redirected_to.owners_count).to be 1
+      expect(source.format).to be == 'audio/ogg'
     end
 
   end

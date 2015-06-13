@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150613140913) do
+ActiveRecord::Schema.define(version: 20150613142957) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -156,6 +156,7 @@ ActiveRecord::Schema.define(version: 20150613140913) do
     t.boolean  "has_media"
     t.boolean  "redirected"
     t.integer  "redirected_to_id"
+    t.string   "format"
   end
 
   add_index "sources", ["active"], name: "index_sources_on_active", using: :btree
