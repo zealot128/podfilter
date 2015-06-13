@@ -107,6 +107,12 @@ class Source < ActiveRecord::Base
       parent = Source.where(url: parsed_feed.url).first_or_initialize
       parent.podcast ||= self.podcast
       parent.save!
+      self.opml_files.each do |oml|
+        parent.opml_files << oml unless parent.opml_files.include?(oml)
+      end
+      self.opml_files = []
+      self.redirected_to = parent
+      self.save!
     else
       self.update_column :redirected_to_id, nil
     end

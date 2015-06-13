@@ -68,11 +68,14 @@ describe Source do
   end
 
   describe 'redirect handling' do
-    specify 'cre.fm' do
+    specify 'cre.fm', vcr: true do
       source = Source.create(url: 'http://cre.fm/feed/oga')
+      source.opml_files << OpmlFile.create!(name: 'foobar')
       source.full_refresh
       expect(source.redirected_to).should be_present
       expect(source.podcast.sources.count).to be == 2
+      expect(source.opml_files.count).to be 0
+      expect(source.redirected_to.opml_files.count).to be 1
     end
 
   end

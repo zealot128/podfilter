@@ -8,7 +8,7 @@
   .clearfix
     h3 = t 'podcasts.show.sources'
     table.table
-      - @podcast.sources.each do |source|
+      - @podcast.sources.not_redirected.popular.each do |source|
         tr
           td = render 'sources/manage_button', source: source
           td
