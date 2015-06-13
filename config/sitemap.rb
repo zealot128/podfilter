@@ -11,7 +11,7 @@ SitemapGenerator::Sitemap.create do
   Podcast.active.where(language: 'german').find_each do |podcast|
     add podcast_path(podcast), priority: '0.5', changefreq: 'weekly', lastmod: podcast.updated_at
   end
-  Source.find_each do |source|
+  Source.active.find_each do |source|
     next if source.podcast_id.nil?
     add podcast_source_path(source.podcast,source), priority: '0.2', changefreq: source.active? ? 'daily' : 'monthly', lastmod: source.updated_at
   end
