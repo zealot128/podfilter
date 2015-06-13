@@ -11,7 +11,6 @@ class SimilarPodcasts
   def similar(podcast, limit: 10)
     @podcast = podcast
     final = most_listened_other_sources.where(o_s[:source_id].in(sources_similiar_by_category))
-    binding.pry
     Source.joins("inner join (#{final.to_sql}) a1 on a1.source_id = sources.id").order('a1.count desc').limit(limit * 2).pluck(:podcast_id).uniq.take(limit)
   end
 
