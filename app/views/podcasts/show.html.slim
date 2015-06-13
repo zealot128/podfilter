@@ -18,9 +18,7 @@
               a href="#{podcast_source_path(@podcast, source)}"
                 small = readable_url source.url
           td
-            = render 'sources/badges', source: source
-            a.label.label-default<> href="#{new_change_request_path(type: 'ChangeRequests::SourceChange', source_id: source.id)}" title="#{t('podcasts.show.change_source')}"
-              i.fa.fa-edit.fa-fw
+            = render 'sources/badges', source: source, with_edit: true
       tr
         td colspan='3'
           = link_to 'Weitere Quelle hinzufügen', new_change_request_path(type: 'ChangeRequests::NewPodcast', podcast_id: @podcast.id)
@@ -33,7 +31,6 @@
 .clearfix
 - if @source.present?
   h2 = t 'podcasts.show.source', url: @source.url
-
   - if @source.offline?
     .alert.alert-warning
       | podcasts.show.offline

@@ -1,4 +1,5 @@
-- name = "podlove_data_#{podcast.id}"
-javascript:
-  window.#{name} = #{raw podcast.podlove_data.to_json};
-script.podlove-subscribe-button src="/podlove/javascripts/app.js" data-language="de" data-size="#{size}" data-json-data="#{name}"
+- if podcast.sources.any?
+  - name = "podlove_data_#{podcast.id}"
+  javascript:
+    window.#{name} = #{raw podcast.podlove_data.to_json};
+  script.podlove-subscribe-button src="/podlove/javascripts/app.js" data-language="de" data-size="#{size}" data-json-data="#{name}"

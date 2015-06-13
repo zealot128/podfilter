@@ -56,7 +56,7 @@ class Source < ActiveRecord::Base
   scope :not_redirected, -> { where('redirected_to_id is null') }
   scope :inactive, -> { where(active: false) }
   scope :listened, -> { where('owners_count > 0')}
-  scope :popular, -> { order('owners_count desc') }
+  scope :popular, -> { order('offline = true, owners_count desc') }
   scope :without_media_live, -> { where('(select id from episodes where source_id = sources.id and media_url is null limit 1) is not null') }
   scope :with_media_live,    -> { where('(select id from episodes where source_id = sources.id and media_url is not null limit 1) is not null') }
 
@@ -124,6 +124,10 @@ class Source < ActiveRecord::Base
     self.update_column :offline, false
     self.format = parsed_feed.try(:entries).try(:first).try(:enclosure_type) || 'audio/mp3'
     self.save!
+  end
+
+  def short_format
+    (format || 'audio/mp3').split('/').last
   end
 
   def badges

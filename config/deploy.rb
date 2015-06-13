@@ -21,33 +21,6 @@ set :sidekiq_pid, -> { "tmp/pids/sidekiq.pid" }
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 # set :keep_releases, 5
 
-namespace :deploy do
-
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      execute :touch, release_path.join('tmp/restart.txt')
-    end
-  end
-
-  # after :restart, :clear_cache do
-  #   on roles(:web), in: :groups, limit: 3, wait: 10 do
-  #     within release_path do
-  #       execute :rake, 'cache:clear'
-  #     end
-  #   end
-  # end
-
-  after :finishing, 'deploy:cleanup'
-  # after 'deploy:starting',  'sidekiq:quiet'
-
-  # after 'reverted',  'sidekiq:start'
-
-  # after 'published', 'sidekiq:restart'
-  after 'published', :update_crontab
-  after 'restart', :ping_restart
-end
-
 desc 'ping server for passenger restart'
 task :ping_restart do
   run_locally do
@@ -96,4 +69,17 @@ namespace :rails do
 
     exec %Q(ssh #{app_server.user}@#{app_server.hostname} -p #{app_server.port || 22} -t "export RAILS_ENV=#{fetch(:rails_env)} && cd #{current_path} && #{command} ")
   end
+end
+
+namespace :deploy do
+
+  desc 'Restart application'
+  task :restart do
+    on roles(:app), in: :sequence, wait: 5 do
+      execute :touch, release_path.join('tmp/restart.txt')
+    end
+  end
+  after :finishing, 'deploy:cleanup'
+  after 'published', :update_crontab
+  after 'restart', :ping_restart
 end

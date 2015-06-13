@@ -84,9 +84,10 @@ class Podcast < ActiveRecord::Base
       subtitle: "",
       description: description,
       cover: 'http://www.podfilter.de' + image.url(:medium),
-      feeds: sources.active.map do |s|
+      feeds: sources.active.popular.map do |s|
         {
           type: 'audio',
+          format: s.short_format,
           url: s.url
         }
       end
