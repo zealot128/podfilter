@@ -1,6 +1,5 @@
 .episode
-  h3
-    = episode.title
+  h4 = episode.title
   .subtitle: small.text-muted
     = l( (episode.pubdate || episode.created_at).to_date)
     span<> &ndash;
@@ -9,6 +8,4 @@
 
   .episode-body
     - if defined?(short)
-      =truncate strip_tags(episode.description), length: 200
-
-
+      = truncate strip_tags(episode.description), length: 200

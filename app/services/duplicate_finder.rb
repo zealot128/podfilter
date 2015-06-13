@@ -25,14 +25,12 @@ class DuplicateFinder
     urls.keys.each do |url|
       ids = Source.where("#{select} = :url", url: url).pluck(:podcast_id).uniq
       if ids.count > 1
-        binding.pry
-        p urls
-        p ids
+        podcasts = Podcast.where(id: ids).order('subscriber_count desc').to_a
+        p = podcasts.shift
+        p.merge(podcasts)
       end
     end
   end
-
-
 
   def run
     found_dupes = {}

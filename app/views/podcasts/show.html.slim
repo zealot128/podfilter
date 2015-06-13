@@ -1,27 +1,28 @@
-.jumbotron
-  .clearfix
-    = image_tag @podcast.image.url(:medium), style: 'float: left; margin-right: 20px'
-    h1 = @podcast.title
-    p
-      = sanitize @podcast.description
-    = render 'sources/podlove_button', podcast: @podcast, size: 'big'
-  .clearfix
-    h3 = t 'podcasts.show.sources'
-    table.table
-      - @podcast.sources.not_redirected.popular.each do |source|
-        tr
-          td = render 'sources/manage_button', source: source
-          td
-            - if @source == source
-              small = readable_url source.url
-            - else
-              a href="#{podcast_source_path(@podcast, source)}"
+- content_for :content_header do
+  section#main-attention-drawer: .container
+    .clearfix
+      = image_tag @podcast.image.url(:medium), style: 'float: left; margin-right: 20px'
+      h1 = @podcast.title
+      p
+        = sanitize @podcast.description
+      = render 'sources/podlove_button', podcast: @podcast, size: 'big'
+    .clearfix
+      h3 = t 'podcasts.show.sources'
+      table.table
+        - @podcast.sources.not_redirected.popular.each do |source|
+          tr
+            td = render 'sources/manage_button', source: source
+            td
+              - if @source == source
                 small = readable_url source.url
-          td
-            = render 'sources/badges', source: source, with_edit: true
-      tr
-        td colspan='3'
-          = link_to 'Weitere Quelle hinzufügen', new_change_request_path(type: 'ChangeRequests::NewPodcast', podcast_id: @podcast.id)
+              - else
+                a href="#{podcast_source_path(@podcast, source)}"
+                  small = readable_url source.url
+            td
+              = render 'sources/badges', source: source, with_edit: true
+        tr
+          td colspan='3'
+            = link_to 'Weitere Quelle hinzufügen', new_change_request_path(type: 'ChangeRequests::NewPodcast', podcast_id: @podcast.id)
 
 - if (similar = @podcast.similar_podcasts(limit: 6)).count > 0
   h2 podcasts.show.similar_podcasts
@@ -34,10 +35,16 @@
   - if @source.offline?
     .alert.alert-warning
       | podcasts.show.offline
-
   - if @source.episodes.count == 0
     .alert.alert-warning
       | podcasts.show.no_new
+  .row
+    - @source.episodes.order('pubdate desc').each_with_index do |e,i|
+      - if i % 2 == 0
+        .visible-xs.clearfix
+      - if i % 4 == 0
+        .hidden-xs.clearfix
+      .col-sm-3.col-xs-6
+        = render e, short: true
   - chart = Charts.episode_activity(@source)
   .js-datechart data-values="#{chart[:values].to_json}" data-labels='#{chart[:labels]}' style='height: 170px' title='#{t('podcasts.show.chart')}'
-  = render @source.episodes.order('pubdate desc'), short: true

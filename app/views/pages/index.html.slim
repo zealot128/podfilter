@@ -1,81 +1,88 @@
-.jumbotron#main-attention-drawer
-  strong pages.index.headline
-  p
-    = t '.stats', podcast_count: Podcast.count,
-        episode_count: FastQueries.episode_count,
-        listener_count: OpmlFile.no_ignore.count
+- content_for :content_header do
+  section#main-attention-drawer
+    .container
+      strong pages.index.headline
+      p
+        = t '.stats', podcast_count: Podcast.count,
+            episode_count: FastQueries.episode_count,
+            listener_count: OpmlFile.no_ignore.count
 
-  .row
-    .col-lg-6
-      strong
-        abbr<> title=t('.opml_explanation') OPML
-        = t '.opml_ready'
-      ol
-        li = render 'upload_button'
-        li pages.index.opml_step_2
-        li pages.index.opml_step_3
-    .col-lg-6
-      strong pages.index.manuell
-      ol
-        li
-          | pages.index.login_by
-          a.btn.btn-primary.btn-xs<> href='/auth/twitter' rel='nofollow' data-no-turbolink=true
-            i.fa.fa-twitter<>
-            | Twitter
-          a.btn.btn-primary.btn-xs<> href='/auth/github' rel='nofollow' data-no-turbolink=true
-            i.fa.fa-github<>
-            |Github
-          a.btn.btn-primary.btn-xs<> href='/auth/facebook' rel='nofollow' data-no-turbolink=true
-            i.fa.fa-facebook<>
-            |Facebook
-          a.btn.btn-primary.btn-xs<> href='/auth/gplus' rel='nofollow' data-no-turbolink=true
-            i.fa.fa-google-plus-square>
-            |Google+
-          p: small pages.index.auth_disclaimer
-        li pages.index.manuel_step2
-        li pages.index.manuel_step3
+      .row
+        .col-lg-6
+          strong
+            abbr<> title=t('.opml_explanation') OPML
+            = t '.opml_ready'
+          ol
+            li = render 'upload_button'
+            li pages.index.opml_step_2
+            li pages.index.opml_step_3
+        .col-lg-6
+          strong pages.index.manuell
+          ol
+            li
+              | pages.index.login_by
+              a.btn.btn-primary.btn-xs<> href='/auth/twitter' rel='nofollow' data-no-turbolink=true
+                i.fa.fa-twitter<>
+                | Twitter
+              a.btn.btn-primary.btn-xs<> href='/auth/github' rel='nofollow' data-no-turbolink=true
+                i.fa.fa-github<>
+                |Github
+              a.btn.btn-primary.btn-xs<> href='/auth/facebook' rel='nofollow' data-no-turbolink=true
+                i.fa.fa-facebook<>
+                |Facebook
+              a.btn.btn-primary.btn-xs<> href='/auth/gplus' rel='nofollow' data-no-turbolink=true
+                i.fa.fa-google-plus-square>
+                |Google+
+              p: small pages.index.auth_disclaimer
+            li pages.index.manuel_step2
+            li pages.index.manuel_step3
 
 .row
   .col-lg-12
     h2 pages.index.headline_podcasts_listened
 .row
   .col-lg-6
-    h3
-      | pages.index.newest_episodes
-      small<: a href=browse_recently_updated_path pages.index.more
+    .panel.panel-default
+      .panel-heading: h3.panel-title
+        | pages.index.newest_episodes
+        small<: a href=browse_recently_updated_path pages.index.more
+      .panel-body
+        = cache ['newest', Episode.order('created_at desc').limit(1).pluck('created_at').first || 1] do
+          ul.list-unstyled
+            - FastQueries.recently_updated_podcasts.each do |episode, podcast|
+              li
+                h4
+                  .pull-left
+                    = image_tag podcast.image.url(:thumb)
+                    = ' '
+                  = episode.title
+                  | &nbsp;
+                  small = l episode.pubdate.to_date rescue '??'
+                = link_to podcast_source_path(podcast, episode.source_id) do
+                  = podcast.title
 
-    = cache ['newest', Episode.order('created_at desc').limit(1).pluck('created_at').first || 1] do
-      ul.list-unstyled
-        - FastQueries.recently_updated_podcasts.each do |episode, podcast|
-          li
-            h4
-              .pull-left
-                = image_tag podcast.image.url(:thumb)
-                = ' '
-              = episode.title
-              | &nbsp;
-              small = l episode.pubdate.to_date rescue '??'
-            = link_to podcast_source_path(podcast, episode.source_id) do
-              = podcast.title
-
   .col-lg-6
-    h3 pages.index.newest_podcasts
-    ul.list-unstyled.newest
-      - Podcast.order('created_at desc').limit(10).each do |podcast|
-        li
-          .row
-            = render podcast
-.row
-  .col-lg-6
-    h3
-      paged.index.most_popular
-      small<: a href=browse_most_popular_path Alle
-    ol.list-unstyled.newest
-      - @most.take(10).each do |podcast|
-        li: .row = render podcast
-  .col-lg-6
-    h3 &nbsp;
-    ol.list-unstyled.newest
-      - @most.drop(10).each do |podcast|
-        li: .row = render podcast
+    .panel.panel-default
+      .panel-heading: h3.panel-title pages.index.newest_podcasts
+      .panel-body
+        ul.list-unstyled.newest
+          - Podcast.order('created_at desc').limit(10).each do |podcast|
+            li
+              .row
+                = render podcast
+.panel.panel-default
+  .panel-heading: h3.panel-title
+    |pages.index.most_popular
+    small<: a href=(browse_most_popular_path) Alle
+  .panel-body
+    .row
+      .col-lg-6
+        ol.list-unstyled.newest
+          - @most.take(10).each do |podcast|
+            li: .row = render podcast
+      .col-lg-6
+        h3 &nbsp;
+        ol.list-unstyled.newest
+          - @most.drop(10).each do |podcast|
+            li: .row = render podcast
 

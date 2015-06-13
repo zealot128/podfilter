@@ -9,6 +9,7 @@ html
   body
     header class="navbar navbar-default" role="navigation"
       = render 'layouts/navbar'
+    = content_for(:content_header) if content_for?(:content_header)
     section.container
       - if flash[:notice]
         .alert.alert-success
