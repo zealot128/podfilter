@@ -9,7 +9,6 @@ set :rvm_type, :user
 set :deploy_to, '/var/www/podfilter'
 set :scm, :git
 
-set :format, :pretty
 set :pty, true
 # set :log_level, :info
 
@@ -60,11 +59,6 @@ namespace :rails do
       Rake::Task['rvm:hook'].invoke
       set :rvm_map_bins, ((fetch(:rvm_map_bins) || []) + ['rails'])
     end
-
-    # command = []
-    # command << "#{fetch(:rvm_path)}/bin/rvm #{fetch(:rvm_ruby_version)} do" if rvm_loaded?
-    # command << "bundle exec" if bundler_loaded?
-    # command << "rails console #{fetch(:rails_env)}"
     command = 'bash'
 
     exec %Q(ssh #{app_server.user}@#{app_server.hostname} -p #{app_server.port || 22} -t "export RAILS_ENV=#{fetch(:rails_env)} && cd #{current_path} && #{command} ")
@@ -72,7 +66,6 @@ namespace :rails do
 end
 
 namespace :deploy do
-
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
@@ -83,3 +76,4 @@ namespace :deploy do
   after 'published', :update_crontab
   after 'restart', :ping_restart
 end
+after 'deploy:publishing', 'deploy:restart'

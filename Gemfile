@@ -61,6 +61,7 @@ group :unrequired do
   gem 'capistrano-rails'
   gem 'capistrano-rails-console'
   gem 'whenever'
+  gem "airbrussh", :require => false
 end
 
 group :production do
