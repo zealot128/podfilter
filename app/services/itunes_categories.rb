@@ -97,10 +97,13 @@ class ItunesCategories
   def self.categories_match(podcast, feed)
     if feed.itunes_categories.present?
       podcast.itunes_category_list = feed.itunes_categories
-      podcast.categories = categories(feed.itunes_categories)
+      mapped =  categories(feed.itunes_categories)
+      if mapped.present?
+        podcast.categories = mapped
+      end
       podcast.save
     else
-      # matching
+      # matching TODO
     end
   end
 end

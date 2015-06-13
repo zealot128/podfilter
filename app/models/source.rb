@@ -70,60 +70,14 @@ class Source < ActiveRecord::Base
     with_media_live.update_all has_media: true
   end
 
-  def self.merge_sources(sources)
-    if sources.count < 2
-      raise ArgumentError
-    end
-    parent = sources.shift
-    parent.parent = nil
-    parent.save validate: false
-
-    sources.each do |s|
-      s.parent = parent
-      s.save validate: false
-    end
-  end
-
   def full_refresh
-    if parsed_feed.is_a?(Fixnum) or (parsed_feed.title.blank? and parsed_feed.entries.count == 0)
-      self.update_column :offline, true
-    else
-      fetch_meta_information
-      check_redirect
-      if !redirected
-        update_entries
-      end
-    end
+    FeedFetcher.new(self).run!
   end
 
   def self.enqueue
     pluck(:id).each do |id|
       SourceUpdateWorker.perform_async(id)
     end
-  end
-
-  def check_redirect
-    if url != parsed_feed.feed_url
-      parent = Source.where(url: parsed_feed.feed_url).first_or_initialize
-      parent.podcast ||= self.podcast
-      parent.save!
-      self.opml_files.each do |oml|
-        parent.opml_files << oml unless parent.opml_files.include?(oml)
-      end
-      self.opml_files = []
-      self.redirected_to = parent
-      self.save!
-    else
-      self.update_column :redirected_to_id, nil
-    end
-  end
-
-  def fetch_meta_information
-    self.podcast ||= Podcast.where(title: parsed_feed.title).first_or_initialize
-    self.podcast.update_meta_information(parsed_feed)
-    self.update_column :offline, false
-    self.format = parsed_feed.try(:entries).try(:first).try(:enclosure_type) || 'audio/mp3'
-    self.save!
   end
 
   def short_format
@@ -145,32 +99,5 @@ class Source < ActiveRecord::Base
       b << :has_no_media
     end
     b
-  end
-
-  def parsed_feed
-    @parse_feed ||= Feedjira::Feed.fetch_and_parse(url, max_redirects: 5, timeout: 30)
-  end
-
-  def update_entries
-    parsed_feed.entries.each do |entry|
-      guid = entry.respond_to?(:entry_id) ? entry.entry_id : entry.guid
-      if guid.blank?
-        guid = entry.published && entry.published.to_s
-      end
-      next if guid.blank?
-
-      episode = episodes.where(guid: guid.slice(0,255)).first_or_initialize
-      episode.title = entry.title.try(:slice, 0, 255)
-      episode.url   = entry.url.try(:slice, 0, 255)
-      episode.description = entry.summary
-      episode.pubdate = entry.published
-
-      episode.media_url = entry.enclosure_url
-      episode.save
-    end
-  end
-
-  def all_siblings
-    root.subtree
   end
 end

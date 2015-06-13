@@ -41,31 +41,6 @@ class Podcast < ActiveRecord::Base
     end
   end
 
-  def update_meta_information(parsed_feed)
-    self.title ||= parsed_feed.title if parsed_feed.title
-    self.description ||= take_first(parsed_feed, [:itunes_summary, :description, :title]).strip rescue nil
-    text = ActionController::Base.new.view_context.strip_tags [ parsed_feed.entries.map(&:summary), self.description, self.title].join('. ')
-    self.language = text.language
-
-    ItunesCategories.categories_match(self, parsed_feed)
-
-    image = take_first(parsed_feed, [:itunes_image, :image])
-    unless image?
-      begin
-        self.image.ignore_download_errors = true
-        self.remote_image_url = image if image
-      rescue ArgumentError
-      end
-    end
-    if !self.save
-      self.image = nil
-      self.remote_image_url = nil
-      _mounter(:image).instance_variable_set('@remote_url', nil)
-      _mounter(:image).instance_variable_set('@download_error', nil)
-      self.save!
-    end
-  end
-
   def to_param
     if title?
       "#{id}-#{title.to_url}"
@@ -93,13 +68,4 @@ class Podcast < ActiveRecord::Base
       end
     }
   end
-
-  private
-
-  def take_first(object, methods)
-    methods.select{|m| object.respond_to?(m)}.
-      map{|m| object.send(m) }.
-      find{|i|i}
-  end
-
 end
