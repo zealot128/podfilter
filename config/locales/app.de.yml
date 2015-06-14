@@ -77,9 +77,11 @@ de:
 
   words:
     subscriber:
+      zero: 'Kein Abonnent'
       one: "1 Abonnent"
       other: "%{count} Abonnenten"
     episode:
+      zero: 'Keine Episode'
       one: "1 Episode"
       other: "%{count} Episoden"
 
