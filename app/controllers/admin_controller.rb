@@ -1,6 +1,9 @@
 class AdminController < ApplicationController
   authorize_resource class: false
 
+  def index
+  end
+
   def duplicates
     @duplicates = DuplicateFinder.get_dupegroups.shuffle.take(50).map do |source_ids|
       Podcast.where id: Source.where(id: source_ids).select(:podcast_id)

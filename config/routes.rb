@@ -1,13 +1,16 @@
 Podfilter::Application.routes.draw do
-  post 'opml/create', to: 'opml_files#create'
-  constraints(:format => :html) do
-    get  'opml/:id', to: 'opml_files#show', as: :opml_file
+  admin_constraint = lambda do |request|
+    request.session[:owner_id] && Owner.where(admin: true).where(id: request.session[:owner_id]).any?
   end
+
+  post 'opml/create', to: 'opml_files#create'
+  get  'opml/:id', to: 'opml_files#show', as: :opml_file
   post 'opml/:id/add/:source_id' => 'opml_files#add_source', as: :add_source_to_opml
   post 'opml/:id/remove/:source_id' => 'opml_files#remove_source', as: :remove_source_from_opml
 
   delete 'opml/:id' => 'opml_files#destroy'
 
+  get 'admin' => 'admin#index'
   get 'admin/duplicates'
   post 'admin/merge'
 
@@ -34,15 +37,19 @@ Podfilter::Application.routes.draw do
       patch :apply, action: 'apply_submit'
     end
   end
-  root 'pages#index'
 
   if Rails.env.development?
     get 'uploads/podcast/:style/:id/:foo' => 'pages#not_found'
   end
-  require 'sidekiq/web'
-  Sidekiq::Web.use Rack::Auth::Basic do |username, password|
-    username == ENV['SIDEKIQ_WEB_USER'] && password == ENV['SIDEKIQ_WEB_PASSWORD']
-  end
-  mount Sidekiq::Web, at: '/sidekiq'
 
+  get 'api/v1' => 'pages#api_doc'
+  mount V1, at: '/api/v1'
+
+  constraints admin_constraint do
+    require 'sidekiq/web'
+    mount Sidekiq::Web, at: '/sidekiq'
+    mount Logster::Web, at: '/logs'
+  end
+
+  root 'pages#index'
 end

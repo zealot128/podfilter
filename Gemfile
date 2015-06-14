@@ -18,6 +18,9 @@ gem 'slim-rails'
 gem 'pry-rails'
 gem 'pg'
 gem 'transaction_retry'
+gem 'grape'
+gem 'redis'
+gem 'logster'
 
 gem 'dotenv-rails'
 gem "font-awesome-rails", '~> 4.0'
@@ -72,16 +75,13 @@ group :development do
   gem 'pry-stack_explorer'
   gem 'habtm_generator'
   gem 'thin'
-  gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
-  # gem 'haml-rails'
   gem 'foreman'
   gem 'haml2slim'
   gem 'html2haml'
   gem 'quiet_assets'
   gem 'rb-inotify', :require=>false
   gem "rack-dev-mark"
-  # gem 'rack-mini-profiler'
 end
 
 group :development, :test do
@@ -95,5 +95,5 @@ group :test do
   gem 'webmock'
   gem 'simplecov', require: false
 end
-gem "lograge"
+# gem "lograge"
 gem 'highcharts-rails'

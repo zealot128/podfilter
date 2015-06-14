@@ -64,10 +64,10 @@ GEM
     autoprefixer-rails (5.2.0)
       execjs
       json
-    better_errors (2.1.1)
-      coderay (>= 1.0.0)
-      erubis (>= 2.6.6)
-      rack (>= 0.9.0)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.4.1)
@@ -105,6 +105,8 @@ GEM
       timers (~> 4.0.0)
     chronic (0.10.2)
     coderay (1.1.0)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -119,11 +121,14 @@ GEM
     curb (0.8.8)
     daemons (1.2.2)
     debug_inspector (0.0.2)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
     docile (1.1.5)
     dotenv (2.0.1)
     dotenv-rails (2.0.1)
       dotenv (= 2.0.1)
+    equalizer (0.0.9)
     erubis (2.7.0)
     eventmachine (1.0.7)
     execjs (2.5.2)
@@ -142,6 +147,16 @@ GEM
       thor (~> 0.19.1)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
+    grape (0.9.0)
+      activesupport
+      builder
+      hashie (>= 2.1.0)
+      multi_json (>= 1.3.2)
+      multi_xml (>= 0.5.2)
+      rack (>= 1.3.0)
+      rack-accept
+      rack-mount
+      virtus (>= 1.0.0)
     habtm_generator (0.3)
       activerecord
     haml (4.0.6)
@@ -160,6 +175,7 @@ GEM
       nokogiri (~> 1.6.0)
       ruby_parser (~> 3.5)
     i18n (0.7.0)
+    ice_nine (0.11.0)
     jquery-rails (4.0.3)
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
@@ -175,10 +191,7 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     kramdown (1.7.0)
-    lograge (0.3.2)
-      actionpack (>= 3)
-      activesupport (>= 3)
-      railties (>= 3)
+    logster (0.8.2)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -241,8 +254,12 @@ GEM
       railties (>= 3.1, < 5.0)
     quilt (0.1.0)
     rack (1.6.1)
+    rack-accept (0.4.5)
+      rack (>= 0.4)
     rack-dev-mark (0.7.3)
       rack (>= 1.1)
+    rack-mount (0.8.3)
+      rack (>= 1.0.0)
     rack-protection (1.5.3)
       rack
     rack-raw-upload (1.1.1)
@@ -379,6 +396,11 @@ GEM
       activemodel (>= 3.0.0)
       addressable
     vcr (2.9.3)
+    virtus (1.0.3)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
     webmock (1.21.0)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
@@ -395,7 +417,6 @@ DEPENDENCIES
   acts-as-taggable-on
   airbrussh
   ancestry
-  better_errors
   binding_of_caller
   bootstrap-sass (>= 3.0.0.0)
   cancan
@@ -415,6 +436,7 @@ DEPENDENCIES
   feedjira
   font-awesome-rails (~> 4.0)
   foreman
+  grape
   habtm_generator
   haml2slim
   highcharts-rails
@@ -424,7 +446,7 @@ DEPENDENCIES
   kaminari (~> 0.15)
   kaminari-bootstrap!
   kramdown
-  lograge
+  logster
   mini_magick
   nokogiri
   omniauth
@@ -443,6 +465,7 @@ DEPENDENCIES
   rack-raw-upload
   rails (~> 4.2.0)
   rb-inotify
+  redis
   rmagick
   rspec-rails
   ruby-progressbar

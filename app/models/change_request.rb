@@ -4,6 +4,7 @@ class ChangeRequest < ActiveRecord::Base
   validates :owner_id, presence: true
   store_accessor :payload, :email
   store_accessor :payload, :comment
+  scope :uncompleted, -> { where(completed: [ nil, false ]) }
 
   before_create do
     self.token = SecureRandom.hex(32)

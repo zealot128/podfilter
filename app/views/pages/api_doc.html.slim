@@ -1,0 +1,43 @@
+- @routes.each do |route|
+  - id = "#{route.route_method}-#{route.route_path.to_url}"
+
+  .route.panel.panel-default
+    .panel-heading
+      h3
+        a href='##{id}' data-toggle='collapse'
+          = route.route_method
+        code
+          = '/api/v1' + route.route_path
+    blockquote
+      = route.route_description
+    - parameters = route.route_params
+    .panel-body.collapse id=(id)
+      = form_tag "/api/v1#{route.route_path.gsub('(.:format)', '.json')}", method: :get, target: '_blank' do
+        table.detail
+          - parameters.each do |name, options|
+            tr.row
+              td
+                = name
+                - if options[:required]
+                  abbr< title='notwendig'
+                    |*
+              td
+                code
+                  = options[:type].split('::').last
+              td
+                = options[:desc]
+                - if options[:default]
+                  div
+                    | Standard:
+                    abbr< title=options[:default]
+                      - if options[:default].is_a? String
+                        = truncate options[:default]
+                      - else
+                        = options[:default]
+
+              td
+                td= text_field_tag name, options[:default]
+
+        - if route.route_method == 'GET'
+          = submit_tag 'Ausprobieren', class: 'btn btn-default'
+

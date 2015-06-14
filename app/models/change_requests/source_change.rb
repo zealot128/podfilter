@@ -13,7 +13,7 @@ class ChangeRequests::SourceChange < ChangeRequest
   end
 
   def to_s
-    "#{action == 'change' ? 'Änderung' : 'Löschung'} einer Quelle (#{source.url})"
+    "#{action == 'change' ? 'Änderung' : 'Löschung'} einer Quelle (#{source.try(:url) || '??'})"
   end
 
   def apply!
@@ -29,7 +29,7 @@ class ChangeRequests::SourceChange < ChangeRequest
   end
 
   def source
-    @source ||= Source.find(self.source_id)
+    @source ||= Source.find(self.source_id) rescue nil
   end
 
   def self.permit(params)

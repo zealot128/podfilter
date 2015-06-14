@@ -11,7 +11,11 @@ class PagesController < ApplicationController
     @owner = current_user
     @recommended_podcasts = @owner.recommended_podcasts.order('weight desc').
       select('podcasts.*, weight').page(params[:page]).per(10)
+  end
 
+  def api_doc
+    @title = 'API Dokumentation'
+    @routes = V1.routes
   end
 
   def recommendation_feed

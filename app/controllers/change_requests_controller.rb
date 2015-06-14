@@ -34,6 +34,11 @@ class ChangeRequestsController < ApplicationController
     else
       render :apply
     end
+  end
 
+  def destroy
+    @change_request = ChangeRequest.where(token: params[:id]).first!
+    @change_request.destroy
+    redirect_to :back, notice: 'Änderung gelöscht'
   end
 end

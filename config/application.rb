@@ -13,10 +13,12 @@ module Podfilter
     end
     config.time_zone = 'Berlin'
     config.i18n.default_locale = :de
-    config.lograge.enabled = true
+    # config.lograge.enabled = true
     config.active_record.raise_in_transactional_callbacks = true
-    config.lograge.custom_options = lambda do |event|
-      (event.payload[:params] || {}).except('utf8', 'action','controller')
-    end
+    # config.lograge.custom_options = lambda do |event|
+    #   (event.payload[:params] || {}).except('utf8', 'action','controller')
+    # end
+    Logster.store = Logster::RedisStore.new(Redis.new(db: ['development', 'test', 'production'].index(Rails.env)))
+    Logster.store.ignore = [/"\/logs/]
   end
 end
