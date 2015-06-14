@@ -7,7 +7,8 @@
         .progress.similarity title=(t('podcast.score', percent: sim))
           .progress-bar.progress-bar-default(style="width: #{sim}%")
           .sr-only = t 'podcast.score', percent: sim
-      = image_tag podcast.image.url(:thumb)
+      - if podcast.image?
+        = image_tag podcast.image.url(:thumb)
     .main
       .source-title: strong == link_to podcast.title, podcast
       - sources = podcast.sources.popular

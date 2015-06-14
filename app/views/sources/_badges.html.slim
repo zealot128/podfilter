@@ -18,10 +18,10 @@
       span.label.label-success title=(t('podcast.badges.has_media'))
         i.fa.fa-volume-up.fa-fw
     - if badge == :has_no_media
-      span.label.label-default title=(t('podcast.badges.has_media'))
+      span.label.label-default title=(t('podcast.badges.has_no_media'))
         i.fa.fa-volume-up.fa-fw
 
-  span.label.label-default title=(t('words.subscriber', count: source.owners_count))
+  span.label.label-default title=(t('words.subscriber', count: source.owners_count || 0))
     span.fa.fa-users.fa-fw>
     = '%02d' % (source.owners_count || 0)
   span.label.label-default title=(t('words.episode', count:  source.episodes.count))

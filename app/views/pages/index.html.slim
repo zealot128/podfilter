@@ -26,13 +26,13 @@
                 | Twitter
               a.btn.btn-primary.btn-xs<> href='/auth/github' rel='nofollow' data-no-turbolink=true
                 i.fa.fa-github<>
-                |Github
+                | Github
               a.btn.btn-primary.btn-xs<> href='/auth/facebook' rel='nofollow' data-no-turbolink=true
                 i.fa.fa-facebook<>
-                |Facebook
+                | Facebook
               a.btn.btn-primary.btn-xs<> href='/auth/gplus' rel='nofollow' data-no-turbolink=true
                 i.fa.fa-google-plus-square>
-                |Google+
+                | Google+
               p: small pages.index.auth_disclaimer
             li pages.index.manuel_step2
             li pages.index.manuel_step3
@@ -45,16 +45,17 @@
     .panel.panel-default
       .panel-heading: h3.panel-title
         | pages.index.newest_episodes
-        small<: a href=browse_recently_updated_path pages.index.more
+        small<: a href=(browse_recently_updated_path) pages.index.more
       .panel-body
         = cache ['newest', Episode.order('created_at desc').limit(1).pluck('created_at').first || 1] do
           ul.list-unstyled
             - FastQueries.recently_updated_podcasts.each do |episode, podcast|
               li
                 h4
-                  .pull-left
-                    = image_tag podcast.image.url(:thumb)
-                    = ' '
+                  - if podcast.image?
+                    .pull-left
+                      = image_tag podcast.image.url(:thumb)
+                      = ' '
                   = episode.title
                   | &nbsp;
                   small = l episode.pubdate.to_date rescue '??'
