@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150613211014) do
+ActiveRecord::Schema.define(version: 20150614125150) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -117,8 +117,10 @@ ActiveRecord::Schema.define(version: 20150613211014) do
     t.string   "image",               limit: 255
     t.boolean  "admin"
     t.integer  "primary_identity_id"
+    t.string   "api_key"
   end
 
+  add_index "owners", ["api_key"], name: "index_owners_on_api_key", unique: true, using: :btree
   add_index "owners", ["primary_identity_id"], name: "index_owners_on_primary_identity_id", using: :btree
   add_index "owners", ["token"], name: "index_owners_on_token", unique: true, using: :btree
 

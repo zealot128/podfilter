@@ -17,16 +17,15 @@ class OpmlFile < ActiveRecord::Base
   end
 
   private
+
   def randomize_id
     begin
       self.id = SecureRandom.random_number(1_000_000_000)
     end while OpmlFile.where(:id => self.id).exists?
   end
 
-
   def set_md5
     self.md5 = Digest::MD5.hexdigest(self.source || self.name)
   end
-
 
 end

@@ -24,6 +24,16 @@ class Owner < ActiveRecord::Base
     id.to_s
   end
 
+  before_save do
+    generate_api_key if !api_key
+  end
+
+  def generate_api_key
+    begin
+      self.api_key = SecureRandom.hex(64)
+    end while Owner.where(api_key: api_key).exists?
+  end
+
   def ignore_file
     opml_files.where(type: 'IgnoreFile').first || IgnoreFile.create(owner: self, source: '', name: 'Podcast Ignore-Liste')
   end
@@ -39,7 +49,7 @@ class Owner < ActiveRecord::Base
   def randomize_id
     begin
       self.id = SecureRandom.random_number(1_000_000_000)
-    end while OpmlFile.where(:id => self.id).exists?
+    end while Owner.where(:id => self.id).exists?
   end
 
 end
