@@ -1,9 +1,7 @@
 class V1 < Grape::API
   include LoggingApi
 
-  content_type :csv, 'text/csv; charset=iso-8859-1; header=present'
   default_format :json
-  formatter :csv, CsvFormatter
 
   before do
     @owner = Owner.where(api_key: params[:api_key]).first
@@ -13,7 +11,11 @@ class V1 < Grape::API
   end
 
   resource :subscribers do
-    desc 'Liste aller (pseudonymisierten) Abonnenten und alle Podcasts, die diese hören, als flache Liste. Akzeptiert JSON oder CSV.'
+    content_type :csv, 'text/csv; charset=iso-8859-1; header=present'
+    content_type :json, 'application/json'
+    formatter :csv, CsvFormatter
+
+    desc 'Liste aller (pseudonymisierten) Abonnenten und alle Podcasts, die diese hören, als flache Liste.'
     params do
       requires :api_key, type: String
     end
