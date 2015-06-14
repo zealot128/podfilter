@@ -29,7 +29,7 @@ module LoggingApi
       trace = e.backtrace.grep(/podfilter/)
       Rails.logger.error "#{e.message}\n\n#{trace.join("\n")}"
       ExceptionNotifier.notify_exception(e) if Rails.env.production?
-      Rack::Response.new({ message: e.message, backtrace: trace }.to_json, 500, { 'Content-type' => 'application/json' }).finish
+      Rack::Response.new({ message: e.message}.to_json, 500, { 'Content-type' => 'application/json' }).finish
     end
 
   end

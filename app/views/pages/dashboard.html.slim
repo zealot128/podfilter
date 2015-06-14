@@ -70,6 +70,7 @@ br
 br
 .panel.panel-default
   .panel-heading: h3.panel-title API-Nutzung
-  p Dein Api Key ist:
-  code = current_user.api_key
-  p Infos zur Nutzung der API hier: #{link_to '/api/v1', '/api/v1'}
+  .panel-body
+    p Dein Api Key ist:
+    code = current_user.api_key
+    p Infos zur Nutzung der API hier: #{link_to '/api/v1', '/api/v1'}
