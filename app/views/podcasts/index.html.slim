@@ -1,6 +1,6 @@
 h1 = @title
 
-= form_tag podcasts_path, method: :get, class: 'form' do
+= form_tag podcasts_path, method: :get, class: 'form form-inline' do
   .form-group
     input.form-control type='text' placeholder="#{t('.placeholder')}" name='q' value=params[:q]
 
@@ -8,6 +8,8 @@ h1 = @title
     button.btn.btn-inverse type='submit'
       i.fa.fa-fw.fa-search<>
       | podcasts.index.search_button
+  br
+  br
 
 - @podcasts.in_groups_of(2) do |group|
   .row
