@@ -16,3 +16,6 @@ end
 every 1.day, at: '6am' do
   rake '-s sitemap:refresh'
 end
+every :tuesday, at: '07:00' do
+  runner 'AutoImport.run_all'
+end

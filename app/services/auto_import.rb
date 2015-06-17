@@ -4,6 +4,11 @@ class AutoImport
 
   def self.run_all
     AutoImport::BitloveImportPodcasts.run
+    AutoImport::BitloveOriginalSourceFetcher.run
+  end
+
+  def run
+    new.run
   end
 
   def conflict!(source1, source2)
@@ -52,12 +57,9 @@ class AutoImport
         order('podcast_id, owners_count desc').
         select('distinct on (podcast_id) sources.*')
     end
-
-
   end
 
   class BitloveImportPodcasts < AutoImport
-
     def run
       doc = Nokogiri::XML.parse(open('http://bitlove.org/directory.opml'))
       users = doc.search('body > outline')
