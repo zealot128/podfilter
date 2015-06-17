@@ -15,6 +15,10 @@ class AutoImport
     source.podcast.sources.create!(url: url, created_at: 1.day.ago).enqueue
   end
 
+  def find_source(url)
+    Source.where('url ilike ?', url).first
+  end
+
   class BitloveOriginalSourceFetcher < AutoImport
     def run
       sources.each do |source|
@@ -28,8 +32,8 @@ class AutoImport
           next
         end
         other_sources = doc.xpath('//channel/atom:link', atom: 'http://www.w3.org/2005/Atom').select{|i| i['rel'] == 'self' }.map{|i| i['href']}
-        other_sources.each do |url|
-          existing = Source.where(url: url).first
+        other_sources.uniq.each do |url|
+          existing = find_source(url)
           if existing
             if existing.podcast_id != source.podcast_id
               conflict!(source, existing)
@@ -49,6 +53,7 @@ class AutoImport
         select('distinct on (podcast_id) sources.*')
     end
 
+
   end
 
   class BitloveImportPodcasts < AutoImport
@@ -65,7 +70,7 @@ class AutoImport
           sources = []
           missing = []
           urls.each do |url|
-            if source = Source.where(url: url).first
+            if source = find_source(url)
               sources << source
             else
               missing << url
