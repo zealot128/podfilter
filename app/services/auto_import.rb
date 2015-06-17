@@ -7,20 +7,23 @@ class AutoImport
   end
 
   def conflict!(source1, source2)
-    Rails.logger.error "#{source1.id} and #{source2.id} differ in parent Podcast"
+    Rails.logger.error "Bitlove: #{source1.id} and #{source2.id} differ in parent Podcast"
+  end
+
+  def append_podcast!(source, url)
+    Rails.logger.info "Bitlove: New Source for #{source.id} -> #{url}"
+    source.podcast.sources.create!(url: url, created_at: 1.day.ago).enqueue
   end
 
   class BitloveOriginalSourceFetcher < AutoImport
     def run
       sources.each do |source|
-        puts source.url
         doc = nil
         begin
           doc = Nokogiri::XML.parse(open(source.url))
         rescue OpenURI::HTTPError => e
-          if e.to_s['404']
-          else
-            Rails.logger.error "Bitlove 500 error #{source.url}"
+          if !e.to_s['404']
+            Rails.logger.error "Bitlove: 500 error #{source.url}"
           end
           next
         end
@@ -34,7 +37,7 @@ class AutoImport
               next
             end
           else
-            source.podcast.sources.create!(url: url, created_at: 1.day.ago)
+            append_podcast!(source, url)
           end
         end
       end
@@ -58,8 +61,7 @@ class AutoImport
         podcasts = user.search('outline').group_by{|i| i['text']}.values
         podcasts.each do |podcast|
           urls = podcast.map{|i| i['xmlUrl'] }
-          puts "Processing #{urls.join(', ')}"
-
+          Rails.logger.info "Bitlove: processing #{urls.join(', ')}"
           sources = []
           missing = []
           urls.each do |url|
@@ -71,6 +73,7 @@ class AutoImport
           end
           case sources.count
           when 0
+            Rails.logger.info "Bitlove: New Source #{url}"
             main = Source.create(url: missing.shift, created_at: 1.month.ago)
             main.full_refresh
           when 1
@@ -84,11 +87,9 @@ class AutoImport
             end
           end
 
-          s = missing.map do |other_source|
-            puts " merging #{other_source} into #{main.url}"
-            main.podcast.sources.create!(url: other_source)
+          missing.each do |other_source|
+            append_podcast(main, other_source)
           end
-          Source.where(id: s.map(&:id)).enqueue
         end
       end
     end

@@ -22,6 +22,7 @@ class Source < ActiveRecord::Base
       self.podcast.destroy
     end
   end
+
   after_save do
     podcast.try(:set_subscriber_count!)
   end
@@ -72,6 +73,10 @@ class Source < ActiveRecord::Base
 
   def full_refresh
     FeedFetcher.new(self).run!
+  end
+
+  def enqueue
+    SourceUpdateWorker.perform_async(id)
   end
 
   def self.enqueue
