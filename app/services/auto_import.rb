@@ -79,7 +79,7 @@ class AutoImport
           when 1
             main = sources.first
           else
-            if sources.map{|i| i.podcast_id }.count == 1
+            if sources.map{|i| i.podcast_id }.uniq.count == 1
               main = sources.first
             else
               conflict!(sources.first, sources[1])
