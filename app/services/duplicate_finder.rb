@@ -10,6 +10,7 @@ class DuplicateFinder
     192.168.179.23:9000
     128.210.157.22:1013
     217.115.153.122
+    www.podfilter.de
     ]
     hosts.each do |host|
       Source.where('url like ?', "%#{host}%").each do |s|

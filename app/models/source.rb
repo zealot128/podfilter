@@ -18,7 +18,7 @@ class Source < ActiveRecord::Base
   has_many :redirected_from, class_name: 'Source', foreign_key: 'redirected_to_id'
 
   after_destroy do
-    if self.podcast.sources.blank?
+    if self.podcast && self.podcast.sources.blank?
       self.podcast.destroy
     end
   end
