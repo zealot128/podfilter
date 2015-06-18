@@ -5,6 +5,25 @@ class DuplicateFinder
     new.run
   end
 
+  def self.remove_unwanted
+    hosts = %w[
+    192.168.179.23:9000
+    128.210.157.22:1013
+    217.115.153.122
+    ]
+    hosts.each do |host|
+      Source.where('url like ?', "%#{host}%").each do |s|
+        podcast = s.podcast
+        s.episodes.delete_all
+        s.destroy
+
+        if podcast.sources.count == 0
+          podcast.destroy
+        end
+      end
+    end
+  end
+
   def self.get_dupegroups
     (Rails.cache.read('dupes') || {}).map {|k,v| v + [k] }
   end
