@@ -59,13 +59,14 @@ class DuplicateFinder
       puts "Merging:"
       puts podcast.map{|i|
         titles = i.sources.popular.first.episodes.newest_first.limit(3).map(&:title)
-        " * #{i.title} http://www.podfilter.de/podcasts/#{i.id} (#{i.sources.map(&:url).join(', ')})"  +
-          "  Letzte 3 Titel:\n#{titles.map{|f| "   " + f}. join("\n ")}"
+        " * #{i.title.green} http://www.podfilter.de/podcasts/#{i.id} (#{i.sources.map(&:url).join(', ')})"  +
+          "  Letzte 3 Titel:\n#{titles.map{|f| "   " + f.blue}. join("\n")}"
       }.join("\n")
-      buf = Readline.readline("(J/n) ", true)
-      next if buf[/n/i]
-      p = podcast.sort_by{|i| -i.subscriber_count }
-      p.first.merge(p)
+      buf = Readline.readline("(j/N) ", true)
+      if buf[/j/i]
+        p = podcast.sort_by{|i| -i.subscriber_count }
+        p.first.merge(p)
+      end
     end
   end
 

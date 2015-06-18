@@ -428,6 +428,7 @@ DEPENDENCIES
   capybara (~> 2.2.0.rc1)
   carrierwave
   coffee-rails (~> 4.0.0)
+  colorize
   dotenv-rails
   exception_notification!
   fabrication

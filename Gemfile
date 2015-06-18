@@ -21,6 +21,7 @@ gem 'transaction_retry'
 gem 'grape'
 gem 'redis'
 gem 'logster'
+gem 'colorize'
 
 gem 'dotenv-rails'
 gem "font-awesome-rails", '~> 4.0'
