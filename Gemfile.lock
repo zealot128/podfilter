@@ -9,9 +9,9 @@ GIT
 
 GIT
   remote: git://github.com/smartinez87/exception_notification.git
-  revision: 535aa76045762cca644bd26dd4d2e8144f6ecffe
+  revision: b4149bf8311426396772a1ed9603d5d48a14ac4f
   specs:
-    exception_notification (4.1.0)
+    exception_notification (4.1.1)
       actionmailer (>= 3.0.4)
       activesupport (>= 3.0.4)
 
