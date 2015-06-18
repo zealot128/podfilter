@@ -39,7 +39,10 @@ class DuplicateFinder
       podcast = Podcast.where(id: ids)
       puts "Merging:"
       puts podcast.map{|i|
-        " * #{i.title} http://www.podfilter.de/podcasts/#{i.id} (#{i.sources.map(&:url).join(', ')})" }.join("\n")
+        titles = i.sources.popular.first.episodes.newest_first.limit(3).map(&:title)
+        " * #{i.title} http://www.podfilter.de/podcasts/#{i.id} (#{i.sources.map(&:url).join(', ')})"  +
+          "  Letzte 3 Titel:\n#{titles.map{|f| "   " + f}. join("\n ")}"
+      }.join("\n")
       buf = Readline.readline("(J/n) ", true)
       next if buf[/n/i]
       p = podcast.sort_by{|i| -i.subscriber_count }
