@@ -32,6 +32,21 @@ class DuplicateFinder
     end
   end
 
+  def self.by_episode_title(limit: 50)
+    all = Episode.joins(:source).group('episodes.title').where('length(title) > 12').having('count(distinct podcast_id) > 1').pluck('title, array_agg(distinct podcast_id)').map{|title, podcast_ids| [title, podcast_ids.sort ]}.select{|t,_| t.present? and t.length > 11 }
+    descending = all.group_by{|t,p| p}.map{|p, ps| [p, ps.count]}.select{|p,c| c >= limit }.sort_by{|p,c| -c}
+    descending.each do |ids, count, one_title|
+      podcast = Podcast.where(id: ids)
+      puts "Merging:"
+      puts podcast.map{|i|
+        " * #{i.title} http://www.podfilter.de/podcasts/#{i.id} (#{i.sources.map(&:url).join(', ')})" }.join("\n")
+      buf = Readline.readline("(J/n) ", true)
+      next if buf[/n/i]
+      p = podcast.sort_by{|i| -i.subscriber_count }
+      p.first.merge(p)
+    end
+  end
+
   def run
     found_dupes = {}
     ignore = Source.where('url ~ ?', IGNORE.map{|i| Regexp.escape(i) }.join('|')).pluck(:id)

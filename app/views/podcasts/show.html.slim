@@ -39,7 +39,7 @@
     .alert.alert-warning
       | podcasts.show.no_new
   .row
-    - @source.episodes.order('pubdate desc').each_with_index do |e,i|
+    - @source.episodes.order('pubdate desc').limit(200).each_with_index do |e,i|
       - if i % 2 == 0
         .visible-xs.clearfix
       - if i % 4 == 0
