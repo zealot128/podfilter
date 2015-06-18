@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 ruby '2.1.1'
 gem 'rails', '~> 4.2.0'
+
+# TODO https://github.com/rails/rails/pull/19665
+# # https://github.com/rack/rack/issues/896
+gem 'rack', '1.6.2'
+
 gem 'sass-rails', '~> 5.0.0.beta1'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -69,9 +74,9 @@ group :unrequired do
 end
 
 group :production do
-  gem 'exception_notification', github: 'smartinez87/exception_notification'
 end
 
+gem 'exception_notification', github: 'smartinez87/exception_notification'
 group :development do
   gem 'pry-stack_explorer'
   gem 'habtm_generator'
