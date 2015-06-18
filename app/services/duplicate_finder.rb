@@ -17,7 +17,7 @@ class DuplicateFinder
         s.episodes.delete_all
         s.destroy
 
-        if podcast.sources.count == 0
+        if podcast && podcast.sources.count == 0
           podcast.destroy
         end
       end
