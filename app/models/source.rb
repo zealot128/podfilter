@@ -56,7 +56,7 @@ class Source < ActiveRecord::Base
   scope :not_redirected, -> { where('redirected_to_id is null') }
   scope :inactive, -> { where(active: false) }
   scope :listened, -> { where('owners_count > 0')}
-  scope :popular, -> { order('active = false and offline = true and has_media = false and owners_count is null, owners_count desc') }
+  scope :popular, -> { order('active = false or offline = true or has_media = false or owners_count is null, owners_count desc') }
   scope :without_media_live, -> { where('(select id from episodes where source_id = sources.id and media_url is null limit 1) is not null') }
   scope :with_media_live,    -> { where('(select id from episodes where source_id = sources.id and media_url is not null limit 1) is not null') }
 
