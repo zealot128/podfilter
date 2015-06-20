@@ -1,17 +1,12 @@
 
 class DuplicateFinder
   IGNORE = %w[ argovia.ch ]
+  DELETE = %w[ 192.168.179.23:9000 128.210.157.22:1013 217.115.153.122 podfilter.de ]
   def self.cronjob
     new.run
   end
 
-  def self.remove_unwanted
-    hosts = %w[
-    192.168.179.23:9000
-    128.210.157.22:1013
-    217.115.153.122
-    www.podfilter.de
-    ]
+  def self.remove_unwanted(hosts: DELETE)
     hosts.each do |host|
       Source.where('url like ?', "%#{host}%").each do |s|
         podcast = s.podcast
@@ -55,11 +50,13 @@ class DuplicateFinder
   def self.by_episode_title(limit: 50, modus: :auto)
     all = Episode.joins(:source).group('episodes.title').where('length(title) > 12').having('count(distinct podcast_id) > 1').pluck('title, array_agg(distinct podcast_id)').map{|title, podcast_ids| [title, podcast_ids.sort ]}.select{|t,_| t.present? and t.length > 11 }
     descending = all.group_by{|t,p| p}.map{|p, ps| [p, ps.count]}.select{|p,c| c >= limit }.sort_by{|p,c| -c}
+
+    j = 0
     descending.each do |ids, count, one_title|
       podcast = Podcast.where(id: ids)
-      puts "Merging:"
+      puts "Merging: #{j+=1} / #{descending.count}"
       podcast_with_newest_episodes = podcast.map{|i|
-        titles = i.sources.popular.first.episodes.newest_first.limit(3).map(&:title)
+        titles = i.sources.popular.first.episodes.newest_first.limit(5).map(&:title)
         [ i, titles ]
       }
 
