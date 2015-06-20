@@ -52,17 +52,29 @@ class DuplicateFinder
     end
   end
 
-  def self.by_episode_title(limit: 50)
+  def self.by_episode_title(limit: 50, modus: :auto)
     all = Episode.joins(:source).group('episodes.title').where('length(title) > 12').having('count(distinct podcast_id) > 1').pluck('title, array_agg(distinct podcast_id)').map{|title, podcast_ids| [title, podcast_ids.sort ]}.select{|t,_| t.present? and t.length > 11 }
     descending = all.group_by{|t,p| p}.map{|p, ps| [p, ps.count]}.select{|p,c| c >= limit }.sort_by{|p,c| -c}
     descending.each do |ids, count, one_title|
       podcast = Podcast.where(id: ids)
       puts "Merging:"
-      puts podcast.map{|i|
+      podcast_with_newest_episodes = podcast.map{|i|
         titles = i.sources.popular.first.episodes.newest_first.limit(3).map(&:title)
+        [ i, titles ]
+      }
+
+      puts podcast_with_newest_episodes.map{|i, titles|
         " * #{i.title.green} http://www.podfilter.de/podcasts/#{i.id} (#{i.sources.map(&:url).join(', ')})"  +
           "  Letzte 3 Titel:\n#{titles.map{|f| "   " + f.blue}. join("\n")}"
       }.join("\n")
+      if modus == :auto and podcast_with_newest_episodes.count == 2
+        if podcast_with_newest_episodes[0][1] == podcast_with_newest_episodes[1][1]
+          puts " Auto-Merging".red
+          p = podcast.sort_by{|i| -i.subscriber_count }
+          p.first.merge(p)
+          next
+        end
+      end
       buf = Readline.readline("(j/N) ", true)
       if buf[/j/i]
         p = podcast.sort_by{|i| -i.subscriber_count }
