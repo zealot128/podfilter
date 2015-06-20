@@ -13,11 +13,16 @@ class AutoImport
   end
 
   def conflict!(source1, source2)
-    Rails.logger.error "Bitlove: #{source1.id} and #{source2.id} differ in parent Podcast"
+    Rails.logger.error "#{self.class}: #{source1.id} and #{source2.id} differ in parent Podcast"
+  end
+
+  def merge!(source1, source2)
+    p = [source1.podcast, source2.podcast].sort_by{ |i| -(i.owners_count || 0) }
+    p.first.merge(p)
   end
 
   def append_podcast!(source, url)
-    Rails.logger.info "Bitlove: New Source for #{source.id} -> #{url}"
+    Rails.logger.info "#{self.class}: New Source for #{source.id} -> #{url}"
     if source.podcast.blank?
       main = create_podcast(url)
       main.podcast.sources << source
@@ -37,7 +42,6 @@ class AutoImport
   end
 
   def merge_urls_to_podcast(urls)
-    Rails.logger.info "  merging #{urls.join(', ')}"
     sources = []
     missing = []
     main = nil
@@ -58,15 +62,17 @@ class AutoImport
       if sources.map{|i| i.podcast_id }.uniq.count == 1
         main = sources.first
       else
-        conflict!(sources.first, sources[1])
+        merge!(sources.first, sources[1])
         return
       end
+    end
+    if missing.any?
+      Rails.logger.info "  merging #{urls.join(', ')}"
     end
     missing.each do |other_source|
       append_podcast!(main, other_source)
     end
   end
-
 
   class HoersuppeFetcher < AutoImport
     def initialize(hoersuppe_url)
