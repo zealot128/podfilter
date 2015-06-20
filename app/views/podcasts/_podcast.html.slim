@@ -11,7 +11,7 @@
         = image_tag podcast.image.url(:thumb)
     .main
       .source-title: strong == link_to podcast.title, podcast
-      - sources = podcast.sources.popular
+      - sources = podcast.sources.popular.not_redirected
       - limit   = @podcast == podcast ? 1000 : source_limit
       - sources.limit(limit).each do |source|
         .row

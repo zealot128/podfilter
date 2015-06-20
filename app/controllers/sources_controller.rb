@@ -3,6 +3,9 @@ class SourcesController < ApplicationController
 
   def show
     @podcast = @source.podcast
+    if @source.redirected_to
+      redirect_to [@podcast, @source.redirected_to]
+    end
     render 'podcasts/show'
   end
 
