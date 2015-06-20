@@ -74,9 +74,9 @@ group :unrequired do
 end
 
 group :production do
+  gem 'exception_notification', github: 'smartinez87/exception_notification'
 end
 
-gem 'exception_notification', github: 'smartinez87/exception_notification'
 group :development do
   gem 'pry-stack_explorer'
   gem 'habtm_generator'

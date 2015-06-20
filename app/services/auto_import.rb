@@ -5,6 +5,7 @@ class AutoImport
   def self.run_all
     AutoImport::BitloveImportPodcasts.run
     AutoImport::BitloveOriginalSourceFetcher.run
+    AutoImport::HoersupperFetcher.run
   end
 
   def run
@@ -22,6 +23,72 @@ class AutoImport
 
   def find_source(url)
     Source.where('url ilike ?', url).first
+  end
+
+  def create_podcast(url)
+    main = Source.create(url: url, created_at: 1.month.ago)
+    main.full_refresh
+    main
+  end
+
+  def merge_urls_to_podcast(urls)
+    sources = []
+    missing = []
+    urls.each do |url|
+      if source = find_source(url)
+        sources << source
+      else
+        missing << url
+      end
+    end
+    case sources.count
+    when 0
+      Rails.logger.info "#{self.class}: New Source #{missing[0]}"
+      main = create_podcast(missing.shift)
+    when 1
+      main = sources.first
+    else
+      if sources.map{|i| i.podcast_id }.uniq.count == 1
+        main = sources.first
+      else
+        conflict!(sources.first, sources[1])
+        return
+      end
+    end
+    missing.each do |other_source|
+      append_podcast!(main, other_source)
+    end
+  end
+
+
+  class HoersupperFetcher < AutoImport
+    def initialize(hoersuppe_url)
+      @url = hoersuppe_url
+    end
+
+    def run
+      Rails.logger.info "#{self.class}: Processing #{@url}"
+      doc = visit @url
+      js = doc.at('.podlove-subscribe-button').parent.search('script').last.text
+      urls = js.scan(/"url":"([^"]*)"/).flatten
+      merge_urls_to_podcast(urls)
+    end
+
+    def self.run
+      doc = visit 'http://hoersuppe.de/flattrlist'
+      urls = doc.search('.entry-content .FlattrButton').map{|i| i['href']}
+      urls.each do |url|
+        new(url).run
+      end
+    end
+
+    def visit(*args)
+      self.class.visit(*args)
+    end
+
+    def self.visit(url)
+      Nokogiri.parse open(url)
+    end
   end
 
   class BitloveOriginalSourceFetcher < AutoImport
@@ -69,34 +136,7 @@ class AutoImport
         podcasts.each do |podcast|
           urls = podcast.map{|i| i['xmlUrl'] }
           Rails.logger.info "Bitlove: processing #{urls.join(', ')}"
-          sources = []
-          missing = []
-          urls.each do |url|
-            if source = find_source(url)
-              sources << source
-            else
-              missing << url
-            end
-          end
-          case sources.count
-          when 0
-            Rails.logger.info "Bitlove: New Source #{url}"
-            main = Source.create(url: missing.shift, created_at: 1.month.ago)
-            main.full_refresh
-          when 1
-            main = sources.first
-          else
-            if sources.map{|i| i.podcast_id }.uniq.count == 1
-              main = sources.first
-            else
-              conflict!(sources.first, sources[1])
-              next
-            end
-          end
-
-          missing.each do |other_source|
-            append_podcast(main, other_source)
-          end
+          merge_urls_to_podcast(urls)
         end
       end
     end
