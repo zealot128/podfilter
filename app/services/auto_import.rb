@@ -17,7 +17,7 @@ class AutoImport
   end
 
   def merge!(source1, source2)
-    p = [source1.podcast, source2.podcast].sort_by{ |i| -(i.owners_count || 0) }
+    p = [source1.podcast, source2.podcast].sort_by{ |i| -(i.subscriber_count || 0) }
     p.first.merge(p)
   end
 
