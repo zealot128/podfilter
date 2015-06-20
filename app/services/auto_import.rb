@@ -5,7 +5,7 @@ class AutoImport
   def self.run_all
     AutoImport::BitloveImportPodcasts.run
     AutoImport::BitloveOriginalSourceFetcher.run
-    AutoImport::HoersupperFetcher.run
+    AutoImport::HoersuppeFetcher.run
   end
 
   def run
@@ -18,7 +18,12 @@ class AutoImport
 
   def append_podcast!(source, url)
     Rails.logger.info "Bitlove: New Source for #{source.id} -> #{url}"
-    source.podcast.sources.create!(url: url, created_at: 1.day.ago).enqueue
+    if source.podcast.blank?
+      main = create_podcast(url)
+      main.podcast.sources << source
+    else
+      source.podcast.sources.create!(url: url, created_at: 1.day.ago).enqueue
+    end
   end
 
   def find_source(url)
@@ -32,8 +37,10 @@ class AutoImport
   end
 
   def merge_urls_to_podcast(urls)
+    Rails.logger.info "  merging #{urls.join(', ')}"
     sources = []
     missing = []
+    main = nil
     urls.each do |url|
       if source = find_source(url)
         sources << source
@@ -61,7 +68,7 @@ class AutoImport
   end
 
 
-  class HoersupperFetcher < AutoImport
+  class HoersuppeFetcher < AutoImport
     def initialize(hoersuppe_url)
       @url = hoersuppe_url
     end
