@@ -72,8 +72,8 @@ de:
       has_media: "Feed hat Episoden mit Medieninhalten"
       has_no_media: "Feed hat keine Medieninhalte"
     manage_button:
-      remove_from_list:
-      add_to_list:
+      remove_from_list: von Liste entfernen
+      add_to_list: zu Liste hinzufügen
 
   words:
     subscriber:
@@ -103,9 +103,20 @@ de:
       change_source: Quelle ändern oder löschen
       chart: Sendungshäufigkeit
   opml_files:
+    updated: 'Liste aktualisiert'
+    deleted: 'Liste gelöscht'
+    created: 'Liste erstellt'
+    new:
+      title: 'Neue Liste erstellen'
     show:
       uploaded_on: 'Hochgeladen am: %{date}'
-      page_title: 'OPML-Datei'
+      page_title: 'OPML-Datei: %{name}'
+      edit: 'Umbenennen'
+      empty: "Bisher sind keine Podcasts in dieser Liste hinterlegt."
+      delete: Liste löschen
+      delete_confirm: Das Löschen dieser Liste kann nicht rückgängig gemacht werden. Fortfahren?
+    edit:
+      title: 'Liste umbenennen'
     added: "Quelle %{title} hinzugefügt"
     remove: "Quelle %{title} entfernt"
   application:
@@ -115,6 +126,7 @@ de:
     signed_out: 'Du wurdest ausgeloggt.'
   dashboard:
     title: Dashboard
+    new_opml: Neue Liste anlegen
     opml_info: "Alle Listen kannst du beliebig mit anderen Nutzern teilen. Podcasts in der Ignore-Liste werden bei Empfehlungen nicht mehr angezeigt und gehen auch entsprechend in den Empfehlungsalgorithmus mit ein."
     cookie_message: ' Du bist zur Zeit per Cookie angemeldet. Um später hierher zurückzukommen, nutze jetzt ein Login über ein soziales Netzwerk oder bookmarke diese Seite:'
     podcast_lists: 'Meine Podcast-Listen:'

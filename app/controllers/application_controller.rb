@@ -28,7 +28,9 @@ class ApplicationController < ActionController::Base
     # NOTE Cancan 4 -> strong params
   before_filter do
     method = "permitted_params"
-    params[resource] &&= send(method) if respond_to?(method, true)
+    if respond_to?(method, true) and defined?(resource)
+      params[resource] &&= send(method)
+    end
   end
 
   def current_user(create=false)

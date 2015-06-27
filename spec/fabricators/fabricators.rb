@@ -19,6 +19,7 @@ end
 
 Fabricator :opml_file do
   owner
+  name 'Standard-File'
   type 'OpmlFile'
   source <<-DOC
 <?xml version='1.0' encoding='utf-8' standalone='no' ?><opml version="1.1"></opml>

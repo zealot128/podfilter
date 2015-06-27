@@ -75,6 +75,12 @@ class OpmlImport
 
   def opml
     date = I18n.l(Date.today)
-    @opml ||= OpmlFile.create(owner: owner, source: text, name: t('default_name', date: date ))
+    original_name = t('default_name', date: date)
+    name = original_name
+    i = 0
+    while owner.opml_files.where(name: name).any? do
+      name = original_name + " (#{i+=1})"
+    end
+    @opml ||= OpmlFile.create(owner: owner, source: text, name: name)
   end
 end

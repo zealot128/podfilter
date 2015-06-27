@@ -1,6 +1,29 @@
-h1 = t '.page_title'
+- content_for :content_header do
 
-p = t '.uploaded_on', date: l(@opml_file.created_at.to_date)
+  section#main-attention-drawer: .container
+    h1 = t '.page_title', name: @opml_file.name
+    p = t '.uploaded_on', date: l(@opml_file.created_at.to_date)
 
+    .row: .col-xs-12
+      - if can? :edit, @opml_file
+        = link_to [:edit, :dashboard, @opml_file], class: 'btn btn-primary btn-xs' do
+          |opml_files.show.edit
+        = ' '
+      - if can? :destroy, @opml_file
+        = link_to [:dashboard, @opml_file], data: { method: :delete, confirm: t('opml_files.show.delete_confirm')}, class: 'btn btn-primary btn-xs' do
+          |opml_files.show.delete
+        = ' '
 
+      a.btn.btn-default.btn-xs> href=(opml_file_path(@opml_file, format: :xml))
+        | dashboard.show_opml
+      a.btn.btn-default.btn-xs(href=opml_file_path(@opml_file, format: :xml, download: true))
+        | dashboard.download_opml
+
+br
 = render @opml_file.podcasts
+
+- if @opml_file.podcasts.blank?
+  .alert.alert-warning opml_files.show.empty
+
+br
+br

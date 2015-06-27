@@ -15,6 +15,11 @@ class Ability
       can :manage, :all
     end
 
+    if user
+      can :manage, OpmlFile, owner_id: user.id
+      cannot :destroy, OpmlFile, type: 'IgnoreFile'
+    end
+
     if user && user.primary_identity.present?
 
     end

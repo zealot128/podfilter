@@ -14,5 +14,8 @@
             | dashboard.show_opml
           a.btn.btn-default.btn-xs(href=opml_file_path(file, format: :xml, download: true))
             | dashboard.download_opml
+    br
+    = link_to [:new, :dashboard, :opml_file], class: 'btn btn-primary btn-xs' do
+      | dashboard.new_opml
   .panel-footer
     | dashboard.opml_info
