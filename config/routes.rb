@@ -28,7 +28,7 @@ Podfilter::Application.routes.draw do
 
   get '/auth/:provider/callback', to: 'sessions#create', as: :omniauth_provider
   get 'abmelden' => 'sessions#destroy'
-  get 'dashboard' => 'pages#dashboard', as: :dashboard
+  get 'dashboard' => 'dashboard#index', as: :dashboard
   get 'recommendations/:owner_id/feed' => 'pages#recommendation_feed', as: :recommendation_feed
 
   resources :change_requests do

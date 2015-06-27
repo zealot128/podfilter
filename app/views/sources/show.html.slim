@@ -1,0 +1,17 @@
+.alert.alert-warning
+  p = t 'podcasts.show.not_fetched'
+h2 = t 'podcasts.show.source', url: @source.url
+- if @source.offline?
+  .alert.alert-warning
+    | podcasts.show.offline
+- if @source.episodes.count == 0
+  .alert.alert-warning
+    | podcasts.show.no_new
+.row
+  - @source.episodes.order('pubdate desc').limit(100).each_with_index do |e,i|
+    - if i % 2 == 0
+      .visible-xs.clearfix
+    - if i % 4 == 0
+      .hidden-xs.clearfix
+    .col-sm-3.col-xs-6
+      = render e, short: true

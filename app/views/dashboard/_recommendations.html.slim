@@ -1,0 +1,11 @@
+.panel.panel-primary
+  .panel-heading: h3.panel-title dashboard.recommendation_headline
+  .panel-body
+    - if recommended_podcasts.blank?
+      .alert.alert-warning dashboard.no_recommendations
+    - recommended_podcasts.in_groups_of(2) do |group|
+      .row
+        = render group.compact
+        .clearfix.visible-xs
+
+    = paginate recommended_podcasts

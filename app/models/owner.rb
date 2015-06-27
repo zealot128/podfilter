@@ -20,6 +20,10 @@ class Owner < ActiveRecord::Base
 
   before_create :randomize_id
 
+  def only_token_user?
+    token.present? and primary_identity.blank?
+  end
+
   def to_s
     id.to_s
   end

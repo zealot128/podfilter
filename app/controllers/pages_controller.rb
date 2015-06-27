@@ -1,5 +1,4 @@
 class PagesController < ApplicationController
-  before_action :require_login, only: :dashboard
   def index
     @most = Podcast.order('subscriber_count desc').limit(20).includes(:sources)
   end
@@ -8,9 +7,6 @@ class PagesController < ApplicationController
   end
 
   def dashboard
-    @owner = current_user
-    @recommended_podcasts = @owner.recommended_podcasts.order('weight desc').
-      select('podcasts.*, weight').page(params[:page]).per(10)
   end
 
   def api_doc

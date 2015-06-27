@@ -1,0 +1,18 @@
+.panel.panel-default
+  .panel-heading: h3.panel-title dashboard.podcast_lists
+  .panel-body
+    - opml_files.each do |file|
+      .row.opml-file
+        .col-sm-6
+          strong
+            = link_to file do
+              == file.to_s
+          br
+          small= t 'dashboard.contains_podcasts', count: file.sources.count
+        .col-sm-6
+          a.btn.btn-default.btn-xs> href=(opml_file_path(file, format: :xml))
+            | dashboard.show_opml
+          a.btn.btn-default.btn-xs(href=opml_file_path(file, format: :xml, download: true))
+            | dashboard.download_opml
+  .panel-footer
+    | dashboard.opml_info

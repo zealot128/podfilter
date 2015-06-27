@@ -1,0 +1,21 @@
+.panel.panel-default
+  .panel-heading: h3.panel-title
+    i.fa-rss.fa>
+    | dashboard.recommendation_feed
+  .panel-body
+    p dashboard.recommendation_feed_sub
+    javascript:
+      window.recommendation_feed = #{raw podlove_data.to_json};
+
+    script.podlove-subscribe-button src="/podlove/javascripts/app.js" data-language="de" data-size="big" data-json-data="recommendation_feed"
+
+    br
+    small: a href='#recommendation-urls' data-toggle='collapse' URLs anzeigen
+    #recommendation-urls.collapse
+      pre.scrollable
+        = link_to recommendation_feed_url(owner_id: current_user, no_torrent: 1) do
+          = recommendation_feed_url(owner_id: current_user, no_torrent: 1)
+      br
+      pre.scrollable
+        = link_to recommendation_feed_url(owner_id: current_user) do
+          = recommendation_feed_url(owner_id: current_user)

@@ -7,7 +7,11 @@ class SourcesController < ApplicationController
       return
     end
     @podcast = @source.podcast
-    render 'podcasts/show'
+    if @podcast.nil?
+      render 'show'
+    else
+      render 'podcasts/show'
+    end
   end
 
 end
