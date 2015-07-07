@@ -23,10 +23,10 @@
         tr
           td colspan='3'
             = link_to 'Weitere Quelle hinzufügen', new_change_request_path(type: 'ChangeRequests::NewPodcast', podcast_id: @podcast.id)
-
-- if (similar = @podcast.similar_podcasts(limit: 6)).count > 0
-  h2 podcasts.show.similar_podcasts
-  = render similar
+- if @page == 1
+  - if (similar = @podcast.similar_podcasts(limit: 6)).count > 0
+    h2 podcasts.show.similar_podcasts
+    = render similar
 
 
 .clearfix
@@ -39,12 +39,15 @@
     .alert.alert-warning
       | podcasts.show.no_new
   .row
-    - @source.episodes.order('pubdate desc').limit(100).each_with_index do |e,i|
+    - @episodes.each_with_index do |e, i|
       - if i % 2 == 0
         .visible-xs.clearfix
       - if i % 4 == 0
         .hidden-xs.clearfix
       .col-sm-3.col-xs-6
         = render e, short: true
+  .row: .col-xs-12
+    = paginate @episodes
+
   - chart = Charts.episode_activity(@source)
   .js-datechart data-values="#{chart[:values].to_json}" data-labels='#{chart[:labels]}' style='height: 170px' title='#{t('podcasts.show.chart')}'
