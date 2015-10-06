@@ -17,9 +17,9 @@ class FeedFetcher
   private
 
   def parsed_feed
-    @parse_feed ||= Feedjira::Feed.fetch_and_parse(source.url,
-                                                   max_redirects: 5,
-                                                   timeout: 30)
+    @parse_feed ||= Feedjira::Feed.fetch_and_parse(source.url)
+                                                   # max_redirects: 5,
+                                                   # timeout: 30)
   end
 
   def update_entries
