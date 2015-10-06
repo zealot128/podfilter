@@ -50,7 +50,7 @@ gem 'feedjira'
 gem 'nokogiri'
 gem 'acts-as-taggable-on'
 
-gem 'sidekiq', '2.17'
+gem 'sidekiq', '~> 3.5'
 gem 'sinatra', require: false
 gem 'sidekiq-unique-jobs'
 gem 'rack-raw-upload'
