@@ -1,6 +1,6 @@
 class SimilarityWorker
   include Sidekiq::Worker
-  sidekiq_options :retry => 5, backtrace: 10, unique: true, queue: :important
+  sidekiq_options :retry => 5, backtrace: 10, queue: :important
 
   def perform(owner_id)
     owner = Owner.find(owner_id)

@@ -52,7 +52,7 @@ gem 'acts-as-taggable-on'
 
 gem 'sidekiq', '~> 3.5'
 gem 'sinatra', require: false
-gem 'sidekiq-unique-jobs'
+# gem 'sidekiq-unique-jobs'
 gem 'rack-raw-upload'
 gem 'jquery.fileupload-rails'
 gem 'carrierwave'

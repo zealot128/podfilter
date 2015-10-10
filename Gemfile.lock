@@ -348,8 +348,6 @@ GEM
       json (~> 1.0)
       redis (~> 3.2, >= 3.2.1)
       redis-namespace (~> 1.5, >= 1.5.2)
-    sidekiq-unique-jobs (4.0.1)
-      sidekiq (>= 2.6)
     simple_form (3.1.0)
       actionpack (~> 4.0)
       activemodel (~> 4.0)
@@ -488,7 +486,6 @@ DEPENDENCIES
   ruby-progressbar
   sass-rails (~> 5.0.0.beta1)
   sidekiq (~> 3.5)
-  sidekiq-unique-jobs
   simple_form (~> 3.1.0.rc1)
   simplecov
   sinatra

@@ -1,7 +1,7 @@
 class SourceUpdateWorker
   include Sidekiq::Worker
 
-  sidekiq_options :retry => 1, backtrace: 10, unique: true, queue: :low
+  sidekiq_options :retry => 1, backtrace: 10, queue: :low
 
   def perform(source_id)
     source = Source.find(source_id)
