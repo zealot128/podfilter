@@ -20,6 +20,8 @@ class FeedFetcher
     @parse_feed ||= Feedjira::Feed.fetch_and_parse(source.url)
                                                    # max_redirects: 5,
                                                    # timeout: 30)
+  rescue Feedjira::FetchFailure, Feedjira::NoParserAvailable, Faraday::ClientError
+    404
   end
 
   def update_entries
