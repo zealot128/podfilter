@@ -5,6 +5,32 @@ html
     = stylesheet_link_tag    "application", media: "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
+    link rel="shortcut icon" href=image_path('favicons/icon.ico')
+    link rel="icon" href=image_path('favicons/icon57.png') type="image/png"
+    / non-retina iPhone pre iOS 7 -->
+    link rel="apple-touch-icon" href=image_path('favicons/icon57.png') sizes="57x57"
+    / non-retina iPad pre iOS 7 -->
+    link rel="apple-touch-icon" href=image_path("favicons/icon72.png") sizes="72x72"
+    / non-retina iPad iOS 7 -->
+    link rel="apple-touch-icon" href=image_path("favicons/icon76.png") sizes="76x76"
+    / retina iPhone pre iOS 7 -->
+    link rel="apple-touch-icon" href=image_path("favicons/icon114.png") sizes="114x114"
+    / retina iPhone iOS 7 -->
+    link rel="apple-touch-icon" href=image_path("favicons/icon120.png") sizes="120x120"
+    / retina iPad pre iOS 7 -->
+    link rel="apple-touch-icon" href=image_path("favicons/icon144.png") sizes="144x144"
+    / retina iPad iOS 7 -->
+    link rel="apple-touch-icon" href=image_path("favicons/icon152.png") sizes="152x152"
+    / Win8 tile -->
+    meta name="msapplication-TileImage" content=(image_path("favicons/favicon-144.png" ))
+    / Your brand color
+    meta name="podfilter.de" content="name"
+
+    / IE11 tiles -->
+    meta name="msapplication-square70x70logo" content=image_path("favicons/icon70.png")
+    meta name="msapplication-square150x150logo" content=image_path("favicons/icon150.png")
+    meta name="msapplication-wide310x150logo" content=image_path("favicons/tile-wide.png")
+    meta name="msapplication-square310x310logo" content=image_path("favicons/icon310.png")
     meta name="viewport" content="width=device-width, initial-scale=1.0"
   body
     header class="navbar navbar-default" role="navigation"
