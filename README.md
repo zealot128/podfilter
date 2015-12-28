@@ -38,7 +38,6 @@ GITHUB_CONSUMER_SECRET=something
 
 ### What could be done?
 
-* Logo/favicon
 * categorization
 * recommendations improvements
 * Stylings
