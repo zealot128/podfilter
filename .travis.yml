@@ -11,9 +11,9 @@ branches:
     - master
 
 before_script:
-  - 'RAILS_ENV=test bundle exec rake db:create'
   # - psql -c 'create database podfilter_test' -U postgres
   - cp config/database.yml.travis config/database.yml
+  - 'RAILS_ENV=test bundle exec rake db:create'
   - "bundle exec rake db:schema:load RAILS_ENV=test"
 
 script:
