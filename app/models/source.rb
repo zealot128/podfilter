@@ -24,7 +24,7 @@ class Source < ActiveRecord::Base
   end
 
   def url=(val)
-    super val.strip
+    super val.try(:strip)
   end
 
   after_save do
