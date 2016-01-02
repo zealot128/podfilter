@@ -23,6 +23,10 @@ class Source < ActiveRecord::Base
     end
   end
 
+  def url=(val)
+    super val.strip
+  end
+
   after_save do
     podcast.try(:set_subscriber_count!)
   end
