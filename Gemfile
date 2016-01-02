@@ -48,7 +48,7 @@ gem 'fastclick-rails'
 
 # gem 'feedzirra', github: 'zealot128/feedzirra'
 # gem 'feedzirra', path: 'gems/feedzirra/'
-gem 'feedjira'
+gem 'feedjira', '~>1.6'
 gem 'nokogiri'
 gem 'acts-as-taggable-on'
 
