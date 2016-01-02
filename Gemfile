@@ -17,8 +17,9 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-github'
 gem 'omniauth-facebook'
-# TODO https://github.com/zquestz/omniauth-google-oauth2/pull/217
-gem 'omniauth-gplus', git: 'https://github.com/joshsoftware/omniauth-google-oauth2.git', ref: 'd16bb8c4be44787204033c4e189f23ac308740b0'
+# TODO https://github.com/intridea/omniauth-oauth2/issues/81
+gem 'omniauth-oauth2', '~> 1.3.1'
+gem 'omniauth-gplus'
 gem 'simple_form', '~> 3.1.0.rc1'
 gem 'slim-rails'
 gem 'pry-rails'
