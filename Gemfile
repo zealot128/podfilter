@@ -64,13 +64,7 @@ gem 'rmagick'
 gem 'kramdown'
 
 group :unrequired do
-  gem 'capistrano'
-  gem 'capistrano-rvm'
-  gem 'capistrano-bundler'
-  gem 'capistrano-rails'
-  gem 'capistrano-rails-console'
   gem 'whenever'
-  gem "airbrussh", :require => false
 end
 
 group :production do
