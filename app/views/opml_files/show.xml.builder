@@ -7,6 +7,7 @@ xml.opml(version: '1.1') do
   end
   xml.body do
     @sources.each do |o|
+      next if o.podcast.nil?
       xml.outline nil, text: o.podcast.title, xmlUrl: o.url, type: 'rss'
     end
   end
