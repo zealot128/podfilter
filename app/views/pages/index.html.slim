@@ -7,36 +7,6 @@
             episode_count: FastQueries.episode_count,
             listener_count: OpmlFile.no_ignore.count
 
-      .row
-        .col-lg-6
-          strong
-            abbr<> title=t('.opml_explanation') OPML
-            = t '.opml_ready'
-          ol
-            li = render 'upload_button'
-            li pages.index.opml_step_2
-            li pages.index.opml_step_3
-        .col-lg-6
-          strong pages.index.manuell
-          ol
-            li
-              | pages.index.login_by
-              a.btn.btn-primary.btn-xs<> href='/auth/twitter' rel='nofollow' data-no-turbolink=true
-                i.fa.fa-twitter<>
-                | Twitter
-              a.btn.btn-primary.btn-xs<> href='/auth/github' rel='nofollow' data-no-turbolink=true
-                i.fa.fa-github<>
-                | Github
-              a.btn.btn-primary.btn-xs<> href='/auth/facebook' rel='nofollow' data-no-turbolink=true
-                i.fa.fa-facebook<>
-                | Facebook
-              a.btn.btn-primary.btn-xs<> href='/auth/gplus' rel='nofollow' data-no-turbolink=true
-                i.fa.fa-google-plus-square>
-                | Google+
-              p: small pages.index.auth_disclaimer
-            li pages.index.manuel_step2
-            li pages.index.manuel_step3
-
 .row
   .col-lg-12
     h2 pages.index.headline_podcasts_listened

@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
 gem 'rails', '~> 4.2.0'
 
 # TODO https://github.com/rails/rails/pull/19665

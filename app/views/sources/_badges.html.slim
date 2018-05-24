@@ -27,6 +27,3 @@
   span.label.label-default title=(t('words.episode', count:  source.episodes.count))
     span.fa.fa-list-ul.fa-fw>
     = '%02d' % (source.episodes.count || 0)
-  - if with_edit
-    a.label.label-primary href="#{new_change_request_path(type: 'ChangeRequests::SourceChange', source_id: source.id)}" title="#{t('podcasts.show.change_source')}"
-      i.fa.fa-edit.fa-fw

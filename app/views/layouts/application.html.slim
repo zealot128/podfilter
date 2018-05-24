@@ -43,6 +43,12 @@ html
       - if flash[:alert]
         .alert.alert-danger
           = flash[:alert]
+      .alert.alert-warning
+        |Podfilter ist im Archiv-Mode: Podfilter wurde 2013 gestartet um Podcasts besser zu entdecken. Zu dieser Zeit gab es nur wenige gute Podcastverzeichnisse und Empfehlungen waren er manuell.
+        br
+        |Mittlerweile sieht das ganze schon anders aus, und das Thema bedarf mehr als nur ein mittelmäßig gepflegtes Projekt.
+        br
+        |Von 25.05.2018 an wird Podfilter deshalb im Read-Only-Modus betrieben: Ein Nutzerlogin und Neu-Anlegen von Podcasts ist nicht mehr möglich, alle existierenden Links, Feeds etc. bleiben aber noch für mindestens 1 Jahr erhalten.
       = yield
     footer
       .container
@@ -53,13 +59,5 @@ html
                 | Podfilter.de | Podfilter.org
                 = ' '
                 small = t 'footer.stats', podcast_count: Podcast.count, source_count: Source.count, active_count: Source.active.count, inactive_count: Source.inactive.count, error_count: Source.error.count, offline_count: Source.offline.count
-        .row
-          .col-lg-12
-            ul.list-unstyled
-              li: a href='https://github.com/zealot128/podfilter.de'
-                | footer.contributing
-              - if admin?
-                li: a href='/admin' Adminbereich
 
-  = render 'layouts/tracking'
   .loading-bar

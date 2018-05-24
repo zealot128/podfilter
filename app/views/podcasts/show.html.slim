@@ -20,9 +20,6 @@
                   small = readable_url source.url
             td
               = render 'sources/badges', source: source, with_edit: true
-        tr
-          td colspan='3'
-            = link_to 'Weitere Quelle hinzufügen', new_change_request_path(type: 'ChangeRequests::NewPodcast', podcast_id: @podcast.id)
 - if @page == 1
   - if (similar = @podcast.similar_podcasts(limit: 6)).count > 0
     h2 podcasts.show.similar_podcasts

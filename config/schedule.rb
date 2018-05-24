@@ -10,7 +10,7 @@ end
 every 4.hours do
   runner 'Source.active.enqueue'
 end
-every 6.hours do
+every 3.hours do
   runner 'Source.update_active_status'
 end
 every 1.day, at: '6am' do
